@@ -53,12 +53,12 @@ def main():
         if not yieldcols: continue
         for row in table[1:]:
             for country, code in COUNTRIES.items():
-                if not any(re.match(r"^"+re.escape(country)+r"(?:\\s|$)", c, flags=re.I) for c in row): continue
+                if not any(re.match(r"^"+re.escape(country)+r"(?:\s|$)", c, flags=re.I) for c in row): continue
                 for i in yieldcols:
                     if i < len(row):
                         v = number(row[i])
                         if v is not None and 0 < v < 25:
-                            date_text = next((c for c in row if re.fullmatch(r"\\d{2}/\\d{2}/\\d{4}", c)), None)
+                            date_text = next((c for c in row if re.fullmatch(r"\d{2}/\d{2}/\d{4}", c)), None)
                             if not date_text: continue
                             # Source displays US-style dates (month/day/year).
                             observed = dt.datetime.strptime(date_text, "%m/%d/%Y").date()
