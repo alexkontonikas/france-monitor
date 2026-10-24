@@ -1,6 +1,6 @@
 {
-  "checked_at_utc": "2026-10-24T00:00:00+00:00",
-  "method": "verified initial snapshot; future changes require corroborated editorial reports",
+  "checked_at_utc": "2026-10-24T21:46:07+00:00",
+  "method": "corroborated editorial reports; fail-closed",
   "ratings": {
     "Moody's": {
       "rating": "Aa3",
