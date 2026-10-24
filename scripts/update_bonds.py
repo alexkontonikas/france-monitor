@@ -49,17 +49,17 @@ def main():
     for table in parser.tables:
         if not table: continue
         header = [x.lower() for x in table[0]]
-        yieldcols = [i for i, h in enumerate(header) if ("10" in h and ("yield" in h or "bond" in h or "rate" in h))]
+        yieldcols = [i for i, h in enumerate(header) if h.strip() in ("yield", "10-year government bond yield", "10y yield")]
         if not yieldcols: continue
         for row in table[1:]:
             for country, code in COUNTRIES.items():
-                if not any(re.fullmatch(country, c, flags=re.I) for c in row): continue
+                if not any(re.match(r"^"+re.escape(country)+r"(?:\\s|$)", c, flags=re.I) for c in row): continue
                 for i in yieldcols:
                     if i < len(row):
                         v = number(row[i])
-                        if v is not None and 0 < v < 25: quotes[code] = {"yield_pct": v, "country": country}
+                        if v is not None and 0 < v < 25:\n                            date_text = next((c for c in row if re.fullmatch(r"\\d{2}/\\d{2}/\\d{4}", c)), None)\n                            if not date_text: continue\n                            # Source displays US-style dates (month/day/year).\n                            observed = dt.datetime.strptime(date_text, "%m/%d/%Y").date()\n                            age = (dt.datetime.now(dt.timezone.utc).date() - observed).days\n                            if not (0 <= age <= 5): continue\n                            quotes[code] = {"yield_pct": v, "country": country, "observation_date": observed.isoformat()}
     if len(quotes) != 4:
-        raise ValueError("Source format did not yield four verified 10-year quotes; no update published.")
+        raise ValueError("Source did not provide four recent, dated 10-year quotes; no update published.")
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     # The website does not guarantee synchronized quote timestamps.
     payload = {"source": URL, "retrieved_at_utc": now, "quote_time_verified": False,
