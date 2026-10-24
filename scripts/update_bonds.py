@@ -57,7 +57,14 @@ def main():
                 for i in yieldcols:
                     if i < len(row):
                         v = number(row[i])
-                        if v is not None and 0 < v < 25:\n                            date_text = next((c for c in row if re.fullmatch(r"\\d{2}/\\d{2}/\\d{4}", c)), None)\n                            if not date_text: continue\n                            # Source displays US-style dates (month/day/year).\n                            observed = dt.datetime.strptime(date_text, "%m/%d/%Y").date()\n                            age = (dt.datetime.now(dt.timezone.utc).date() - observed).days\n                            if not (0 <= age <= 5): continue\n                            quotes[code] = {"yield_pct": v, "country": country, "observation_date": observed.isoformat()}
+                        if v is not None and 0 < v < 25:
+                            date_text = next((c for c in row if re.fullmatch(r"\\d{2}/\\d{2}/\\d{4}", c)), None)
+                            if not date_text: continue
+                            # Source displays US-style dates (month/day/year).
+                            observed = dt.datetime.strptime(date_text, "%m/%d/%Y").date()
+                            age = (dt.datetime.now(dt.timezone.utc).date() - observed).days
+                            if not (0 <= age <= 5): continue
+                            quotes[code] = {"yield_pct": v, "country": country, "observation_date": observed.isoformat()}
     if len(quotes) != 4:
         raise ValueError("Source did not provide four recent, dated 10-year quotes; no update published.")
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
@@ -66,7 +73,8 @@ def main():
                "frequency": "latest available public observations (not verified intraday)",
                "quotes": quotes}
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    OUT.write_text(json.dumps(payload, indent=2) + "
+", encoding="utf-8")
     print("Updated verified table fields", now)
 
 if __name__ == "__main__":
