@@ -16,11 +16,13 @@ jobs:
           python-version: '3.12'
       - name: Retrieve and validate yields
         run: python scripts/update_bonds.py
+      - name: Refresh five-year Eurostat monthly history
+        run: python scripts/update_bonds_monthly.py
       - name: Publish only when verified
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/bonds.json data/bonds-history.json
+          git add data/bonds.json data/bonds-history.json data/bonds-monthly.json
           if ! git diff --cached --quiet; then
             git commit -m "Update sovereign bond observations"
             git push
