@@ -1,76 +1,86 @@
 #!/usr/bin/env python3
-"""Conservative event-based sovereign-risk NEWS CHANGE index.
+"""Daily article-text risk sentiment, only when publisher article bodies are accessible.
 
-Score new events, not negative vocabulary or the level of existing fiscal risks.
-This version uses verified headline text only. Full articles are NOT claimed to be read.
+Uses trafilatura for extraction and VADER on sovereign-risk-relevant sentences.
+No headlines-only fallback. Reports coverage and source metadata, not copyrighted text.
 """
 import datetime as dt
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlparse
+import trafilatura
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-SOURCE=Path("data/france-news.json")
+FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
-feed=json.loads(SOURCE.read_text(encoding="utf-8"))
-day=dt.datetime.now(dt.timezone.utc).date().isoformat()
+NEWS=json.loads(FEED.read_text(encoding="utf-8"))
+DAY=dt.datetime.now(dt.timezone.utc).date().isoformat()
+analyser=SentimentIntensityAnalyzer()
+relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot)\b",re.I)
+# Context that explicitly says a feared rating action did NOT occur is not negative.
+affirm=re.compile(r"(?:moody.s|fitch|s&p|rating).{0,95}(?:holds?|keeps?|maintains?|affirms?|unchanged|steady)|(?:avoids?|dodges?|spared|spares|no)\s+(?:a\s+)?downgrade",re.I)
+def sentences(text):
+    return re.split(r"(?<=[.!?])\s+(?=[A-Z])",re.sub(r"\s+"," ",text))
+def assess(text):
+    chosen=[s for s in sentences(text) if len(s)>35 and relevant.search(s)]
+    if len(chosen)<4:return None
+    scores=[]
+    for s in chosen:
+        v=analyser.polarity_scores(s)["compound"]
+        if affirm.search(s):
+            # No downgrade is a non-event, not a realised deterioration.
+            v=0
+        scores.append(v)
+    # Higher index = more negative article tone, 50 = neutral.
+    return round(50-50*sum(scores)/len(scores),1),len(chosen)
+def get_text(url):
+    try:
+        # Google's RSS links can be blocked or fail to resolve; do not fabricate text.
+        html=trafilatura.fetch_url(url)
+        if not html:return None,None
+        text=trafilatura.extract(html,include_comments=False,include_tables=False,
+                                 favor_precision=True)
+        if not text or len(text)<800:return None,None
+        return text,url
+    except Exception as exc:
+        print("Extraction failed:",type(exc).__name__)
+        return None,None
 
-# An unchanged negative outlook is not a new negative rating action.
-RATING_HOLD=re.compile(r"(moody.s|fitch|s&p|credit rating|rating).{0,90}(hold|held|keep|kept|maintain|affirm|unchanged|steady|spare|spared|avoid|dodge)|(?:avoid|dodge|spare|spared|no)\w*.{0,35}downgrad",re.I)
-RATING_CUT=re.compile(r"(?:downgrad(?:e|ed|es)|cut(?:s)? (?:france.s )?(?:credit )?rating|rating (?:cut|lowered))",re.I)
-RATING_UP=re.compile(r"(?:upgrad(?:e|ed|es)|rating raised)",re.I)
-EVENTS=[
- ("rating_held",RATING_HOLD,0),
- ("rating_downgrade",RATING_CUT,3),
- ("rating_upgrade",RATING_UP,-3),
- ("budget_passed",re.compile(r"budget (?:passed|approved|adopted)|parliament (?:passes|approves) budget",re.I),-2),
- ("budget_rejected",re.compile(r"budget (?:rejected|defeated|blocked)|budget talks collapse|budget deal collapses",re.I),3),
- ("government_falls",re.compile(r"government (?:falls|collapses|toppled)|(?:loses|lost) (?:a )?no.confidence vote|prime minister resigns",re.I),3),
- ("government_survives",re.compile(r"(?:wins|survives) (?:a )?(?:confidence|no.confidence) vote",re.I),-2),
- ("bond_selloff",re.compile(r"(?:bond|oat) sell.off|(?:yield|spread)s? (?:surge|spike|jump|soar|hit (?:a )?(?:record|high))",re.I),2),
- ("bond_relief",re.compile(r"(?:bond|oat) rally|(?:yield|spread)s? (?:fall|drop|narrow|ease)",re.I),-2),
- ("unrest_escalates",re.compile(r"(?:violence|riots?) (?:flare|erupt|escalate|spread)|(?:violent|deadly) (?:clashes|protests)|(?:clashes|riots?) (?:flare|erupt)",re.I),2),
- ("unrest_eases",re.compile(r"(?:unrest|violence|protests?|riots?) (?:ease|subside|calm|end)",re.I),-2),
- ("fiscal_worsens",re.compile(r"deficit (?:widens|rises|surges)|debt (?:surges|jumps)|fiscal (?:forecast|outlook) (?:cut|worsens)",re.I),2),
- ("fiscal_improves",re.compile(r"deficit (?:narrows|falls|shrinks)|debt (?:falls|declines)|fiscal (?:forecast|outlook) improves",re.I),-2),
-]
-def classify(title):
-    # Rating affirmation takes priority over mentions of downgrade.
-    if RATING_HOLD.search(title):
-        return "rating_held",0
-    for event,pattern,weight in EVENTS[1:]:
-        if pattern.search(title):
-            return event,weight
-    return None,None
-
-today=[x for x in feed.get("items",[]) if x.get("published_at_utc","")[:10]==day]
-# One event category per day; repeated reporting of the same event is not a new shock.
-groups={}
-for item in today:
-    event,weight=classify(item.get("title",""))
-    if event is None:continue
-    groups.setdefault(event,{"weight":weight,"headlines":[]})["headlines"].append(item["title"])
-# Moody's unchanged rating may be a positive surprise, but a headline alone does not
-# establish market expectations: score 0 until expectation evidence is explicitly sourced.
-events=[{"event":key,"score":v["weight"],"headline_count":len(v["headlines"]),
-         "example_headline":v["headlines"][0]} for key,v in sorted(groups.items())]
+articles=[]
+today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY]
+for item in today[:45]:
+    body,link=get_text(item.get("url",""))
+    if not body:continue
+    result=assess(body)
+    if result is None:continue
+    score,n=result
+    articles.append({"source":item["source"],"url":link,"title":item["title"],
+                     "score":score,"relevant_sentences":n})
+# Cluster near-duplicate stories by normalized first 12 words of headline.
+unique={}
+for a in articles:
+    key=" ".join(re.findall(r"[a-z0-9]+",a["title"].lower())[:12])
+    unique.setdefault(key,a)
+articles=list(unique.values())
 archive=json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {"observations":[]}
-archive["method"]="Event-based headline risk CHANGE index v2; deduplicated event categories, unclassified headlines excluded. Not full-article analysis."
+archive["method"]="Article-body sentiment v3: trafilatura-extracted accessible articles; VADER on sovereign-risk-relevant sentences. Higher = more negative tone. Not a risk-change or default-probability measure."
 archive["checked_at_utc"]=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-if len(events)>=2:
-    # Equal-weighted event signals; zero denotes neutral. 50 +/- 12.5 per event-score point.
-    index=round(max(0,min(100,50+12.5*sum(x["score"] for x in events)/len(events))),1)
-    row={"date":day,"index":index,"event_count":len(events),"headline_count":len(today),
-         "classified_headline_count":sum(x["headline_count"] for x in events),
-         "adverse_count":sum(x["score"]>0 for x in events),
-         "favourable_count":sum(x["score"]<0 for x in events),
-         "neutral_count":sum(x["score"]==0 for x in events),
-         "events":events,"method_version":2}
-    archive["observations"]=[x for x in archive.get("observations",[]) if x["date"]!=day]
+archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
+if len(articles)>=5:
+    index=round(sum(a["score"] for a in articles)/len(articles),1)
+    row={"date":DAY,"index":index,"article_count":len(articles),
+         "headline_count":len(today),"coverage_pct":round(100*len(articles)/max(1,len(today)),1),
+         "adverse_count":sum(a["score"]>55 for a in articles),
+         "favourable_count":sum(a["score"]<45 for a in articles),
+         "neutral_count":sum(45<=a["score"]<=55 for a in articles),
+         "method_version":3,"articles":articles}
     archive["observations"].append(row)
     archive["observations"].sort(key=lambda x:x["date"])
-    print("Event index:",index,"from",len(events),"event categories")
+    print("Full-text index",index,"from",len(articles),"of",len(today),"headlines")
 else:
-    # Remove today's obsolete v1 result rather than display a misleading value.
-    archive["observations"]=[x for x in archive.get("observations",[]) if x["date"]!=day]
-    print("Insufficient independent event categories; no index published")
+    print("Full-text coverage insufficient:",len(articles),"of",len(today),
+          "— no score published")
+archive["coverage"]={"date":DAY,"headlines":len(today),"articles_analysed":len(articles),
+                     "minimum_articles":5}
 TARGET.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
