@@ -74,6 +74,21 @@ def main():
                "quotes": quotes}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2) + chr(10), encoding="utf-8")
+    history_path = Path("data/bonds-history.json")
+    history = json.loads(history_path.read_text()) if history_path.exists() else {"source": URL, "observations": []}
+    observations = history.get("observations", [])
+    dates = {q["observation_date"] for q in quotes.values()}
+    if len(dates) == 1:
+        day = next(iter(dates))
+        entry = {"date": day, "yields_pct": {code: quotes[code]["yield_pct"] for code in ("FR", "DE", "IT", "GR")}}
+        observations = [x for x in observations if x.get("date") != day]
+        observations.append(entry)
+        observations.sort(key=lambda x: x["date"])
+        history["observations"] = observations[-750:]
+        history_path.write_text(json.dumps(history, indent=2) + "\n", encoding="utf-8")
+        print("Stored historical daily observation", day, "total", len(history["observations"]))
+    else:
+        print("Observation dates differ; not recording a potentially unsynchronised historical spread")
     print("Updated verified table fields", now)
 
 if __name__ == "__main__":
