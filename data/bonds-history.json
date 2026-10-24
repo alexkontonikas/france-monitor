@@ -1,0 +1,14 @@
+{
+  "source": "https://countryeconomy.com/bonds",
+  "observations": [
+    {
+      "date": "2026-10-23",
+      "yields_pct": {
+        "FR": 5.03,
+        "DE": 3.34,
+        "IT": 4.59,
+        "GR": 4.4
+      }
+    }
+  ]
+}
