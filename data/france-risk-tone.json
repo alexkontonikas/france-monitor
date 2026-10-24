@@ -1,11 +1,90 @@
 {
   "method": "Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure.",
-  "observations": [],
-  "checked_at_utc": "2026-10-24T22:48:59+00:00",
+  "observations": [
+    {
+      "date": "2026-10-24",
+      "index": 80.5,
+      "article_count": 9,
+      "headline_count": 21,
+      "coverage_pct": 42.9,
+      "adverse_count": 9,
+      "favourable_count": 0,
+      "neutral_count": 0,
+      "method_version": 4,
+      "articles": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
+          "title": "Hundreds of thousands march across France in protests over schools and policing",
+          "score": 83.5,
+          "relevant_sentences": 20
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+          "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+          "score": 85.9,
+          "relevant_sentences": 16
+        },
+        {
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+          "score": 91.4,
+          "relevant_sentences": 18
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261024-france-watching-the-post-riot-protests",
+          "title": "Spotlight - France: Watching the Post-Riot Protests",
+          "score": 73.4,
+          "relevant_sentences": 5
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/sport/2026/oct/24/nfl-paris-protests-saints-steelers-fan-events-closed",
+          "title": "NFL shutters Paris fan experience as protests overshadow first France game",
+          "score": 66.3,
+          "relevant_sentences": 16
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261024-france-protests-latest-developments",
+          "title": "France protests: Latest developments",
+          "score": 90.1,
+          "relevant_sentences": 14
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261024-seen-and-heard-at-france-protests",
+          "title": "Seen and heard at France protests",
+          "score": 83.5,
+          "relevant_sentences": 16
+        },
+        {
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+          "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+          "score": 70.1,
+          "relevant_sentences": 24
+        },
+        {
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo",
+          "title": "France prepares for day of protest a week after nationwide riots",
+          "score": 80.4,
+          "relevant_sentences": 21
+        }
+      ]
+    }
+  ],
+  "checked_at_utc": "2026-10-24T22:54:54+00:00",
   "coverage": {
     "date": "2026-10-24",
-    "approved_headlines": 10,
-    "articles_analysed": 0,
-    "minimum_articles": 5
+    "approved_headlines": 21,
+    "articles_analysed": 9,
+    "minimum_articles": 5,
+    "publisher_urls_resolved": 21,
+    "google_urls_attempted": 21
   }
 }
