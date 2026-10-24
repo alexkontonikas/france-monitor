@@ -1,0 +1,26 @@
+name: Update France sovereign ratings
+on:
+  schedule:
+    - cron: '45 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  ratings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check official AFT ratings
+        run: python scripts/update_ratings.py
+      - name: Commit changed ratings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ratings.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update official France sovereign ratings"
+            git push
+          fi
