@@ -15,7 +15,7 @@ async function loadBondCharts(){
    if(legend)legend.textContent="";
    const vals=series.flatMap(x=>x.values),lo=Math.min(...vals),hi=Math.max(...vals),pad=Math.max((hi-lo)*0.12,unit==="bp"?8:0.12),min=lo-pad,max=hi+pad;
    const y=v=>235-(v-min)/(max-min)*185,x=i=>obs.length===1?425:75+i*700/(obs.length-1);
-   for(let i=0;i<=4;i++){const v=min+(max-min)*i/4,yy=y(v);el("line",{x1:65,x2:800,y1:yy,y2:yy,stroke:"#304059"});el("text",{x:56,y:yy+4,fill:"#b7c6d9","font-size":12,"text-anchor":"end"},v.toFixed(unit==="bp"?0:2))}
+   for(let i=0;i<=4;i++){const v=min+(max-min)*i/4,yy=y(v);el("line",{x1:65,x2:800,y1:yy,y2:yy,stroke:"#304059"});el("text",{x:56,y:yy+4,fill:"#b7c6d9","font-size":bondHistoryRange==="long"?16:12,"text-anchor":"end"},v.toFixed(unit==="bp"?0:1))}
    [0,Math.floor((obs.length-1)/2),obs.length-1].filter((v,i,a)=>a.indexOf(v)===i).forEach(i=>el("text",{x:x(i),y:260,fill:"#b7c6d9","font-size":12,"text-anchor":"middle"},obs[i].date));
    series.forEach((item,j)=>{const pts=item.values.map((v,i)=>x(i)+","+y(v)).join(" ");if(obs.length>1)el("polyline",{points:pts,fill:"none",stroke:item.color,"stroke-width":3});item.values.forEach((v,i)=>el("circle",{cx:x(i),cy:y(v),r:obs.length===1?6:3,fill:item.color}));el("text",{x:85+j*190,y:20,fill:item.color,"font-size":13},item.name)});
    if(obs.length===1)el("text",{x:425,y:281,fill:"#b7c6d9","font-size":12,"text-anchor":"middle"},"One verified date so far — lines appear after more dates are collected");
