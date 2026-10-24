@@ -1,5 +1,426 @@
 {
-  "checked_at_utc": null,
+  "checked_at_utc": "2026-10-24T22:33:52+00:00",
   "source": "Google News RSS (publisher-attributed headlines)",
-  "items": []
+  "items": [
+    {
+      "title": "Violence flares in Paris after largely peaceful protests across France",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDZFRzVKWWJMOFp4eGNjbVdnZ1pCd3hVNTdMSWdiaU9uSGxZTi1zZW1DR3JvbjBfZTJIMnF3LVBMMXpWQjI0V1BfTWtFYUZkVWtXc0VmZEZyVWRHU3c3aHFwRm9fN0ZFMTRIaC16ZmhOeTFrRXBsdmpwWXVtRVVCd09ONkp3bFB5QWVRWjlBSmJqbHphYnBiLS0yaVZfRWpxdVAxSGRqYUI4YTBEX2pZeA?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-24T21:27:22+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Hundreds of thousands march across France in protests over schools and policing",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV1ZCdFlzU0lMRWtnTlF6LU4yWG91SHU3a2FUeEpfd2sza2Q4bW1KS2wzVkNnUmJBMmJ4RWV6TE1uemlPdXlJdWpkYUNZQlRzUWlOZDg3eDV3WExiTmlZMTdENzNLYy1hbzV0RFhTOVYtMkZqeXIyeXp5dXo0VXkwRnBwT3lOSUlNcm9tRmRLdlJ3VGpWazlnSW1rX0FjXzFZdnJweHFqWGlkSlJ4clVqWTA2TmlfOGc4dlBNUVRNWV9lN28?oc=5",
+      "source": "The Guardian",
+      "published_at_utc": "2026-10-24T21:04:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France Protests Live Updates: Protesters March Across Cities as Police Seek to Prevent More Riots",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81czdlcjVNUjBwb0g2dGNHaldFazEzUkI3bzhKeXVpTHBpMGdJNXBqZVBlT2pFZzROdTJ0dzBoSURnU2N0VzBNY3BER3VLM3ZreUVMRHJKdG1oc3ZiaEJvcHZIVjUtVGlWeFRqcjdMUnJkb09QT0E?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-24T19:44:39+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HeUNReHIyeUJOWnF6cFhpcXdaZ1RVTTVyNmxnUFlRRUJiUGZfd3VsNXJnVnBaT2ZTUGREU05uZXU3M1JfYW1xR3hqRTRXQVJqTW1YQzdnSFoyNXRtemc?oc=5",
+      "source": "BBC",
+      "published_at_utc": "2026-10-24T19:28:47+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France: Clashes break out as protests go nationwide",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ibUd4UmJBOWljZ21rREdmQzc1Nk10NDN5UG1uX3d6VzAxMFcyUlUtSjhFZXNFSGlHWXlOeFZ5dlpQaVVwTmRXUG1EVGoyZUtOc0otNkl0SUN2b1Q3TjBLYTJRQ0ZMMHhqdy1CdTRpRE5GZw?oc=5",
+      "source": "DW.com",
+      "published_at_utc": "2026-10-24T19:27:24+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Hundreds of thousands protest in France amid heightened police security",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONFVTM0hjMUwxVy10RkI1Q0pYZkhrVC1sdmZOTGVFdnppM3FVQ1pCVVpQLWo2NUlGQWUzVjRGRENhQ3I2SVJlVkxtSk1HWFpCWVQ3WnZIRXNYcTh2elowYVRXZjIzSDdwV0ZxLURLVGdPUjVlMGFUalFHcDR2Q2pZZ0VXZ3FzdjNnamk2d285LVFIV29rUjJpRHZ0cE8wM0JCMmdiTlcwNUszc0Zkd3hiRFZkNTXSAboBQVVfeXFMT2dsOVg3Y2lhOGRaNGhVTjBRbUJ1cTI1Rk02MWc0aC1zcTA5MFdzVm1XRExKc1h5TDJQTkRQNVpiRVlfdHoxbjVsSElzWlB1Y3FuS1RQWWx1WWhVMVg0UGdQWmlvWDNHLTFaYnZPeHpiWTFqblBLTmg4NmlvclQtWmVTOEphak1Ec2ZxNWFWb3dHYms5Vm5qaWlZTnlSN1MxOHkxek9PM0VyblhCbGNuM3NrNURJTUR5c1d3?oc=5",
+      "source": "Al Jazeera",
+      "published_at_utc": "2026-10-24T19:15:46+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France’s pouvoir d’achat crisis",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Mako5STBmSXNNUWUzaFlHOTZ2MzB6MmxDXzdnc1NiZUZtVy1nTWZTS1RmV1BOTTlBOHFlbkYtcnBoamFJOVJ4YlhKS0JIcERvY2g0VHk3UDRTdFV4LXhjeW40bWpHVzFSN0REeUN5ZTZvWXVa?oc=5",
+      "source": "Counterfire",
+      "published_at_utc": "2026-10-24T18:44:41+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Spotlight - France: Watching the Post-Riot Protests",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdE9RX3N5eHdfTjMzMWM0ZEN1WmtXaWh2VV9HVFFHUFR2bnpPODhjcUZubUNkR2pGRW9lcHE2S2k3TUc5UHg3SXc4Q3VFX290TnNaTnF5NC1reVNBM2pjLTV3eWRNUFZVcXE1N3diZXZ2X2JIM04zVDZjSGF2OWxLVVd6XzhVZWlJekVqT0xQa3NrNEktcDRIM2ZB?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-24T18:42:27+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Moody's Holds France at Aa3, Keeps Negative Outlook as Downgrade Risk Persists",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94WUxnWVRGM3puNkc4U0xLRmhxbFNSYVM1SjFVc2dydzZhUlN6dGNDMlJYUnhtNW9BV2t2c1B1S1h6ckZfTl9DaGdla0JjaS1xXzNURFBFQU1hOVdFNkJHZzdhWmlscTBPcGxyeEdyZ0pyNGtYUWc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-10-24T18:17:00+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "France Protests: demonstrators take to the streets in every major city",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVi1LSUt1SDRLN3h3clpaaWFnN3RzMVNJeHVCUmVyUjFJYnBKVXpKNmtiUTRvbURNSWZTMDYwU0Q0RGZrampEV01JNmE1RnlTdmNzSUp4UlVoYWdBWF92Xy1IMlk4eG8teXBOR2JBZW55TjRrMVRWQktoOXJZaG1Wd25DV1ZveWFLeDFlaDB1bWdIVFczb0FFVWhYVmV4UGRq?oc=5",
+      "source": "Channel 4",
+      "published_at_utc": "2026-10-24T18:09:38+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France: Protests continue while police fire tear gas at demonstrators",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmNFQ0lhb2FCdzRFYkRKTzVJd2c3Tjl0Tld4WHhMZUp0NnB5ZWxyMUZJOWNNVlNyWEt3bGV4T19xcVBKQWJnSmhCemY4WnhlV1BTTktoNEdxU05SVkxVRDFpWUxIMTNkdk9oYUhvQUgxM2JmYmNSUDZVWjBGN0p2RHMySGxYRVJubEUxVFNURUFLRF9HVHdIQ1hBVUw?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-24T17:06:25+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France's latest debt warning describes a country where governance is breaking down",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU0Y2aXgxVkJXaXl6QlR5RXRtZHZSREZZM25vTlRYcS1jN2xwNFkxZnRpV2FBYkZiYlRsMG9kdnlCZFpDUUloVTF0N2xZTy01N1lVTDZLazJUU0xOeERpc2xTaFFRNmV0aVVuYVBILXNHVVpzRjRpSldNejF2LTM3YkpnTWlWNENMb0dadERCbmpCUmNBSXVpREgtajNDSzNUTkNZRzRBSmwxbkFnTC1ESlhnbVhaeVRuWi1jUGJvVQ?oc=5",
+      "source": "Fortune",
+      "published_at_utc": "2026-10-24T17:01:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV2pjWXJ2QldwZlg0aFo2OExFaFMxM294dEFXcHFCS1NOVlRGcWNTcmtKVjJfaVpQWHNKVG5rZnB4cGFMTkx6SGhBa1g1UUhIU1lfTl9TMVVsM0lvMnluNF9Jak43N0ltZjVRN0RTdldqVUlNUllrY0tib3gyNm5jSTF4aTBXQ3c0N1NPd3hjMmphQVhLUU9DY3VzSVgydjdTSGNjMjNmU0JTVVlDOUs0NUVfdlZPUdIBuwFBVV95cUxPa0ZwSXdQTkE1a1hTYkRhS0tSMHVUM3JXeDhHc0F6RTJDakktOEU5aV9va1NzRnNKV3FFUEFnVzdYMUgyaEdEUWxBRGRWUnFRYjAtWG02ei0tM25YSDhWaXIxVE5XdXNRQkxpcldiRDNlcnhXYUlaaWhQZVZLZnBLcUx1bWdrMGVKdU5FaXRFeHBIa1dHYnZhOGhxVEh0bk5TcXJuajJaM090VXZKaGxhSjBPNzR6dFpPNGdB?oc=5",
+      "source": "PBS",
+      "published_at_utc": "2026-10-24T16:51:55+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France protests: Latest developments",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaFpsZjV4THRicXhoLVpFWHA1dlRER1NKek0wZ1Y4dU1acjNpVVVjTVlXUWhCN2xuWUphRXpKS3otNDBTS095VTFBU2Nua1FITkFlRFViMnltcWR0WE5uVlNleEZqUm1MRDJsbUw3WXQ0NE9pbjczNGVTaXI2MGFzdXRzNENlMUJSY0E?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-24T15:46:52+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Watch: Thousands join protests across France",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85ZFZoWER0UHJfQ2s5YzBua1BuU0ZxZTZEUnY5OVBJMzdhVG9GRkcyNW44YmRSVG9oeHZieWxiV2hMRXdZVmEzLVBFRnQ4VmExU01aWVA4Wkk?oc=5",
+      "source": "BBC",
+      "published_at_utc": "2026-10-24T13:38:16+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Could France’s debt crisis spread across Europe?",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWm5ILVkwZDFGbTN3WnljajVtd05yQ0lBTTJVOHVLTHpjeFVTRjJDZy1PdDhYTUpMcWtCenNsNW92aVJRb2p2em9kT0hQVGdQNkt1aEM2NU1KaTZIaWx0MU1kbTgwdWpZVTNsTzZnemVZUmN0TjhCblZOb0RIRDlfbVBzMWliZzY4YVlzaW5tUm84NHJkZzBUbUJoUFVKYVE?oc=5",
+      "source": "Investing.com",
+      "published_at_utc": "2026-10-24T13:04:58+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Moody’s Keeps France’s Aa3 Rating as Debt Pressures and Paris Riots Deepen Uncertainty",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa2NZRFVHWlZDUXJ4UVBjWU9XOXB6R1lNT2VOLXhvYWdaLXVqZDhIeDBaMVZGQjR4eW02bVliUk9BMnFZVEM2alFBRWstYi1zMkNzY3puMjdNSjFJT2sxamZORUtkOTZlY1BUVFVOSDJDakRNY0pzU05qaHdmdmZQbzNsaWJnTEY5Z0VfdWNlUHNmdXBqZ0QwUkx2ZmRLeFlVS3FfQTFvYUU1c1lWeDFZU3hLbk8xbWtWcExwQXBqYVBNQW1DNEdR?oc=5",
+      "source": "Eurasia Business News",
+      "published_at_utc": "2026-10-24T12:15:12+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "French police clash with protesters following largely peaceful demos",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVVdoT2ZGNzRRcGdkdWdlVUhzbEdOZmtVdzlpaEJibm5kcmdBbXY0WGlud0xyTWpIV3djcVFkQWRzRmJEWXdTTFQ5R3ZpaWdoTEM1SGRwWVlZMXpjTnlLb0FMQnpWTGZlX0VyckhrTDhzU3RNUkpHUkRiYklTOTNMaGFyNWhpcDA5SE52YUhDdHFIdHpvNnRkWEp3cEV4VTV1VXQzQmJKWmQ5ME5PTi13QW1HWnZrWWRI?oc=5",
+      "source": "Euronews.com",
+      "published_at_utc": "2026-10-24T11:55:30+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Moody's Defies Market Expectations to Maintain France's Credit Rating at Aa3",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KTkRwamZTaVdQWnAxendQQW55V0JLenVBMEZqMmlaZlozS2czYm9jWnNLMnM5QjI5QUNGVk1wSlZBMWptQV9SQXljT0NqLVVJT2lXVXN6OWFXOHNTc1FEb3hGVENSU1lYb3VTU2JR?oc=5",
+      "source": "news.sbs.co.kr",
+      "published_at_utc": "2026-10-24T11:49:17+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Debt: Moody's spares France, \"a brief respite\", not a \"vote of confidence\"",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1N3cDNrQm04MFpSWUpRUzE2Q3pnLXFpVU15N0VVdlp0UEh1ZUVwMi1WcE1lUHB0UGtzbWdGeTI5S0RpNzd3ams3STlrU3Z6U2kzbDlOaHJ5c0tpRlVRMDFxQ3V1Z245LUlLbVNSdWcxY2NKendKcGNseTZTQ00xS2RtbHN1ZHozcVV6ckhMa3FGLVhiczBibkVSeFNKVm5Hb3NYRg?oc=5",
+      "source": "Euronews.com",
+      "published_at_utc": "2026-10-24T07:21:15+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France Dodges Downgrade as Moody's Keeps Aa3 Rating",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVFKQUFwcnNyN0NuaDFZckNDYi1Ub2pIWk9IeXJOd2lnMVRyOGFnNUN2OVRVSVphM2Q3dDB0U3RoZUdRcWh5anY1QTR0ZDA1X05lbXExeV8xNDQycENUcFdYbno3LTU2R1FuYXA5N1VabmVocDNjSHpHLW4xQlFyWFhoQnVua181SXlNcUllUlNXcUhlczc4?oc=5",
+      "source": "Seoul Economic Daily",
+      "published_at_utc": "2026-10-24T06:27:30+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42SU5XYVUwMmU4cUtKdGZNOEdZRk1wRVFUYkNPNE1xTFRUWEJlN0dSMnBPQUN3NGpZZ1R3Z1lSeVBpRkRMSlpqZV9oSmRIVFhVS1FPRXVPUkc5Y3NGOUJDdFc5ZEtfTnZUTXFOMWlnTWtIekg4V2w1a2RVVGZqSG_SAYQBQVVfeXFMTmRjYS1LU0J1RjR0cnZTQU9DcFhFV3pyM2JVSXhpazhLdDh2aWdfaXBjRW9VajdGbXA0bm5HZ2RqczJ5MTg1NVpOZ2VTUURuNVlJUHU5WlM5TUp6WDNBZGtEeWNORTIxa0JmNXdfRlJOMmNpT3o5ek5RYmVSU2M2YWZYWHgy?oc=5",
+      "source": "CNBC",
+      "published_at_utc": "2026-10-24T05:00:01+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France prepares for day of protest a week after nationwide riots",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91NElPZzlUZWg0cDZXTmE0bldZRTdlck9kWXhaSEtjc2FyRDZXNzRTUUd0NEZKeHhWcjRKRndqbXJqUUs2bkNXYWVQUXVfX2MwY2tHV1hoMUZXaVdCdmc?oc=5",
+      "source": "BBC",
+      "published_at_utc": "2026-10-24T04:03:46+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Moody's holds France's credit rating steady despite budget and political uncertainty",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMjJQUm1nZjA5LTlFM1pkYnJjMlNjNTg4S3N4X0R5ajZiMFJ5SHc5M2tieUtFUzA4LUJ1TFFtbURwS3phMHV6Sjh4dEFMTmEyR0dnS2pGbHBYLWVYRkp2UXk5V2RxN3BqMXp3aDFaZThONVBwSDY3MjBsdmlDUHVZQm52MzdONkRya1M3R19EUXdyYWJjRmozVFdJY3lJQ2FGbm1GcFdETWpUNGJjQ09uN0NRQnBIVE9OdXdJcEVMOGdPMUxsYVpOYXpIbFo3d3dncFEtd0VPMWRfc1hZMS03MTVKUEdUeEpk?oc=5",
+      "source": "Le Monde.fr",
+      "published_at_utc": "2026-10-24T01:26:15+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France to deploy 70,000 police as country braces for weekend protests",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVkhsWlVhSER3MjZHc3hCa1RYQ0NPRE9ySVBGcmJxa05fSWpPZGdMZmRRYkFOTUZZOWEzMDB5UzJjLXkxTTJhdVRNMGJMaWQxN29oRFJvQ2VyUm1UMDRGQnZSV1owM24zeHZfZW5MX29nMmtSSUtkbnRmZk5NMURpY1dwWENkdnVyZnBvd0NwNkMzZHZDX1ZYNXhGS21aYURZU3kzedIBqgFBVV95cUxNYWwzakxSa3FZam9JT1lhdkxCcnlidk93bUZva2RPbGhhZ2lVNlNMSVFHRzJmb0lrS1g0RTFiYWZkVGxqWUNjSzN0MWdaRXFVRmJhRGhWOUFoTXF3TVJReVc2QmRwZjFRUzAycVE5NF9ESlpDOFJZNkJtSTY5TmtGVXBCNjlSUHN5LWpzX3V0NUpZcjRmNUNjcm8tYVNEb1Y0aWFjLWQ3NjZhUQ?oc=5",
+      "source": "Al Jazeera",
+      "published_at_utc": "2026-10-23T23:39:06+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Why France Just Dodged A Credit Bullet But The Real Financia",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcVBiSWhiREw5N2Q0RWtIcmI0NkxVa3Zwc24tQVI0T3NlZDlnQThjM1l6UmdJUWw4ODltZVBGOFVJTXJqVGx0bDdFMlV5UURiUXRFMkpYZWlHaEpzdklTcGNVZjRsMjM1Q0FlY0pVQXRucldnNUtQbDluV0ROZU9maHlXT05Ga2RGbnVxRw?oc=5",
+      "source": "ИФЗ РАН",
+      "published_at_utc": "2026-10-23T23:38:22+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "Ruins of Limoges city hall a symbol of France divided by national protests",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SMFlzR1gwRjlZRldYV2ZYSjVwTnpVWS1jY2czS1VDbGFZMGo4ZURpTEU5NVJ4Uk5ob05Ubm9IUTJMTHl6LTdKOWZaSllhTHdIZHh6aU9kQ2F0NFMtekE?oc=5",
+      "source": "BBC",
+      "published_at_utc": "2026-10-23T23:09:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Moody's Affirms France's Aa3 Rating, Negative Outlook Persists, Bond Market Pressure Eases Temporarily",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11OHBJTzNTWTZjX2VXMnVIOGVVbmhjTWkyMGdkdXBaRGZLaWhYR3QtWFRTdjc0MUFDempIMkpYZU1rcmt4S2pDSTlIeUNoMlo0TmpsUzNGazhOaEpyc0Zfdk5mSENjWXlfQnZTTFhXOHpTRUVmUmc?oc=5",
+      "source": "BigGo Finance",
+      "published_at_utc": "2026-10-23T22:55:00+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "France’s Avoids a Debt Downgrade From Moody’s, but Is Given a Warning",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOTdPUEZqRHhBMDdfTGdYaVMtSU9OaGVQbEhxZVdrc3VVdFVFM2FyNXVGUGJDRmx3NDFWZWZNZGRrLXY4Z1kyMWJNZTRfQzhKMVNTb0M1OWJRbzlxOXZSMjRiUDQ2UnJENzdSM3BSeVgxSllQRzZuNHZSWDBlTjl1ZEFR?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-23T22:51:48+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Moody's keeps France's credit rating at Aa3",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYU1LdktZVy1oOHd1WS0yTkZETnZvS3cwQWk1cm91bkNYc1FhdTVpQ1J0UXI5dzZ5U3UyOWctMHhBeGg1MUxTWTEzaTdLNjB1NEZjb0RXVWJlREd3TnF1NHBFTTFfb2hDeERVNGhqeVBaeFIySWlqM1l3azRPV1UzZE9mNHhTSWFQZHVjekFGS3hXZw?oc=5",
+      "source": "Breakingthenews.net",
+      "published_at_utc": "2026-10-23T22:39:00+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY2xNbGJrYUd0RHNhYS1kTFI5UGVfWG9UcDBLaHl1Y3lFT2xMZGVsb3gyVk5Td1lhVjJ3STRBM1RpQWl3NTlDTjJlb1hhTWNpZVJodzdfZUlHOTNHUjN4YkFOTmtRM1hDNjV6aVZHSmxtOVFzTWJ1QXBOREplMmNZZEJ3WVA?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-10-23T22:28:52+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Moody’s Held France’s Rating, But Kept The Warning Label",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLUpoXzdJcVBkUXFfalFxYlpCbjhLM1UtdGRYRTFoYzBiZ2NKbFRobEpCcXJEWDFFaG44UThLNmpGVGs4aEUyTGpVQU9DNjd3SGZUMmVaWXptVGFaVnVlcnhxUE5NU1pxRDlUZmhyU2ZOZFRkOFVlaGstc180Q1J1RUwtbmJQa0RVX3c?oc=5",
+      "source": "Finimize",
+      "published_at_utc": "2026-10-23T22:12:40+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM0Vmb3ctVTNTTUJJV2tSYi1kWWhJNXNyUnZpM1VkZHA0WHcxZWtsSGpCai1FN05Veld2Z3prR281RzhJa1FSQjYwTHA2TWpmQ21yX3p3MEQtLU80MjAxRGZBdXUyTmxKV2VZWEd5YjN4X2NFelBIUExQU3BOdVZtbnlWTy1TMW5RVEd0Y2NUQndzWUNtemdlVzlDTUtGNXNZbnFzbzBpWk1wa3dzWG5Hd0Y1eUMtVzZCbkxRNy1aY1Q0WkZudTJsNmRIQkTSAdIBQVVfeXFMUHZqMDBGWFFpVVlvM1ItdXc1X0dMaHc1dUVXU19iZ1Q2OURBMFBaLXhiOFBzb0ZVOG1CYklTbDZmQzA3dVh4ejVZY3BmSmc2X1BPQ1FUbFM4eXNVMFRobldzV0RmLVVSWENnMzNDMS1XWnRQamFSOUxrMWdMYm4zbGRfSFhvTkhGcDJVZzlreWpfMTI2Zzc2TjlqZ0ZlNVJOY1QtZnBULUM1NDJ0d1dwZFZLY3FYTE9Ra3lobGVZWi1PcndweDN2eEItOGZxTHQzQXR3?oc=5",
+      "source": "CNBC",
+      "published_at_utc": "2026-10-23T22:04:43+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Moody’s Keeps France’s Credit Rating Unchanged",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYWRjNjVUT00xdHVkNVJ1UFNSaWotc2NOLS1Jei10UlM1cGtwa0llM2huSk5aZ0ktWVdxQ1E3MmZjR0ktRHlScXVLb0J2dGlFbEUzMHhMWWZiREpUSko1U2hIV1lJdHJpWHBWVTFOWnR1RXVCTVpTN0pULVRZRnVicFRldVkzbVRrQTNDeFZLYw?oc=5",
+      "source": "WSJ",
+      "published_at_utc": "2026-10-23T21:16:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France Avoids Moody’s Downgrade in Reprieve After Week of Crisis",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVhaVUx6ZjVMZ1pRUVpqR2lNZUxZUjUta2ZHZTRPbHphZkhZZTVMdEs3SEotYm1BMmxNRVFYYWxFMVNHc2pGZDMyRDVfOXFiZGl3OG5pc0NHd0lOTW1FRUJNSFpHZHVBX1JGWjQ2X25URUF0aExYR05oTXhCbFU3QUtiTXdoX1ZrbS1oM3RlR1BVTk9ZcFZKV0xlaWM0RmFrVHFJbTJ6TFpDTmltNUxJQkxqQjZaUQ?oc=5",
+      "source": "Bloomberg.com",
+      "published_at_utc": "2026-10-23T21:02:50+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France’s debt troubles expose cracks in Europe’s fiscal union",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUUFfTnBvVUtVVlFySVFRY1Npem1BQVlxMWVNRFFnOXJrVXg0cnVzd2VRb09wbFpRNkdlLTdzalgyYkFaUVZqT2tMTXdyNGVtTnJyQ0Fxb3ZWZHJHRWtuU3pnZEdtN2JNNVp4WjlOQWRPVE15Y0ZVaXNBR1hCM3lzVDZjcTRwZlFybHNjWFZSTlZrQzFn?oc=5",
+      "source": "Asia Times",
+      "published_at_utc": "2026-10-23T19:23:31+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQUh5anllcENIVlhXM0xrczNZWEVERVdFSE5lRzVkUFY1STBRUUtSZmdHbkRXX2pqNDY1TGxWdDJxTFZKRkc3cFhmUzBjTGUtdmlZaFYybG9tOFVaNk5IZTVpd1FVOW9mZUlRY2I1MFJwblJ3S1hqNVNkSVIyVmg0VzcyTEpncGhaWmUyYnFibVZqUUN2aU41MWxyc1QxYmJpSHVGVG1Jb2RGY1doTWln?oc=5",
+      "source": "WSJ",
+      "published_at_utc": "2026-10-23T18:11:00+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "France, UAE revive Rafale warplane development amid French budget woes",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMHBIeDUxOEFxX0tza0M0blZ1eVVPdGk4eVFnRHBDVFhzWUhDMGpXQjB2WEh1cjkyY2pweS1VWUFpTnFmV1pKVnFDMmNSMzM1WFg0RFhUSEdTLTNrZ0doWVl4RE9ZTzNnVG5RLVJBV09ZNTIxMS15amRiTVNtbXRqWVc5cXFGelVCTVhFZjVlRF80RXV5cHdoQ3RxTnNxaWtEbXNVTnlDLVVmdW9zVmlOZkRZT2hyRm1QQld5cC0zM25aTW9hUWZGa0dXMDA?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-23T17:03:44+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France braces for another weekend of protests as authorities launch massive security operation",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUJWMWFjSmdPR0RCWmFuTUlFMDRWaDliUExTSmo2RG83eUNZN3F2VU9QU2JRR19DM3RLSGVyaWczUy1TcDJwVzktdXFPeTByaGN0di1VMXJldkZzeWZ5U2VMTElJTWZsZDM5cWxMYUdUU2ZNNDVmam8weWNyWEpqU3Y4LWl2WGFQUDVF?oc=5",
+      "source": "CNN",
+      "published_at_utc": "2026-10-23T16:24:28+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Heading to France? Amid Recent Unrest, Here’s What to Know.",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiV1dDNEFYRGU3a0RwcjEtT0tsTlZjZ3ktN3ZhTkt6eEtRYWhsaFpoMDk2d1hRSnpRVzR0eHNzaU80ek1XcnQ4dUtJVzVfTGtlYjdBdXBoTEhpRjZJam1kcHdmQVVuZ29wMFFJTTI1U2VVaDg2?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-23T15:19:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "EU member states wrangle over all-important budget: Is a deal this year feasible? - Talking Europe",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYll5aU9aUE5lX3NCMVNabjFRUUxReDgzTGZlUnRsUDRxQUVMbU40Rlp2TFJvbV9VVVl2aEo2dXVYeUh6VWpNNnJ3eFBSbmRtSXdEd0V3ZjZEXzA0ZFAtM05aNmhhckVPalYzMmJSUFAxSkZSTEg5aUdabEpHa2lxOEx2aGF6S3dLRERPeE9EUnV0NkIwcmFRSjl0R01MR0RMenBkNFFsMS0tY2ltNm14dEM4QjZmWHhTSWtGajM5aTAtZnlsd2l0TmRrX2Q2QlpRV08wTkRnWQ?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-23T14:45:47+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France to deploy 70,000 police on Saturday to prevent civil unrest",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX2R5ZGY4ek5pallzN0d2aWRCSFBVQ3Q3STVPM2xOeFNBSmh2ZGtZY2dNbER4S0lCN1lBU0cyYnFfME5lVGRpbWZTdWt2THJvQVN0VXV3UDQ3X2JvMlFDVDJoS1dPVEVOUXdJVTBTcHdyTTByT2c2ejNweE03VHhHci14cTFPSTlvLUJPMFdZTUw?oc=5",
+      "source": "The Guardian",
+      "published_at_utc": "2026-10-23T14:31:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Angry lawyers and bewildered defendants: the fallout from fast-tracking French rioting cases",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbTJJMTVxaWVBQ3FPR0l5WDNZY3lhSVhWZ0RyWWlVR095WHktaTVfTVNXVWZFU0dFLU1JN1o1QlVLV2pRMDRJN1pneHlvTlJTR3NKUC1xYjlwZUJRREZQdDk1ZEtFQ0IyTXRtX2VpWkpXSGJLaUxhc0hmNlNESGFsQVpHa1BiYzRSMFkzSE5iaHpQZw?oc=5",
+      "source": "The Guardian",
+      "published_at_utc": "2026-10-23T13:29:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Could France's bond turmoil force the ECB's hand?",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1JMSXlmaWFKSGxIZFdTODdyQjhrTGRQTHFFa0xUdjEtOFpPeGVsSlJScVJKemRjNExUT3FDcFhDRDMtazJfRzF0QjV2d2NjQnZOMi0zR2g4WnJJd3lZdnlNRlRKTEE2aEh4LUMxRm0wRmJuXzkyanhFdWJUOVNCM19OWU5MbklDQnU3TFhGbkpZT1dYTkNWcXA4NTJ0QncyMWc?oc=5",
+      "source": "Euronews.com",
+      "published_at_utc": "2026-10-23T13:14:55+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France's bond drama takes centre stage ahead of ECB rate decision",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONVh3WVFBZzhMSlFlNlhyTEtfcVFHa2g3NmVRRXBEZUNaQmNxWmY0dnc2YV9nR1hnSmM3SDdCTWNjWC0xdzhHQjJRRUpLMlViSnpwS3U5NWRQQUMtMEdTS0thN2JBbENPSll5ZGxGX1VqeF9TOENxX3dEWXJscnR5QUtkTQ?oc=5",
+      "source": "AOL.co.uk",
+      "published_at_utc": "2026-10-23T13:14:55+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Tech Selloff Eases, but Brent Near $115 and French Bond Stress Persist",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcGVFcDV3aGgyVFpMcTg3NmxhS1F2X2QxUllXVzAxM09VMFA5bjEzNWh6QmxrM1JsZmZkbHZZY09seXpxYjB3MVYwNnJ2OHItUzFrbHdaY05KVFJnNTRXTlJXZHlWT2RPSEFNMkV5QjhCMTBkWlJqeWszaHJaOTRPTkl5eFFxR0I2d0ZmdFB2TVRNR1Q4MWpfLU1jQUZUS0prYUpGeW9xWTNDYW1saGpmRzNxUlRVUGNaRmh0V3B5SkhxNlZkWHRtaWc4Q25xS1Vu?oc=5",
+      "source": "ActionForex",
+      "published_at_utc": "2026-10-23T12:57:21+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "‘An orchestra being gassed should be an alarm signal’: the musical activists targeted in Paris",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTFNKZ2N2YTU5SVpkWTFqTTM5WWF6MUoxaUZkNmFndVNxM1l5djJzUE9kZW1femtvb0d6YWFGVEZDY2RkUE5EMnNrRGpBcnZpYnVCVDVkV1ZoLU9rbUVGRnRMLWVBSUFJNk9PZlJKR0MtQS1URjJEM2huS2sxbG9yVGdZZ0EtN0d5R1ljR0pNRVJMRi1BRHRONnJFajF0c3AzSmRz?oc=5",
+      "source": "The Guardian",
+      "published_at_utc": "2026-10-23T11:54:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "'Spiralling situation': Political paralysis deepening France's socioeconomic crisis",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQlNpSDYzbW1ZV0puNFdlQzhLeUdjM3RWQ2NXd1Q1aDZmSEI1NXNtck9zN2tDR19SNUtJX2g5ckdSOFp3MkVqZDlmRTU5b3lnWHNBcWd0bHZuSkRfbWJrSWYtR3FhaHBIRTBJVXZvXzhFTGplcDJMTFZ3UGQ1a21UWmlZSjJTdngxU0x2bHhDQ0dpbGlObGkyak0zd09fdl8yT3ZDVQ?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-23T11:23:22+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France is getting its credit rating reviewed. The French debt turmoil has helped turn U.S. Treasury yields around. What comes next?",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNFZqaDdNOGV0ZE9QamJuMmRLOUtHSXg0Q3QydGxnb3U1NjBOLXJPV0J5UlgtZ0pXdDNjaTVNYjBxWFNTTXR0eXluT05SMkhVeWIyczlQVG9sdjVsekFXZXQteWJGMDFiYVFkdzMxWWE3UUlkaE1BVTZUcTdnNzVIUkdOUWdQSjdwUmRjYVVTZmZoUFZRRHl5bDlyOFR0UV9waGl1aWVmekVoTkMzVF90NFpESWpzYWlrR1BrNTFvc1hzWVBsVHhGUGYxNFdqZk9Jel9KTmJFRDhHNlk4RVN4VTdiOTg3QQ?oc=5",
+      "source": "MarketWatch",
+      "published_at_utc": "2026-10-23T10:45:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France spared Moody's ratings downgrade as it struggles with unrest",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNDNzYlVKMzN1VE5rMDhtcVFnY1NsRXZNYmRVZmZKc2dxVC1xZ19abmEtTTlHclVXQWc4YWJXWHNtNktWU2ZBSUVWT1lwWmo1UDVsdFd1RUxjQUkwUGRROUVhWVZkTnJmSU1pdUl4d1FCYU1nTGRMckNaUnpaQVVlOFhkdzZuVFZKaUNCajRGWXFxS0RIODZYSUtVU0o?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-23T10:36:00+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Unrest-hit France poised for Moody's ratings verdict",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdFZkclNZRDE2YzRQM0dxdTFtY2xMWlhOa0F0Z3IzQVA0M3ZWM0lNbU1pNGhtRElqVk5wTEJfTGU2a3JsYkViVXZsRnhSaE5mUkI4NWttWVllQUpHUXh5Wk9CVkFRbGdIRFprX2VBRDByaUxxakhBTDUtWFRPTHBfbTBvTUpLZUxpamlBZ1dMVUp0QklOQV9FRmZLX0U?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-23T10:35:45+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France is flashing euro crisis signals. This time, the fault lines are different",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2TEVMMjFqSWt1SndtcVBvdkEyWWJQdG1fbThRemJjaEFjNkpmX1hjR09qaEh1SEcyTFU1R19YT3Q3MWh0RjczbGFqQnR0LVdqeDk0QXA1N2Z5ZTgzTFlvczdtQ0doYmo5dHhXSkNQQmtRYjltMmY0?oc=5",
+      "source": "CNBC",
+      "published_at_utc": "2026-10-23T09:03:26+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Macron to meet student groups: Where are France’s protests heading?",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa3FSWVpvZUF3OXUwSGZMYm1LMnNvVU1QeFpLbnV3Qk9vSmtGcmhlejlHTElqUDd1RXFWQ2Y4c2hZcmtRckJnOTNvS0h4Q2o4WG9BbTRwanJFYWhvMlEycjVkLWNvQm1yaEdqNExCUHktT05TbktVSjRMUFkxbVN6N3hn0gGHAUFVX3lxTE9WbHJTU0dSZUExRmMxMlpNN1g5V0NRT1R5b3FFaFZoU01UdmtOTklxc0JlWmdWaUltc3loWFRKS1ZxVGVOcmxmemNiLThnQ0xnQks0NTdGWG5GWmZfVXJNamN1U0x3dUEycXdqS2QxYW1tc2xKajFXeGoyaC1qWm9nN1c0UkNrZw?oc=5",
+      "source": "Al Jazeera",
+      "published_at_utc": "2026-10-23T08:52:08+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Major protests in France: French shop owners brace for more unrest",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVk1CNGFfNUpSSHZpYmNBSC00dlhVUTBmN09hdXZSRmVDTnhUTS1zZ1Jqb0xYWHJoeFROMnhRdzVVal9ydk1uWkRUUWt2bXJSdFdVTWs2LW1MQnJ4X2VCRGFmWUZWcXFOTmQ3NlZQWUFWdmZZTWUxX1AxWVNXTDI4ZUIwRUNiYUxmUkxSMk1QVDhLNllyLU5SZQ?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-23T08:30:47+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Losing confidence in France",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdEtzazVBX2lfX0lMbm5qTXk3QjZtVVFiNkI4WWdSdjRQUWo5Ynh3bzVXS3l0RnFLT19mckJRU0RUOGRHczZnNGpfX1MzRVIzS2JtcUlPdDgtcDRsQlRsOGpNOXVUZHp1MXN2c2xXUTdHcVZuUjY5U2pFQ0VOQmdndVJ5MHh3bkFkNDUxNXlmM2tyTnhranFj?oc=5",
+      "source": "The Economist",
+      "published_at_utc": "2026-10-23T05:00:16+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Why France’s economic crisis keeps coming back to pensions",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVHB5Z2ozckdKU2JHLVpKS2xidXk5WlU3SlhfQ0lrMVhfdjhRUTZQOE5qZVhVUXpNdFhvSlZDX3dEUVJRN3o0X2VHcDREZ0dVbFV2WVRFTGdLZzc5STVENjR6R0pzckNKQUxaTVRCcWcyN1VvakUtMDduUWdZczVZME9HZjktbEg2WFliSGV0SmVPS1pjNnh5S1JsU3hLX2Rjb09qTlhwVHN6X2xaczJRNlpfUXdwUQ?oc=5",
+      "source": "The Times",
+      "published_at_utc": "2026-10-23T05:00:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Euro sinks on French debt worries; yen gains on AI rout",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTlBfY045MXlBOHlOVWJSTkFJQWYwSHJsUWU1S3BUOUt0bm1WRFRZT2RhS0dpUTBMaFBmcXV5WndGTlFsRjV6UF9mTWx5ZGRrSEZKU0FNTEJ6Qmx3Y1BtLTlyZXR3bm5MbmlmeVZtNVI0ekdHNWxWQU9ndTlXSEhhOUpYSjY3YnphbHfSAY8BQVVfeXFMTmJLV21qNEx5QUszTDM5NWFGZXBOZjl6cXN5NVd1dnRlYXNzRlRlR05na1NYXzEwQ0paWE53aGU5a3czNEV3bDdqWVptSkZLaTlheXJIOVI3d1BkdmV3TkZmaDRSYk5ELXpOWXc2b0VJaDhJa0QtM2NLZGtPU3JLQVIxdmYzamZ3RVRPb01xRVU?oc=5",
+      "source": "CNBC",
+      "published_at_utc": "2026-10-23T03:46:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France bans protests and imposes curfews in dozens of cities, raising concerns over rule of law",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSi1fTTVkN0QwckJVRVdnRGNOWXBOSHNuck9XaURvMHM0eUJHUUlBSjdwdzZVWE0wNFAzREJSYnpTTVpUeU1KSHYwU3p1bE52ajhiZTdDSkw4V28tazJ3RWYtWVhNMWNUODYtZ2liY0ZtTlg1X1dLU3FaVTJ0dUJ6YTlMcFA3c3pWYkNTb0xpZ1h5ZWJ4bjQwSE9hbTBCRnhHVUJYbFR2djdrMEo2RlFXRTBwekxqQXJxSHBXQlAtRngxbU5oOGNOUjFTc0N3d1Z3Ym9Ra2RmN3ZtRjctWFFN?oc=5",
+      "source": "Le Monde.fr",
+      "published_at_utc": "2026-10-23T03:45:09+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Mélenchon wants to erase France's debt. What are the precedents for that?",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVGNWaGp2Ml8yb0hNRkd0c3FFRVJTTG94b0xOTTYwMlo3YmtqLXBrU08tRHBlc05DTTRHTkVSWWt3cXVDN3BJOTVTb0lRY0lLWFNFTWk3d0l5LUNMdGJDZk03NDZiM1VxT2Z4TkVYVGRnWk90d2hvc04zM1pQVjhZVy1ZQXlSaGJ4U3JvOGdsUVQxVThhQzNBUEdONk9fMzJDTXpMV3Jma3RYdm5qN0dHMm05OGtvVkVScTBlVnJYRDh1bDFZSGF4d05YNmZDaHBHWC1Bc1FTOA?oc=5",
+      "source": "Le Monde.fr",
+      "published_at_utc": "2026-10-23T03:00:07+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Foreign Investors Retreat From French Bonds, Raising Fears of a Debt Crisis",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TellIZFpmUWFJQ0R4dC1zR21wMHF3VFhkZ3VhMVZmQUFHbEFtZ25Id1JBNlR6akNPUWZ0V3Flb1hCWG54ODl0MlVhUFNfQXYzSnBoLW5WZEZRMkJvcDVqTllDVTNZMTIwZG9uM0Y4WFZxZHRX?oc=5",
+      "source": "Businesskorea",
+      "published_at_utc": "2026-10-23T02:57:38+00:00",
+      "topic": "Bond markets"
+    }
+  ]
 }
