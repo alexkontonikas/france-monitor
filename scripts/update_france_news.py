@@ -15,6 +15,21 @@ QUERIES = {
     "Reforms & protests": 'France (reform OR strikes OR protests OR unrest) when:7d',
     "Bond markets": 'France (bond yields OR OAT OR sovereign spread OR credit rating) when:7d',
 }
+# Exact publisher names only: never accept a source merely because it contains a trusted name.
+TRUSTED_PUBLISHERS = {
+    "reuters","bloomberg","bloomberg news","financial times","ft.com",
+    "associated press","ap news","ap","agence france-presse","afp","afp fact check",
+    "les echos","les échos","le monde","le monde english","france 24",
+    "the guardian","the new york times","the wall street journal",
+    "the economist","bbc","bbc news","cnbc","euronews","politico",
+    "politico europe","the washington post","the times","sky news",
+    "rfi","radio france internationale","franceinfo","france info",
+    "la tribune","le figaro","libération","liberation","deutsche welle",
+    "dw","the independent","marketwatch","barron's","barrons"
+}
+def approved(source):
+    return " ".join(source.casefold().split()) in TRUSTED_PUBLISHERS
+
 items = []
 seen = set()
 for topic, query in QUERIES.items():
@@ -33,7 +48,7 @@ for topic, query in QUERIES.items():
                 published = email.utils.parsedate_to_datetime(raw_date).astimezone(dt.timezone.utc)
             except (TypeError, ValueError):
                 continue
-            if not title or not link or not source:
+            if not title or not link or not source or not approved(source):
                 continue
             # Google News titles often end with the publisher name.
             if title.endswith(" - " + source):
@@ -51,7 +66,7 @@ items.sort(key=lambda x: x["published_at_utc"], reverse=True)
 if len(items) < 5:
     raise ValueError("Insufficient valid headlines; previous published feed preserved")
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-          "source": "Google News RSS (publisher-attributed headlines)",
+          "source": "Google News RSS (approved established publishers only)",
           "items": items[:60]}
 path = Path("data/france-news.json")
 path.parent.mkdir(exist_ok=True)
