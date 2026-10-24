@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-24T00:00:00+00:00",
+  "method": "verified initial snapshot; future changes require corroborated editorial reports",
+  "ratings": {
+    "Moody's": {
+      "rating": "Aa3",
+      "outlook": "Negative",
+      "last_review": "23 Oct 2026",
+      "next_review": "Not announced"
+    },
+    "S&P": {
+      "rating": "A+",
+      "outlook": "Stable",
+      "last_review": "29 May 2026",
+      "next_review": "27 Nov 2026"
+    },
+    "Fitch": {
+      "rating": "A+",
+      "outlook": "Stable",
+      "last_review": "28 Aug 2026",
+      "next_review": "Not announced"
+    }
+  },
+  "events": []
+}
