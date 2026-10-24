@@ -1,10 +1,10 @@
 {
   "method": "Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure.",
   "observations": [],
-  "checked_at_utc": "2026-10-24T22:45:42+00:00",
+  "checked_at_utc": "2026-10-24T22:48:59+00:00",
   "coverage": {
     "date": "2026-10-24",
-    "headlines": 23,
+    "approved_headlines": 10,
     "articles_analysed": 0,
     "minimum_articles": 5
   }
