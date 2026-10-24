@@ -30,8 +30,16 @@ def score(headline):
     s=re.sub(r"\s+"," ",headline.lower())
     risk=sum(w for phrase,w in RISK.items() if phrase in s)
     relief=sum(w for phrase,w in RELIEF.items() if phrase in s)
-    # Avoid classifying "no downgrade" as adverse.
-    if "no downgrade" in s or "avoids downgrade" in s:risk=max(0,risk-3)
+    # Rating affirmation or an avoided downgrade is neutral as a rating action.
+    affirmation=bool(re.search(r"(moody.s|fitch|s&p|rating|france).{0,75}(holds|keeps|maintains|affirms|unchanged|steady|spares|spared|dodges|avoids|no downgrade|defies market expectations)",s) or re.search(r"(avoids|dodges|spared|spares|no).{0,35}downgrade",s))
+    if affirmation:
+        risk=0
+        relief=0
+        # Score only separate adverse or favourable developments explicitly mentioned.
+        if any(p in s for p in ("negative outlook","downgrade risk","debt pressures","debt pressure","riots","unrest","turmoil","higher yields","budget uncertainty","political uncertainty","warning")):
+            risk=1
+        if any(p in s for p in ("pressure eases","market relief","bond rally","spread narrows")):
+            relief=1
     return max(-4,min(4,risk-relief))
 
 # Only observations published on the current UTC day, deduplicated by headline.
