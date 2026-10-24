@@ -15,7 +15,9 @@ jobs:
           python-version: '3.12'
       - name: Collect France sovereign-risk headlines
         run: python scripts/update_france_news.py
-      - name: Calculate daily headline risk tone
+      - name: Install article extraction and sentiment dependencies
+        run: pip install trafilatura==2.0.0 vaderSentiment==3.3.2
+      - name: Calculate daily article-text sentiment
         run: python scripts/update_france_risk_tone.py
       - name: Commit updated news
         run: |
