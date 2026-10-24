@@ -1,5 +1,9 @@
 name: Update sovereign bond data
 on:
+  push:
+    paths:
+      - 'scripts/update_bonds_monthly.py'
+      - '.github/workflows/update-bonds.yml'
   workflow_dispatch:
   schedule:
     - cron: '15 8,12,16,19 * * 1-5'
@@ -16,7 +20,7 @@ jobs:
           python-version: '3.12'
       - name: Retrieve and validate yields
         run: python scripts/update_bonds.py
-      - name: Refresh five-year Eurostat monthly history
+      - name: Refresh long-run Eurostat monthly history
         run: python scripts/update_bonds_monthly.py
       - name: Publish only when verified
         run: |
