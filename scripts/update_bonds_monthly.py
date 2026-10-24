@@ -36,7 +36,7 @@ for period in periods:
     vals={code:value_for(geo,period) for code,geo in (("FR","FR"),("DE","DE"),("IT","IT"),("GR","EL"))}
     if all(v is not None and -5<v<30 for v in vals.values()):
         rows.append({"date":period,"yields_pct":vals})
-if len(rows)<45:raise ValueError(f"Too few aligned historical monthly observations: {len(rows)}")
+rows=rows[-60:]\nif len(rows)<45:raise ValueError(f"Too few aligned historical monthly observations: {len(rows)}")
 out=Path("data/bonds-monthly.json")
 out.parent.mkdir(exist_ok=True)
 out.write_text(json.dumps({"source":URL,"dataset":"irt_lt_mcby_m","frequency":"monthly averages","retrieved_at_utc":dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),"observations":rows},indent=2)+"\n")
