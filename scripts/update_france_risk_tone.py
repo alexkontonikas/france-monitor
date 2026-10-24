@@ -12,6 +12,15 @@ from urllib.parse import urlparse
 import trafilatura
 from transformers import pipeline
 
+# Independent defence against unapproved sources in older or manually edited feeds.
+APPROVED={"reuters","bloomberg","bloomberg news","financial times","ft.com",
+"associated press","ap news","ap","agence france-presse","afp","afp fact check",
+"les echos","les échos","le monde","le monde english","france 24",
+"the guardian","the new york times","the wall street journal","the economist",
+"bbc","bbc news","cnbc","euronews","politico","politico europe",
+"the washington post","the times","sky news","rfi","radio france internationale",
+"franceinfo","france info","la tribune","le figaro","libération","liberation",
+"deutsche welle","dw","the independent","marketwatch","barron's","barrons"}
 FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
 NEWS=json.loads(FEED.read_text(encoding="utf-8"))
@@ -52,8 +61,8 @@ def get_text(url):
         return None,None
 
 articles=[]
-today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY]
-for item in today[:25]:
+today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY and " ".join(x.get("source","").casefold().split()) in APPROVED]
+for item in today:
     body,link=get_text(item.get("url",""))
     if not body:continue
     result=assess(body)
@@ -85,6 +94,6 @@ if len(articles)>=5:
 else:
     print("Full-text coverage insufficient:",len(articles),"of",len(today),
           "— no score published")
-archive["coverage"]={"date":DAY,"headlines":len(today),"articles_analysed":len(articles),
+archive["coverage"]={"date":DAY,"approved_headlines":len(today),"articles_analysed":len(articles),
                      "minimum_articles":5}
 TARGET.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
