@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Daily article-text risk sentiment, only when publisher article bodies are accessible.
+"""Daily article-text financial sentiment, only when publisher article bodies are accessible.
 
-Uses trafilatura for extraction and VADER on sovereign-risk-relevant sentences.
+Uses trafilatura for extraction and ProsusAI/finbert on relevant sentences.
 No headlines-only fallback. Reports coverage and source metadata, not copyrighted text.
 """
 import datetime as dt
@@ -10,13 +10,13 @@ import re
 from pathlib import Path
 from urllib.parse import urlparse
 import trafilatura
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from transformers import pipeline
 
 FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
 NEWS=json.loads(FEED.read_text(encoding="utf-8"))
 DAY=dt.datetime.now(dt.timezone.utc).date().isoformat()
-analyser=SentimentIntensityAnalyzer()
+analyser=pipeline("text-classification",model="ProsusAI/finbert",tokenizer="ProsusAI/finbert",device=-1)
 relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot)\b",re.I)
 # Context that explicitly says a feared rating action did NOT occur is not negative.
 affirm=re.compile(r"(?:moody.s|fitch|s&p|rating).{0,95}(?:holds?|keeps?|maintains?|affirms?|unchanged|steady)|(?:avoids?|dodges?|spared|spares|no)\s+(?:a\s+)?downgrade",re.I)
@@ -25,15 +25,19 @@ def sentences(text):
 def assess(text):
     chosen=[s for s in sentences(text) if len(s)>35 and relevant.search(s)]
     if len(chosen)<4:return None
+    # Cap each article to bound workflow time; truncate long sentences to model context.
+    chosen=chosen[:40]
+    results=analyser(chosen,truncation=True,max_length=512,batch_size=8)
     scores=[]
-    for s in chosen:
-        v=analyser.polarity_scores(s)["compound"]
-        if affirm.search(s):
-            # No downgrade is a non-event, not a realised deterioration.
-            v=0
-        scores.append(v)
-    # Higher index = more negative article tone, 50 = neutral.
-    return round(50-50*sum(scores)/len(scores),1),len(chosen)
+    for sentence,result in zip(chosen,results):
+        label=result["label"].lower()
+        # A rating affirmation is not an actual downgrade.
+        if affirm.search(sentence):
+            scores.append(0)
+        else:
+            scores.append({"negative":1,"neutral":0,"positive":-1}.get(label,0)*result["score"])
+    return round(max(0,min(100,50+50*sum(scores)/len(scores))),1),len(chosen)
+
 def get_text(url):
     try:
         # Google's RSS links can be blocked or fail to resolve; do not fabricate text.
@@ -49,7 +53,7 @@ def get_text(url):
 
 articles=[]
 today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY]
-for item in today[:45]:
+for item in today[:25]:
     body,link=get_text(item.get("url",""))
     if not body:continue
     result=assess(body)
@@ -64,7 +68,7 @@ for a in articles:
     unique.setdefault(key,a)
 articles=list(unique.values())
 archive=json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {"observations":[]}
-archive["method"]="Article-body sentiment v3: trafilatura-extracted accessible articles; VADER on sovereign-risk-relevant sentences. Higher = more negative tone. Not a risk-change or default-probability measure."
+archive["method"]="Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure."
 archive["checked_at_utc"]=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
 if len(articles)>=5:
@@ -74,7 +78,7 @@ if len(articles)>=5:
          "adverse_count":sum(a["score"]>55 for a in articles),
          "favourable_count":sum(a["score"]<45 for a in articles),
          "neutral_count":sum(45<=a["score"]<=55 for a in articles),
-         "method_version":3,"articles":articles}
+         "method_version":4,"articles":articles}
     archive["observations"].append(row)
     archive["observations"].sort(key=lambda x:x["date"])
     print("Full-text index",index,"from",len(articles),"of",len(today),"headlines")
