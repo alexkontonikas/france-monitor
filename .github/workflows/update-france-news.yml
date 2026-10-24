@@ -16,7 +16,7 @@ jobs:
       - name: Collect France sovereign-risk headlines
         run: python scripts/update_france_news.py
       - name: Install article extraction and sentiment dependencies
-        run: pip install trafilatura==2.0.0 transformers==4.46.3 torch==2.5.1
+        run: pip install trafilatura==2.0.0 transformers==4.46.3 torch==2.5.1 gnews-decoder
       - name: Calculate daily article-text sentiment
         run: python scripts/update_france_risk_tone.py
       - name: Commit updated news
