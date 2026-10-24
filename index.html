@@ -11,7 +11,7 @@ async function loadBondCharts(){
    const svg=document.getElementById(id),legend=document.getElementById(legendId);if(!svg)return;
    const NS="http://www.w3.org/2000/svg";svg.replaceChildren();
    const el=(tag,attrs,t)=>{const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs||{}))n.setAttribute(k,v);if(t!==undefined)n.textContent=t;svg.appendChild(n);return n};
-   legend.textContent=series.map(x=>x.name).join(" · ");
+   if(legend)legend.textContent="";
    const vals=series.flatMap(x=>x.values),lo=Math.min(...vals),hi=Math.max(...vals),pad=Math.max((hi-lo)*0.12,unit==="bp"?8:0.12),min=lo-pad,max=hi+pad;
    const y=v=>235-(v-min)/(max-min)*185,x=i=>obs.length===1?425:75+i*700/(obs.length-1);
    for(let i=0;i<=4;i++){const v=min+(max-min)*i/4,yy=y(v);el("line",{x1:65,x2:800,y1:yy,y2:yy,stroke:"#304059"});el("text",{x:56,y:yy+4,fill:"#b7c6d9","font-size":12,"text-anchor":"end"},v.toFixed(unit==="bp"?0:2))}
