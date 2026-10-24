@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-24T22:33:52+00:00",
+  "checked_at_utc": "2026-10-24T22:37:12+00:00",
   "source": "Google News RSS (publisher-attributed headlines)",
   "items": [
     {
@@ -31,13 +31,6 @@
       "topic": "Reforms & protests"
     },
     {
-      "title": "France: Clashes break out as protests go nationwide",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ibUd4UmJBOWljZ21rREdmQzc1Nk10NDN5UG1uX3d6VzAxMFcyUlUtSjhFZXNFSGlHWXlOeFZ5dlpQaVVwTmRXUG1EVGoyZUtOc0otNkl0SUN2b1Q3TjBLYTJRQ0ZMMHhqdy1CdTRpRE5GZw?oc=5",
-      "source": "DW.com",
-      "published_at_utc": "2026-10-24T19:27:24+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
       "title": "Hundreds of thousands protest in France amid heightened police security",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONFVTM0hjMUwxVy10RkI1Q0pYZkhrVC1sdmZOTGVFdnppM3FVQ1pCVVpQLWo2NUlGQWUzVjRGRENhQ3I2SVJlVkxtSk1HWFpCWVQ3WnZIRXNYcTh2elowYVRXZjIzSDdwV0ZxLURLVGdPUjVlMGFUalFHcDR2Q2pZZ0VXZ3FzdjNnamk2d285LVFIV29rUjJpRHZ0cE8wM0JCMmdiTlcwNUszc0Zkd3hiRFZkNTXSAboBQVVfeXFMT2dsOVg3Y2lhOGRaNGhVTjBRbUJ1cTI1Rk02MWc0aC1zcTA5MFdzVm1XRExKc1h5TDJQTkRQNVpiRVlfdHoxbjVsSElzWlB1Y3FuS1RQWWx1WWhVMVg0UGdQWmlvWDNHLTFaYnZPeHpiWTFqblBLTmg4NmlvclQtWmVTOEphak1Ec2ZxNWFWb3dHYms5Vm5qaWlZTnlSN1MxOHkxek9PM0VyblhCbGNuM3NrNURJTUR5c1d3?oc=5",
       "source": "Al Jazeera",
@@ -64,13 +57,6 @@
       "source": "BigGo Finance",
       "published_at_utc": "2026-10-24T18:17:00+00:00",
       "topic": "Bond markets"
-    },
-    {
-      "title": "France Protests: demonstrators take to the streets in every major city",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVi1LSUt1SDRLN3h3clpaaWFnN3RzMVNJeHVCUmVyUjFJYnBKVXpKNmtiUTRvbURNSWZTMDYwU0Q0RGZrampEV01JNmE1RnlTdmNzSUp4UlVoYWdBWF92Xy1IMlk4eG8teXBOR2JBZW55TjRrMVRWQktoOXJZaG1Wd25DV1ZveWFLeDFlaDB1bWdIVFczb0FFVWhYVmV4UGRq?oc=5",
-      "source": "Channel 4",
-      "published_at_utc": "2026-10-24T18:09:38+00:00",
-      "topic": "Reforms & protests"
     },
     {
       "title": "France: Protests continue while police fire tear gas at demonstrators",
@@ -133,7 +119,14 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KTkRwamZTaVdQWnAxendQQW55V0JLenVBMEZqMmlaZlozS2czYm9jWnNLMnM5QjI5QUNGVk1wSlZBMWptQV9SQXljT0NqLVVJT2lXVXN6OWFXOHNTc1FEb3hGVENSU1lYb3VTU2JR?oc=5",
       "source": "news.sbs.co.kr",
       "published_at_utc": "2026-10-24T11:49:17+00:00",
-      "topic": "Politics"
+      "topic": "Bond markets"
+    },
+    {
+      "title": "France: Clashes break out as protests go nationwide",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ibUd4UmJBOWljZ21rREdmQzc1Nk10NDN5UG1uX3d6VzAxMFcyUlUtSjhFZXNFSGlHWXlOeFZ5dlpQaVVwTmRXUG1EVGoyZUtOc0otNkl0SUN2b1Q3TjBLYTJRQ0ZMMHhqdy1CdTRpRE5GZw?oc=5",
+      "source": "DW.com",
+      "published_at_utc": "2026-10-24T07:31:30+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "Debt: Moody's spares France, \"a brief respite\", not a \"vote of confidence\"",
@@ -161,6 +154,13 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91NElPZzlUZWg0cDZXTmE0bldZRTdlck9kWXhaSEtjc2FyRDZXNzRTUUd0NEZKeHhWcjRKRndqbXJqUUs2bkNXYWVQUXVfX2MwY2tHV1hoMUZXaVdCdmc?oc=5",
       "source": "BBC",
       "published_at_utc": "2026-10-24T04:03:46+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOckdiZGNaWVZSQU1nTFpTbUpnZWFDZnpHMXdBd19zeHdqNGxYV1U3MXc5TGZJTXozNkI4N01vclJVY1g3V21pNjhFb1R4UUtCa3huUEtBczRlNlBhUkZoMk1peGF3NHc2UFhZcGt2c1IzMzBjbzNfTUVZcUhjZWdRQUEtVmE?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-10-24T04:01:31+00:00",
       "topic": "Reforms & protests"
     },
     {
