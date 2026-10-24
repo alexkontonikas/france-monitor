@@ -73,8 +73,7 @@ def main():
                "frequency": "latest available public observations (not verified intraday)",
                "quotes": quotes}
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=2) + "
-", encoding="utf-8")
+    OUT.write_text(json.dumps(payload, indent=2) + chr(10), encoding="utf-8")
     print("Updated verified table fields", now)
 
 if __name__ == "__main__":
