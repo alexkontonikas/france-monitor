@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-24T22:37:12+00:00",
+  "checked_at_utc": "2026-10-24T22:43:51+00:00",
   "source": "Google News RSS (publisher-attributed headlines)",
   "items": [
     {
@@ -36,13 +36,6 @@
       "source": "Al Jazeera",
       "published_at_utc": "2026-10-24T19:15:46+00:00",
       "topic": "Reforms & protests"
-    },
-    {
-      "title": "France’s pouvoir d’achat crisis",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Mako5STBmSXNNUWUzaFlHOTZ2MzB6MmxDXzdnc1NiZUZtVy1nTWZTS1RmV1BOTTlBOHFlbkYtcnBoamFJOVJ4YlhKS0JIcERvY2g0VHk3UDRTdFV4LXhjeW40bWpHVzFSN0REeUN5ZTZvWXVa?oc=5",
-      "source": "Counterfire",
-      "published_at_utc": "2026-10-24T18:44:41+00:00",
-      "topic": "Fiscal policy"
     },
     {
       "title": "Spotlight - France: Watching the Post-Riot Protests",
@@ -119,7 +112,7 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KTkRwamZTaVdQWnAxendQQW55V0JLenVBMEZqMmlaZlozS2czYm9jWnNLMnM5QjI5QUNGVk1wSlZBMWptQV9SQXljT0NqLVVJT2lXVXN6OWFXOHNTc1FEb3hGVENSU1lYb3VTU2JR?oc=5",
       "source": "news.sbs.co.kr",
       "published_at_utc": "2026-10-24T11:49:17+00:00",
-      "topic": "Bond markets"
+      "topic": "Politics"
     },
     {
       "title": "France: Clashes break out as protests go nationwide",
@@ -421,6 +414,13 @@
       "source": "Businesskorea",
       "published_at_utc": "2026-10-23T02:57:38+00:00",
       "topic": "Bond markets"
+    },
+    {
+      "title": "Euro sinks on French debt worries, yen gains for week on AI rout",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRU4zMGRzLXpsS3VUeXg0YlJGV1NNYnZCUTZaOVJhSm5KQkUxcExfVEZ0cmsyUkFHX2JubWJKV3RwVkpVd3dodmFLcHV2YU83S1JQSGF4YzlnOUdldHBHeks2bFpZLVJBVGhDeGxONTd1S05KSkxTZlhqYWFqZXA3bmloWDhhVEdQa3dpcllLbk16eURmMzhpUzJueE9vZw?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-23T02:08:00+00:00",
+      "topic": "Fiscal policy"
     }
   ]
 }
