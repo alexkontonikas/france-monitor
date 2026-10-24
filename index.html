@@ -5,7 +5,8 @@ async function loadBondCharts(){
  try{
   const r=await fetch("data/bonds-monthly.json?ts="+Date.now(),{cache:"no-store"});
   if(!r.ok){document.getElementById("bond-yield-legend").textContent="Awaiting Eurostat monthly historical data";return;}
-  const d=await r.json(),allObs=(d.observations||[]).filter(o=>o.date&&["FR","DE","IT","GR"].every(c=>Number.isFinite(o.yields_pct?.[c]))).sort((a,b)=>a.date.localeCompare(b.date)),obs=bondHistoryRange==="long"?allObs:allObs.slice(-60);
+  const d=await r.json(),allObs=(d.observations||[]).filter(o=>o.date&&["FR","DE","IT","GR"].every(c=>Number.isFinite(o.yields_pct?.[c]))).sort((a,b)=>a.date.localeCompare(b.date)),longObs=allObs.filter(o=>o.date>="2001-01"),obs=bondHistoryRange==="long"?longObs:allObs.slice(-60);
+  if(bondHistoryRange==="long"&&(!obs.length||obs[0].date!=="2001-01")){document.getElementById("bond-yield-legend").textContent="Long-run history must begin in January 2001; the required starting observation is missing.";document.getElementById("bond-spread-legend").textContent="Long-run history must begin in January 2001; the required starting observation is missing.";return;}
   if(!obs.length){document.getElementById("bond-yield-legend").textContent="No valid historical observations found";return;}
   function render(id,legendId,series,unit){
    const svg=document.getElementById(id),legend=document.getElementById(legendId);if(!svg)return;
