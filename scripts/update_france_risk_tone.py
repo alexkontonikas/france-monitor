@@ -10,6 +10,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlparse
 import trafilatura
+from gnews_decoder import decode_many
 from transformers import pipeline
 
 # Independent defence against unapproved sources in older or manually edited feeds.
@@ -62,8 +63,20 @@ def get_text(url):
 
 articles=[]
 today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY and " ".join(x.get("source","").casefold().split()) in APPROVED]
+# Resolve opaque Google News RSS links to real publisher URLs in one batch.
+google_links=[x.get("url","") for x in today if "news.google.com" in x.get("url","")]
+try:
+    resolved=decode_many(google_links,concurrency=8,timeout=20) if google_links else {}
+except Exception as exc:
+    print("Google News URL resolution failed:",repr(exc))
+    resolved={}
+print("Publisher URLs resolved:",sum(bool(v) for v in resolved.values()),"of",len(google_links))
 for item in today:
-    body,link=get_text(item.get("url",""))
+    original=item.get("url","")
+    link=resolved.get(original) if "news.google.com" in original else original
+    if not link or "news.google.com" in link:
+        continue
+    body,link=get_text(link)
     if not body:continue
     result=assess(body)
     if result is None:continue
@@ -95,5 +108,5 @@ else:
     print("Full-text coverage insufficient:",len(articles),"of",len(today),
           "— no score published")
 archive["coverage"]={"date":DAY,"approved_headlines":len(today),"articles_analysed":len(articles),
-                     "minimum_articles":5}
+                     "minimum_articles":5,"publisher_urls_resolved":sum(bool(v) for v in resolved.values()),"google_urls_attempted":len(google_links)}
 TARGET.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
