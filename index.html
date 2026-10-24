@@ -23,6 +23,7 @@ async function loadBondCharts(){
   const longRun=bondHistoryRange==="long";
   document.getElementById("bond-greece-yield-card").style.display=longRun?"":"none";
   document.getElementById("bond-greece-spread-card").style.display=longRun?"":"none";
+  document.getElementById("bond-charts-grid").style.gridTemplateColumns=longRun?"repeat(2,minmax(0,1fr))":"1fr";
   render("bond-yields-chart","bond-yield-legend",(longRun?["FR","DE","IT"]:["FR","DE","IT","GR"]).map(c=>({name:names[c],color:colors[c],values:obs.map(o=>o.yields_pct[c])})),"%");
   if(longRun)render("bond-greece-yield-chart","bond-greece-yield-legend",[{name:"Greece",color:colors.GR,values:obs.map(o=>o.yields_pct.GR)}],"%");
   render("bond-spreads-chart","bond-spread-legend",(longRun?["FR","IT"]:["FR","IT","GR"]).map(c=>({name:names[c]+" − Germany",color:colors[c],values:obs.map(o=>100*(o.yields_pct[c]-o.yields_pct.DE))})),"bp");
