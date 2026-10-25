@@ -76,15 +76,133 @@
           "relevant_sentences": 21
         }
       ]
+    },
+    {
+      "date": "2026-10-25",
+      "index": 72.6,
+      "article_count": 15,
+      "headline_count": 41,
+      "coverage_pct": 36.6,
+      "adverse_count": 11,
+      "favourable_count": 2,
+      "neutral_count": 2,
+      "method_version": 4,
+      "articles": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+          "title": "Macron’s ‘vandals pay’ bill puts right to protest at risk",
+          "score": 79.5,
+          "relevant_sentences": 15
+        },
+        {
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/france/nfl-fans-visiting-paris-high-spirits-saints-vs-steelers-game-undeterre-rcna605520",
+          "title": "NFL fans visiting Paris in high spirits for Saints vs. Steelers game, undeterred by protests",
+          "score": 67.0,
+          "relevant_sentences": 14
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/france-donald-trump-le-pen-paris-emmanuel-macron-b3073056.html",
+          "title": "Le Pen vows to revive oil prospecting in France, calling 2017 ban \"stupid\"",
+          "score": 43.5,
+          "relevant_sentences": 4
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261025-embattled-albanian-pm-vows-fines-for-violent-protesters",
+          "title": "Embattled Albanian PM vows fines for violent protesters",
+          "score": 83.9,
+          "relevant_sentences": 4
+        },
+        {
+          "source": "Le Figaro",
+          "url": "https://www.lefigaro.fr/conjoncture/manifestations-en-france-les-syndicats-accentuent-la-pression-sur-le-gouvernement-20261025",
+          "title": "Manifestations en France : les syndicats accentuent la pression sur le gouvernement",
+          "score": 42.9,
+          "relevant_sentences": 5
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261025-storms-batter-europe-hitting-power-supplies-flights-and-phones-1",
+          "title": "Storms batter Europe hitting power supplies, flights and phones",
+          "score": 95.8,
+          "relevant_sentences": 6
+        },
+        {
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo",
+          "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+          "score": 66.2,
+          "relevant_sentences": 9
+        },
+        {
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
+          "title": "In pictures: Initially peaceful protests across France over inequality again descend into violence",
+          "score": 84.8,
+          "relevant_sentences": 10
+        },
+        {
+          "source": "RFI",
+          "url": "https://www.rfi.fr/en/international-news/20261025-far-right-leader-le-pen-kicks-off-presidency-tilt-in-wake-of-france-protests",
+          "title": "France's Le Pen vows to restore 'rule of law' at presidential kickoff",
+          "score": 71.9,
+          "relevant_sentences": 13
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
+          "title": "At least 1,300 people arrested in mass weekend protests across France",
+          "score": 88.7,
+          "relevant_sentences": 7
+        },
+        {
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c95ynd587ynzo",
+          "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+          "score": 91.8,
+          "relevant_sentences": 24
+        },
+        {
+          "source": "RFI",
+          "url": "https://www.rfi.fr/en/france/20261025-france-reports-1-314-arrests-after-protests-as-police-defend-security-operation",
+          "title": "France reports 1,314 arrests after protests as police defend security operation",
+          "score": 87.2,
+          "relevant_sentences": 7
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/fr/france/20261025-mobilisation-du-24-octobre-plus-de-1-300-interpellations-une-cinquantaine-de-policiers-bless%C3%A9s",
+          "title": "Mobilisation du 24 octobre : plus de 1 300 interpellations, une cinquantaine de policiers blessés",
+          "score": 50.0,
+          "relevant_sentences": 15
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+          "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
+          "score": 85.9,
+          "relevant_sentences": 16
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
+          "title": "Ukraine war briefing: Kyiv targets Russian-occupied Crimea as UK and France conduct joint military exercise",
+          "score": 50.0,
+          "relevant_sentences": 4
+        }
+      ]
     }
   ],
-  "checked_at_utc": "2026-10-25T20:27:55+00:00",
+  "checked_at_utc": "2026-10-25T20:34:51+00:00",
   "coverage": {
     "date": "2026-10-25",
-    "approved_headlines": 9,
-    "articles_analysed": 3,
+    "approved_headlines": 41,
+    "articles_analysed": 15,
     "minimum_articles": 5,
-    "publisher_urls_resolved": 9,
-    "google_urls_attempted": 9
+    "publisher_urls_resolved": 41,
+    "google_urls_attempted": 41
   }
 }
