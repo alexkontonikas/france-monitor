@@ -79,11 +79,11 @@
     },
     {
       "date": "2026-10-25",
-      "index": 76.5,
-      "article_count": 6,
-      "headline_count": 33,
-      "coverage_pct": 18.2,
-      "adverse_count": 5,
+      "index": 79.1,
+      "article_count": 12,
+      "headline_count": 48,
+      "coverage_pct": 25.0,
+      "adverse_count": 11,
       "favourable_count": 0,
       "neutral_count": 1,
       "method_version": 4,
@@ -96,11 +96,46 @@
           "relevant_sentences": 15
         },
         {
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/france/nfl-fans-visiting-paris-high-spirits-saints-vs-steelers-game-undeterre-rcna605520",
+          "title": "NFL fans visiting Paris in high spirits for Saints vs. Steelers game, undeterred by protests",
+          "score": 67.0,
+          "relevant_sentences": 14
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261025-storms-batter-europe-hitting-power-supplies-flights-and-phones-1",
+          "title": "Storms batter Europe hitting power supplies, flights and phones",
+          "score": 95.8,
+          "relevant_sentences": 6
+        },
+        {
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
           "title": "In pictures: Initially peaceful protests across France over inequality again descend into violence",
           "score": 84.8,
           "relevant_sentences": 10
+        },
+        {
+          "source": "The Telegraph",
+          "url": "https://www.telegraph.co.uk/world-news/2026/10/25/spanish-youths-storm-barcelona-as-violent-protests-sweep-eu/",
+          "title": "Spanish youths storm Barcelona as violent protests sweep Europe",
+          "score": 83.6,
+          "relevant_sentences": 4
+        },
+        {
+          "source": "RFI",
+          "url": "https://www.rfi.fr/en/international-news/20261025-far-right-leader-le-pen-kicks-off-presidency-tilt-in-wake-of-france-protests",
+          "title": "France's Le Pen launches presidential bid vowing to restore 'rule of law'",
+          "score": 71.9,
+          "relevant_sentences": 13
+        },
+        {
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c95ynd587ynzo",
+          "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+          "score": 91.8,
+          "relevant_sentences": 24
         },
         {
           "source": "RFI",
@@ -129,17 +164,24 @@
           "title": "Ukraine war briefing: Kyiv targets Russian-occupied Crimea as UK and France conduct joint military exercise",
           "score": 50.0,
           "relevant_sentences": 4
+        },
+        {
+          "source": "The Economic Times",
+          "url": "https://m.economictimes.com/news/international/world-news/europe-unrest-protests-over-living-costs-education-and-political-failures-rock-france-italy-albania-belgium/articleshow/135181072.cms",
+          "title": "Europe unrest: Protests over living costs, education & political failures rock France, Italy, Albania & Be",
+          "score": 80.6,
+          "relevant_sentences": 11
         }
       ]
     }
   ],
-  "checked_at_utc": "2026-10-25T21:12:33+00:00",
+  "checked_at_utc": "2026-10-25T21:24:46+00:00",
   "coverage": {
     "date": "2026-10-25",
-    "approved_headlines": 33,
-    "articles_analysed": 6,
-    "minimum_articles": 5,
-    "publisher_urls_resolved": 33,
-    "google_urls_attempted": 33
+    "approved_headlines": 48,
+    "articles_analysed": 12,
+    "minimum_articles": 3,
+    "publisher_urls_resolved": 48,
+    "google_urls_attempted": 48
   }
 }
