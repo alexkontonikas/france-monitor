@@ -79,15 +79,29 @@
     },
     {
       "date": "2026-10-25",
-      "index": 72.1,
-      "article_count": 17,
-      "headline_count": 44,
-      "coverage_pct": 38.6,
+      "index": 71.3,
+      "article_count": 19,
+      "headline_count": 47,
+      "coverage_pct": 40.4,
       "adverse_count": 13,
-      "favourable_count": 2,
-      "neutral_count": 2,
+      "favourable_count": 1,
+      "neutral_count": 5,
       "method_version": 4,
       "articles": [
+        {
+          "source": "RFI",
+          "url": "https://www.rfi.fr/fr/afrique/20261025-s%C3%A9n%C3%A9gal-un-nouveau-bras-de-fer-annonc%C3%A9-%C3%A0-l-assembl%C3%A9e-nationale-entre-le-gouvernement-et-le-pastef",
+          "title": "Sénégal: un nouveau bras de fer annoncé à l’Assemblée nationale entre le gouvernement et le Pastef",
+          "score": 50.0,
+          "relevant_sentences": 11
+        },
+        {
+          "source": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-24-octobre-142-personnes-ont-ete-interpellees-a-paris-dont-120-ont-ete-placees-en-garde-a-vue-selon-la-prefecture-de-police_8252812.html",
+          "title": "Manifestations du 24 octobre : le préfet du Rhône décide de reconduire dimanche le couvre-feu dans l'hypercentre de Lyon",
+          "score": 48.3,
+          "relevant_sentences": 16
+        },
         {
           "source": "France 24",
           "url": "https://www.france24.com/en/live-news/20261025-marine-has-to-win-le-pen-supporters-fear-for-france-s-future",
@@ -110,13 +124,6 @@
           "relevant_sentences": 14
         },
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/france-donald-trump-le-pen-paris-emmanuel-macron-b3073056.html",
-          "title": "Le Pen vows to revive oil prospecting in France, calling 2017 ban \"stupid\"",
-          "score": 43.5,
-          "relevant_sentences": 4
-        },
-        {
           "source": "France 24",
           "url": "https://www.france24.com/en/live-news/20261025-embattled-albanian-pm-vows-fines-for-violent-protesters",
           "title": "Embattled Albanian PM vows fines for violent protesters",
@@ -132,6 +139,13 @@
         },
         {
           "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261025-serbia-on-track-for-high-turnout-as-students-challenge-ruling-party",
+          "title": "Serbia's student movement ousts longtime leader in parliament poll",
+          "score": 47.1,
+          "relevant_sentences": 5
+        },
+        {
+          "source": "France 24",
           "url": "https://www.france24.com/en/live-news/20261025-storms-batter-europe-hitting-power-supplies-flights-and-phones-1",
           "title": "Storms batter Europe hitting power supplies, flights and phones",
           "score": 95.8,
@@ -143,13 +157,6 @@
           "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
           "score": 66.2,
           "relevant_sentences": 9
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/france/20261025-french-far-right-leader-le-pen-seeks-to-leverage-unrest-in-presidential-campaign-kick-off",
-          "title": "French far-right leader Le Pen seeks to leverage unrest in presidential campaign kick-off",
-          "score": 68.6,
-          "relevant_sentences": 17
         },
         {
           "source": "CNBC",
@@ -171,6 +178,13 @@
           "title": "At least 1,300 people arrested in mass weekend protests across France",
           "score": 88.7,
           "relevant_sentences": 7
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261025-police-made-1-314-arrests-in-france-s-protests-government",
+          "title": "Police made 1,314 arrests in France's protests: government",
+          "score": 94.6,
+          "relevant_sentences": 5
         },
         {
           "source": "BBC",
@@ -210,13 +224,13 @@
       ]
     }
   ],
-  "checked_at_utc": "2026-10-25T21:45:52+00:00",
+  "checked_at_utc": "2026-10-25T23:25:44+00:00",
   "coverage": {
     "date": "2026-10-25",
-    "approved_headlines": 44,
-    "articles_analysed": 17,
+    "approved_headlines": 47,
+    "articles_analysed": 19,
     "minimum_articles": 5,
-    "publisher_urls_resolved": 44,
-    "google_urls_attempted": 44
+    "publisher_urls_resolved": 47,
+    "google_urls_attempted": 47
   }
 }
