@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-25T20:18:35+00:00",
+  "checked_at_utc": "2026-10-25T20:23:54+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -80,6 +80,13 @@
       "topic": "Reforms & protests"
     },
     {
+      "title": "France sees another weekend of mass protests as thousands rally across Europe",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTTE1cDZCMklaV21ZZDl1bXVYcEJpNnMtclN1dm93MnZnRVlaczRrNTFvODFEX0psNlJoS1FzeTdIZGVibUstVlZjU3FwdnQ2QloyZmN3cVA2ZWxPY2ZjVmFBRU1fNERVQVVzSkJhc1JXa2dQZDZSZGswdjg4bC0yQlpBYlMtYUEx?oc=5",
+      "source": "CNN",
+      "published_at_utc": "2026-10-24T23:50:02+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
       "title": "Sénégal: les députés du Pastef rejettent la loi de finances rectificative du gouvernement",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOS0tFS2xjS2VQU0NwYmtoN0pRQTEyNDYtQWlQZldPOFdzbW5Tb0pWXzQwS1A0aGhYNFRJd3FKU2taS3FFbWFhR2tLYkNsTXZfajFfSFRrVDBjT1hZY19tckpxMXpZM2g5OFd6ZTNSc2FoWXEwclc4eDJRTGY1eHhIMkpXN3BjckE0X2tHYXFoUzEta2NTS1pDZldYLU4zc1RMSGlqV2lHNVNCRDJnNGxRWEVvSmFfalY0VjQwYy1fRUxxNXA2bU1vU3d2N29wTFMyRnE3bHhLa2VDcmJoaFY5OA?oc=5",
       "source": "RFI",
@@ -155,6 +162,13 @@
       "source": "France 24",
       "published_at_utc": "2026-10-24T17:06:25+00:00",
       "topic": "Reforms & protests"
+    },
+    {
+      "title": "France’s latest debt warning describes a country where governance is breaking down — and even doing too little, too late is barely possible",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2E5eWtkcVNyQnFXUFktN2h5dm54aG1OY2YwbEJoaVVWNGRxWDBuS0gzLW1wUml3bnpCdHpNYkN0S3lBdE9zZTJTM05JZWxxZ1poOF96aWFwQ3QtNVZhN1VESnBVSDlVRGR0VXMwcG1pMnRyTVRfVUxpUEJHSGIxY29PeHJTWkh5dHlqSXhHb3g4VEZwcmJLUU9iUDNGVHIzeTR3?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-24T17:01:51+00:00",
+      "topic": "Fiscal policy"
     },
     {
       "title": "France's latest debt warning describes a country where governance is breaking down",
@@ -367,6 +381,13 @@
       "topic": "Reforms & protests"
     },
     {
+      "title": "Andy Haldane: PM risks Truss-style crisis if he dodges tough choices",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzcya1RGXzU0RjhUWkxvY2xtYVFFTFprVy1yYzVOZ0UtNjM3UENxY0p0NDE0LXNzRTVZbmJIVWdYd0FrS21oczM4bS04TVBFRk9rM0xkR2ZnVVNGb2tHdFRsZTZQQ2VFYWI1c3lHZzlrVmc0ZGlQZVdMRWszMEhQX01FZ2U4dm40UlBHN2poRVR2blFUMk9UN3VEZllEYlM3OG9jaDJiaS1CU1FtNUNj?oc=5",
+      "source": "The Times",
+      "published_at_utc": "2026-10-23T20:00:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
       "title": "Euro sinks on French debt worries, yen gains for week on AI rout",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRU4zMGRzLXpsS3VUeXg0YlJGV1NNYnZCUTZaOVJhSm5KQkUxcExfVEZ0cmsyUkFHX2JubWJKV3RwVkpVd3dodmFLcHV2YU83S1JQSGF4YzlnOUdldHBHeks2bFpZLVJBVGhDeGxONTd1S05KSkxTZlhqYWFqZXA3bmloWDhhVEdQa3dpcllLbk16eURmMzhpUzJueE9vZw?oc=5",
       "source": "Reuters",
@@ -407,6 +428,20 @@
       "source": "France 24",
       "published_at_utc": "2026-10-23T16:33:00+00:00",
       "topic": "Reforms & protests"
+    },
+    {
+      "title": "France braces for another weekend of protests as authorities launch massive security operation",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUJWMWFjSmdPR0RCWmFuTUlFMDRWaDliUExTSmo2RG83eUNZN3F2VU9QU2JRR19DM3RLSGVyaWczUy1TcDJwVzktdXFPeTByaGN0di1VMXJldkZzeWZ5U2VMTElJTWZsZDM5cWxMYUdUU2ZNNDVmam8weWNyWEpqU3Y4LWl2WGFQUDVF?oc=5",
+      "source": "CNN",
+      "published_at_utc": "2026-10-23T16:24:28+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Forget budget theatrics, here’s what will really affect your money",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjV2MllselJVajh4czA1Y0pzTExFMXpHbTcyeEo1aC02dUkyd20yUTh5emdGRm1MektDdXMxc0lvVXhybXhNZ3FxU0xVN1VmeUJSUEZPUHkyQXBHQ0owVGY5ZUNRUnRrd1VIWUpTNzYzVGlkNzBmRE5vdTNHbGRsNkc2X3FndGZDUEpzbQ?oc=5",
+      "source": "The Times",
+      "published_at_utc": "2026-10-23T16:00:00+00:00",
+      "topic": "Fiscal policy"
     },
     {
       "title": "EU member states wrangle over all-important budget: Is a deal this year feasible? - Talking Europe",
@@ -626,53 +661,18 @@
       "topic": "Reforms & protests"
     },
     {
+      "title": "In the Wake of Riots, the French Authorities Ban Some Protests",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNazg0SFVEaTI2NFNXQTJIUG5NV0E3b2ZSbFl5Z2VQN29GS09DQUxFR2FSMzRvcW1VaUMzUWJOOVl3SmgyencyVV9TSVJLdFVHWkszNmpSdzB4YUotbEc5dWNyTVI4Q0dQbHV2UGxEd0N2bFFXeDFnSlU2VUN4aUF1cQ?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-22T12:54:19+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
       "title": "France bans or curbs protests in bid to prevent new weekend unrest",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWnpUdjNRMnpZM1l4Q3NyQ3I1cjJwNjFDcDNtUXJaLUJscmpJWFEycFNqTXhHbllzQUtPR2JOeUtDUllOQ09SN05WSFBiU3hoVmE4a3FIN2YxdGk5VHZaUzJHMG1OVkhDemUxTENJME4wQjZuMEZZeDJHUFYzZl9pbzd4MjlQUW13cG53Tk5OUFlveU1IQVNZY2tKdmg0aVZKcjUzOERqWHU3ZUdBSVBr?oc=5",
       "source": "France 24",
       "published_at_utc": "2026-10-22T12:11:22+00:00",
       "topic": "Reforms & protests"
-    },
-    {
-      "title": "France's Macron vows order, calls foreign criticism of unrest 'stupid'",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdVk5czJqc091UDJSd2lQbGNRYXlyQXBBd2RxTUZkQXcyU0M4QzI0TE8tQ3FaU0xaa3NwWWlXNWU2OGg2NjBzZktLTTE0Uy10QnFyRDJvZzFiQ0xiaWdNVEdObEpuU2dvMnRkV2NRLTdHX0lWaE56cDlpRlZxcjdrWUpjbU12ZF9WV0psc2Y3bkVMYkRkNU5WMzBJcGRIaVNGN1pUY21mYS0?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-22T12:09:02+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "France: manifestations non syndicales interdites, Emmanuel Macron va recevoir les organisations étudiantes",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSkdndC1FZWVablFheHJzOWt5cnhjZGhGU0NxRkE4cDFnYWZlMzFiUGxLRTdPTHI3Mi0waU5KRUZIeTBVR2UyX2s5UjdzSTc5eXZXcWNPcndKUWdhZ0lYejJlRVlSekVJZ2VoT09LRElJZ3dsWkI3ZkZKRC1Zak9SWDRRaXE5RVpYSjZPMDV1YmQ5MGJiaVBuMl9teTQwZTRVWEdsUkhPVjNLa1B6NGh4VWRTSTZxdF9YMzFqTTRiUVRmTFF3V0x0bWpnOWUtZTRUMG8wQU5yRWFtX1ZHRkdJVnJSN1JqNzlR?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-10-22T11:50:10+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "France's Macron tightens curbs on protests, blaming hard left for unrest",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHhBdkpVMVZzcjFPVTR6dkJIR1VJcGR3QXBOeFRHRFJuZFBGM2hWYzczWXdMUFdjVnpsYzI0RE1nZzhIMUNaQzVQMHRKa1VxcnpsaHJzalQzNHJXb2lkbDd3WkJQdXItb1UtZmpQNmQwQzQtV1VfUkJtdHpTR3p4OG95dmM3UkozM3FxWm5WMF9wMl9qQVVJR0l5NmxzV1pzVWtzVy1HXzQwSGRKTVlEZWtB?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-22T11:26:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "France protests: Macron condemns 'stupid' comments from Trump, others as bond market pressure builds",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuQmtlX29ydVpZX0hRUXhTN05meDNxQVlpN1BpbnlaUy1Ncjg1ZVlLWGttUmYwTlBBdXBudVI4YTdTcXRSLXc1RzA4WWoybDlULVBaV1pXcTZ1aE5MY0FXaTVkWHVzWHZDOTBiMWcySE8wdFnSAXhBVV95cUxOTzR6OGRXMW9DUW8xc01hSUx5MkF3RUE2MVdCay1Obmw3cVNQVjFGMUk0dG1RMlluMWxvbDhEQ0xGMWszbnloMExUYlpwWUIwYXpPVE8zSmRGWkZvWGhWaWFVZzEzUWFpNVllZWRSTmFpSGVacGNUdzg?oc=5",
-      "source": "CNBC",
-      "published_at_utc": "2026-10-22T11:21:02+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Manifestations en France : Macron accuse des dirigeants étrangers d'exploiter les émeutes",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42Uk5PeUV5WHZYMFpmUThYRWRzVU9ENWxKaWhsZDNIeTBWaTZIcm9DbjdsbXl2MU1DakdQUDV2SUw5MjJIdlRsN3h0UERCbUN3M3ExZnhQMm4tbmw1RnJn0gFkQVVfeXFMT0lCSGNoT1ZhQkIybU5mN25CRFNmcEF0QmpMSnRuWW1CaHpuX0t5TWhHajA2UllqNzZ2bWREUjFkcmx4N3ZLZ2RJTkd4cnRlZHp4d0xYRHFEVGR2d09UcUNwMnMySA?oc=5",
-      "source": "BBC",
-      "published_at_utc": "2026-10-22T10:21:29+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Dette publique : la France devra payer 100 milliards d’euros d’intérêts dès 2028",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWEY3RzZSb2ZQdGhBeFFGNWFxWjZSbEtWbXFFdTMtNFJqUms0bFVKazJRVkR1dnZhOV9JcG5OZlRtXzBBTk5zVk9MMnhsaENtdlh1VC1rMmZSTlQxZTBweWNqQjBaaUlmblkwcXRqeDFOVm5kSzJFQ0NPQVNROUFVSnEteldXQmhDU2psdEhSajVCM3VGSDQzbUJTblZBdUFVRzkxaWJydG9FMzNvR0FndHVfV2EzX1Y3VFJhNDBDQ3U?oc=5",
-      "source": "Le Figaro",
-      "published_at_utc": "2026-10-22T10:17:08+00:00",
-      "topic": "Fiscal policy"
     },
     {
       "title": "France’s Budget Crisis: Why Bond Markets May Matter More Than Protests",
