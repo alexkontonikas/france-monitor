@@ -56,7 +56,14 @@ ENGLISH_EXTRA_QUERIES = {
         "French OAT yields German bund spread bond selloff when:3d",
         "France sovereign credit rating Moody's Fitch S&P investors when:3d"]
 }
+GENERAL_ENGLISH_QUERIES = {
+    "Politics": ["France news when:2d", "France political crisis when:3d", "Macron France latest news when:2d"],
+    "Reforms & protests": ["France protests when:2d", "France riots arrests demonstrations when:2d"],
+    "Fiscal policy": ["France economy budget debt news when:3d"],
+    "Bond markets": ["France bonds markets yields news when:3d"],
+}
 FEEDS = [(topic, query, "en-GB", "GB", "GB:en") for topic, query in QUERIES.items()]
+FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in GENERAL_ENGLISH_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in ENGLISH_EXTRA_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 items = []
