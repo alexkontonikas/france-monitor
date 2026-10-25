@@ -5,6 +5,7 @@ Uses trafilatura for extraction and ProsusAI/finbert on relevant sentences.
 No headlines-only fallback. Reports coverage and source metadata, not copyrighted text.
 """
 import datetime as dt
+import os
 import json
 import re
 from pathlib import Path
@@ -27,9 +28,17 @@ APPROVED={"reuters","bloomberg","bloomberg news","financial times","ft.com",
 FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
 NEWS=json.loads(FEED.read_text(encoding="utf-8"))
-DAY=dt.datetime.now(dt.timezone.utc).date().isoformat()
+DAY=os.environ.get("SENTIMENT_DATE") or dt.datetime.now(dt.timezone.utc).date().isoformat()
+dt.date.fromisoformat(DAY)
 analyser=pipeline("text-classification",model="ProsusAI/finbert",tokenizer="ProsusAI/finbert",device=-1)
 relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot|français|française|gouvernement|assemblée|dette|déficit|obligations|taux|notation|réforme|manifestations|grève|émeutes|marchés|finances|publique|publiques)\b",re.I)
+# Require an explicit French connection AND an economic/sovereign-risk connection
+# in the article body. A general protest story is not automatically a fiscal story.
+FRANCE_CONTEXT=re.compile(r"\\b(france|french|paris|macron|français|française|française?s|france.s|elysée|élysée)\\b",re.I)
+ECON_CONTEXT=re.compile(r"\\b(econom(?:y|ic|ics)|financial|finance|fiscal|budget|debt|deficit|deficit[s]?|bond[s]?|yield[s]?|spread[s]?|sovereign|borrowing|investor[s]?|market[s]?|credit|rating|tax(?:es|ation)?|spending|growth|recession|inflation|business(?:es)?|trade|investment|oat|dette|déficit|économi(?:e|que)|finances|obligations|taux|marchés|impôts|dépenses|croissance|notation|investisseurs)\\b",re.I)
+def article_is_relevant(body):
+    return bool(FRANCE_CONTEXT.search(body) and ECON_CONTEXT.search(body))
+
 # Context that explicitly says a feared rating action did NOT occur is not negative.
 affirm=re.compile(r"(?:moody.s|fitch|s&p|rating).{0,95}(?:holds?|keeps?|maintains?|affirms?|unchanged|steady)|(?:avoids?|dodges?|spared|spares|no)\s+(?:a\s+)?downgrade",re.I)
 def sentences(text):
@@ -80,6 +89,7 @@ for item in today:
         continue
     body,link=get_text(link)
     if not body:continue
+    if not article_is_relevant(body):continue
     result=assess(body)
     if result is None:continue
     score,n=result
@@ -92,10 +102,10 @@ for a in articles:
     unique.setdefault(key,a)
 articles=list(unique.values())
 archive=json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {"observations":[]}
-archive["method"]="Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure."
+archive["method"]="Article-body financial sentiment: require France context and economic/sovereign-risk content in extracted text; FinBERT on relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure."
 archive["checked_at_utc"]=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
 if len(articles)>=5:
+    archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
     index=round(sum(a["score"] for a in articles)/len(articles),1)
     row={"date":DAY,"index":index,"article_count":len(articles),
          "headline_count":len(today),"coverage_pct":round(100*len(articles)/max(1,len(today)),1),
