@@ -24,7 +24,9 @@ APPROVED={"reuters","bloomberg","bloomberg news","financial times","ft.com",
 "franceinfo","france info","la tribune","le figaro","libération","liberation",
 "deutsche welle","dw","the independent","marketwatch","barron's","barrons",
 "cnn","cnn international","nbc news","nbcnews.com","msnbc","euronews","bfmtv","l'opinion","l'express","le parisien","public sénat","france inter",
-"france culture","ouest-france","sud ouest","challenges","capital","le point","l'obs","20 minutes"}
+"france culture","ouest-france","sud ouest","challenges","capital","le point","l'obs","20 minutes",
+"investing.com","yahoo finance","the telegraph","the economic times",
+"business insider","fortune","the conversation","france 24 english"}
 FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
 NEWS=json.loads(FEED.read_text(encoding="utf-8"))
@@ -73,7 +75,7 @@ def get_text(url):
         return None,None
 
 articles=[]
-today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY and " ".join(x.get("source","").casefold().split()) in APPROVED]
+today=[x for x in NEWS.get("sentiment_candidates", NEWS.get("items",[])) if x.get("published_at_utc","")[:10]==DAY and " ".join(x.get("source","").casefold().split()) in APPROVED]
 # Resolve opaque Google News RSS links to real publisher URLs in one batch.
 google_links=[x.get("url","") for x in today if "news.google.com" in x.get("url","")]
 try:
