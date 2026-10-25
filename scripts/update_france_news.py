@@ -67,9 +67,9 @@ FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in GENERAL_E
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in ENGLISH_EXTRA_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 # Require France plus sovereign-risk or economic-policy relevance in the headline.
-FRANCE_TERMS = re.compile(r"\\b(france|french|paris|macron|français|française|elysée|élysée)\\b", re.I)
-RISK_TERMS = re.compile(r"\\b(budget|fiscal|deficit|déficit|debt|dette|tax|spending|economy|economic|économie|growth|inflation|recession|bond|yield|spread|oat|sovereign|rating|government|gouvernement|parliament|parlement|prime minister|president|président|election|élection|coalition|reform|réforme|pension|retraite|strike|grève|protest|manifestation|riot|émeute|unrest|political|politique|minister|ministre|confidence|censure)\\b", re.I)
-EXCLUDED_TERMS = re.compile(r"\\b(nfl|steelers|saints|football|rugby|fans|fan experience|game|kickoff|wargame|paratroopers|neighbours|neighbors|architect|albanian|albania)\\b", re.I)
+FRANCE_TERMS = re.compile(r"\b(france|french|paris|macron|français|française|elysée|élysée)\b", re.I)
+RISK_TERMS = re.compile(r"\b(budget|fiscal|deficit|déficit|debt|dette|tax|spending|economy|economic|économie|growth|inflation|recession|bond|yield|spread|oat|sovereign|rating|government|gouvernement|parliament|parlement|prime minister|president|président|election|élection|coalition|reform|réforme|pension|retraite|strike|grève|protest|manifestation|riot|émeute|unrest|political|politique|minister|ministre|confidence|censure)\b", re.I)
+EXCLUDED_TERMS = re.compile(r"\b(nfl|steelers|saints|football|rugby|fans|fan experience|game|kickoff|wargame|paratroopers|neighbours|neighbors|architect|albanian|albania)\b", re.I)
 def relevant_headline(title):
     return bool(FRANCE_TERMS.search(title) and RISK_TERMS.search(title) and not EXCLUDED_TERMS.search(title))
 
