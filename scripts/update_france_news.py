@@ -29,7 +29,7 @@ TRUSTED_PUBLISHERS = {
     "france inter","france culture","ouest-france","sud ouest",
     "challenges","capital","le point","l'obs","20 minutes",
     "dw","the independent","marketwatch","barron's","barrons",
-    "investing.com","yahoo finance","the telegraph","the economic times",
+    "cnn","cnn international","nbc news","nbcnews.com","msnbc","euronews","investing.com","yahoo finance","the telegraph","the economic times",
     "business insider","fortune","the conversation","france 24 english"
 }
 def approved(source):
