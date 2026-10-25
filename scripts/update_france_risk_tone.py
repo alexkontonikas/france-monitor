@@ -36,8 +36,8 @@ analyser=pipeline("text-classification",model="ProsusAI/finbert",tokenizer="Pros
 relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot|français|française|gouvernement|assemblée|dette|déficit|obligations|taux|notation|réforme|manifestations|grève|émeutes|marchés|finances|publique|publiques)\b",re.I)
 # Require an explicit French connection AND an economic/sovereign-risk connection
 # in the article body. A general protest story is not automatically a fiscal story.
-FRANCE_CONTEXT=re.compile(r"\\b(france|french|paris|macron|français|française|française?s|france.s|elysée|élysée)\\b",re.I)
-ECON_CONTEXT=re.compile(r"\\b(econom(?:y|ic|ics)|financial|finance|fiscal|budget|debt|deficit|deficit[s]?|bond[s]?|yield[s]?|spread[s]?|sovereign|borrowing|investor[s]?|market[s]?|credit|rating|tax(?:es|ation)?|spending|growth|recession|inflation|business(?:es)?|trade|investment|oat|dette|déficit|économi(?:e|que)|finances|obligations|taux|marchés|impôts|dépenses|croissance|notation|investisseurs)\\b",re.I)
+FRANCE_CONTEXT=re.compile(r"\b(france|french|paris|macron|français|française|française?s|france.s|elysée|élysée)\b",re.I)
+ECON_CONTEXT=re.compile(r"\b(econom(?:y|ic|ics)|financial|finance|fiscal|budget|debt|deficit|deficit[s]?|bond[s]?|yield[s]?|spread[s]?|sovereign|borrowing|investor[s]?|market[s]?|credit|rating|tax(?:es|ation)?|spending|growth|recession|inflation|business(?:es)?|trade|investment|oat|dette|déficit|économi(?:e|que)|finances|obligations|taux|marchés|impôts|dépenses|croissance|notation|investisseurs)\b",re.I)
 def article_is_relevant(body):
     return bool(FRANCE_CONTEXT.search(body) and ECON_CONTEXT.search(body))
 
