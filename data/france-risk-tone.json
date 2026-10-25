@@ -1,5 +1,5 @@
 {
-  "method": "Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure.",
+  "method": "Article-body financial sentiment: require France context and economic/sovereign-risk content in extracted text; FinBERT on relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure.",
   "observations": [
     {
       "date": "2026-10-24",
@@ -196,13 +196,13 @@
       ]
     }
   ],
-  "checked_at_utc": "2026-10-25T20:34:51+00:00",
+  "checked_at_utc": "2026-10-25T20:43:58+00:00",
   "coverage": {
     "date": "2026-10-25",
-    "approved_headlines": 41,
-    "articles_analysed": 15,
+    "approved_headlines": 42,
+    "articles_analysed": 0,
     "minimum_articles": 5,
-    "publisher_urls_resolved": 41,
-    "google_urls_attempted": 41
+    "publisher_urls_resolved": 42,
+    "google_urls_attempted": 42
   }
 }
