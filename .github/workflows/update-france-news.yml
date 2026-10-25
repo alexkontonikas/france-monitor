@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '20 7,12,17,21 * * *'
   workflow_dispatch:
+    inputs:
+      sentiment_date:
+        description: "Optional UTC date (YYYY-MM-DD) to recalculate historical sentiment"
+        required: false
+        type: string
 permissions:
   contents: write
 jobs:
@@ -19,6 +24,8 @@ jobs:
         run: pip install trafilatura==2.0.0 transformers==4.46.3 torch==2.5.1 gnews-decoder
       - name: Calculate daily article-text sentiment
         continue-on-error: true
+        env:
+          SENTIMENT_DATE: ${{ inputs.sentiment_date }}
         run: python scripts/update_france_risk_tone.py
       - name: Commit updated news
         run: |
