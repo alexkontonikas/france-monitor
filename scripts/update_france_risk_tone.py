@@ -38,8 +38,13 @@ relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget
 # in the article body. A general protest story is not automatically a fiscal story.
 FRANCE_CONTEXT=re.compile(r"\b(france|french|paris|macron|français|française|française?s|france.s|elysée|élysée)\b",re.I)
 ECON_CONTEXT=re.compile(r"\b(econom(?:y|ic|ics)|financial|finance|fiscal|budget|debt|deficit|deficit[s]?|bond[s]?|yield[s]?|spread[s]?|sovereign|borrowing|investor[s]?|market[s]?|credit|rating|tax(?:es|ation)?|spending|growth|recession|inflation|business(?:es)?|trade|investment|oat|dette|déficit|économi(?:e|que)|finances|obligations|taux|marchés|impôts|dépenses|croissance|notation|investisseurs)\b",re.I)
+# Require explicit French sovereign/economic context, not generic negative news.
+SOVEREIGN_TERMS=re.compile(r"(?<!\\w)(?:budget|fiscal|deficit|déficit|debt|dette|sovereign|bond|bonds|obligation|obligations|oat|yield|yields|spread|spreads|borrowing|rating|ratings|downgrade|credit|public finances|finances publiques|government spending|dépenses publiques|tax|taxes|impôts|economic growth|croissance|gdp|pib|inflation|recession|récession|economy|économie|economic|économique|investment|investissement|bond market|marché obligataire|interest rates|taux d.intérêt)(?!\\w)",re.I)
+# Politics is eligible only if the same passage directly discusses sovereign finances or the economy.
 def article_is_relevant(body):
-    return bool(FRANCE_CONTEXT.search(body) and ECON_CONTEXT.search(body))
+    return bool(FRANCE_CONTEXT.search(body) and SOVEREIGN_TERMS.search(body))
+def eligible_headline(title):
+    return bool(FRANCE_CONTEXT.search(title) and SOVEREIGN_TERMS.search(title))
 
 # Context that explicitly says a feared rating action did NOT occur is not negative.
 affirm=re.compile(r"(?:moody.s|fitch|s&p|rating).{0,95}(?:holds?|keeps?|maintains?|affirms?|unchanged|steady)|(?:avoids?|dodges?|spared|spares|no)\s+(?:a\s+)?downgrade",re.I)
@@ -91,6 +96,7 @@ for item in today:
         continue
     body,link=get_text(link)
     if not body:continue
+    if not eligible_headline(item["title"]):continue
     if not article_is_relevant(body):continue
     result=assess(body)
     if result is None:continue
