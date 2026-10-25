@@ -30,11 +30,19 @@ TRUSTED_PUBLISHERS = {
 def approved(source):
     return " ".join(source.casefold().split()) in TRUSTED_PUBLISHERS
 
+FRENCH_QUERIES = {
+    "Fiscal policy": "France (budget OR déficit OR dette OR finances publiques) when:7d",
+    "Politics": "France (gouvernement OR assemblée OR premier ministre OR censure) when:7d",
+    "Reforms & protests": "France (manifestations OR grève OR réforme OR mobilisation) when:7d",
+    "Bond markets": "France (OAT OR obligations OR taux souverains OR notation) when:7d",
+}
+FEEDS = [(topic, query, "en-GB", "GB", "GB:en") for topic, query in QUERIES.items()]
+FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 items = []
 seen = set()
-for topic, query in QUERIES.items():
+for topic, query, language, country, edition in FEEDS:
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": query, "hl": "en-GB", "gl": "GB", "ceid": "GB:en"})
+        {"q": query, "hl": language, "gl": country, "ceid": edition})
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=25) as resp:
@@ -61,13 +69,13 @@ for topic, query in QUERIES.items():
                           "published_at_utc": published.isoformat(timespec="seconds"),
                           "topic": topic})
     except Exception as exc:
-        print("Feed failed:", topic, exc)
+        print("Feed failed:", topic, language, exc)
 items.sort(key=lambda x: x["published_at_utc"], reverse=True)
 if len(items) < 5:
     raise ValueError("Insufficient valid headlines; previous published feed preserved")
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-          "source": "Google News RSS (approved established publishers only)",
-          "items": items[:60]}
+          "source": "Google News RSS (English and French editions; approved publishers only)",
+          "items": items[:100]}
 path = Path("data/france-news.json")
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
