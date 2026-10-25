@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-25T15:55:03.437111+00:00",
+  "checked_at_utc": "2026-10-25T15:55:49.000089+00:00",
   "series": {
     "deficit": [
       [
@@ -9623,6 +9623,6 @@
     ]
   },
   "errors": {
-    "inflation": "Empty observations"
+    "inflation": "HTTP Error 400: Bad Request"
   }
 }
