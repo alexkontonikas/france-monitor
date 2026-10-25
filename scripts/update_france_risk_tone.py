@@ -5,7 +5,6 @@ Uses trafilatura for extraction and ProsusAI/finbert on relevant sentences.
 No headlines-only fallback. Reports coverage and source metadata, not copyrighted text.
 """
 import datetime as dt
-import os
 import json
 import re
 from pathlib import Path
@@ -24,35 +23,20 @@ APPROVED={"reuters","bloomberg","bloomberg news","financial times","ft.com",
 "franceinfo","france info","la tribune","le figaro","libération","liberation",
 "deutsche welle","dw","the independent","marketwatch","barron's","barrons",
 "cnn","cnn international","nbc news","nbcnews.com","msnbc","euronews","bfmtv","l'opinion","l'express","le parisien","public sénat","france inter",
-"france culture","ouest-france","sud ouest","challenges","capital","le point","l'obs","20 minutes",
-"investing.com","yahoo finance","the telegraph","the economic times",
-"business insider","fortune","the conversation","france 24 english"}
+"france culture","ouest-france","sud ouest","challenges","capital","le point","l'obs","20 minutes"}
 FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
 NEWS=json.loads(FEED.read_text(encoding="utf-8"))
-DAY=os.environ.get("SENTIMENT_DATE") or dt.datetime.now(dt.timezone.utc).date().isoformat()
-dt.date.fromisoformat(DAY)
+DAY=dt.datetime.now(dt.timezone.utc).date().isoformat()
 analyser=pipeline("text-classification",model="ProsusAI/finbert",tokenizer="ProsusAI/finbert",device=-1)
 relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot|français|française|gouvernement|assemblée|dette|déficit|obligations|taux|notation|réforme|manifestations|grève|émeutes|marchés|finances|publique|publiques)\b",re.I)
-# Require an explicit French connection AND an economic/sovereign-risk connection
-# in the article body. A general protest story is not automatically a fiscal story.
-FRANCE_CONTEXT=re.compile(r"\b(france|french|paris|macron|français|française|française?s|france.s|elysée|élysée)\b",re.I)
-ECON_CONTEXT=re.compile(r"\b(econom(?:y|ic|ics)|financial|finance|fiscal|budget|debt|deficit|deficit[s]?|bond[s]?|yield[s]?|spread[s]?|sovereign|borrowing|investor[s]?|market[s]?|credit|rating|tax(?:es|ation)?|spending|growth|recession|inflation|business(?:es)?|trade|investment|oat|dette|déficit|économi(?:e|que)|finances|obligations|taux|marchés|impôts|dépenses|croissance|notation|investisseurs)\b",re.I)
-# Require explicit French sovereign/economic context, not generic negative news.
-SOVEREIGN_TERMS=re.compile(r"(?<!\\w)(?:budget|fiscal|deficit|déficit|debt|dette|sovereign|bond|bonds|obligation|obligations|oat|yield|yields|spread|spreads|borrowing|rating|ratings|downgrade|credit|public finances|finances publiques|government spending|dépenses publiques|tax|taxes|impôts|economic growth|croissance|gdp|pib|inflation|recession|récession|economy|économie|economic|économique|investment|investissement|bond market|marché obligataire|interest rates|taux d.intérêt)(?!\\w)",re.I)
-# Politics is eligible only if the same passage directly discusses sovereign finances or the economy.
-def article_is_relevant(body):
-    return bool(FRANCE_CONTEXT.search(body) and SOVEREIGN_TERMS.search(body))
-def eligible_headline(title):
-    return bool(FRANCE_CONTEXT.search(title) and SOVEREIGN_TERMS.search(title))
-
 # Context that explicitly says a feared rating action did NOT occur is not negative.
 affirm=re.compile(r"(?:moody.s|fitch|s&p|rating).{0,95}(?:holds?|keeps?|maintains?|affirms?|unchanged|steady)|(?:avoids?|dodges?|spared|spares|no)\s+(?:a\s+)?downgrade",re.I)
 def sentences(text):
     return re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-ÖØ-Þ])",re.sub(r"\s+"," ",text))
 def assess(text):
     chosen=[s for s in sentences(text) if len(s)>35 and relevant.search(s)]
-    if len(chosen)<3:return None
+    if len(chosen)<4:return None
     # Cap each article to bound workflow time; truncate long sentences to model context.
     chosen=chosen[:40]
     results=analyser(chosen,truncation=True,max_length=512,batch_size=8)
@@ -96,8 +80,6 @@ for item in today:
         continue
     body,link=get_text(link)
     if not body:continue
-    if not eligible_headline(item["title"]):continue
-    if not article_is_relevant(body):continue
     result=assess(body)
     if result is None:continue
     score,n=result
@@ -110,10 +92,10 @@ for a in articles:
     unique.setdefault(key,a)
 articles=list(unique.values())
 archive=json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {"observations":[]}
-archive["method"]="Article-body financial sentiment: require France context and economic/sovereign-risk content in extracted text; FinBERT on relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure."
+archive["method"]="Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure."
 archive["checked_at_utc"]=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-if len(articles)>=3:
-    archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
+archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
+if len(articles)>=5:
     index=round(sum(a["score"] for a in articles)/len(articles),1)
     row={"date":DAY,"index":index,"article_count":len(articles),
          "headline_count":len(today),"coverage_pct":round(100*len(articles)/max(1,len(today)),1),
@@ -128,5 +110,5 @@ else:
     print("Full-text coverage insufficient:",len(articles),"of",len(today),
           "— no score published")
 archive["coverage"]={"date":DAY,"approved_headlines":len(today),"articles_analysed":len(articles),
-                     "minimum_articles":3,"publisher_urls_resolved":sum(bool(v) for v in resolved.values()),"google_urls_attempted":len(google_links)}
+                     "minimum_articles":5,"publisher_urls_resolved":sum(bool(v) for v in resolved.values()),"google_urls_attempted":len(google_links)}
 TARGET.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
