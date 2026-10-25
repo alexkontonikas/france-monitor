@@ -74,6 +74,7 @@ def relevant_headline(title):
     return bool(FRANCE_TERMS.search(title) and RISK_TERMS.search(title) and not EXCLUDED_TERMS.search(title))
 
 items = []
+sentiment_candidates = []
 seen = set()
 for topic, query, language, country, edition in FEEDS:
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
@@ -96,15 +97,19 @@ for topic, query, language, country, edition in FEEDS:
             # Google News titles often end with the publisher name.
             if title.endswith(" - " + source):
                 title = title[:-(len(source) + 3)]
-            if not relevant_headline(title):
-                continue
             key = re.sub(r"[^a-z0-9]+", "", title.lower())
             if key in seen:
                 continue
             seen.add(key)
-            items.append({"title": title, "url": link, "source": source,
-                          "published_at_utc": published.isoformat(timespec="seconds"),
-                          "topic": topic})
+            article = {"title": title, "url": link, "source": source,
+                       "published_at_utc": published.isoformat(timespec="seconds"),
+                       "topic": topic}
+            # Broad discovery pool; body-level economic relevance is checked by sentiment script.
+            if FRANCE_TERMS.search(title) and not EXCLUDED_TERMS.search(title):
+                sentiment_candidates.append(article)
+            # Public headlines require a stricter headline-level relevance test.
+            if relevant_headline(title):
+                items.append(article)
     except Exception as exc:
         print("Feed failed:", topic, language, exc)
 items.sort(key=lambda x: x["published_at_utc"], reverse=True)
@@ -143,7 +148,8 @@ if len(items) < 5:
     raise ValueError("Insufficient valid headlines; previous published feed preserved")
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
           "source": "Google News RSS (English and French editions; approved publishers only)",
-          "items": selected[:100]}
+          "items": selected[:100],
+          "sentiment_candidates": sorted(sentiment_candidates, key=lambda x: x["published_at_utc"], reverse=True)[:300]}
 path = Path("data/france-news.json")
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
