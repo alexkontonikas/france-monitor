@@ -1,5 +1,5 @@
 {
-  "method": "Article-body financial sentiment: require France context and economic/sovereign-risk content in extracted text; FinBERT on relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure.",
+  "method": "Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure.",
   "observations": [
     {
       "date": "2026-10-24",
@@ -79,19 +79,26 @@
     },
     {
       "date": "2026-10-25",
-      "index": 79.1,
-      "article_count": 12,
-      "headline_count": 48,
-      "coverage_pct": 25.0,
-      "adverse_count": 11,
-      "favourable_count": 0,
-      "neutral_count": 1,
+      "index": 72.1,
+      "article_count": 17,
+      "headline_count": 44,
+      "coverage_pct": 38.6,
+      "adverse_count": 13,
+      "favourable_count": 2,
+      "neutral_count": 2,
       "method_version": 4,
       "articles": [
         {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261025-marine-has-to-win-le-pen-supporters-fear-for-france-s-future",
+          "title": "'Marine has to win': Le Pen supporters fear for France's future",
+          "score": 65.8,
+          "relevant_sentences": 9
+        },
+        {
           "source": "The Guardian",
           "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
-          "title": "Macron’s ‘vandals pay’ bill puts right to protest at risk",
+          "title": "Macron accused of putting France’s right to protest at risk with ‘vandal’s law’",
           "score": 79.5,
           "relevant_sentences": 15
         },
@@ -103,11 +110,46 @@
           "relevant_sentences": 14
         },
         {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/france-donald-trump-le-pen-paris-emmanuel-macron-b3073056.html",
+          "title": "Le Pen vows to revive oil prospecting in France, calling 2017 ban \"stupid\"",
+          "score": 43.5,
+          "relevant_sentences": 4
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261025-embattled-albanian-pm-vows-fines-for-violent-protesters",
+          "title": "Embattled Albanian PM vows fines for violent protesters",
+          "score": 83.9,
+          "relevant_sentences": 4
+        },
+        {
+          "source": "Le Figaro",
+          "url": "https://www.lefigaro.fr/conjoncture/manifestations-en-france-les-syndicats-accentuent-la-pression-sur-le-gouvernement-20261025",
+          "title": "Manifestations en France : les syndicats accentuent la pression sur le gouvernement",
+          "score": 42.9,
+          "relevant_sentences": 5
+        },
+        {
           "source": "France 24",
           "url": "https://www.france24.com/en/live-news/20261025-storms-batter-europe-hitting-power-supplies-flights-and-phones-1",
           "title": "Storms batter Europe hitting power supplies, flights and phones",
           "score": 95.8,
           "relevant_sentences": 6
+        },
+        {
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo",
+          "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+          "score": 66.2,
+          "relevant_sentences": 9
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/france/20261025-french-far-right-leader-le-pen-seeks-to-leverage-unrest-in-presidential-campaign-kick-off",
+          "title": "French far-right leader Le Pen seeks to leverage unrest in presidential campaign kick-off",
+          "score": 68.6,
+          "relevant_sentences": 17
         },
         {
           "source": "CNBC",
@@ -117,18 +159,18 @@
           "relevant_sentences": 10
         },
         {
-          "source": "The Telegraph",
-          "url": "https://www.telegraph.co.uk/world-news/2026/10/25/spanish-youths-storm-barcelona-as-violent-protests-sweep-eu/",
-          "title": "Spanish youths storm Barcelona as violent protests sweep Europe",
-          "score": 83.6,
-          "relevant_sentences": 4
-        },
-        {
           "source": "RFI",
           "url": "https://www.rfi.fr/en/international-news/20261025-far-right-leader-le-pen-kicks-off-presidency-tilt-in-wake-of-france-protests",
           "title": "France's Le Pen launches presidential bid vowing to restore 'rule of law'",
           "score": 71.9,
           "relevant_sentences": 13
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
+          "title": "At least 1,300 people arrested in mass weekend protests across France",
+          "score": 88.7,
+          "relevant_sentences": 7
         },
         {
           "source": "BBC",
@@ -145,11 +187,11 @@
           "relevant_sentences": 7
         },
         {
-          "source": "The Telegraph",
-          "url": "https://www.telegraph.co.uk/business/2026/10/25/no-time-for-schadenfreude-if-french-bonds-blow-up-first/",
-          "title": "No time for schadenfreude if French bonds blow up first",
-          "score": 68.7,
-          "relevant_sentences": 32
+          "source": "France 24",
+          "url": "https://www.france24.com/fr/france/20261025-mobilisation-du-24-octobre-plus-de-1-300-interpellations-une-cinquantaine-de-policiers-bless%C3%A9s",
+          "title": "Mobilisation du 24 octobre : plus de 1 300 interpellations, une cinquantaine de policiers blessés",
+          "score": 50.0,
+          "relevant_sentences": 15
         },
         {
           "source": "The Independent",
@@ -164,24 +206,17 @@
           "title": "Ukraine war briefing: Kyiv targets Russian-occupied Crimea as UK and France conduct joint military exercise",
           "score": 50.0,
           "relevant_sentences": 4
-        },
-        {
-          "source": "The Economic Times",
-          "url": "https://m.economictimes.com/news/international/world-news/europe-unrest-protests-over-living-costs-education-and-political-failures-rock-france-italy-albania-belgium/articleshow/135181072.cms",
-          "title": "Europe unrest: Protests over living costs, education & political failures rock France, Italy, Albania & Be",
-          "score": 80.6,
-          "relevant_sentences": 11
         }
       ]
     }
   ],
-  "checked_at_utc": "2026-10-25T21:32:33+00:00",
+  "checked_at_utc": "2026-10-25T21:45:52+00:00",
   "coverage": {
     "date": "2026-10-25",
-    "approved_headlines": 47,
-    "articles_analysed": 1,
-    "minimum_articles": 3,
-    "publisher_urls_resolved": 47,
-    "google_urls_attempted": 47
+    "approved_headlines": 44,
+    "articles_analysed": 17,
+    "minimum_articles": 5,
+    "publisher_urls_resolved": 44,
+    "google_urls_attempted": 44
   }
 }
