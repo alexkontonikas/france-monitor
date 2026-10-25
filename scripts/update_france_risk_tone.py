@@ -21,17 +21,19 @@ APPROVED={"reuters","bloomberg","bloomberg news","financial times","ft.com",
 "bbc","bbc news","cnbc","euronews","politico","politico europe",
 "the washington post","the times","sky news","rfi","radio france internationale",
 "franceinfo","france info","la tribune","le figaro","libération","liberation",
-"deutsche welle","dw","the independent","marketwatch","barron's","barrons"}
+"deutsche welle","dw","the independent","marketwatch","barron's","barrons",
+"bfmtv","l'opinion","l'express","le parisien","public sénat","france inter",
+"france culture","ouest-france","sud ouest","challenges","capital","le point","l'obs","20 minutes"}
 FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
 NEWS=json.loads(FEED.read_text(encoding="utf-8"))
 DAY=dt.datetime.now(dt.timezone.utc).date().isoformat()
 analyser=pipeline("text-classification",model="ProsusAI/finbert",tokenizer="ProsusAI/finbert",device=-1)
-relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot)\b",re.I)
+relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot|français|française|gouvernement|assemblée|dette|déficit|obligations|taux|notation|réforme|manifestations|grève|émeutes|marchés|finances|publique|publiques)\b",re.I)
 # Context that explicitly says a feared rating action did NOT occur is not negative.
 affirm=re.compile(r"(?:moody.s|fitch|s&p|rating).{0,95}(?:holds?|keeps?|maintains?|affirms?|unchanged|steady)|(?:avoids?|dodges?|spared|spares|no)\s+(?:a\s+)?downgrade",re.I)
 def sentences(text):
-    return re.split(r"(?<=[.!?])\s+(?=[A-Z])",re.sub(r"\s+"," ",text))
+    return re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-ÖØ-Þ])",re.sub(r"\s+"," ",text))
 def assess(text):
     chosen=[s for s in sentences(text) if len(s)>35 and relevant.search(s)]
     if len(chosen)<4:return None
@@ -55,7 +57,7 @@ def get_text(url):
         if not html:return None,None
         text=trafilatura.extract(html,include_comments=False,include_tables=False,
                                  favor_precision=True)
-        if not text or len(text)<800:return None,None
+        if not text or len(text)<500:return None,None
         return text,url
     except Exception as exc:
         print("Extraction failed:",type(exc).__name__)
