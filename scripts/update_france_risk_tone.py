@@ -22,7 +22,7 @@ APPROVED={"reuters","bloomberg","bloomberg news","financial times","ft.com",
 "the washington post","the times","sky news","rfi","radio france internationale",
 "franceinfo","france info","la tribune","le figaro","libération","liberation",
 "deutsche welle","dw","the independent","marketwatch","barron's","barrons",
-"bfmtv","l'opinion","l'express","le parisien","public sénat","france inter",
+"cnn","cnn international","nbc news","nbcnews.com","msnbc","euronews","bfmtv","l'opinion","l'express","le parisien","public sénat","france inter",
 "france culture","ouest-france","sud ouest","challenges","capital","le point","l'obs","20 minutes"}
 FEED=Path("data/france-news.json")
 TARGET=Path("data/france-risk-tone.json")
