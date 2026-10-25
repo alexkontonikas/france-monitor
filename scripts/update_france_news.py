@@ -28,7 +28,9 @@ TRUSTED_PUBLISHERS = {
     "bfmtv","l'opinion","l'express","le parisien","public sénat",
     "france inter","france culture","ouest-france","sud ouest",
     "challenges","capital","le point","l'obs","20 minutes",
-    "dw","the independent","marketwatch","barron's","barrons"
+    "dw","the independent","marketwatch","barron's","barrons",
+    "investing.com","yahoo finance","the telegraph","the economic times",
+    "business insider","fortune","the conversation","france 24 english"
 }
 def approved(source):
     return " ".join(source.casefold().split()) in TRUSTED_PUBLISHERS
@@ -40,7 +42,22 @@ FRENCH_QUERIES = {
     "Bond markets": "(OAT France OR obligations françaises OR taux souverains France OR notation France) when:7d"
 }
 
+ENGLISH_EXTRA_QUERIES = {
+    "Fiscal policy": [
+        "France fiscal deficit budget negotiations public debt when:3d",
+        "French government borrowing spending cuts tax budget crisis when:3d"],
+    "Politics": [
+        "France political crisis minority government confidence vote parliament when:3d",
+        "French prime minister coalition government budget vote when:3d"],
+    "Reforms & protests": [
+        "France demonstrations strikes unions pension reform unrest when:3d",
+        "French protests riots policing economic impact when:3d"],
+    "Bond markets": [
+        "French OAT yields German bund spread bond selloff when:3d",
+        "France sovereign credit rating Moody's Fitch S&P investors when:3d"]
+}
 FEEDS = [(topic, query, "en-GB", "GB", "GB:en") for topic, query in QUERIES.items()]
+FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in ENGLISH_EXTRA_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 items = []
 seen = set()
