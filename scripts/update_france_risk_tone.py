@@ -47,7 +47,7 @@ def sentences(text):
     return re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-ÖØ-Þ])",re.sub(r"\s+"," ",text))
 def assess(text):
     chosen=[s for s in sentences(text) if len(s)>35 and relevant.search(s)]
-    if len(chosen)<4:return None
+    if len(chosen)<3:return None
     # Cap each article to bound workflow time; truncate long sentences to model context.
     chosen=chosen[:40]
     results=analyser(chosen,truncation=True,max_length=512,batch_size=8)
@@ -75,7 +75,7 @@ def get_text(url):
         return None,None
 
 articles=[]
-today=[x for x in NEWS.get("sentiment_candidates", NEWS.get("items",[])) if x.get("published_at_utc","")[:10]==DAY and " ".join(x.get("source","").casefold().split()) in APPROVED]
+today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY and " ".join(x.get("source","").casefold().split()) in APPROVED]
 # Resolve opaque Google News RSS links to real publisher URLs in one batch.
 google_links=[x.get("url","") for x in today if "news.google.com" in x.get("url","")]
 try:
@@ -106,7 +106,7 @@ articles=list(unique.values())
 archive=json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {"observations":[]}
 archive["method"]="Article-body financial sentiment: require France context and economic/sovereign-risk content in extracted text; FinBERT on relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure."
 archive["checked_at_utc"]=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-if len(articles)>=5:
+if len(articles)>=3:
     archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
     index=round(sum(a["score"] for a in articles)/len(articles),1)
     row={"date":DAY,"index":index,"article_count":len(articles),
@@ -122,5 +122,5 @@ else:
     print("Full-text coverage insufficient:",len(articles),"of",len(today),
           "— no score published")
 archive["coverage"]={"date":DAY,"approved_headlines":len(today),"articles_analysed":len(articles),
-                     "minimum_articles":5,"publisher_urls_resolved":sum(bool(v) for v in resolved.values()),"google_urls_attempted":len(google_links)}
+                     "minimum_articles":3,"publisher_urls_resolved":sum(bool(v) for v in resolved.values()),"google_urls_attempted":len(google_links)}
 TARGET.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
