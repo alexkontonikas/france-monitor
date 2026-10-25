@@ -66,15 +66,7 @@ FEEDS = [(topic, query, "en-GB", "GB", "GB:en") for topic, query in QUERIES.item
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in GENERAL_ENGLISH_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in ENGLISH_EXTRA_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
-# Require France plus sovereign-risk or economic-policy relevance in the headline.
-FRANCE_TERMS = re.compile(r"\b(france|french|paris|macron|français|française|elysée|élysée)\b", re.I)
-RISK_TERMS = re.compile(r"\b(budget|fiscal|deficit|déficit|debt|dette|tax|spending|economy|economic|économie|growth|inflation|recession|bond|yield|spread|oat|sovereign|rating|government|gouvernement|parliament|parlement|prime minister|president|président|election|élection|coalition|reform|réforme|pension|retraite|strike|grève|protest|manifestation|riot|émeute|unrest|political|politique|minister|ministre|confidence|censure)\b", re.I)
-EXCLUDED_TERMS = re.compile(r"\b(nfl|steelers|saints|football|rugby|fans|fan experience|game|kickoff|wargame|paratroopers|neighbours|neighbors|architect|albanian|albania)\b", re.I)
-def relevant_headline(title):
-    return bool(FRANCE_TERMS.search(title) and RISK_TERMS.search(title) and not EXCLUDED_TERMS.search(title))
-
 items = []
-sentiment_candidates = []
 seen = set()
 for topic, query, language, country, edition in FEEDS:
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
@@ -101,15 +93,9 @@ for topic, query, language, country, edition in FEEDS:
             if key in seen:
                 continue
             seen.add(key)
-            article = {"title": title, "url": link, "source": source,
-                       "published_at_utc": published.isoformat(timespec="seconds"),
-                       "topic": topic}
-            # Broad discovery pool; body-level economic relevance is checked by sentiment script.
-            if FRANCE_TERMS.search(title) and not EXCLUDED_TERMS.search(title):
-                sentiment_candidates.append(article)
-            # Public headlines require a stricter headline-level relevance test.
-            if relevant_headline(title):
-                items.append(article)
+            items.append({"title": title, "url": link, "source": source,
+                          "published_at_utc": published.isoformat(timespec="seconds"),
+                          "topic": topic})
     except Exception as exc:
         print("Feed failed:", topic, language, exc)
 items.sort(key=lambda x: x["published_at_utc"], reverse=True)
@@ -148,8 +134,7 @@ if len(items) < 5:
     raise ValueError("Insufficient valid headlines; previous published feed preserved")
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
           "source": "Google News RSS (English and French editions; approved publishers only)",
-          "items": selected[:100],
-          "sentiment_candidates": sorted(sentiment_candidates, key=lambda x: x["published_at_utc"], reverse=True)[:300]}
+          "items": selected[:100]}
 path = Path("data/france-news.json")
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
