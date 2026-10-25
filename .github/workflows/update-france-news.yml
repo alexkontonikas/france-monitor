@@ -18,12 +18,13 @@ jobs:
       - name: Install article extraction and sentiment dependencies
         run: pip install trafilatura==2.0.0 transformers==4.46.3 torch==2.5.1 gnews-decoder
       - name: Calculate daily article-text sentiment
+        continue-on-error: true
         run: python scripts/update_france_risk_tone.py
       - name: Commit updated news
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/france-news.json data/france-risk-tone.json
+          git add data/france-news.json data/france-risk-tone.json data/ratings-watch.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh France sovereign-risk news"
             git push
