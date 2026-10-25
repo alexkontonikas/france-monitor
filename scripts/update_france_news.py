@@ -25,17 +25,21 @@ TRUSTED_PUBLISHERS = {
     "politico europe","the washington post","the times","sky news",
     "rfi","radio france internationale","franceinfo","france info",
     "la tribune","le figaro","libération","liberation","deutsche welle",
+    "bfmtv","l'opinion","l'express","le parisien","public sénat",
+    "france inter","france culture","ouest-france","sud ouest",
+    "challenges","capital","le point","l'obs","20 minutes",
     "dw","the independent","marketwatch","barron's","barrons"
 }
 def approved(source):
     return " ".join(source.casefold().split()) in TRUSTED_PUBLISHERS
 
 FRENCH_QUERIES = {
-    "Fiscal policy": "France (budget OR déficit OR dette OR finances publiques) when:7d",
-    "Politics": "France (gouvernement OR assemblée OR premier ministre OR censure) when:7d",
-    "Reforms & protests": "France (manifestations OR grève OR réforme OR mobilisation) when:7d",
-    "Bond markets": "France (OAT OR obligations OR taux souverains OR notation) when:7d",
+    "Fiscal policy": "(budget France OR déficit public France OR dette publique France OR finances publiques France) when:7d",
+    "Politics": "(gouvernement français OR Assemblée nationale OR premier ministre France OR motion de censure France) when:7d",
+    "Reforms & protests": "(manifestations France OR grève France OR réforme France OR mobilisation France) when:7d",
+    "Bond markets": "(OAT France OR obligations françaises OR taux souverains France OR notation France) when:7d"
 }
+
 FEEDS = [(topic, query, "en-GB", "GB", "GB:en") for topic, query in QUERIES.items()]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 items = []
@@ -71,11 +75,42 @@ for topic, query, language, country, edition in FEEDS:
     except Exception as exc:
         print("Feed failed:", topic, language, exc)
 items.sort(key=lambda x: x["published_at_utc"], reverse=True)
+# Reserve space for each category before filling remaining slots by recency.
+selected = []
+selected_keys = set()
+for category in QUERIES:
+    for article in (x for x in items if x["topic"] == category):
+        if len([x for x in selected if x["topic"] == category]) >= 5:
+            break
+        if article["url"] not in selected_keys:
+            selected.append(article)
+            selected_keys.add(article["url"])
+for article in items:
+    if len(selected) >= 100:
+        break
+    if article["url"] not in selected_keys:
+        selected.append(article)
+        selected_keys.add(article["url"])
+selected.sort(key=lambda x: x["published_at_utc"], reverse=True)
+today = dt.datetime.now(dt.timezone.utc).date()
+same_day_count = sum(dt.datetime.fromisoformat(x["published_at_utc"]).date() == today for x in selected)
+if same_day_count < 5:
+    print(f"WARNING: Only {same_day_count} same-day articles")
+french_publishers = {"les echos", "les échos", "le monde", "le figaro", "libération",
+                     "liberation", "franceinfo", "france info", "rfi", "la tribune",
+                     "bfmtv", "l'opinion", "l'express", "le parisien", "public sénat",
+                     "france inter", "france culture", "ouest-france", "sud ouest",
+                     "challenges", "capital", "le point", "l'obs", "20 minutes"}
+if not any(x["source"].casefold() in french_publishers for x in selected):
+    print("WARNING: No French-language publishers")
+for category in QUERIES:
+    if not any(x["topic"] == category for x in selected):
+        print(f"WARNING: Missing category: {category}")
 if len(items) < 5:
     raise ValueError("Insufficient valid headlines; previous published feed preserved")
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
           "source": "Google News RSS (English and French editions; approved publishers only)",
-          "items": items[:100]}
+          "items": selected[:100]}
 path = Path("data/france-news.json")
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
