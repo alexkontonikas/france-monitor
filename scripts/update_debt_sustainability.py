@@ -28,7 +28,7 @@ for year,v in i.items():
  previous=str(int(year)-1)
  if previous in d and previous in n and year in n and d[previous] and n[previous]:
   growth=100*(n[year]/n[previous]-1)
-  r=v*n[year]/(d[previous]*n[previous])
+  r=100*v*n[year]/(d[previous]*n[previous])
   rg.append([year,r-growth])
 data["rg"]=rg
 if not any(data.values()):raise SystemExit("No verified observations")
