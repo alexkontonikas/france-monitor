@@ -224,13 +224,13 @@
       ]
     }
   ],
-  "checked_at_utc": "2026-10-25T23:25:44+00:00",
+  "checked_at_utc": "2026-10-26T08:03:56+00:00",
   "coverage": {
-    "date": "2026-10-25",
-    "approved_headlines": 47,
-    "articles_analysed": 19,
+    "date": "2026-10-26",
+    "approved_headlines": 3,
+    "articles_analysed": 2,
     "minimum_articles": 5,
-    "publisher_urls_resolved": 47,
-    "google_urls_attempted": 47
+    "publisher_urls_resolved": 3,
+    "google_urls_attempted": 3
   }
 }
