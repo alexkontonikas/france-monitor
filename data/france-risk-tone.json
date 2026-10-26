@@ -222,15 +222,70 @@
           "relevant_sentences": 4
         }
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "index": 69.0,
+      "article_count": 6,
+      "headline_count": 8,
+      "coverage_pct": 75.0,
+      "adverse_count": 4,
+      "favourable_count": 0,
+      "neutral_count": 2,
+      "method_version": 4,
+      "articles": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/oct/27/the-chaos-in-france-is-a-warning-signal-for-australias-public-spending-and-rising-costs",
+          "title": "The chaos in France is a ‘warning signal’ for Australia’s public spending and rising costs",
+          "score": 65.5,
+          "relevant_sentences": 17
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/france/20261026-macron-vows-concrete-measures-to-address-student-demands-after-unrest",
+          "title": "Macron vows ‘concrete’ measures to address student demands after unrest",
+          "score": 76.1,
+          "relevant_sentences": 16
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-protestors-plan-general-strike-riots-b3073249.html",
+          "title": "French protesters plan more demonstrations this week ahead of general strike as anger grows",
+          "score": 93.7,
+          "relevant_sentences": 9
+        },
+        {
+          "source": "RFI",
+          "url": "https://www.rfi.fr/en/international/20261026-france-s-macron-leads-congratulations-for-bolsonaro-s-presidential-win-in-brazil",
+          "title": "France's Macron leads congratulations for Lula's presidential victory in Brazil",
+          "score": 49.4,
+          "relevant_sentences": 7
+        },
+        {
+          "source": "RFI",
+          "url": "https://www.rfi.fr/en/france/20261026-french-unions-and-protest-groups-call-fresh-rallies-and-nationwide-strike",
+          "title": "French unions and protest groups call fresh rallies and nationwide strike",
+          "score": 82.9,
+          "relevant_sentences": 12
+        },
+        {
+          "source": "Sud Ouest",
+          "url": "https://www.sudouest.fr/international/europe/la-dette-de-la-france-maillon-faible-de-la-zone-euro-au-coeur-de-la-reunion-de-la-bce-31245732.php",
+          "title": "La dette de la France, maillon faible de la zone Euro, au cœur de la réunion de la BCE",
+          "score": 46.7,
+          "relevant_sentences": 16
+        }
+      ]
     }
   ],
-  "checked_at_utc": "2026-10-26T08:03:56+00:00",
+  "checked_at_utc": "2026-10-26T14:25:51+00:00",
   "coverage": {
     "date": "2026-10-26",
-    "approved_headlines": 3,
-    "articles_analysed": 2,
+    "approved_headlines": 8,
+    "articles_analysed": 6,
     "minimum_articles": 5,
-    "publisher_urls_resolved": 3,
-    "google_urls_attempted": 3
+    "publisher_urls_resolved": 8,
+    "google_urls_attempted": 8
   }
 }
