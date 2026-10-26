@@ -1,19 +1,75 @@
 {
-  "checked_at_utc": "2026-10-26T14:24:09+00:00",
+  "checked_at_utc": "2026-10-26T21:40:49+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "French students vow more protests despite Macron government's concessions",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ29JWE91SUo5Q1BiMHhCZFdKRHhVWWV0YlV2STRCV3ZTNXZCcUVBTzMya0k1QmxyWkpVTWFWNzBscEZ2NXd3ZElSS3gzUEpNUER4ajlyX1d6cVpyMzJ3ZWpITEJJd0RSVU1hb181SkRfTnJWSWUtZEl6WVVxeXcxNnYteUdzanBEak5xOXA4aDkzdUV6bENXeEdSLUlOM3FPZklLdnV6TF9CR3c?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-26T20:35:19+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Protest leaders urge French pupils to keep barricading their schools",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3dOTnBUcnlMMTNjMFN3LXIxMlYwRFcxajdKQ2hieHM3RE5QMXpmZVVEWjlEUkk4VnJoNFpuazRIUTc0bzlZOFdyVUZmdlFfVFdCdVU4YmhKWFNnWUMzb1NrVFlZQ0NSZ21teVpETEJ3S0NTMGtJd1FucDhyNTV3bTZySVBFR21wWHVPZWdwbXNyemtxMjRwQ1FVYVQwakpaMDl5Z0xncmVGUUNsYjFaanFScXZnNUU?oc=5",
+      "source": "The Guardian",
+      "published_at_utc": "2026-10-26T20:19:00+00:00",
+      "topic": "Politics"
+    },
     {
       "title": "The chaos in France is a ‘warning signal’ for Australia’s public spending and rising costs",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZktQZEJZVjlFQXYxOGllcUNNVHVYNEE0dEVMLVhyaUkzVF9aUFNaSldpSTNyeFozaC15U0drVUduemJTRGtwRWdZeXQ1WEptY1BSa0NfNFN1RkpLNEsyeEd1SVpCa2FjRTVreTJWQzlWYjBJdWROVHdjWENaQ1gtQ1FvVm91bEpid0QtSmJRbWl1eUJKeS1xaHN2eXdzVWhzSnotVWVidWlvZTZTa25sWmdHNWRHNExUbzFfbGJNWHBLYkhOeTVfd0lMOV9VR2kzLUE?oc=5",
       "source": "The Guardian",
-      "published_at_utc": "2026-10-26T14:02:00+00:00",
+      "published_at_utc": "2026-10-26T20:13:00+00:00",
       "topic": "Fiscal policy"
     },
     {
-      "title": "France's Macron promises 'strong measures' to assuage protests",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ29JWE91SUo5Q1BiMHhCZFdKRHhVWWV0YlV2STRCV3ZTNXZCcUVBTzMya0k1QmxyWkpVTWFWNzBscEZ2NXd3ZElSS3gzUEpNUER4ajlyX1d6cVpyMzJ3ZWpITEJJd0RSVU1hb181SkRfTnJWSWUtZEl6WVVxeXcxNnYteUdzanBEak5xOXA4aDkzdUV6bENXeEdSLUlOM3FPZklLdnV6TF9CR3c?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-26T13:49:44+00:00",
+      "title": "Bond market’s bizarre blind spot for France has made its crisis worse",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPREluTndkTFdEWE53ZXFSS3VLSGs2YVp3LXVvam1lSXFLbmJUNzQtejFlVDNBVVVOaG56T2FJYUhRWlM1ZnV0YThSS0pBekZRU3RCeXJBWUROOTFnZURsZWp2OFhHRlQ0SDBxYzRkMnhvMll1eFdhaGU4WWFyUjBpY1BQekpDaV9UOXZVODBuMENYaTRwNGYtNA?oc=5",
+      "source": "The Times",
+      "published_at_utc": "2026-10-26T17:57:29+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "French student union leaders call for 'continued mobilisation' after meeting PM",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOEpKcGhIa3hYN3RYbzRteEt4ZzItVlN5UWowdzA0cHdkS3ZLYUVHVGdrME5vRm9MMkZqWHFJSXpOY2dCemtHNWpKS0hBZkVBOGFTYzFWQVg0NXlHcjhuWHpfcFR6N0ZUWXV0aV93bjlHVmljZUxOQWhtMGhnamxadW82N21iRFNZUDZnMXlKa3V0bFlhQUcxYlNyQ1ViX3AtaTFKSW5TRVZrU0hRNEhaOU9SNVpMU2FGZXFrMg?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-26T17:16:44+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "France protests: Macron promises 'concrete measures' over student demands - amid fears of Halloween unrest",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVVo1V0FTNmQ2amxKWTQzeFktRGtxS193bDIwclZoRl91T0oxUGNaRFFaSmVLTDZxSUh5VVlodFU4MVBWWktlaEREVE9NOGFYdmRrOGtTMHN5Ym1VeWswa0JoZmZZbVBmMlJkOTVRb3lRTzNVY2xEU19heFhQT0hLWktXZWEzVV9jMzQ5NEJDUzNEclI3R19vamptNDRLNXhqTG1kNXhHOEdOd2FnUF9MYmNFd1NIZEgxVVF6d1Nn?oc=5",
+      "source": "Sky News",
+      "published_at_utc": "2026-10-26T17:12:49+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France protests: Macron rules out state of emergency – for now",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMWZreEJ5VkdxYnRlOW02TkNlWGYzclNPZXhmRkkxdHo3bGcyR1hWbWF0d1lOaEhiSTAtMVJyVmZLcnNEeklMZ1ZlOW0yTHJzUDFidXJUUFJEcmJvc1JnSU5LM3R3YU9yN2tCak9SYmUzZEVYR05qa1BYRHBScy1NZHBZMkp2Q19ZM0hBX0tGRWw5Nmp3Rl9ONWZidHE4ZzRqdDlQR0dsTUcxVXpaUmtrOTBB?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-26T16:11:32+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France pledges new university admissions to quell student anger. But only after Macron leaves office",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaTRQMlQwek5XUXRNMzFGM0JJOTJxSEYyZzduREpKelFhYk1oZFRXaHR4TTRad0NzZlZWSEtDZHYzVkJMRUhsbVNCSFA4cmZLRExrbllDQTFWbnFOaENHRVlpa0dNVXFGWGgwNlZaNlBZNDQ0bU51ZXBLSGZTRmVvT1lEaGdhWHJmeFlXdkd3LUpha2E2eWM0YjZnaw?oc=5",
+      "source": "AP News",
+      "published_at_utc": "2026-10-26T14:41:11+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Macron promises 'concrete measures' in response to French students' demands",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ210UHFZQThuX3NROS1ESjhKMThLVlJMbnl6VjRxM2dTTVlDOVBIWXNEUXJ0NkVielA3UFY5bGxaLUFCb3NaQmdhdnZ6VnVrUDUzcnNJZ3FrSFQ2cHJmRTJad2dHTU5fN2t1ZHZCR2FsXzlGaGlzcU5wMTJxc3hGNzlYUXR1ZHEzRHRpdmlyeVp2QU5sR0JsWHZTUm9RNXRwMWctaVB6eTR0YlFtQ0VGS1ZVQzVCTmpld01CdDJ4RnhVRDQ?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-26T13:58:56+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Macron promises measures in response to French students' demands after weeks of unrest",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGVKYWRRcGV3blFfZWEzUVFubFNMUDI0OENSb1FUQXFzYzR1VjdJOWw2QkQ1WG9RLVBLYlV0aEpLVUdDNW1sV21KdXR6V284Z01ZUUpBLWNQOUc3N1NuLTFYUk1FN0RpX0pEamxaVURsQmZSZ3JOb3p1b0tzQ05pTndCWnN5N1o5R0pJeDlHUldMa3FZZlRaLWVwczBKUQ?oc=5",
+      "source": "The Independent",
+      "published_at_utc": "2026-10-26T13:47:00+00:00",
       "topic": "Politics"
     },
     {
@@ -31,6 +87,13 @@
       "topic": "Politics"
     },
     {
+      "title": "France's Macron accuses social media of sowing discord ahead of election",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLTVpQy1fWGpTZGxuYlM4Z3dhbDZLQ1lxalVoWTM0TEowOEhkanQxbFRWN3cxZV85bk40OWgwdGNVcDBRRGI0MmlDSTJEM1pLV0YwcmktRFFwWTJMOFhoT0NwMC1JM3JyR3VmMkVhQnBQYzhfXy00b25yOGk2Qld5aC1vYTZPRG5WZlFTd3ZMX0MxR1psdXR1Tm9GdlJtWlFHNXJ3QTRUaw?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-26T10:46:54+00:00",
+      "topic": "Politics"
+    },
+    {
       "title": "French protesters plan more demonstrations this week ahead of general strike as anger grows",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYUFETjBjZXdkR2N4T05ocHdCaE1mS1ExMWNBZFFUZzNvejJ4TlB4R3g1YkdLa3h1cDlFX012d0ZscmhPVzRxMFRIRFF1QjZyZUIwRmU0VDMtWXhlWlVsZ0FQM2R0aTZMODc3UUxSUW5pendPaEE5c2FjcnVhb29rb2tNS1RsbC1pNlRfbEY2OTNBQWJWWTExQkl0dkZJSXlvSG5sb29DYVk?oc=5",
       "source": "The Independent",
@@ -38,25 +101,18 @@
       "topic": "Politics"
     },
     {
-      "title": "French bond selloff eases as country spared ratings downgrade",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVc5R0Z6TTlKS1VILTh2QkhNMzhRM0VwRmJEV2J2NnVtM2NPRDR3NTh6c3dYRktTbUlpYlZHYVVsZjdWZkp2MkZaa0gwcEhOaTA4em5OWUFtVWhkYUYwRW10YUtPWXpuREpmMTQwbFkweHpnWDBYeGE4R3Y3bllYMUlFM3N6YWJkTXA3Mk5GUTR4NDQwZ1c1WVRveTRmcWVzbkZYaklmYlhLajhHQjVBOThxNnc5UFZBcXR6UE52UGdpVW0wOXhXMdIBzgFBVV95cUxPeDF4OUlvdWNLdW44UmJYMzd4eEsyTzVZU3ZSOTkwUk5aZWd2Y1RTS3BweUNjR3JGNlFQbklldVRIN3JpZFVhb2FEeFJBZk1fTkE0UXlabHlSYWFRUzJSNVhCVEoxS21XM29qTjBuU1V2VEo1QWI3Tlg1SDlqSlVUWlQ2eDZRUzROcmdpODBrN0pXTUlBYWctbmllSWlqbWRBeGFYc0I1MUdIT2lERVZfQUcySEV3TUxJdUItLWxvM3R5cnVQc29jRndMWE0xQQ?oc=5",
-      "source": "The Economic Times",
-      "published_at_utc": "2026-10-26T08:31:56+00:00",
-      "topic": "Bond markets"
-    },
-    {
-      "title": "France's Macron leads congratulations for Lula's presidential victory in Brazil",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS21MaUFXR09vejEySjlVWnN4NmlvVlpwZmFZWnFvUjM5MFFWMWhPTTFrcU5aNGlaaWFmVEtnTmNPRkRqbklCQWtpM0hzUjBOeWxnNFUzVk44Y3liLXdlQkdHNjRrSmVvenhjdWxaLXZveFg4Z3Q4Uk1fZGJwRUJTV3dKaUs2VDhhZE1MaENGS3pSdXVyWWNxRHZvZUdjTE8zM1dhNzFIOElMOGYtOHV4aS1feFFJcUwtd2tTS3JPRGRoUlE?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-10-26T08:18:59+00:00",
-      "topic": "Politics"
+      "title": "France Protest Updates: Hundreds of Thousands March Amid Heavy Security",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81czdlcjVNUjBwb0g2dGNHaldFazEzUkI3bzhKeXVpTHBpMGdJNXBqZVBlT2pFZzROdTJ0dzBoSURnU2N0VzBNY3BER3VLM3ZreUVMRHJKdG1oc3ZiaEJvcHZIVjUtVGlWeFRqcjdMUnJkb09QT0E?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-26T09:41:00+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "French unions and protest groups call fresh rallies and nationwide strike",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb1Q5X2I0b3ZzMjF3M203dTRZMUVBRnZ0MnRtc2dhTk5JbHJyS1l1TmJLMnFhdzRyNDlFeTRQVWtmSm9lTWdUR0dNeUR2YW1NRmtNaHh4dDdROXFZU2NWbWI4RFhNa2MtLUtLTy1DTmVHUmJSZUp1dHJKbGhEMnNBYWJtb0NDZy1HVWJXNDk2WE9NdDhEZlJMTWVrY0FYTHh0aFN3eEdMTEJFQTJyZlRmQQ?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-10-26T07:07:35+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
     },
     {
       "title": "France relief may be temporary as debt pressures persist: Syz CIO",
@@ -64,6 +120,13 @@
       "source": "CNBC",
       "published_at_utc": "2026-10-26T06:49:00+00:00",
       "topic": "Fiscal policy"
+    },
+    {
+      "title": "French bonds rally after Moody’s rating reprieve",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN0tHRndOUXpFUzZURmdJMWlMMk5sZ0Y0MlpXRjc2cldBMmhBZTFhbDFNUFprUUJiRExfUVFIZ1pTQ1d1YUFsaVBhRUVYZlZ6RDB3RGdOaFJIUHJYVndmZDYxVXNTMXZfeWZhRTNkeEhQVVpnZElIVVlSbHI4cF96b0JzQmc?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-10-26T06:16:21+00:00",
+      "topic": "Bond markets"
     },
     {
       "title": "La dette de la France, maillon faible de la zone Euro, au cœur de la réunion de la BCE",
@@ -91,6 +154,13 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb0dLRGRZNmgyYkpvTGttQVBhWmRkNUtlNXhLVVEzc25fMW8tYXUzeEY5a0NnMUpZbV8zbHpyNTNqeUVBZkJHTkxEOWpMRkx2amkwWDlRemVESjI1SXYxUUNycV9uRzllS0theFdfdUlxdkJ0cnBGNEllRE8yY1g3cE1RdFRFQ3pTVHpWbDBJbjhpSFhXWjJYWFZMVktyUko1cGc?oc=5",
       "source": "The Guardian",
       "published_at_utc": "2026-10-25T20:30:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "France’s Le Pen vows national ‘renewal’ in campaign launch",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZkNCSVMxMkNFVkRQWnRadndqb1JTYlppdVdMSWt4QUVaYUFZbHlBaFpTRUlYb243T3lISjhHVnpFd0V6R3Y5YjdIX1BfZ0QxZHd5YmRkNmdPQWJFWTRkbHVnZU16N2lTRlFvR0N0RGlCOEw4MnVMZTdFNkFKNkp0V0NCSmw?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-10-25T17:47:48+00:00",
       "topic": "Reforms & protests"
     },
     {
@@ -126,7 +196,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVI3Z2dhdUZWdnlXRGtrZUJpREY5UWI3YnNuejhzY01LMTBxZEJYOVNhaUxYSFI1aDQ5NUlZWExCSFZ2algyMVIzeDR6Mi0zRnBnd0dBaWFSXzJRU1pyZWRjOTRQSGp4N2dMTTRjazhyems5amVkQS13dXZ6RjZobnZXZ1pxLUNfV0pCUkc0QU15c1V6N2xwcTFaa0I?oc=5",
       "source": "The Telegraph",
       "published_at_utc": "2026-10-25T15:36:00+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
     },
     {
       "title": "French far-right leader Le Pen seeks to leverage unrest in presidential campaign kick-off",
@@ -136,24 +206,10 @@
       "topic": "Fiscal policy"
     },
     {
-      "title": "Far-right leader Le Pen says visible policing keeps protests smooth",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHNjdFFqM2hBTWxtQXhWR1hpemVmWXVGNWt2Zk9WWjFFSlRQbkI2dzZpR3pPTGFENmtqZzE4UHFwWWhEU2JHNmJoeFkzQUNadG84eGtQMDZTQ25jNnJEMGNhU2R5LUJPS01xNHdVbzVwRUFfbkN5cURmdEE1NU5WXzZRXzc4UmgxRGp3SU1zOVNLWjA0aEktZlpmYw?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-25T11:36:37+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
       "title": "France reports 1,314 arrests after protests as police defend security operation",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWUpuVFN4Y3VNa19maHlXbkxCT1ZHa1NYaW9SZTNmbUpJSE5Hc2ZRZWpDQVVaWmF5RlZJLWxxSlRpMnpxSl9xRWFqRmhFbV9LU0dmM1hIdTFDaU9OVldmVE14OXN6ZFBKZGh1U3hMdkM0UGlIOHRheV9RTGgxY2g5cm5JX1puZTBQSEhKN2QyNjB6U1BRUjMzSUswMnU4THR3RHFsVGtldzlUWm05NE8zTEc0T0Q5cnZJ?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-10-25T10:33:44+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "More than 400.000 protest across France",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83Uy1vME9xYXhmb2txdk9JaXdOdFFtMldsRFJTV29jTDVvUzFsRm9kUFlxMmVpdWhycmtraTE0MERobW9Ta1U5VGllcUlyUlM1ZkRDM1FwVWZCSnVudEZyQmdfYU5wN29qd044UFNwaDh0aDJ1UlE?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-25T09:27:43+00:00",
       "topic": "Reforms & protests"
     },
     {
@@ -172,9 +228,9 @@
     },
     {
       "title": "Viral: Batman spotted at France student protests against Macron government",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbVdnT1pzMzJNWUZ1aHVwbE1VaFU5RnQ3WHplS3h0MWh3SEJybE1EZ2UtVGZhbGdhdEdxZW44Z043WkFTY1dIcHVlZWRDWlJWMHVhaUpSYUxucXFDZDVHeWJrR0k3c1NpQ3psT2F6bWs2bmZURU43M0F2UXAxZDZGbEg2M2ppdEpJVUpQZHMyblc2Z1dKcTJuSTRtVUoyR2VZczJHTC1Zb19UcmVDb0pTV1FTbEtnMWNJQzB2dWk5WHNUME9YMjJtS0RaVURsY29aQ0hXT2V2b1JoVnPSAeABQVVfeXFMTlk5eFRDdVRmdF9NNmpGaDlfZFFKcUVjYUNmLURTRWJTYzNUdzJLeHh3aEtqQzlmWHYwcWw5aU1qVWtsc1A1TzQtSEZGX3ZhcUQ1bktxNUY5U2VpOS04VUg3T2tNSktYWDRkRV9aX1VFUm9wdHlraEdzOUxrNkVoYUo3bzJMWWpLYy1DUnBkWVlPdHFEa0lWSHhaektQOTJ5SGxpTHdzVXFsdXB2SkpSNEU1aGlUWnM4dWwtLUc3dXpxcUpZOEJnMFZ3RU5RWFpfQnhlOTZ0OTF5YXNqWXZ3U08?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWTl4VEN1VGZ0X002akZoOV9kUUpxRWNhQ2YtRFNFYlNjM1R3Mkt4eHdoS2pDOWZYdjBxbDlpTWpVa2xzUDVPNC1IRkZfdmFxRDVuS3E1RjlTZWk5LThVSDdPa01KS1hYNGRFX1pfVUVSb3B0eWtoR3M5TGs2RWhhSjdvMkxZaktjLUNScGRZWU90cURrSVZIeFp6S1A5MnlIbGlMd3NVcWx1cHZKSlI0RTVoaVRaczh1bC0tRzd1enFxSlk4QmcwVndFTlFYWl9CeGU5NnQ5MXlhc2pZdndTT9IB4AFBVV95cUxOWTl4VEN1VGZ0X002akZoOV9kUUpxRWNhQ2YtRFNFYlNjM1R3Mkt4eHdoS2pDOWZYdjBxbDlpTWpVa2xzUDVPNC1IRkZfdmFxRDVuS3E1RjlTZWk5LThVSDdPa01KS1hYNGRFX1pfVUVSb3B0eWtoR3M5TGs2RWhhSjdvMkxZaktjLUNScGRZWU90cURrSVZIeFp6S1A5MnlIbGlMd3NVcWx1cHZKSlI0RTVoaVRaczh1bC0tRzd1enFxSlk4QmcwVndFTlFYWl9CeGU5NnQ5MXlhc2pZdndTTw?oc=5",
       "source": "The Economic Times",
-      "published_at_utc": "2026-10-25T06:46:22+00:00",
+      "published_at_utc": "2026-10-25T06:33:00+00:00",
       "topic": "Politics"
     },
     {
@@ -182,13 +238,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTGw1NnRIYUVRUXBHa2x6LURLaHAwZVJERzFPZDRxSzBWeHRxV0JZaDJtNW11aF8wQ3NwalNRODBnZTRPbkJlWFJRNFhCOU15VWlJR09qUmwybm9rdEtIVXNwVEpKelZXaUxlNFpNelJBbXhybGppRGdWVW9PV3BOVnBSSzBZNW1qY1FUZ0ZQZUlKNjBXaW1hN0NjZlgwQ084TmtCQQ?oc=5",
       "source": "The Independent",
       "published_at_utc": "2026-10-25T06:07:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "France Protests Live Updates: Protesters March Across Cities as Police Seek to Prevent More Riots",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81czdlcjVNUjBwb0g2dGNHaldFazEzUkI3bzhKeXVpTHBpMGdJNXBqZVBlT2pFZzROdTJ0dzBoSURnU2N0VzBNY3BER3VLM3ZreUVMRHJKdG1oc3ZiaEJvcHZIVjUtVGlWeFRqcjdMUnJkb09QT0E?oc=5",
-      "source": "The New York Times",
-      "published_at_utc": "2026-10-25T02:26:00+00:00",
       "topic": "Reforms & protests"
     },
     {
