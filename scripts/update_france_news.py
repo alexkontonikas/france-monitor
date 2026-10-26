@@ -109,6 +109,11 @@ for topic, query, language, country, edition in FEEDS:
                           "topic": topic})
     except Exception as exc:
         print("Feed failed:", topic, language, exc)
+# Publish only articles dated today or yesterday (UTC), on every refresh.
+today = dt.datetime.now(dt.timezone.utc).date()
+earliest = today - dt.timedelta(days=1)
+items = [x for x in items
+         if earliest <= dt.datetime.fromisoformat(x["published_at_utc"]).date() <= today]
 items.sort(key=lambda x: x["published_at_utc"], reverse=True)
 # Reserve space for each category before filling remaining slots by recency.
 selected = []
