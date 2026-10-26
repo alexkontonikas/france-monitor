@@ -67,10 +67,10 @@ FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in GENERAL_E
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in ENGLISH_EXTRA_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 # Reject unrelated international, sport and entertainment stories before publication.
-FRANCE_TERMS = re.compile(r"\\b(?:france|french|français|française|françaises|paris|macron|le pen|bardella|bayrou|lecornu|assemblée nationale|elysée|élysée|lyon|marseille|oat|bunds?)\\b", re.I)
-POLICY_TERMS = re.compile(r"\\b(?:budget|fiscal|deficit|déficit|debt|dette|tax|taxes|impôts|spending|dépenses|economy|economic|économie|économique|growth|croissance|inflation|recession|récession|government|gouvernement|parliament|parlement|assemblée|minister|ministre|macron|le pen|bardella|confidence|censure|election|élection|coalition|reform|réforme|pension|retraite|strike|grève|protest|manifestation|riot|émeute|union|syndicat|unrest|bond|obligation|yield|rendement|spread|oat|rating|notation|sovereign|souverain|investor|investisseur|police|policier|curfew|couvre-feu|arrest|interpellation)\\b",re.I)
-OFF_TOPIC = re.compile(r"\\b(?:nfl|football américain|grand prix|formula 1|formule 1|f1|verstappen|motogp|tennis|champions league|ligue 1|nba|olympic|olympique|rugby|celebrity|célébrité|box office)\\b",re.I)
-FOREIGN_FOCUS = re.compile(r"^(?:sénégal|senegal|albania|albanie|spain|espagne|ukraine|russia|russie|italy|italie)\\b",re.I)
+FRANCE_TERMS = re.compile(r"\b(?:france|french|français|française|françaises|paris|macron|le pen|bardella|bayrou|lecornu|assemblée nationale|elysée|élysée|lyon|marseille|oat|bunds?)\b", re.I)
+POLICY_TERMS = re.compile(r"\b(?:budget|fiscal|deficit|déficit|debt|dette|tax|taxes|impôts|spending|dépenses|economy|economic|économie|économique|growth|croissance|inflation|recession|récession|government|gouvernement|parliament|parlement|assemblée|minister|ministre|macron|le pen|bardella|confidence|censure|election|élection|coalition|reform|réforme|pension|retraite|strike|grève|protest|manifestation|riot|émeute|union|syndicat|unrest|bond|obligation|yield|rendement|spread|oat|rating|notation|sovereign|souverain|investor|investisseur|police|policier|curfew|couvre-feu|arrest|interpellation)\b",re.I)
+OFF_TOPIC = re.compile(r"\b(?:nfl|football américain|grand prix|formula 1|formule 1|f1|verstappen|motogp|tennis|champions league|ligue 1|nba|olympic|olympique|rugby|celebrity|célébrité|box office)\b",re.I)
+FOREIGN_FOCUS = re.compile(r"^(?:sénégal|senegal|albania|albanie|spain|espagne|ukraine|russia|russie|italy|italie)\b",re.I)
 def headline_relevant(title):
     return bool(FRANCE_TERMS.search(title) and POLICY_TERMS.search(title)
                 and not OFF_TOPIC.search(title) and not FOREIGN_FOCUS.search(title))
