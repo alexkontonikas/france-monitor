@@ -1,13 +1,34 @@
 {
-  "checked_at_utc": "2026-10-27T11:16:35+00:00",
+  "checked_at_utc": "2026-10-27T13:22:41+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
-      "title": "French consumer confidence hits 13-year low after riots",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ0JmLXVDckVlTWpEdTkxRTRXYWdCSC04b0M2clZjWE5yWWhLMmVpeDRReEVaSjJXdlZrN01XMWV4WndkeTBUd0N4c2RyUHJSMGZNbGMxcWFaT1hnZVR3VHRYcHloZVNvSVVJZVMwV1lUR2VtX2ktX3Jrenc5N3VWcnpXQ2NiVHVNMXhzdFZhUXFiXzUyeGhEV2l5Nk53MkZQbGI0SHZZdw?oc=5",
-      "source": "The Telegraph",
-      "published_at_utc": "2026-10-27T10:51:00+00:00",
+      "title": "French government concessions to students 'tactically shrewd' but risk creating new set of problems",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWlZ0WXBRa2dGd01wbFhWNlk4MDdfenVmMXdDYjREV3NjZFhHcGhodndZWm1lQUIyQzk1dzkwNU5BaGNDUWNXRXR1SEJqRnpRX1oyZFZ5ZGlybDJ0RFNjMHVGVU1tREMtcDdERFZXLW1WckZSRlJCa19tVzNZaVRyRzBsaDZZWncwUkd0Z0ZnN1JyYWs2QklUdk9YQU5XaVQ4NnNBVFZDQ2ZuYS1mZGtiOW9yaEYxenBOUVJFMGlQUHNDckE?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-27T11:05:24+00:00",
       "topic": "Reforms & protests"
+    },
+    {
+      "title": "French consumer confidence hits 13-year low after riots",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTUp3UGQ3ZXE3Y0FaR0cyQmNWWTFva1JTa0NSaFRlZzdGNjhrY1NNOExRMUlLVXB3eW5DRGYwUnJoOUdTM1VFcGUtTUEyM1hKakI0NmNCaUI4WHRwdVhQekdtaTNMR1dzdTRkbUR4RnVNdDF1WmlmbmNwT2NWZW50X0xCSERfdHJfVWp3YlZKOXpWbWx5eV84?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-27T10:51:56+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "French protests: Student union leaders vow to keep mobilising",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXZWSG45OUZzdjRjVEVaSFowaWk3YU41ajBBV3dsSk5jX3RQcVhydEx1UzlycXJSMFJsVlVHX0stUjAtdTJub3NDdmxQQlIxOGNGWC14UzhxYWpmZFpwSUFpRGFucmxPTkRmeXZRLXBWSGNBRk56eFlzMkxELWh4Sy1IX2RnSkFmdVFGV2tBNmNUUXlFRDh3Q2FoUUpHRXpYb0g0ckpR?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-27T10:51:41+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "French yields edge higher as Moody’s relief fades; Israeli election in focus",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTmgtenhjQ1NkVzRiaDdKYWJlcXJVcjI5Ym9IZEl3NUVPdi1PLXlQRHU1blZCVlpPektpRjI4NlJiWmYxTGV0NWF5RHdjT0VEQ3puNHpEYkI0X1FFLU9Kb3QwTVAxYTZqMUJPRFpDQ0l0c1BhM1VMcFltdzJ4SEJZMkFkMzRxTWowVnFVal90T1pkY1htUWFsV25KTlBvNnJQU1d2VmlHVk9UMHVQSUpOZWV0UGMzTkYxV0Q3YzVwem9Jdw?oc=5",
+      "source": "Investing.com",
+      "published_at_utc": "2026-10-27T09:15:54+00:00",
+      "topic": "Bond markets"
     },
     {
       "title": "French consumer confidence hits a 2013 low in October amid protests",
@@ -17,7 +38,7 @@
       "topic": "Reforms & protests"
     },
     {
-      "title": "France's Macron vows to stand firm against disorder during visit to Marseille",
+      "title": "Macron vows to stand firm against disorder during visit to Marseille",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORThNLXozOVRjSS12X3lRTE1JbDk1MDFoNEhNRXE2ZkFpRFc2WEdBd0R1S3ByU19YQzhQT3FVREZVVjFBcHpvWnhIMFJZMWJhUzBDUGRDQm83YTBrSWJDbm0tSFMxNDhmUExENlRVOTlQNDZIU2pZR3FqWldVcXRuMDhZajNMMmM4Wmt1SW5GVFo0c0VKdjZadThSMkFvYXVvZ1lqeVI1bzl0MDl5LW9Ya0MwYm1oZw?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-10-27T07:19:35+00:00",
@@ -27,7 +48,7 @@
       "title": "France must ‘cure ourselves’ without more spending, says finance minister",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY25rdFlEcVdFdHY5bEoyM2NkLTlXNWtUUXVjTWtINmdaQ1prcnhOUVBlNmNBRndPTVdzM2h1dDNpLXIzbVRIbWQ0eEdpUkt5RGZDU0lKaVJ2dXNUZkJPYVNnNl9QYlNXMFBrLW9ybTlnWjBvdWszN0QwNnBjaEpuMHBWOWs?oc=5",
       "source": "Financial Times",
-      "published_at_utc": "2026-10-27T05:00:28+00:00",
+      "published_at_utc": "2026-10-27T05:01:46+00:00",
       "topic": "Fiscal policy"
     },
     {
@@ -94,6 +115,13 @@
       "topic": "Politics"
     },
     {
+      "title": "Macron promises measures in response to French students' demands after weeks of unrest",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGVKYWRRcGV3blFfZWEzUVFubFNMUDI0OENSb1FUQXFzYzR1VjdJOWw2QkQ1WG9RLVBLYlV0aEpLVUdDNW1sV21KdXR6V284Z01ZUUpBLWNQOUc3N1NuLTFYUk1FN0RpX0pEamxaVURsQmZSZ3JOb3p1b0tzQ05pTndCWnN5N1o5R0pJeDlHUldMa3FZZlRaLWVwczBKUQ?oc=5",
+      "source": "The Independent",
+      "published_at_utc": "2026-10-26T13:47:00+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
       "title": "The Economist's Zanny Minton Beddoes: France's unrest is about welfare, not migration",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXFHZFpLaUdQWE56RjctQTdtZmloM2VRa1NyQUtrOGpNQUpIVTFFTFBmT1RzeTN0Q21pN2VkR05Xc3lTQXFPc3ZmYVdqOGRkcjV3MHpZWGtwaUgxOTZ4UWJ6WVlHbmlnaGt4WHdvNzRUQ0doQVFqMkNPa29BaHB0UTV6VTBub01jY0IwcEpQQVFtUUVyZ0xsUFNXakwweFpINDhzdnhSOFlGUFB2d1ZkSVctMk1JTmZLcTJ5bGFCQm43QQ?oc=5",
       "source": "CNBC",
@@ -115,11 +143,11 @@
       "topic": "Reforms & protests"
     },
     {
-      "title": "French protesters plan more demonstrations this week ahead of general strike as anger grows",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYUFETjBjZXdkR2N4T05ocHdCaE1mS1ExMWNBZFFUZzNvejJ4TlB4R3g1YkdLa3h1cDlFX012d0ZscmhPVzRxMFRIRFF1QjZyZUIwRmU0VDMtWXhlWlVsZ0FQM2R0aTZMODc3UUxSUW5pendPaEE5c2FjcnVhb29rb2tNS1RsbC1pNlRfbEY2OTNBQWJWWTExQkl0dkZJSXlvSG5sb29DYVk?oc=5",
-      "source": "The Independent",
-      "published_at_utc": "2026-10-26T10:23:00+00:00",
-      "topic": "Reforms & protests"
+      "title": "France's Macron accuses social media of sowing discord ahead of election",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLTVpQy1fWGpTZGxuYlM4Z3dhbDZLQ1lxalVoWTM0TEowOEhkanQxbFRWN3cxZV85bk40OWgwdGNVcDBRRGI0MmlDSTJEM1pLV0YwcmktRFFwWTJMOFhoT0NwMC1JM3JyR3VmMkVhQnBQYzhfXy00b25yOGk2Qld5aC1vYTZPRG5WZlFTd3ZMX0MxR1psdXR1Tm9GdlJtWlFHNXJ3QTRUaw?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-26T10:46:54+00:00",
+      "topic": "Politics"
     },
     {
       "title": "France Protests Live Updates: Protesters March Across Cities as Police Seek to Prevent More Riots",
