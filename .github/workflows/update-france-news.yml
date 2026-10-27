@@ -1,5 +1,10 @@
 name: Update France news and politics
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_france_news.py'
+      - '.github/workflows/update-france-news.yml'
   schedule:
     - cron: '20 7,12,17,21 * * *'
   workflow_dispatch:
