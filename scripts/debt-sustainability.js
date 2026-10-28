@@ -7,14 +7,15 @@ const fiscal=[["debt","Government debt","% of GDP"],["deficit","Government defic
 const forecasts={debt:[[2026,118.1],[2027,120.2]],deficit:[[2026,5.1],[2027,5.7]],interest:[[2026,2.6],[2027,2.8]],primary:[[2026,2.5],[2027,2.9]],inflation:[[2026,2.4],[2027,1.8]],gdp:[[2026,0.8],[2027,1.1]],unemployment:[[2026,8.3],[2027,8.7]]};
 const layoutStyle=document.createElement("style");
 layoutStyle.textContent=`
-#ds-content .ds-summary-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}
-#ds-content .ds-summary-card{min-width:0}
-#ds-content .ds-summary-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}
-#ds-content .ds-summary-values>div{min-width:0}
-#ds-content .ds-summary-label{min-height:2.8em;line-height:1.4}
-#ds-content .ds-summary-value{font-size:26px;font-weight:700;line-height:1.3;white-space:nowrap}
-#ds-content .ds-summary-value.forecast{color:#f5bd68}
-@media(max-width:700px){#ds-content .ds-summary-grid{grid-template-columns:minmax(0,1fr)}#ds-content .ds-summary-value{font-size:clamp(18px,6vw,29px)}}
+/* Forecast summaries: one labelled value per row. */
+#ds-content>.grid:first-child{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))!important}
+#ds-content>.grid:first-child>.card{min-width:0}
+#ds-content>.grid:first-child>.card>div:nth-child(2){display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:12px!important;margin-top:16px}
+#ds-content>.grid:first-child>.card>div:nth-child(2)>div{display:flex;align-items:baseline;justify-content:space-between;gap:12px;min-width:0}
+#ds-content>.grid:first-child .ds-summary-label{min-height:0}
+#ds-content>.grid:first-child>.card>div:nth-child(2)>div>div:last-child{font-size:26px!important;line-height:1.3;font-weight:700;white-space:nowrap;flex-shrink:0}
+@media(max-width:700px){#ds-content>.grid:first-child{grid-template-columns:minmax(0,1fr)!important}}
+
 `;
 document.head.appendChild(layoutStyle);
 let tab="fiscal",data={};
