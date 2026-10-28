@@ -298,63 +298,15 @@
           "relevant_sentences": 16
         }
       ]
-    },
-    {
-      "date": "2026-10-28",
-      "index": 69.8,
-      "article_count": 5,
-      "headline_count": 7,
-      "coverage_pct": 71.4,
-      "adverse_count": 3,
-      "favourable_count": 0,
-      "neutral_count": 2,
-      "method_version": 4,
-      "articles": [
-        {
-          "source": "franceinfo",
-          "url": "https://www.franceinfo.fr/politique/bruno-retailleau/un-projet-qui-n-est-pas-le-bon-pour-la-france-bruno-retailleau-balaie-la-main-tendue-du-rn-en-vue-d-un-eventuel-gouvernement-d-union-des-droites_8257030.html",
-          "title": "\"Un projet qui n'est pas le bon pour la France\" : Bruno Retailleau balaie la main tendue du RN en vue d'un éventuel gouvernement d'union des droites",
-          "score": 50.0,
-          "relevant_sentences": 6
-        },
-        {
-          "source": "RFI",
-          "url": "https://www.rfi.fr/en/france/20261028-french-media-protest-manhandling-of-journalists-at-far-right-party-rally",
-          "title": "French media protest manhandling of journalists at far-right party rally",
-          "score": 81.7,
-          "relevant_sentences": 7
-        },
-        {
-          "source": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/assemblee_nationale/4258147-20261028-budget-2027-yael-braun-pivet-incite-sebastien-lecornu-activer-49-3",
-          "title": "Yaël Braun-Pivet incite Lecornu à « activer le 49.3 » sur le budget 2027",
-          "score": 46.7,
-          "relevant_sentences": 8
-        },
-        {
-          "source": "RFI",
-          "url": "https://www.rfi.fr/en/international-news/20261028-french-senate-weighs-bill-to-make-protesters-pay-for-unrest-damage",
-          "title": "French Senate weighs bill to make protesters pay for unrest damage",
-          "score": 86.5,
-          "relevant_sentences": 9
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261028-french-senate-weighs-bill-to-make-protesters-pay-for-unrest-damage",
-          "title": "French Senate passes bill to make protesters pay for unrest damage",
-          "score": 84.0,
-          "relevant_sentences": 12
-        }
-      ]
     }
   ],
-  "checked_at_utc": "2026-10-28T14:11:17+00:00",
+  "checked_at_utc": "2026-10-28T21:47:51+00:00",
   "coverage": {
     "date": "2026-10-28",
-    "approved_headlines": 7,
-    "articles_analysed": 5,
+    "approved_headlines": 9,
+    "articles_analysed": 3,
     "minimum_articles": 5,
-    "publisher_urls_resolved": 7,
-    "google_urls_attempted": 7
+    "publisher_urls_resolved": 9,
+    "google_urls_attempted": 9
   }
 }

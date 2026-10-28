@@ -1,34 +1,48 @@
 {
-  "checked_at_utc": "2026-10-28T14:07:36+00:00",
+  "checked_at_utc": "2026-10-28T21:44:17+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
       "title": "Opinion | The bond market, boring no more. Just ask France.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSHMxM3dLckU3ZF85UDNWeTZxZTMxeWo3a0FPbGZoQmhkdWYzSXdUdUpGVW5hNjVxLWpXeDloREFLbndEbEVFM0Y3OGIwUXZOdmdxYlpDQk80Zlhnazl2d2stV0wyUVcxaEN2NElJWlRnRG82Q1FEUzdFVGVMel9tWUtQWFFTSFRjUk11WHptaWFfbjZOMm54Mk1GaUFQYk5zNUswMklmdm12d0FHbkhB?oc=5",
       "source": "The Washington Post",
-      "published_at_utc": "2026-10-28T14:02:48+00:00",
+      "published_at_utc": "2026-10-28T18:00:00+00:00",
       "topic": "Fiscal policy"
     },
     {
-      "title": "\"Un projet qui n'est pas le bon pour la France\" : Bruno Retailleau balaie la main tendue du RN en vue d'un éventuel gouvernement d'union des droites",
-      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOc2oxSUkzME45RXp5TTdlSDZXdXFMSEYtYmtNQTRMOG4zSjRlZUV6LVg5UFlpV0NNSVBsR1BEdUpkQ28tTTZyS2gzUnJVMFgyTEQ4Z1A4alNwR0Vlb3RiZUZ5RnZRcnl0aDZNdllCQzZUclFOWHd1anYwY2psSFRYNmlsb2lHWTdDbHBtUDRuMnppSi1YZFFZcy1HbkJqSmdMa3ExbEtUN2tYQzc5eDk5YXBGc0RfSmprMjBGMVRRYmxaNS1RN2ZvOUdvRHJmdnVISmVPWllFSVVsb1RuYXBIbXZzMWdYZWtPRjR5VUZ1RkZRbTdJcDFOaTRXeG5qZ3IzRnpoLUxMNjBUdXYteG1Fc3o2TDZjLUFnXzZSZFFBeF9vT3BYUUpkZE42M2F0OUhhSVU0bA?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-10-28T09:28:51+00:00",
-      "topic": "Reforms & protests"
+      "title": "La France ne sortira pas de l’impasse budgétaire sans augmenter les impôts",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU0VIT3pVRV9lRjJpSzFOZjlKRzhLNmVvS2o0X25jdEgyWnp5Rng0c29pdWdiRW9HZnpUNmZkMWRPT0hfVkhrbWxPY01yMm5MaUYyRFJGNGIxWXFKMmFYTTh4RFV5eXlxNnVlVW9QTjFkbU5HUjloMDI0ZUd4VkdlcGEybVd1dUVfZGtmTVV5SjE1S29tT2psNjVJeU8xSzdsel9OaWhIaGs0VlZTTDdUODV6WGdPUE42dmVOcExsZ1BnN0ZzX2lvM29PZ3hxN1owcjNzQXd5YW9VU0FpNEJYcVhQQVBFUXRNN1M2dEtLT1pIdTg?oc=5",
+      "source": "Libération",
+      "published_at_utc": "2026-10-28T16:13:09+00:00",
+      "topic": "Fiscal policy"
     },
     {
-      "title": "Eurozone yields push higher as French spread relief fades; Fed, ECB eyed",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSlBnYVNnaGpLWDhrcDNEbmZsOHBPcWNMUFpJaHVmU28ybzRsTWRmNDZyWHJrN0JwQmhZblp5S3ItS1Z3VFBkQVZRaUZGYWN3elhBWGNPNEZqTkZOQ3c3WEFoZjhGYjdBcElUX1V2ZjNVaVNjRnduTXNRdjFlSWRheXpDM2RYdFpXVWMxdWtOR0oyYW1ITEkwVkZ4dGxndm5zWmM1ZzZ0aGNGYzlaNGR4VlIyd05Mb3R1N2tvMg?oc=5",
-      "source": "Investing.com",
-      "published_at_utc": "2026-10-28T09:01:35+00:00",
-      "topic": "Bond markets"
+      "title": "« C’est le fond qui prime » : Lecornu ferme la porte à un 49.3 sur le budget dès maintenant",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONUZPSUxVOEZPLXRnaGJJYVhadXBGSGx1dmZqZ1ltRDRIZnpFYWtnbnZQTnh1ejk5MmQ4ZWhfbXFWdWQ4MWNZWno5V2dJM3ZJQlFxOXNfUEVPYnZocDRQdU4zdVV5aDhnemt2X2UwWXBfWnlrRWdHa0d5VUV6bEpJdTd6VlBHZWZ0VTVHdWhSNEloZ0tSNTI5VFVQay1ZSG1Da3VSZjZBUDk3RWh6TEhYVFBrV0JfWW4yVm9JcUV3akhVMkk4NUlCcmNRSnFKNVhBTjM5MzZNRm95Y3BUSTMtMGpid0YxNEJDa3ZBVVVWcTVrNzA?oc=5",
+      "source": "Le Parisien",
+      "published_at_utc": "2026-10-28T15:00:41+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Judge Limits Candace Owens’s Liability in Macron Defamation Case",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZXRJT1EyWGVNWVdWYVo2NEw5UEE4czE5ZnFrcUl4UGNNcGhjbEF3THZBSlVOdzR6UlI0NC16YU5tYkNCNHYyR2s3Rlp2MjN4RC0ybWxFaU5MSll5REZWOWFrNHdzVEJ1eUw1M2lkSnJLX3F4VmpIeldYTHp2ckgtNDVqVG5xdFVGVmtpdGdfOV9Ob2Fjb0E?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-28T14:40:00+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Former U.S. Amb. to NATO Kurt Volker on Iran war latest, Israel election and France unrest",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNamRfODdTN09KcEtLOFFObnpuTlFPR1BCajVfSFctb3RObS1LQm05SzRUcEZLVFRfVjRZU3RxMEVQYy0tVUkyRGwtLTJyczh0SWtWb0tHNWJZdHpNNGtJZVc4QVM4STFYRUxUNzM0cFU1NktEczk2aHMyX0dDd29WODd5OVl2eTd1N0J5cnRLWHZodlhUUFpQd3ctM3JJY3EtTkVib2ZlSUd2bUE3Z1dwY3VVYlhvS2VBbDIxdVpOSTZTeEZKUWlr?oc=5",
+      "source": "CNBC",
+      "published_at_utc": "2026-10-28T12:42:00+00:00",
+      "topic": "Politics"
     },
     {
       "title": "French media protest manhandling of journalists at far-right party rally",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamVnaC1JSDQ0NHhhTlJPU2lFem5aaVk5Ym52VURqRlFTdVY1OS1hRjZJaEYtS0h1RVRYUW91NkE0QWhUck83OEtrQW1YdmRRREFYa09ZbmFkc3lCd2pudU1RU0o4bXM0eFJtSkdHcXBTRmdQdmJRd0Y4WjU5TnQ4TEc0ZXg4SUJ2WGoxSnVDU0ZGWW01cXBMVUJMXzdUUWV0S3ZaUzlsMW5RTnpGLThz?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-10-28T07:07:06+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
     },
     {
       "title": "US judge narrows French President Macron's defamation lawsuit against podcaster",
@@ -49,14 +63,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZmhHWG1pMURQUjF2Q2xGMlVRWEduQVotLUhGLTdqUnZ6TzdDU242MVZBVmU5VXFkU0t1X3F2VzR0aEVHeEx5ZExMR3JlRXRfNWZBMUxWRUJmczFTSVUtWlNRZXB2dm94OFpkSHltcW1va1ZfSXEtdnZqaHRZOExLeW51U3p1Z2s0UVZWanNjcmRMY2E1WUdzVGJOQXIzVFRvRi13bGktekYtZUIxVHVQSGpVTTJVQms?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-10-28T00:10:48+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "French Senate passes bill to make protesters pay for unrest damage",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUmluc1lZZk1jZlNtNUFqQVFvNS1hbjVhQU5PUkFYVDMzT2FiR01PSHZudkptWURpY29aNjFJTG9TaXdQbXRFcnNCTlFVbEJaQjV5TW5XY2RKc25vWE5DZnNkbkQxcTg5Y0dVX2U1OEsxWWhXZ3R3RTdhZFl1dUI4dGlsSmdDODM0UWFqRW1vYnQwSHZleFBzUkdkZUF0bURaalVZeXBvUENCMENQbnlrU1Qtbw?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-28T00:10:35+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
     },
     {
       "title": "Dette : comment la France est devenue le maillon faible de l'Europe",
@@ -64,6 +71,13 @@
       "source": "Les Echos",
       "published_at_utc": "2026-10-27T16:00:25+00:00",
       "topic": "Fiscal policy"
+    },
+    {
+      "title": "‘Only victory will bring a return to calm:’ French students urged to barricade schools by protest organisers",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSzh2djlfMEwtUTNkNWU0N1BLSi00YkhVWDYteWUwN0RCM290RzN2bm4yUk04WHBLd0hXVHVjNE5hYlllUUdOY2tkN3hORlViLTdIenJzQTlaRjJPU2IzNm5WWXlsT0VzNFVNNUJNbmVNY0V0T1BGb09RVmgtV0JlUi1lT2t1bllFa2NxZjB4dE5qZ3pKZEhzeHZNWFJkVl9qRDdxeG5iVDBSVnZ6T3dLdHhTTDVhLWt3TXRiNnFIQQ?oc=5",
+      "source": "The Independent",
+      "published_at_utc": "2026-10-27T14:47:00+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "Protest leaders urge French pupils to keep barricading their schools",
@@ -112,13 +126,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUU5lTjItazhkMENWeGlZWkl5SEdxZzdjYlE2V3g1S0FnMHpXeGVnWFBWaXJBcWRtR1E4VXFGQk5Zd29iVkRXd2hLYU1reWJ2LXRpY3pMd3BLWUtyeGl1RV9jNEJyMnpiZThPV3NyUV9tVjRDSDBRNDM1ODJtRF9iR1NnNTItbGh2WldydnpUdXUtc3g4TUV1MktudXVrc0VwTS1TQW5uZXZSRmc?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-10-27T08:36:46+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "TRANSPARENCE. Pourquoi la chaîne franceinfo (canal 16) a-t-elle diffusé des images d'une manifestation en Albanie à la place de la manifestation de Lyon",
-      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOYUJJSlQ2OHNnanl6WFRXblRqWHJqZ0J2c2dwMHR5eWtsOXcybzkyQXBDMDRKNUFORmxCeWFRUU1XN003R0pZSG1yc0hpNHg4eGZhVWgzRHVfMV9hZmx1LUlvUmUxNVdjVGJlN0RTRUI3S3lKbWRURTRwNEdrdUJsaGxKNFpVVjA4MUt1cFRJMUk1Qk5URnNPLS1FbEdDeHBTTE82cG1kNkJrb0FpMGNKSlNWRXZnRDBsTUQ4MEFPOC0zRnlGMjNyaVhnNjJhbzJXV2FZOFZua202b1pWWW9tTjhCMmVtOXFYNnBuX1JrLUltVnlzV0hpLWl4UXROVm01M0RYbmdKUFpMTkR0YmgxLURsbEpKdGc4X1U5MFJyVjNGSUFWcnlKX0lTVGV1YXR3NDQ3cjhOYUlhTjQwandFb0hFN0djV3J5aWxadF9vdnk?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-10-27T08:26:43+00:00",
       "topic": "Reforms & protests"
     },
     {
