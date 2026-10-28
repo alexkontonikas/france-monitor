@@ -1,13 +1,8 @@
 {
-  "checked_at_utc": "2026-10-27T15:33:31+00:00",
+  "checked_at_utc": "2026-10-28T16:17:15+00:00",
   "source": "Google News RSS",
   "status": "unverified leads; not agency decisions",
   "items": [
-    {
-      "title": "France spared Moody's ratings downgrade as it struggles with unrest - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNDNzYlVKMzN1VE5rMDhtcVFnY1NsRXZNYmRVZmZKc2dxVC1xZ19abmEtTTlHclVXQWc4YWJXWHNtNktWU2ZBSUVWT1lwWmo1UDVsdFd1RUxjQUkwUGRROUVhWVZkTnJmSU1pdUl4d1FCYU1nTGRMckNaUnpaQVVlOFhkdzZuVFZKaUNCajRGWXFxS0RIODZYSUtVU0o?oc=5",
-      "published": "Fri, 23 Oct 2026 10:36:00 GMT"
-    },
     {
       "title": "France avoids downgrade from Moody\u2019s in boost for Macron\u2019s government - Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY2xNbGJrYUd0RHNhYS1kTFI5UGVfWG9UcDBLaHl1Y3lFT2xMZGVsb3gyVk5Td1lhVjJ3STRBM1RpQWl3NTlDTjJlb1hhTWNpZVJodzdfZUlHOTNHUjN4YkFOTmtRM1hDNjV6aVZHSmxtOVFzTWJ1QXBOREplMmNZZEJ3WVA?oc=5",
@@ -22,6 +17,11 @@
       "title": "Debt: Moody's spares France, \"a brief respite\", not a \"vote of confidence\" - Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1N3cDNrQm04MFpSWUpRUzE2Q3pnLXFpVU15N0VVdlp0UEh1ZUVwMi1WcE1lUHB0UGtzbWdGeTI5S0RpNzd3ams3STlrU3Z6U2kzbDlOaHJ5c0tpRlVRMDFxQ3V1Z245LUlLbVNSdWcxY2NKendKcGNseTZTQ00xS2RtbHN1ZHozcVV6ckhMa3FGLVhiczBibkVSeFNKVm5Hb3NYRg?oc=5",
       "published": "Sat, 24 Oct 2026 07:21:15 GMT"
+    },
+    {
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM0Vmb3ctVTNTTUJJV2tSYi1kWWhJNXNyUnZpM1VkZHA0WHcxZWtsSGpCai1FN05Veld2Z3prR281RzhJa1FSQjYwTHA2TWpmQ21yX3p3MEQtLU80MjAxRGZBdXUyTmxKV2VZWEd5YjN4X2NFelBIUExQU3BOdVZtbnlWTy1TMW5RVEd0Y2NUQndzWUNtemdlVzlDTUtGNXNZbnFzbzBpWk1wa3dzWG5Hd0Y1eUMtVzZCbkxRNy1aY1Q0WkZudTJsNmRIQkTSAdIBQVVfeXFMUHZqMDBGWFFpVVlvM1ItdXc1X0dMaHc1dUVXU19iZ1Q2OURBMFBaLXhiOFBzb0ZVOG1CYklTbDZmQzA3dVh4ejVZY3BmSmc2X1BPQ1FUbFM4eXNVMFRobldzV0RmLVVSWENnMzNDMS1XWnRQamFSOUxrMWdMYm4zbGRfSFhvTkhGcDJVZzlreWpfMTI2Zzc2TjlqZ0ZlNVJOY1QtZnBULUM1NDJ0d1dwZFZLY3FYTE9Ra3lobGVZWi1PcndweDN2eEItOGZxTHQzQXR3?oc=5",
+      "published": "Fri, 23 Oct 2026 22:04:43 GMT"
     },
     {
       "title": "France dodges Moody\u2019s downgrade amid protests and budget gridlock By Investing.com - Investing.com UK",
@@ -49,11 +49,6 @@
       "published": "Sun, 25 Oct 2026 06:18:04 GMT"
     },
     {
-      "title": "French government bond yields plunge...Moody\u2019s Corporation keeps Aa3 credit rating - \ud30c\uc774\ub0b8\uc15c\ub274\uc2a4",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZMHFNdHJPeXMyMXc1Q0VlQ3Qta3Z6S2lDVTFTMnNiZ1JXVUxYODlRdmlmODVSMG1WYmZ3elFiLU5kU25NU0RiQjVSUEhDeVU3QWNqdVcxd3g?oc=5",
-      "published": "Mon, 26 Oct 2026 21:05:16 GMT"
-    },
-    {
       "title": "Moody\u2019s Maintains France\u2019s Aa3 Rating and Negative Outlook - TOKENPOST",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iYlNTQzItOEhNZzJYR2dydk9OQUJWa0NKODg4M1djVnNLUTh6Vlg1VzBybzdBQkRnTTFyREF1RG90R0J6bElVYlBiZTVHNllMa3VGRVNlVGZBb1k?oc=5",
       "published": "Sat, 24 Oct 2026 03:16:00 GMT"
@@ -62,6 +57,11 @@
       "title": "Moody's Keeps France at Aa3, Negative Outlook, but Flags Worsening Conditions - Seoul Economic Daily",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOTNlRkIyenZQQktfVEtyTms2UDJySXp6VjNKVGZHc1BKLWFkV050R19aUGhzTDhCeHpkU0o0VDBZTlR4Z1pTQWYxTmRvNG5rNTh1Z3pvZWxZbk9NWmRVc0pwejN0eW9aSFpCQy1GV1duOE1jbkRpQVpZRjdfZklZb2c3dzFzWEE3dlp1Snl6UGgxQnoxRkRFRFp0N3ZVcE1WVUxEV2JjSng?oc=5",
       "published": "Sun, 25 Oct 2026 05:43:32 GMT"
+    },
+    {
+      "title": "French government bond yields plunge...Moody\u2019s Corporation keeps Aa3 credit rating - \ud30c\uc774\ub0b8\uc15c\ub274\uc2a4",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZMHFNdHJPeXMyMXc1Q0VlQ3Qta3Z6S2lDVTFTMnNiZ1JXVUxYODlRdmlmODVSMG1WYmZ3elFiLU5kU25NU0RiQjVSUEhDeVU3QWNqdVcxd3g?oc=5",
+      "published": "Mon, 26 Oct 2026 21:05:16 GMT"
     },
     {
       "title": "Moody's Affirms France's Aa3 Rating, Negative Outlook Persists, Bond Market Pressure Eases Temporarily - BigGo Finance",
