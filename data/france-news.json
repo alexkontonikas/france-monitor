@@ -1,13 +1,41 @@
 {
-  "checked_at_utc": "2026-10-29T14:29:40+00:00",
+  "checked_at_utc": "2026-10-29T21:52:56+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "French interior minister to deploy 70,000 police for Halloween protests",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVmZWNWEwaXVKbXZEbi11M1lPLVJGVTJsbWsya3ZRUnN5cVJCLXNPLS1RX0o3ZmVuYVJNb0pqUWdRdGVXYXpEZXNQLUhKaGFaZkhxaDhxT3hpVUlzdndhN0djYVY1djZ4Y2hJcTNUMmExYnVSS25XXzVTSEpuRVlYa3FWREVXeXhnY2p4RUtxb0ZfWUxTd3ZKbTJ0WjNMcmtIRWY0aE1GaGE?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-29T18:32:02+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "'Deeply regressive': How the French government plans to make protesters pay for riots and looting",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU2dHSFVNcXFBTVl6UFFFeXJ2SkFpTWQwNEVZcVBqRFB6VUg0QkpMSkJsaE11WGZBWVdqQWpBcVdvQVVxemNPbTd4azExa00zRVExaTF1RnJ3dkVVZ1FpdmVUc0RLandlZV9tOEY3ZVVLRm13cmt5ZnhrcW9maTRZank3ODFRWU1MQjZvVkItYlh4REJvNFpwSndzMW1JUmpnVGpRQkR6YXpKLWxja0E1R1J2LWdxU016RFVYZDR2VzVVbGZWcUxVODZoY2FlajVVNjNwUw?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-29T18:15:38+00:00",
+      "topic": "Reforms & protests"
+    },
     {
       "title": "Lagarde quits European Central Bank ahead of French election",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQU84aDdQWUNwYUtiN19aZVN1elg1bkFEV1A0VDFWTERpaG1VbUUyVkRjWHhleGZkRlNVZmF5SXZXQTJZZUV0LUpXQ2dqLURtM1h2ZUx4S0RuMURjdUdjZEpqQWxfWlFMQUlTdkxSQ2tlMVVLci1CM1hHS2FlVEV0czVuRE1UeklnZndXRkZFNEVqeUhuTl9ncmdjUk4?oc=5",
       "source": "Sky News",
-      "published_at_utc": "2026-10-29T13:20:46+00:00",
+      "published_at_utc": "2026-10-29T15:30:46+00:00",
       "topic": "Politics"
+    },
+    {
+      "title": "ECB says has tools to calm markets as French debt worries rise",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcmNub3owb3phQ2lBMU1jN3piekE4SjUxN05OTl83TTJFeUdrVGFwWVRJQzJFX0dpa2QyWDFFaE9iOGtwNEhYelp1cnFweWlpcG1oRzA0OGRPdGw5QzE2emU3dTducTlyMmwxS1IxdWhSa0l5enRSR0U0X1hVbWZyaDIybkRiUlpLRHZseWVPbkhINHY3Q19YanVlUmxYdHJ2ZFNRbg?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-29T13:52:35+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Déficit, dette, fiscalité : confronté aux mêmes problèmes que la France, le Royaume-Uni explore une autre voie",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWF9FRDB6R0tNTlZnellGbHFNTUJXaG03VWdmSm1ZWXRaaXZjbS1ocjBmWUlTMVV2Y05Bem1rNzZCTGh2elRJS2htRXBPQmZSTm1IaVhBc1MxQ2xQSVVKX3MyT0gxVlBnYXlMNXFDTWpENV9YajBvMUg1VnJqVmw1Ym1lVE5FRE5WNlo5RHgtM0UzdEZJY01kTzNWRlVNSnp0dUJmRHNZZEI4cS1QTjZWUG5oY0ptakV3V2N3?oc=5",
+      "source": "Le Point",
+      "published_at_utc": "2026-10-29T12:52:51+00:00",
+      "topic": "Fiscal policy"
     },
     {
       "title": "France hits back at White House over riot trolling as rift deepens: ‘Nostalgia can be misleading’",
@@ -28,7 +56,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFdveHhiSVhfTENBSUZ4Wm1NSEZOY3dzYnJCRTVpNjJlSnlXaTRZRV9NUFZnekltbVFQUEN6NGM4cmdTT1N3X2V1TXlReGZURHlBQVgwYmZNYW9ZOWl3LS04cnJ6clhGUERoUUNRYnVRWnZrRi1Pby1FZ3pXS3I4NUV4aTk1QzlTSXZYU2ZB?oc=5",
       "source": "The New York Times",
       "published_at_utc": "2026-10-29T09:03:02+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
     },
     {
       "title": "Dette : 84 % des Français veulent la réduire, aucun de la même façon",
@@ -48,7 +76,7 @@
       "title": "La France ne sortira pas de l’impasse budgétaire sans augmenter les impôts",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU0VIT3pVRV9lRjJpSzFOZjlKRzhLNmVvS2o0X25jdEgyWnp5Rng0c29pdWdiRW9HZnpUNmZkMWRPT0hfVkhrbWxPY01yMm5MaUYyRFJGNGIxWXFKMmFYTTh4RFV5eXlxNnVlVW9QTjFkbU5HUjloMDI0ZUd4VkdlcGEybVd1dUVfZGtmTVV5SjE1S29tT2psNjVJeU8xSzdsel9OaWhIaGs0VlZTTDdUODV6WGdPUE42dmVOcExsZ1BnN0ZzX2lvM29PZ3hxN1owcjNzQXd5YW9VU0FpNEJYcVhQQVBFUXRNN1M2dEtLT1pIdTg?oc=5",
       "source": "Libération",
-      "published_at_utc": "2026-10-28T16:11:00+00:00",
+      "published_at_utc": "2026-10-28T16:13:09+00:00",
       "topic": "Fiscal policy"
     },
     {
