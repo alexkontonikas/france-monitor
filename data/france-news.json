@@ -1,7 +1,42 @@
 {
-  "checked_at_utc": "2026-10-28T21:44:17+00:00",
+  "checked_at_utc": "2026-10-29T14:29:40+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "Lagarde quits European Central Bank ahead of French election",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQU84aDdQWUNwYUtiN19aZVN1elg1bkFEV1A0VDFWTERpaG1VbUUyVkRjWHhleGZkRlNVZmF5SXZXQTJZZUV0LUpXQ2dqLURtM1h2ZUx4S0RuMURjdUdjZEpqQWxfWlFMQUlTdkxSQ2tlMVVLci1CM1hHS2FlVEV0czVuRE1UeklnZndXRkZFNEVqeUhuTl9ncmdjUk4?oc=5",
+      "source": "Sky News",
+      "published_at_utc": "2026-10-29T13:20:46+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "France hits back at White House over riot trolling as rift deepens: ‘Nostalgia can be misleading’",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTFZGUGtzbmtZLTQ2Mml5Q1hWSUcyQVRERjlJYVktU0k2U1FZVVctX21DVjBKNkM5MmxVd05NeklvSU92VW9xdHdfa0E4LTlTVzl1cTl5eW5Za0ZXQ3BiRE40SnY0dEd2Q0R2TWlBWDJfZnlvazlXQzhxdEhfWEhiMUo5ZEsweUt5TDRnZWEtRU9yRXRwVnVieXlKdw?oc=5",
+      "source": "The Independent",
+      "published_at_utc": "2026-10-29T12:15:00+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Business - France reclaims title as Europe's champion of tax and social charges",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY2RpY3RZRnpHbUt6TTU0WVp4dXVKLVZjYy10UHJhbWRGNjNac2dFUUxEcTJIdDhqNUZ0V3FGeE9uU25ITUtLbUlvZHo3alREbzI5aTcwTmlfUVhybDR6MXp3dmhZYzJydk9tUTE4R2xwckNZS0hEOTRuOTZSdjZTX0tHWmdRaVZrRTJVQ1JwMzRQYmR5MlJoTzJidmg3U1hYVTFXejh6VXREUlNIb2dvWXhaNzBUb1lKdmljTnBwMXo?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-29T10:54:59+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "In Marseille, Macron Confronts a Potent Mix of France’s Problems",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFdveHhiSVhfTENBSUZ4Wm1NSEZOY3dzYnJCRTVpNjJlSnlXaTRZRV9NUFZnekltbVFQUEN6NGM4cmdTT1N3X2V1TXlReGZURHlBQVgwYmZNYW9ZOWl3LS04cnJ6clhGUERoUUNRYnVRWnZrRi1Pby1FZ3pXS3I4NUV4aTk1QzlTSXZYU2ZB?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-29T09:03:02+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Dette : 84 % des Français veulent la réduire, aucun de la même façon",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRmFqNHRfLVZ5QzlWS3Q0Mklhek80cG1RRzNuV2pidmVBOUFhb2ZQcVJudF90d0RuakhQam80UUhuSTBIUEtncm5YYTdCOUw1eEdIOEtSRGZfVWp5TS1NTXJITFc0czJxZFAxS2NBT1VDdWp4YXdwNUo2QlVQaDNWRUN6cUlOcGJtMDZJVEN6TmVTc2xjS09FeEtKSWJ4UHZLeDZ2cEJvc2tvdkdxdmlCenZtNXJLb3ItOTZJb3lR?oc=5",
+      "source": "Le Point",
+      "published_at_utc": "2026-10-29T07:00:00+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "Opinion | The bond market, boring no more. Just ask France.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSHMxM3dLckU3ZF85UDNWeTZxZTMxeWo3a0FPbGZoQmhkdWYzSXdUdUpGVW5hNjVxLWpXeDloREFLbndEbEVFM0Y3OGIwUXZOdmdxYlpDQk80Zlhnazl2d2stV0wyUVcxaEN2NElJWlRnRG82Q1FEUzdFVGVMel9tWUtQWFFTSFRjUk11WHptaWFfbjZOMm54Mk1GaUFQYk5zNUswMklmdm12d0FHbkhB?oc=5",
@@ -13,7 +48,7 @@
       "title": "La France ne sortira pas de l’impasse budgétaire sans augmenter les impôts",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU0VIT3pVRV9lRjJpSzFOZjlKRzhLNmVvS2o0X25jdEgyWnp5Rng0c29pdWdiRW9HZnpUNmZkMWRPT0hfVkhrbWxPY01yMm5MaUYyRFJGNGIxWXFKMmFYTTh4RFV5eXlxNnVlVW9QTjFkbU5HUjloMDI0ZUd4VkdlcGEybVd1dUVfZGtmTVV5SjE1S29tT2psNjVJeU8xSzdsel9OaWhIaGs0VlZTTDdUODV6WGdPUE42dmVOcExsZ1BnN0ZzX2lvM29PZ3hxN1owcjNzQXd5YW9VU0FpNEJYcVhQQVBFUXRNN1M2dEtLT1pIdTg?oc=5",
       "source": "Libération",
-      "published_at_utc": "2026-10-28T16:13:09+00:00",
+      "published_at_utc": "2026-10-28T16:11:00+00:00",
       "topic": "Fiscal policy"
     },
     {
@@ -24,17 +59,10 @@
       "topic": "Politics"
     },
     {
-      "title": "Judge Limits Candace Owens’s Liability in Macron Defamation Case",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZXRJT1EyWGVNWVdWYVo2NEw5UEE4czE5ZnFrcUl4UGNNcGhjbEF3THZBSlVOdzR6UlI0NC16YU5tYkNCNHYyR2s3Rlp2MjN4RC0ybWxFaU5MSll5REZWOWFrNHdzVEJ1eUw1M2lkSnJLX3F4VmpIeldYTHp2ckgtNDVqVG5xdFVGVmtpdGdfOV9Ob2Fjb0E?oc=5",
-      "source": "The New York Times",
-      "published_at_utc": "2026-10-28T14:40:00+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "Former U.S. Amb. to NATO Kurt Volker on Iran war latest, Israel election and France unrest",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNamRfODdTN09KcEtLOFFObnpuTlFPR1BCajVfSFctb3RObS1LQm05SzRUcEZLVFRfVjRZU3RxMEVQYy0tVUkyRGwtLTJyczh0SWtWb0tHNWJZdHpNNGtJZVc4QVM4STFYRUxUNzM0cFU1NktEczk2aHMyX0dDd29WODd5OVl2eTd1N0J5cnRLWHZodlhUUFpQd3ctM3JJY3EtTkVib2ZlSUd2bUE3Z1dwY3VVYlhvS2VBbDIxdVpOSTZTeEZKUWlr?oc=5",
-      "source": "CNBC",
-      "published_at_utc": "2026-10-28T12:42:00+00:00",
+      "title": "France’s Lescure Says Prepared to Use Any Tool to Ensure Budget",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUdQdHRkVW40eGJfNlRxeEJCLXF5bkJoX1JVanV1c1ZGdnJ6OVNqMGVPVEFYODlnU0Y5Y3FMUVFNT3pTVThSZy1aZ1gtNUpOazU0NldxSlF0c2JxcEVXZWo3Q0djNXJNa3pfNGpPXzRRVlcwWFcyRl9TcHhnN3VHUkJBOGVGYUk2QW9YOUlWSFVjeW9XbjZDYWhXTm5ENXZUM0RmM2QwU2RuZXk1c0lydzlRa24?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-10-28T14:14:35+00:00",
       "topic": "Politics"
     },
     {
@@ -52,95 +80,18 @@
       "topic": "Politics"
     },
     {
+      "title": "Judge Limits Candace Owens’s Liability in Macron Defamation Case",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZXRJT1EyWGVNWVdWYVo2NEw5UEE4czE5ZnFrcUl4UGNNcGhjbEF3THZBSlVOdzR6UlI0NC16YU5tYkNCNHYyR2s3Rlp2MjN4RC0ybWxFaU5MSll5REZWOWFrNHdzVEJ1eUw1M2lkSnJLX3F4VmpIeldYTHp2ckgtNDVqVG5xdFVGVmtpdGdfOV9Ob2Fjb0E?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-28T02:19:45+00:00",
+      "topic": "Politics"
+    },
+    {
       "title": "Yaël Braun-Pivet incite Lecornu à « activer le 49.3 » sur le budget 2027",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbE1ISWhYc3V1RTNqcFdUNk8wWW5nV1M4Q1NsSDNFcVlSWk55Nk44bEtpbmhqM3VMUEh6YjJFZjh4R2Y5REZuQS1Fa3JTckN4cFFlQVpCTWotMG51eXQ3UDlkQTJGbFJFVGRuTXoyZWV6ZDJCdHVEYmhOaWxrM1pxakhKeWFoZkplM0c0QWhwd0JvUGNVeXBvOGFEdlNDNnMxMzVreGs1emhHWnc2aGZMQW8tMFFOcWc2Qnd2cjZQVGJYT1l3NFMwT25Zam1OdjRfRGVqWg?oc=5",
       "source": "20 Minutes",
       "published_at_utc": "2026-10-28T01:44:00+00:00",
       "topic": "Politics"
-    },
-    {
-      "title": "French Senate weighs bill to make protesters pay for unrest damage",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZmhHWG1pMURQUjF2Q2xGMlVRWEduQVotLUhGLTdqUnZ6TzdDU242MVZBVmU5VXFkU0t1X3F2VzR0aEVHeEx5ZExMR3JlRXRfNWZBMUxWRUJmczFTSVUtWlNRZXB2dm94OFpkSHltcW1va1ZfSXEtdnZqaHRZOExLeW51U3p1Z2s0UVZWanNjcmRMY2E1WUdzVGJOQXIzVFRvRi13bGktekYtZUIxVHVQSGpVTTJVQms?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-10-28T00:10:48+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Dette : comment la France est devenue le maillon faible de l'Europe",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0R1X2RxWk93M0pwOWpkTnlpR1gxVXYwX09WRFRWNjhiWm53SHg0YUIwdXRnMVNOTFFGVUhaQXU2alVfb3BwdTkwbkc2WFRJelZYVllzVjlqTE5UWUlad0JpTWNVanNxM0ZpeXYyai04REw2cTd0VF80c09OUV9PeWJ1S09wZ0xFYU00WWFrVVk3OEQ0UXVON09BSUVieHpnb3RpS2trTG9UdW9DTE9oR3ZDVzBNNktPV24tRXhPUWhtSVYzSFRXWg?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-10-27T16:00:25+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "‘Only victory will bring a return to calm:’ French students urged to barricade schools by protest organisers",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSzh2djlfMEwtUTNkNWU0N1BLSi00YkhVWDYteWUwN0RCM290RzN2bm4yUk04WHBLd0hXVHVjNE5hYlllUUdOY2tkN3hORlViLTdIenJzQTlaRjJPU2IzNm5WWXlsT0VzNFVNNUJNbmVNY0V0T1BGb09RVmgtV0JlUi1lT2t1bllFa2NxZjB4dE5qZ3pKZEhzeHZNWFJkVl9qRDdxeG5iVDBSVnZ6T3dLdHhTTDVhLWt3TXRiNnFIQQ?oc=5",
-      "source": "The Independent",
-      "published_at_utc": "2026-10-27T14:47:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Protest leaders urge French pupils to keep barricading their schools",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3dOTnBUcnlMMTNjMFN3LXIxMlYwRFcxajdKQ2hieHM3RE5QMXpmZVVEWjlEUkk4VnJoNFpuazRIUTc0bzlZOFdyVUZmdlFfVFdCdVU4YmhKWFNnWUMzb1NrVFlZQ0NSZ21teVpETEJ3S0NTMGtJd1FucDhyNTV3bTZySVBFR21wWHVPZWdwbXNyemtxMjRwQ1FVYVQwakpaMDl5Z0xncmVGUUNsYjFaanFScXZnNUU?oc=5",
-      "source": "The Guardian",
-      "published_at_utc": "2026-10-27T13:04:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Manifestation du 31 octobre : les gilets jaunes déposent un parcours passant dans le centre de Paris et menacent de porter plainte en cas de refus",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVFRnaXNQZ0UxaHhScURZTUJFU3BIQ2Q3UllQdUo5QURIRFpCT1BRb3JCRmxmaEg3d2ZOcklOb3FpenNEekdTQlJzeWFNbUF3WDV4QXgySjZNbk5SQ1lxRXIyVzhxak5DRXZLNFFwOGN6RmFkc1lkZTByOGNuVV9LY2l1ZWs0T0JhNHg5NndmQjRobC1IaTFWT2haSjZIeWQxcGZPNVJzaTZQVjZmQnRRakFWczJ5LVJfbHAzUDBRRUUtWFpCOUg5UC1uTUJpR1lSWmw0V2ZNd2xaWlJvTUt2M0ZzLUFhaDZONGd4QXJuNTlSbjNwbmhqUXpXVjZxMjRZYlhYLTl1dlBwUTFwZFR6UDdHWEhNNmdIQ0NFSTN3ajNCTGFqa1RaaHNkX09yclU?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-10-27T11:42:56+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "French government concessions to students 'tactically shrewd' but risk creating new set of problems",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWlZ0WXBRa2dGd01wbFhWNlk4MDdfenVmMXdDYjREV3NjZFhHcGhodndZWm1lQUIyQzk1dzkwNU5BaGNDUWNXRXR1SEJqRnpRX1oyZFZ5ZGlybDJ0RFNjMHVGVU1tREMtcDdERFZXLW1WckZSRlJCa19tVzNZaVRyRzBsaDZZWncwUkd0Z0ZnN1JyYWs2QklUdk9YQU5XaVQ4NnNBVFZDQ2ZuYS1mZGtiOW9yaEYxenBOUVJFMGlQUHNDckE?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-27T11:05:24+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "French protests: Student union leaders vow to keep mobilising",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXZWSG45OUZzdjRjVEVaSFowaWk3YU41ajBBV3dsSk5jX3RQcVhydEx1UzlycXJSMFJsVlVHX0stUjAtdTJub3NDdmxQQlIxOGNGWC14UzhxYWpmZFpwSUFpRGFucmxPTkRmeXZRLXBWSGNBRk56eFlzMkxELWh4Sy1IX2RnSkFmdVFGV2tBNmNUUXlFRDh3Q2FoUUpHRXpYb0g0ckpR?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-27T10:51:41+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "French consumer confidence hits 13-year low after riots",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ0JmLXVDckVlTWpEdTkxRTRXYWdCSC04b0M2clZjWE5yWWhLMmVpeDRReEVaSjJXdlZrN01XMWV4WndkeTBUd0N4c2RyUHJSMGZNbGMxcWFaT1hnZVR3VHRYcHloZVNvSVVJZVMwV1lUR2VtX2ktX3Jrenc5N3VWcnpXQ2NiVHVNMXhzdFZhUXFiXzUyeGhEV2l5Nk53MkZQbGI0SHZZdw?oc=5",
-      "source": "The Telegraph",
-      "published_at_utc": "2026-10-27T10:51:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "French teachers say government education measures to quell protests fall short",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzFfNzNzdUIzMkFmd19MREVVQjF6MXlmSmVzY28zNjlwUHNLbjd3Sk4tYzhkMkNJNTVRTzRlZ0hpWHdtLUF0dG9mWkFOckJsU3doLVFtM09UcWlqUFVWcHJCRFMyV2ZiZjBFUVpfQngyM2M0ZVpPUUJBdElSVE9xTU9jenQ1dUpsOUFRcGluZWJpUkNOemdGdXNDTWpScHZpSlM2ekVjNEh3RmFQY2Q3bEhmeERhOWEw?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-27T10:31:43+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "French consumer confidence hits a 2013 low in October amid protests",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUU5lTjItazhkMENWeGlZWkl5SEdxZzdjYlE2V3g1S0FnMHpXeGVnWFBWaXJBcWRtR1E4VXFGQk5Zd29iVkRXd2hLYU1reWJ2LXRpY3pMd3BLWUtyeGl1RV9jNEJyMnpiZThPV3NyUV9tVjRDSDBRNDM1ODJtRF9iR1NnNTItbGh2WldydnpUdXUtc3g4TUV1MktudXVrc0VwTS1TQW5uZXZSRmc?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-27T08:36:46+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Macron vows to stand firm against disorder during visit to Marseille",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORThNLXozOVRjSS12X3lRTE1JbDk1MDFoNEhNRXE2ZkFpRFc2WEdBd0R1S3ByU19YQzhQT3FVREZVVjFBcHpvWnhIMFJZMWJhUzBDUGRDQm83YTBrSWJDbm0tSFMxNDhmUExENlRVOTlQNDZIU2pZR3FqWldVcXRuMDhZajNMMmM4Wmt1SW5GVFo0c0VKdjZadThSMkFvYXVvZ1lqeVI1bzl0MDl5LW9Ya0MwYm1oZw?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-10-27T07:19:35+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "France must ‘cure ourselves’ without more spending, says finance minister",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY25rdFlEcVdFdHY5bEoyM2NkLTlXNWtUUXVjTWtINmdaQ1prcnhOUVBlNmNBRndPTVdzM2h1dDNpLXIzbVRIbWQ0eEdpUkt5RGZDU0lKaVJ2dXNUZkJPYVNnNl9QYlNXMFBrLW9ybTlnWjBvdWszN0QwNnBjaEpuMHBWOWs?oc=5",
-      "source": "Financial Times",
-      "published_at_utc": "2026-10-27T05:01:46+00:00",
-      "topic": "Fiscal policy"
     }
   ]
 }
