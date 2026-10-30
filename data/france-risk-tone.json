@@ -301,15 +301,43 @@
     },
     {
       "date": "2026-10-30",
-      "index": 78.7,
-      "article_count": 5,
-      "headline_count": 9,
-      "coverage_pct": 55.6,
-      "adverse_count": 4,
+      "index": 72.3,
+      "article_count": 9,
+      "headline_count": 13,
+      "coverage_pct": 69.2,
+      "adverse_count": 6,
       "favourable_count": 0,
-      "neutral_count": 1,
+      "neutral_count": 3,
       "method_version": 4,
       "articles": [
+        {
+          "source": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/manifestations/la-prefecture-nous-balade-a-paris-le-parcours-de-la-manifestation-du-31-octobre-au-c-ur-d-un-bras-de-fer-judiciaire_8260127.html",
+          "title": "\"La préfecture nous balade\" : à Paris, le parcours de la manifestation du 31 octobre au cœur d'un bras de fer judiciaire",
+          "score": 50.0,
+          "relevant_sentences": 11
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
+          "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+          "score": 76.4,
+          "relevant_sentences": 11
+        },
+        {
+          "source": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/greve/nos-ports-sont-utilises-comme-des-pions-dans-des-conflits-geopolitiques-pourquoi-les-dockers-francais-et-europeens-sont-en-greve_8259995.html",
+          "title": "\"Nos ports sont utilisés comme des pions dans des conflits géopolitiques\" : pourquoi les dockers français et européens sont en grève",
+          "score": 50.0,
+          "relevant_sentences": 10
+        },
+        {
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html",
+          "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
+          "score": 78.8,
+          "relevant_sentences": 5
+        },
         {
           "source": "RFI",
           "url": "https://www.rfi.fr/en/france/20261030-french-dockworkers-strike-over-budget-measures-and-militarisation-of-ports-arms-war",
@@ -335,26 +363,26 @@
           "source": "franceinfo",
           "url": "https://www.franceinfo.fr/politique/budget-2027-il-faut-savoir-prendre-des-risques-estime-michel-barnier-qui-plaide-pour-un-49-3-du-premier-ministre-sebastien-lecornu_8260058.html",
           "title": "Budget 2027 : \"Il faut savoir prendre des risques\", estime Michel Barnier qui plaide pour un 49.3 du Premier ministre Sébastien Lecornu",
-          "score": 48.5,
-          "relevant_sentences": 18
+          "score": 48.4,
+          "relevant_sentences": 17
         },
         {
           "source": "France 24",
           "url": "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
           "title": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
-          "score": 77.6,
-          "relevant_sentences": 8
+          "score": 79.6,
+          "relevant_sentences": 9
         }
       ]
     }
   ],
-  "checked_at_utc": "2026-10-30T14:22:06+00:00",
+  "checked_at_utc": "2026-10-30T21:38:18+00:00",
   "coverage": {
     "date": "2026-10-30",
-    "approved_headlines": 9,
-    "articles_analysed": 5,
+    "approved_headlines": 13,
+    "articles_analysed": 9,
     "minimum_articles": 5,
-    "publisher_urls_resolved": 9,
-    "google_urls_attempted": 9
+    "publisher_urls_resolved": 13,
+    "google_urls_attempted": 13
   }
 }

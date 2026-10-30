@@ -1,34 +1,55 @@
 {
-  "checked_at_utc": "2026-10-30T14:20:18+00:00",
+  "checked_at_utc": "2026-10-30T21:36:33+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
-      "title": "French Protests: France Faces Fright Night of Inflation and Unrest",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVndzcGRlV0g3V1BRMm1vSzF0WW02QURkc3JWOTlHUkVUc2NsbFFVZUNWSWtWX3FwQzlMX3QzaFFONklIemZDajZ0TDBLcXBOVXB0R1NzREJJYzVORUd5bGp1YUNxV1VvVGVhVVNxTkVnaHhmMGh0NW45RHhHazU5cV9UeTI1d3BFWW5IQkw5a04yNURNWVhmLU5EREhGV0QwRXpyR3o0T0RLSDZEb0NJRnI5UW9fbkxkeGY4?oc=5",
-      "source": "Bloomberg",
-      "published_at_utc": "2026-10-30T13:46:05+00:00",
-      "topic": "Politics"
+      "title": "\"La préfecture nous balade\" : à Paris, le parcours de la manifestation du 31 octobre au cœur d'un bras de fer judiciaire",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdzh3SVoxUFc5Mm9qcGdqZkJObXUxQkpYRnhFVTZrMnlHajBLcFhmR1ctUEliMGFfZlZ4M2NMbWxWUjczUDVnZmZUc2k3VEhCREJqVUNfaTMxejZfY200Z0ZLcDhMbWZFcnRncXlqRDI2bHcxak8yNURncjh2bWh4UVJmZEpBdTh2TXFySno4UEpaMnRLcTVfYnpvT0sxMnp1MUlYMmUtY1lsckdJMmVzajRuUVhHby1aTnpFeHRRaW05V1NWa0I2TkoteDREMG9Iak1aV2pMSnhaUFdSTy1PZzdxdzBzaGdCVVN5THdjZm1DN2ZhaDUxUnlKVmtrZXVpeHhaTFRHcXQ?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-10-30T18:45:38+00:00",
+      "topic": "Reforms & protests"
     },
     {
-      "title": "French Economy Unexpectedly Shrinks as Headwinds Gain Strength",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcG9lV09SS3JveHBoRm1xaWQxeFpEQ2ZuSXVBLU5PS2ZocGxoSU1UNEh3Y1A3Y0hxU2h5al9OX3QxUXM2TjFuQTJPM0VMd2FDMTluT3NqQWlRZDVQaDYwZGhjX1hLLWw3aU5mZ010cUZXaXQ0bVRmVE5PREl0cXlUU25wUDRFU1lDSjE5M3o4N2VvR3FqQ2xBbW0xSEVqUlhzRTBDTnh4aU8xeGhwSm1veU1QTQ?oc=5",
-      "source": "Bloomberg",
-      "published_at_utc": "2026-10-30T10:33:37+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "France races towards recession as economy shrinks",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUlZCMUljZXRNbnBxbVlvTWc0NUNOWmk5TVVCSmRyRDFIemRBWkRWUEpHU1A0dndlNHUwc2pNRndTU0FBV2x1YUlaTW1TR0t4QllhTGlweFdwbGFkZjRRMFN0Nk1tRkR6czAzaDdiUzNPck5zNDAya2VIYmd6Mk95SC14NHNSY1BQalRtSXphY1FBMHJVT1k4bTBIelk?oc=5",
+      "title": "French economy 'at a standstill' as budget uncertainty raises recession risk",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSU1DOW1jaHRRZUNHZ2hiemdweVltcHJFdnVEelZMbXp6V1BRZHB5SjRVY3JWRG5fTUhfSEluTFRJdkluMVdQYnIyV1cxOFZ3Z1NNcm9YV25Eckt0V0NLMVZQODRjcGczclNwWEc5Rjc2V3Z4bHd0N1ZDTmd5eVg1T0RlbmF6YXRHdmhqNVVfRy10VURCLWE3dDRmR1pxZGQ5c0FnNw?oc=5",
       "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-30T10:20:27+00:00",
-      "topic": "Politics"
+      "published_at_utc": "2026-10-30T18:15:54+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Manifestation du 31 octobre à Paris : ce maire du Val-de-Marne refuse que le cortège arrive dans sa commune",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNcElxMktEcGFjSmlBVmVpc0FjZ0hBempfVWJja1pfdnc4X1JzVnlpUHJGcUpKTGp1SkgxNGlWTlpLVFp4QlUxajVXSFVfcFBtVGtEXzFKdmJTcUVsWHZBeXlVX3lMNFFGVmRpMjhEUlEzZHZtdkZPbUxBRlhERWxxdG9rUjFkaV96c1pWbDA5UmhIQUxFOU1PLUtLN1pzalV4TmZob2VaRzVFU1Q4RWRZenpZVGV1WTBERkVrcmhIcUFjLUJHZEh5Um9LbzVWdDdJRXp1NmhvYVFrRlgtaUM0ZjB5QkVaME4zQi1JdEF0TGRQOW1hcXpFSkZKelNzRUhyekR5bkFSNjRPUjdrcHc2U1NZUndjbDdkLTdsLQ?oc=5",
+      "source": "Ouest-France",
+      "published_at_utc": "2026-10-30T16:06:18+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOVRNN0JjR0Q2TlJ0Wk9vZEpIRnRXX18tdU5HanpuV2N5RWVaRGlQSk1GU0Z2WlNjeHlfazdVVUhVeHR2ZWRMYWRKQnlWQzIxMWJ4TnpmT19obDFBMk1kaDFuS3lRUElvTUFuWk5pV3pzc28wZnpSZnNEdGlxU2Y2akM2NDFoWXFyRVo4cF94QkhReGR1aURMRGdua0FCS2NTYVVWRTdpSWhRMWR6bEZHV1JVUUJPbV9pWUZFb1RNdGQyc2Fu?oc=5",
+      "source": "The Guardian",
+      "published_at_utc": "2026-10-30T15:09:00+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "Another Toll of the Violent Unrest in France: The Political Center",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV0RFclpWTVd4T3dUUmktbHRnYThhZzNZWnNGTnhjdElzTkg1b3RFNzFxSlJzY1V4WkdMd1pYeUVkTkhmQUM5NmpBSnhTSlpnZjFDVXQyVFgtaE1sak1fOTV5ZXNkcDJtZ0EtdGF6c3VwT1llMS1veFF4cHZnY1hOWGlfcEgwc05QR21V?oc=5",
       "source": "The New York Times",
-      "published_at_utc": "2026-10-30T09:35:23+00:00",
+      "published_at_utc": "2026-10-30T14:00:48+00:00",
       "topic": "Reforms & protests"
+    },
+    {
+      "title": "\"Nos ports sont utilisés comme des pions dans des conflits géopolitiques\" : pourquoi les dockers français et européens sont en grève",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNzNHcVk1Z0s3SHc4OXg4dXBfRl82eHZUaGl0djVSS212eTd3U2xlTEdRUkQxZUJEdS1PWXBmUUNtZTZpS2U0OUFtY0xzc2MyRFVjd3hZMFUtcnNvQXBzampTdkNQbWlIUWYwMjZYUUZSTXFJTjd0QUpFZjEyeW4xUGtqdkNveWFqZXRWV2E5Mi1CQUx6UTdxSkwzVmwxV0dtNFo1UUtxanMxTXJreDBWbnhXTGE3bXhYbjFqYVFPNmJkMnIzeGwtaW0yYVRtMnM0eE5PMEpQQ3lLd3J3WGJ6Y1VpSy1oVWdSbE9Ta1RMLVN2TE1uaWVsTDZvbXF0bEVUeHRONzRpYTZKUFpERkhZ?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-10-30T10:03:55+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xeXhCelpVMWs1b3pzeXZOU0psRExTMlhIa01NTmdJWE1NZEh0ajZ0dmtRbFZPUklSUmdpS3NuSFU5UkV6bUVUODBFamdGU2E1ejJUN21rdlpSRWVkeDhFcFJybU84YkhT0gFuQVVfeXFMT0M4S3kzNEJiN0NFVkZjdVMzSkhqaml4LUpuYW16ck9iT1lzV2k2QUlrLVo3dHRaaS1mck9iNm1JZGRYcEVJSS1VVzhlTi11d2d5dnpJRW9RMjU3VHZXQTIyakdxb0hGNTgzdHR2NGc?oc=5",
+      "source": "CNBC",
+      "published_at_utc": "2026-10-30T10:03:00+00:00",
+      "topic": "Politics"
     },
     {
       "title": "French dockworkers strike over budget measures and militarisation of ports",
@@ -52,6 +73,13 @@
       "topic": "Fiscal policy"
     },
     {
+      "title": "French centrists' feuding increases odds of Le Pen-Melenchon runoff",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTWphYWlpaktfNXNkUmRqTzg2Ml95cjdWWVBaVFdFZWgxLTI5SUttWjdNM2JPR1VmMHdsbFh0enpOc2lNazdOaVo3cjJfZi1ITXd2UEpKaGxxU2tLXzJ0WjJ1VVV6MDRkdnNQN3hfNkduMzFlSloyemdXcWFKdWtXUXc2UDM0enFfR245SDNZdFo2RHpuVDNVWlVWTFlzckZhTE9ycC01MTY3SEc2anNkbGxR?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-10-30T07:55:49+00:00",
+      "topic": "Politics"
+    },
+    {
       "title": "Budget 2027 : \"Il faut savoir prendre des risques\", estime Michel Barnier qui plaide pour un 49.3 du Premier ministre Sébastien Lecornu",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPREZQU1NmQTg1X2xEbWdWUlFKeUp6Q203VVNGQlc4TXVwS3R5RVdDN0JUNV9KR1ZuLVRUQXRrR2NCaDV4cnVPSnVaWDBhNks0eWZuc3MydmpyeE5QTXhtNVZWV2sxd2JnTklYUVdqSkNvY0xKclV6eE01a1dOX0FCRDRDSUs4eFIxZ2V1NDBXcWdTTlgtZkxGcWE5ZnJfQjBES19hUTdMZTZmMHNMbmV2N0lDMGxOMVlEZ2YxTHQwS1BoY0FsaXRDUGplOXVQVXU1V2c0eFBlVVVQRGtYZjZHTWJjTlpUZ3FHd2JEQzNqaWFJZS1rdThwWHlZQlljWnVqR1BuS25Bd2kxbkk?oc=5",
       "source": "franceinfo",
@@ -69,7 +97,7 @@
       "title": "French economy shrinks 0.1% in third quarter",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnAwVnJKYlVvQjhXdTR1OThNQ0FPX0g0ZHprdjBtVFZzaXBNeFFjem1RYnFPUlFNNDR4aDNpMU9EcDZ5TVZzVUc2OTJ4QkkxWnYwaXBIUGw0dll0bWNHcGotUE54dE8xSkJfS1NhTmhlRTQ1ZFQ0U2VLTHBzUG53Wmt4WVo?oc=5",
       "source": "Financial Times",
-      "published_at_utc": "2026-10-30T06:54:08+00:00",
+      "published_at_utc": "2026-10-30T06:54:41+00:00",
       "topic": "Fiscal policy"
     },
     {
@@ -106,13 +134,6 @@
       "source": "Le Point",
       "published_at_utc": "2026-10-29T12:52:51+00:00",
       "topic": "Fiscal policy"
-    },
-    {
-      "title": "France hits back at White House over riot trolling as rift deepens: ‘Nostalgia can be misleading’",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTFZGUGtzbmtZLTQ2Mml5Q1hWSUcyQVRERjlJYVktU0k2U1FZVVctX21DVjBKNkM5MmxVd05NeklvSU92VW9xdHdfa0E4LTlTVzl1cTl5eW5Za0ZXQ3BiRE40SnY0dEd2Q0R2TWlBWDJfZnlvazlXQzhxdEhfWEhiMUo5ZEsweUt5TDRnZWEtRU9yRXRwVnVieXlKdw?oc=5",
-      "source": "The Independent",
-      "published_at_utc": "2026-10-29T12:15:00+00:00",
-      "topic": "Reforms & protests"
     },
     {
       "title": "Business - France reclaims title as Europe's champion of tax and social charges",
