@@ -2,7 +2,7 @@
   "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/irt_lt_mcby_m",
   "dataset": "irt_lt_mcby_m",
   "frequency": "monthly averages",
-  "retrieved_at_utc": "2026-10-30T15:01:45+00:00",
+  "retrieved_at_utc": "2026-10-30T20:46:24+00:00",
   "observations": [
     {
       "date": "2001-01",
