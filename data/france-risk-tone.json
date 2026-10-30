@@ -298,13 +298,61 @@
           "relevant_sentences": 16
         }
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "index": 78.7,
+      "article_count": 5,
+      "headline_count": 9,
+      "coverage_pct": 55.6,
+      "adverse_count": 4,
+      "favourable_count": 0,
+      "neutral_count": 1,
+      "method_version": 4,
+      "articles": [
+        {
+          "source": "RFI",
+          "url": "https://www.rfi.fr/en/france/20261030-french-dockworkers-strike-over-budget-measures-and-militarisation-of-ports-arms-war",
+          "title": "French dockworkers strike over budget measures and militarisation of ports",
+          "score": 83.4,
+          "relevant_sentences": 8
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/live-news/20261030-french-economy-headed-for-a-wall-as-gdp-shrinks",
+          "title": "French economy 'headed for a wall' as GDP shrinks",
+          "score": 92.0,
+          "relevant_sentences": 11
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/business/20261030-french-economy-headed-for-a-wall-as-gdp-shrinks-finance-minister-warns",
+          "title": "French economy 'headed for a wall' as GDP shrinks, finance minister warns",
+          "score": 92.0,
+          "relevant_sentences": 11
+        },
+        {
+          "source": "franceinfo",
+          "url": "https://www.franceinfo.fr/politique/budget-2027-il-faut-savoir-prendre-des-risques-estime-michel-barnier-qui-plaide-pour-un-49-3-du-premier-ministre-sebastien-lecornu_8260058.html",
+          "title": "Budget 2027 : \"Il faut savoir prendre des risques\", estime Michel Barnier qui plaide pour un 49.3 du Premier ministre Sébastien Lecornu",
+          "score": 48.5,
+          "relevant_sentences": 18
+        },
+        {
+          "source": "France 24",
+          "url": "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
+          "title": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
+          "score": 77.6,
+          "relevant_sentences": 8
+        }
+      ]
     }
   ],
-  "checked_at_utc": "2026-10-29T21:54:50+00:00",
+  "checked_at_utc": "2026-10-30T14:22:06+00:00",
   "coverage": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "approved_headlines": 9,
-    "articles_analysed": 3,
+    "articles_analysed": 5,
     "minimum_articles": 5,
     "publisher_urls_resolved": 9,
     "google_urls_attempted": 9

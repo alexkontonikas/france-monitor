@@ -1,13 +1,83 @@
 {
-  "checked_at_utc": "2026-10-29T21:52:56+00:00",
+  "checked_at_utc": "2026-10-30T14:20:18+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "French Protests: France Faces Fright Night of Inflation and Unrest",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVndzcGRlV0g3V1BRMm1vSzF0WW02QURkc3JWOTlHUkVUc2NsbFFVZUNWSWtWX3FwQzlMX3QzaFFONklIemZDajZ0TDBLcXBOVXB0R1NzREJJYzVORUd5bGp1YUNxV1VvVGVhVVNxTkVnaHhmMGh0NW45RHhHazU5cV9UeTI1d3BFWW5IQkw5a04yNURNWVhmLU5EREhGV0QwRXpyR3o0T0RLSDZEb0NJRnI5UW9fbkxkeGY4?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-10-30T13:46:05+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "French Economy Unexpectedly Shrinks as Headwinds Gain Strength",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcG9lV09SS3JveHBoRm1xaWQxeFpEQ2ZuSXVBLU5PS2ZocGxoSU1UNEh3Y1A3Y0hxU2h5al9OX3QxUXM2TjFuQTJPM0VMd2FDMTluT3NqQWlRZDVQaDYwZGhjX1hLLWw3aU5mZ010cUZXaXQ0bVRmVE5PREl0cXlUU25wUDRFU1lDSjE5M3o4N2VvR3FqQ2xBbW0xSEVqUlhzRTBDTnh4aU8xeGhwSm1veU1QTQ?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-10-30T10:33:37+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "France races towards recession as economy shrinks",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUlZCMUljZXRNbnBxbVlvTWc0NUNOWmk5TVVCSmRyRDFIemRBWkRWUEpHU1A0dndlNHUwc2pNRndTU0FBV2x1YUlaTW1TR0t4QllhTGlweFdwbGFkZjRRMFN0Nk1tRkR6czAzaDdiUzNPck5zNDAya2VIYmd6Mk95SC14NHNSY1BQalRtSXphY1FBMHJVT1k4bTBIelk?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-30T10:20:27+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Another Toll of the Violent Unrest in France: The Political Center",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV0RFclpWTVd4T3dUUmktbHRnYThhZzNZWnNGTnhjdElzTkg1b3RFNzFxSlJzY1V4WkdMd1pYeUVkTkhmQUM5NmpBSnhTSlpnZjFDVXQyVFgtaE1sak1fOTV5ZXNkcDJtZ0EtdGF6c3VwT1llMS1veFF4cHZnY1hOWGlfcEgwc05QR21V?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-30T09:35:23+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "French dockworkers strike over budget measures and militarisation of ports",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb0NBcHdra1owbF8tdUtvczJyMTFUSkJkUkZZTURTZ1hXUURTVjM3RkdjWnA4LTd6S085b19zQkl4UTBGcndHNGotU1FJcDlXZGkwLUN5dW9CTFFTamNxNklFYS1iRzhGU29tbFFMeTY1Z0laNC1vcEZWOThlZXhqVzhaQkNmNkxia0RYbkVmM1J4RFY3b29SZEtRd3oza0pBQkJaWElxUzFIc1g0eVJERFprM1lWNUxZSEtHdG93?oc=5",
+      "source": "RFI",
+      "published_at_utc": "2026-10-30T08:19:09+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "French economy 'headed for a wall' as GDP shrinks",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYTlvcE9WaXF1eWc4M1ZsQkZyNDdqR0s5RHo0UmhhVHZ3dUt3NnAyUkRQaUktZlltNkdKLWpOcjZRTnpGbDEwMG1WZUVWVElGUl9oalRwODFCV29RRXR1RVctRXZJT3lRVkI4V0tNYVo4ZEVOc2RRWEhsa3k3cVg3dmtmdmJMTTJmcmpabHhtcU9aMXJTRlB1SFZ3?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-30T08:01:46+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "French economy 'headed for a wall' as GDP shrinks, finance minister warns",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZWltazNkRmhwOHp1azVMMzlIazRIQ1hvRnFteGpjdEtyZzRBa0l6cVhZMHBJTTBvSDdheFV4di01a3pXZDRQdmk3ZWkxOFFIVEg0dWpVZlJQdlZmREhNbzV1d2xWdzcwejdiVS00Z3JsMHBTenFQX0dPbDdJYUUzdVFSc0xBUkFIWWhBMWg4M2dVVktPaVVEaFVBSzZ2VnVwbUZGdWNybk5UNjBGLUZUcUg5dG9ya0U?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-30T08:01:46+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Budget 2027 : \"Il faut savoir prendre des risques\", estime Michel Barnier qui plaide pour un 49.3 du Premier ministre Sébastien Lecornu",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPREZQU1NmQTg1X2xEbWdWUlFKeUp6Q203VVNGQlc4TXVwS3R5RVdDN0JUNV9KR1ZuLVRUQXRrR2NCaDV4cnVPSnVaWDBhNks0eWZuc3MydmpyeE5QTXhtNVZWV2sxd2JnTklYUVdqSkNvY0xKclV6eE01a1dOX0FCRDRDSUs4eFIxZ2V1NDBXcWdTTlgtZkxGcWE5ZnJfQjBES19hUTdMZTZmMHNMbmV2N0lDMGxOMVlEZ2YxTHQwS1BoY0FsaXRDUGplOXVQVXU1V2c0eFBlVVVQRGtYZjZHTWJjTlpUZ3FHd2JEQzNqaWFJZS1rdThwWHlZQlljWnVqR1BuS25Bd2kxbkk?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-10-30T07:43:33+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTGUtdnBSTWUtTUFnbnFtQ3hDTEZnNm9OZENibEJiVEpHbUdEQlFFcjdGdzNscW9YY0ptM1poSkNsNXg1N2FVQVVnZUpFcWExQkRieXprS2NkaEtrNEhfRUdpbzAteDRtOXdwZlhYaEVNWWtWS2hPVndHSXFvNEFUcnhhOXRtRWc5TUZLZW9IZHpQUmk0X1ZoeVFuNmxwWFRSS1J3VHFIajRENTE5MFdSUnl5Sk9OWVpUMEFjZzFpWml6ZjByanpPTnk0NmtUQQ?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-30T06:57:15+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "French economy shrinks 0.1% in third quarter",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnAwVnJKYlVvQjhXdTR1OThNQ0FPX0g0ZHprdjBtVFZzaXBNeFFjem1RYnFPUlFNNDR4aDNpMU9EcDZ5TVZzVUc2OTJ4QkkxWnYwaXBIUGw0dll0bWNHcGotUE54dE8xSkJfS1NhTmhlRTQ1ZFQ0U2VLTHBzUG53Wmt4WVo?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-10-30T06:54:08+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "French interior minister to deploy 70,000 police for Halloween protests",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVmZWNWEwaXVKbXZEbi11M1lPLVJGVTJsbWsya3ZRUnN5cVJCLXNPLS1RX0o3ZmVuYVJNb0pqUWdRdGVXYXpEZXNQLUhKaGFaZkhxaDhxT3hpVUlzdndhN0djYVY1djZ4Y2hJcTNUMmExYnVSS25XXzVTSEpuRVlYa3FWREVXeXhnY2p4RUtxb0ZfWUxTd3ZKbTJ0WjNMcmtIRWY0aE1GaGE?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-10-29T18:32:02+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
     },
     {
       "title": "'Deeply regressive': How the French government plans to make protesters pay for riots and looting",
@@ -42,7 +112,7 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTFZGUGtzbmtZLTQ2Mml5Q1hWSUcyQVRERjlJYVktU0k2U1FZVVctX21DVjBKNkM5MmxVd05NeklvSU92VW9xdHdfa0E4LTlTVzl1cTl5eW5Za0ZXQ3BiRE40SnY0dEd2Q0R2TWlBWDJfZnlvazlXQzhxdEhfWEhiMUo5ZEsweUt5TDRnZWEtRU9yRXRwVnVieXlKdw?oc=5",
       "source": "The Independent",
       "published_at_utc": "2026-10-29T12:15:00+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
     },
     {
       "title": "Business - France reclaims title as Europe's champion of tax and social charges",
@@ -56,7 +126,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFdveHhiSVhfTENBSUZ4Wm1NSEZOY3dzYnJCRTVpNjJlSnlXaTRZRV9NUFZnekltbVFQUEN6NGM4cmdTT1N3X2V1TXlReGZURHlBQVgwYmZNYW9ZOWl3LS04cnJ6clhGUERoUUNRYnVRWnZrRi1Pby1FZ3pXS3I4NUV4aTk1QzlTSXZYU2ZB?oc=5",
       "source": "The New York Times",
       "published_at_utc": "2026-10-29T09:03:02+00:00",
-      "topic": "Reforms & protests"
+      "topic": "Politics"
     },
     {
       "title": "Dette : 84 % des Français veulent la réduire, aucun de la même façon",
@@ -66,60 +136,11 @@
       "topic": "Fiscal policy"
     },
     {
-      "title": "Opinion | The bond market, boring no more. Just ask France.",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSHMxM3dLckU3ZF85UDNWeTZxZTMxeWo3a0FPbGZoQmhkdWYzSXdUdUpGVW5hNjVxLWpXeDloREFLbndEbEVFM0Y3OGIwUXZOdmdxYlpDQk80Zlhnazl2d2stV0wyUVcxaEN2NElJWlRnRG82Q1FEUzdFVGVMel9tWUtQWFFTSFRjUk11WHptaWFfbjZOMm54Mk1GaUFQYk5zNUswMklmdm12d0FHbkhB?oc=5",
-      "source": "The Washington Post",
-      "published_at_utc": "2026-10-28T18:00:00+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "La France ne sortira pas de l’impasse budgétaire sans augmenter les impôts",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU0VIT3pVRV9lRjJpSzFOZjlKRzhLNmVvS2o0X25jdEgyWnp5Rng0c29pdWdiRW9HZnpUNmZkMWRPT0hfVkhrbWxPY01yMm5MaUYyRFJGNGIxWXFKMmFYTTh4RFV5eXlxNnVlVW9QTjFkbU5HUjloMDI0ZUd4VkdlcGEybVd1dUVfZGtmTVV5SjE1S29tT2psNjVJeU8xSzdsel9OaWhIaGs0VlZTTDdUODV6WGdPUE42dmVOcExsZ1BnN0ZzX2lvM29PZ3hxN1owcjNzQXd5YW9VU0FpNEJYcVhQQVBFUXRNN1M2dEtLT1pIdTg?oc=5",
-      "source": "Libération",
-      "published_at_utc": "2026-10-28T16:13:09+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "« C’est le fond qui prime » : Lecornu ferme la porte à un 49.3 sur le budget dès maintenant",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONUZPSUxVOEZPLXRnaGJJYVhadXBGSGx1dmZqZ1ltRDRIZnpFYWtnbnZQTnh1ejk5MmQ4ZWhfbXFWdWQ4MWNZWno5V2dJM3ZJQlFxOXNfUEVPYnZocDRQdU4zdVV5aDhnemt2X2UwWXBfWnlrRWdHa0d5VUV6bEpJdTd6VlBHZWZ0VTVHdWhSNEloZ0tSNTI5VFVQay1ZSG1Da3VSZjZBUDk3RWh6TEhYVFBrV0JfWW4yVm9JcUV3akhVMkk4NUlCcmNRSnFKNVhBTjM5MzZNRm95Y3BUSTMtMGpid0YxNEJDa3ZBVVVWcTVrNzA?oc=5",
-      "source": "Le Parisien",
-      "published_at_utc": "2026-10-28T15:00:41+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "France’s Lescure Says Prepared to Use Any Tool to Ensure Budget",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUdQdHRkVW40eGJfNlRxeEJCLXF5bkJoX1JVanV1c1ZGdnJ6OVNqMGVPVEFYODlnU0Y5Y3FMUVFNT3pTVThSZy1aZ1gtNUpOazU0NldxSlF0c2JxcEVXZWo3Q0djNXJNa3pfNGpPXzRRVlcwWFcyRl9TcHhnN3VHUkJBOGVGYUk2QW9YOUlWSFVjeW9XbjZDYWhXTm5ENXZUM0RmM2QwU2RuZXk1c0lydzlRa24?oc=5",
+      "title": "French Debt's Riot Premium Is a Test for Le Pen",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEVDVTl1UGVJMThpaDNQRFNJbWFsbmliZzdWV3A3bTlWUHgzcE9Od0pyTDMzWkRNUEVhT0tCOEhCNWFNWlJSN2RKSl9wSjgwMWpJWGN2a0tXRVBnWlVtaFVJTFY4X2hpZDdvX09PYV9SV1dVRXpOdUpuNGJfbGhRVXFtUlBjNFRZY1JUSjJfdkZVU1lHbzZfWmY0cTVEdEFzRmhHLXhNS2pITW94SkxtbXBwRUJXQnpCc3c?oc=5",
       "source": "Bloomberg",
-      "published_at_utc": "2026-10-28T14:14:35+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "French media protest manhandling of journalists at far-right party rally",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamVnaC1JSDQ0NHhhTlJPU2lFem5aaVk5Ym52VURqRlFTdVY1OS1hRjZJaEYtS0h1RVRYUW91NkE0QWhUck83OEtrQW1YdmRRREFYa09ZbmFkc3lCd2pudU1RU0o4bXM0eFJtSkdHcXBTRmdQdmJRd0Y4WjU5TnQ4TEc0ZXg4SUJ2WGoxSnVDU0ZGWW01cXBMVUJMXzdUUWV0S3ZaUzlsMW5RTnpGLThz?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-10-28T07:07:06+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "US judge narrows French President Macron's defamation lawsuit against podcaster",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWRka2pvNXk1Vk9HdHVMSFdpZFFlaVd2TldySHpic09fZ2VtTmNUUVVmbHNOWVNWZ2piMUMyWF9POTZCcUQwaVk3ZHI0LUxocFFremtnYWREZEYzZ0dGQzJ1WGJZdG5rN0syTzRNa3ZFTmN6dGVBMDYtbHhpYlIycXBlT1ByNmtrZGdVczNyQWJzOHRvbE5pZnowNndrNzBHd1I3eXhxRlRwQ2ZfeFBLTWV3a0R5MXlYdi1NdzJsekF1a2xrOXJoZG9ONA?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-28T03:28:00+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "Judge Limits Candace Owens’s Liability in Macron Defamation Case",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZXRJT1EyWGVNWVdWYVo2NEw5UEE4czE5ZnFrcUl4UGNNcGhjbEF3THZBSlVOdzR6UlI0NC16YU5tYkNCNHYyR2s3Rlp2MjN4RC0ybWxFaU5MSll5REZWOWFrNHdzVEJ1eUw1M2lkSnJLX3F4VmpIeldYTHp2ckgtNDVqVG5xdFVGVmtpdGdfOV9Ob2Fjb0E?oc=5",
-      "source": "The New York Times",
-      "published_at_utc": "2026-10-28T02:19:45+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "Yaël Braun-Pivet incite Lecornu à « activer le 49.3 » sur le budget 2027",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbE1ISWhYc3V1RTNqcFdUNk8wWW5nV1M4Q1NsSDNFcVlSWk55Nk44bEtpbmhqM3VMUEh6YjJFZjh4R2Y5REZuQS1Fa3JTckN4cFFlQVpCTWotMG51eXQ3UDlkQTJGbFJFVGRuTXoyZWV6ZDJCdHVEYmhOaWxrM1pxakhKeWFoZkplM0c0QWhwd0JvUGNVeXBvOGFEdlNDNnMxMzVreGs1emhHWnc2aGZMQW8tMFFOcWc2Qnd2cjZQVGJYT1l3NFMwT25Zam1OdjRfRGVqWg?oc=5",
-      "source": "20 Minutes",
-      "published_at_utc": "2026-10-28T01:44:00+00:00",
-      "topic": "Politics"
+      "published_at_utc": "2026-10-29T05:00:00+00:00",
+      "topic": "Fiscal policy"
     }
   ]
 }
