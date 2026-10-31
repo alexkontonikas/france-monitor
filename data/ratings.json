@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-30T16:15:09+00:00",
+  "checked_at_utc": "2026-10-31T15:29:57+00:00",
   "method": "corroborated editorial reports; fail-closed",
   "ratings": {
     "Moody's": {
@@ -41,6 +41,5 @@
         }
       ]
     }
-  ],
-  "verified_as_of": "31 October 2026"
+  ]
 }
