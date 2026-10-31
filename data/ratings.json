@@ -16,10 +16,31 @@
     },
     "Fitch": {
       "rating": "A+",
-      "outlook": "Stable",
-      "last_review": "28 Aug 2026",
-      "next_review": "Not announced"
+      "outlook": "Negative",
+      "last_review": "30 Oct 2026",
+      "next_review": "By end-Feb 2027 (date TBC)"
     }
   },
-  "events": []
+  "events": [
+    {
+      "agency": "Fitch",
+      "type": "outlook",
+      "date": "2026-10-30",
+      "rating": "A+",
+      "previous_outlook": "Stable",
+      "outlook": "Negative",
+      "verification": "Manually checked against Reuters and Dow Jones on 31 Oct 2026",
+      "sources": [
+        {
+          "title": "Fitch revises France's outlook to negative",
+          "url": "https://www.reuters.com/world/europe/fitch-revises-frances-outlook-negative-worsening-debt-dynamics-2026-10-30/"
+        },
+        {
+          "title": "Fitch Lowers France's Outlook to Negative From Stable",
+          "url": "https://www.marketscreener.com/news/fitch-lowers-france-s-outlook-to-negative-from-stable-ce785fdbd080f720"
+        }
+      ]
+    }
+  ],
+  "verified_as_of": "31 October 2026"
 }
