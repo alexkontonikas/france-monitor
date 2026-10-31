@@ -24,7 +24,7 @@ SCALES={"Moody's":["Baa3","Baa2","Baa1","A3","A2","A1","Aa3","Aa2","Aa1","Aaa"],
         "S&P":["BBB-","BBB","BBB+","A-","A","A+","AA-","AA","AA+","AAA"],
         "Fitch":["BBB-","BBB","BBB+","A-","A","A+","AA-","AA","AA+","AAA"]}
 # Restrict auto-promotion to clear statements from recognised editorial sources.
-TRUSTED={"Reuters","Financial Times","Bloomberg","Associated Press","AP News","Le Monde","France 24","Les Echos","Les Échos","Euronews"}
+TRUSTED={"Reuters","Financial Times","Bloomberg","Associated Press","AP News","Le Monde","France 24","Les Echos","Les Échos","Euronews","The Wall Street Journal","Wall Street Journal","Dow Jones"}
 NAMES={"Moody's":r"moody(?:'|’)?s","S&P":r"(?:s&p|standard\s*(?:and|&)\s*poor(?:'|’)?s)","Fitch":r"fitch"}
 ACTION=r"(?:downgrad(?:e|ed|es)|upgrad(?:e|ed|es)|cut(?:s)?|lower(?:s|ed)?|rais(?:e|ed|es)|affirm(?:s|ed)?|maintain(?:s|ed)?|keep(?:s|ing)?|kept|hold(?:s)?|held|retain(?:s|ed)?)"
 now=dt.datetime.now(dt.timezone.utc)
@@ -37,7 +37,7 @@ for name,initial in AGENCIES.items(): ratings.setdefault(name,dict(initial))
 events=data.get("events",[]) if OUT.exists() else []
 
 def news(agency):
-    q=f'France sovereign {agency} credit rating downgrade upgrade affirmed'
+    q=f'France sovereign {agency} credit rating outlook downgrade upgrade affirmed'
     url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":q,"hl":"en-GB","gl":"GB","ceid":"GB:en","when":"14d"})
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
     with urllib.request.urlopen(req,timeout=25) as response: root=ET.fromstring(response.read())
@@ -91,6 +91,40 @@ for agency in AGENCIES:
     new_events.append({"agency":agency,"previous_rating":old,"rating":rating,"date":date,
                        "sources":list(proof.values()),"verification":"two independent trusted news publishers; not official agency feed"})
     print(f"{agency}: {old} -> {rating} ({len(proof)} independent publishers)")
+
+# Handle outlook-only actions independently of rating-grade changes.
+def explicit_outlook(title, agency):
+    clean=title.rsplit(" - ",1)[0]
+    if not re.search(r"\bfrance(?:['’]s)?\b|\bfrench\b",clean,re.I): return None
+    if not re.search(NAMES[agency],clean,re.I): return None
+    if re.search(r"\b(?:could|may|might|would|potential|expects?|forecast|if)\b",clean,re.I): return None
+    pattern=r"\b(?:revis(?:e|es|ed)|chang(?:e|es|ed)|lower(?:s|ed)?|cut(?:s)?|rais(?:e|es|ed)|upgrad(?:e|es|ed)|downgrad(?:e|es|ed))\b[^.;]{0,90}?\boutlook\b\s+to\s+['\"‘’“”]?(negative|stable|positive)\b"
+    match=re.search(pattern,clean,re.I)
+    return match.group(1).title() if match else None
+
+for agency in AGENCIES:
+    try: articles=news(agency)
+    except Exception: continue
+    votes={}
+    for title,source,link,published in articles:
+        outlook=explicit_outlook(title,agency)
+        if outlook:
+            publisher="Dow Jones" if source in {"The Wall Street Journal","Wall Street Journal","Dow Jones"} else source
+            votes.setdefault((published.date().isoformat(),outlook),{})[publisher]={"title":title,"url":link}
+    qualified=[(key,proof) for key,proof in votes.items() if len(proof)>=2]
+    if not qualified: continue
+    newest=max(key[0] for key,_ in qualified)
+    matches=[(key,proof) for key,proof in qualified if key[0]==newest]
+    if len(matches)!=1: continue
+    (date,outlook),proof=matches[0]
+    current=ratings[agency]
+    previous_date=dt.datetime.strptime(current["last_review"],"%d %b %Y").date()
+    if dt.date.fromisoformat(date)<previous_date or current.get("outlook")==outlook: continue
+    old=current.get("outlook")
+    current.update({"outlook":outlook,"last_review":dt.date.fromisoformat(date).strftime("%d %b %Y"),"next_review":"Not announced"})
+    new_events.append({"agency":agency,"type":"outlook","previous_outlook":old,"outlook":outlook,"rating":current["rating"],"date":date,"sources":list(proof.values()),"verification":"two independent trusted news publishers; not official agency feed"})
+    print(f"{agency}: outlook {old} -> {outlook}")
+
 events=(events+new_events)[-50:]
 OUT.parent.mkdir(exist_ok=True)
 OUT.write_text(json.dumps({"checked_at_utc":now.isoformat(timespec="seconds"),"method":"corroborated editorial reports; fail-closed","ratings":ratings,"events":events},indent=2)+"\n")
