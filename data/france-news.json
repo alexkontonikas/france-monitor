@@ -1,27 +1,55 @@
 {
-  "checked_at_utc": "2026-10-31T20:29:51+00:00",
+  "checked_at_utc": "2026-11-01T00:13:26+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
-      "title": "Clashes erupt between police and protesters in Paris",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NY2lqbnpMNWY3UlNiX25kZjFCT0tHRmtoRDVfaVdQUHNlWEU1UnlqVjJxbHRlQ1RlYUdXMjc0dzM2WnlnMHJUYnlReG1qQzlJQzhYQWFveVA?oc=5",
-      "source": "BBC",
-      "published_at_utc": "2026-10-31T19:37:43+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Paris police fire tear gas as more than 300,000 march across France in latest anti-government protests",
+      "title": "French police fire tear gas as more than 300,000 march across France in latest anti-government protests",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRkQwMnpfdjlrU2Q0d2FQOGVTTm1QOXBlbEtucXU4R0FzSHMzWnptb2JtZHdtMTNLdS1xNjFpaXlybHRwUnNHZTVZT0tWVWFpZngxUXRnbWFqTWdFTjVLMW5US09rX05ETUI2OElNc1d1S0VPeEVqLWI0MXNTYlV2ajJnMmw2VGNSeFRpLWxCZHRUVGZnS25VY3RjNS0xTnVBWjZhWnhwMjdCX3Mz?oc=5",
       "source": "The Independent",
-      "published_at_utc": "2026-10-31T19:07:00+00:00",
+      "published_at_utc": "2026-10-31T23:26:00+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFF5RkVadmlOV3ZnU3IyTmRpLU1NUXFBNkZsZHdSYndMaTE3bFJCdG9NMHY4ZkhQdTJHcFlxR3V0b0p2ZTJfbXd6V3dVUzBMNFZQSWRxZGdiUDNqNXgtcmR2MVFxM1dmMjJJY1NVWFBmSnN5aFZpUUJEZjh2ZmJYMjJB?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-31T21:50:29+00:00",
       "topic": "Reforms & protests"
     },
     {
       "title": "Police clash with masked rioters after largely peaceful protests across France",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMVZIZm5SMFU2SHpmSm5HYWhaNmt3NWpvS0JsRmViVFVzVTVMU1VNZ2VLcmJvcEh5ZDN6SlF6LUJHM1VBS1I5Yk1FYUxGc1ZxR0xJZENtX2JQVC1zVzBMVG4xR0pfRUlRVkJ3T01PdXI4MzJPTmRFSTZ6ZW5DSXJyY1VJN011MGpxa0RqS1ZqaWlDNnpRTnhuN00tbWxibUdZaWFYQThMaUFmU21aVG9LekNB?oc=5",
       "source": "The Guardian",
-      "published_at_utc": "2026-10-31T18:36:00+00:00",
+      "published_at_utc": "2026-10-31T21:29:00+00:00",
       "topic": "Politics"
+    },
+    {
+      "title": "How a Small Student Protest Spread Across France",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZXFRYUJjd2xseURjNElYUDBQNUtwZDVrUnZVbzVFM3FqblVrWTVZWVRaZ3lUTEZkbm9hWGpEUS1vZ1RaRXRVQ2FqZkM0WXB0clBqT3RVbFp1akp5TkFlZ0psZERwakRveF9EcEwzLTl5MmJvb3pkeWhUU1NRbUI4TFN0Zw?oc=5",
+      "source": "The New York Times",
+      "published_at_utc": "2026-10-31T21:08:21+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "Un gendarme mobile victime d'un jet de cocktail molotov à Paris, à la fin de la manifestation du samedi 31 octobre",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOOUNMc1doSVE4R01LRnhqb0hkaTkzWTNjV0wxbnBmRVdCa3VsXy1qV2lGVGZvTzdrMGY4RXBEN0pkQWJpZHh4dUNlbkQzMnV3YWg5VGluTFRIMHV5RWo1R1pMTWdWaGEwVDI5LWw2cUZobDlNU0ZIbTZoVWZfQXRHM1NFYWptWG4wVkVlSEFPX0tJSTQwMGRoNlpXcFNVd2J5enB6U1FPZExVRzVvT0pwRUpyOEZWMm0tYzBQdVdMSkhPQ1EtVjFYNG1VWkFoQmJJakFrUnRrNDZhLVR0a1pVSlRBWVAxbkJHWXBoUk1jbWFNM1lYdGNOOWtNSVZaSmZndnIzUUln?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-10-31T20:27:42+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Thousands demonstrate in Paris as protests spread across Europe",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1icHVUalZYWHp4TWdiWUlzbHhmTndaVU9jc0NYeGhBak5HMDFVOWF4aTdzb2ktUU5sUXRVbWM5QkFvWUFCc0lmbzA0V21vVVRFcmZLUUZGNGJoSFE?oc=5",
+      "source": "BBC",
+      "published_at_utc": "2026-10-31T19:38:37+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Protesters firebomb French police as clowns and witches join Hallowe’en riots",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM1Y3SjhIaEx4OC1nV0FqVGdwUllwMUR4a1dSSjVrN2FHRkFyR3V3SHlJbDZpTno2c2JVTFZJWXdReFA4ek1fWHZZMm82UzVoVzRKMWw5dEkzWG1uWmx4U2tZbXJza1Jlb0ttQ3pGRXZSanJuV1hmVXdfOTVpX29oZ0toV3NZRm83MmVkLTNxenFES3JRcnExZVhINnFHQjVFS0NGOEJQMTZwQWlkb2c?oc=5",
+      "source": "The Telegraph",
+      "published_at_utc": "2026-10-31T18:36:00+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "France Wants a 5.5-Cent-per-Gigabyte Tax on Netflix, Google and Meta",
@@ -35,7 +63,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTk1DOEg0RWd3bjVlaER4U005dnpDcThxb0xIbG9PQ0dmcGxQU0NqR1JacmgzNndfOFA4VXRsYklYZXljWHMyWGNLQmQ5V3RVSXJNdzJRNmtXSDVhcFgyUHJlakM0OGtadG9DaUdXSHhZZlFhRHd4cE5qMk9JZHQ5WHJBaWFNYXVORkNlSHJla1RDdGE3dTNPbjFQOHhaUEJ2N0xzVVVtR0ZycW1zRmtqSFRQcUtSdllONzI2c2dPS0dTOG1ORXg1MDVIU2hwbUFSUHR3cUwza2t4V0NNZFY0?oc=5",
       "source": "France 24",
       "published_at_utc": "2026-10-31T16:45:06+00:00",
-      "topic": "Reforms & protests"
+      "topic": "Politics"
     },
     {
       "title": "France Approves Proposal for €0.055 Tax per GB of Internet Traffic: RIP Gaming and Streaming",
@@ -45,13 +73,6 @@
       "topic": "Fiscal policy"
     },
     {
-      "title": "Manifestation du 31 octobre. Dans cette « ville de nantis » en Vendée, « on ne veut pas d’une France comme ça »",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOaWNKTDR3N3dERl85NlVnQzhFU0Faa2Y2Z2hJTk5fSUw5dVVNNmdHREtDYUFCd0pyZUlRTWtja3Jqam1pR1YxdmtWNGtfN1kxMXNKVWlDYksyNnBXWS01QUZtMVlEUGZidFJmOUM5VmZZWXRwNW9oaVlqdmVZYXJMWkRIMXlpS2JPdmZwVXVhTzB4dEtLdzM0NzJ6dDItWDBQQ1dpWV9saDZFRTZwUnI3QnJIRGVIV3hLOHNiYWhSdkQyZkJKc3lQZkhiNTFmRGZ4YU9JY2xEVWdQTDhOVVJodnktNjdtd0ZzWlE2WS1uM1ZaalZFVm1vVHp1Y2tKRW5kUDl4LVphOUZfODhydXdiamtCN3REZw?oc=5",
-      "source": "Ouest-France",
-      "published_at_utc": "2026-10-31T13:53:04+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
       "title": "France deploys 70,000 police ahead of fresh protests as unrest intensifies",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYUp0YzU5YWk3MjR0RWVJeEdXckIxRkk0RjNULVR5dzd0dzYyMkRWY2RRaC1sWUcxZDhFVEEzV2hYX1lEUzZhbjR1RVU4VWZNdXJKZGdJRGVIMHdmVkVBd0hROGttb3pnQS0zSmFvTjJ3VDNNU1U2ZG42bjRKWXRWdWFCdEwxeVFpOWZtYUtsSVItM0J2Y0hwMmRYRjUwaHJFbEhNclBqOWFSb0FUaFR6QlUtWWs1WGpQb0dJWE84VkI?oc=5",
       "source": "Investing.com",
@@ -59,7 +80,7 @@
       "topic": "Reforms & protests"
     },
     {
-      "title": "Protests spread to Germany on Halloween as hundreds of thousands march again in France",
+      "title": "Protests spread to Germany as hundreds of thousands march again in France",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOFhCM1JCcUdQbW4wWl9QdXZIS3ZQbzdlRGNaenlpQnNuZGpYb3c0ZzdxNi1yd0NCYTlZZjhnUlFUMFZHa3htVy12U0NZTS1ISW5MTm1wNERkSGlnVmpDMlJYMV8xbU5wY2JmbHpUZ193Z3lhdFdaSDVGZW9aYlk0MnFB?oc=5",
       "source": "CNN",
       "published_at_utc": "2026-10-31T12:21:12+00:00",
@@ -73,11 +94,11 @@
       "topic": "Bond markets"
     },
     {
-      "title": "France pushes 'responsible' 2027 budget as Fitch cuts debt outlook to 'negative'",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWtWUGprVGFFT1JZYU11YWZEdnFWaUwzaE5GX0VoS3hRRnNabVpQMDdHTDBMTFJQUkxHSjRQdlJKZUp5dWd4RXRYdGFUbnVUQ2NCUjVBLWp4UjRNaWMxQ244aE9EeXBmTm5zTkZqQm12WDZtbFNfY3hja3hQenpoUEtpcng1dVFyWTVma2xjR05TYnpxS0xHTjBoeXJCZ3Mtby1tQw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-31T06:27:00+00:00",
-      "topic": "Bond markets"
+      "title": "French Interior Minister fears disorder after dark on Halloween",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUG5iUnJtTWJMNXhEZGNnWkltZVdHRlRobjVWSzFMbjR3N0UtUVZHckxwZUM4TU1LUVQ1eDNoNTJtMXhGTy1rcVhRYjFJdWpJSC0zcTVhU3Z3NFp6clppaWxvTHZPa0Z4STNXTVNJRTVYckNBM0VTS2habjFKeE1XWnp3aTNIV0ZMLWFSTG15TF9HaG9OSXc?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-31T09:17:33+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "Manifestations en France: nouvelle journée de mobilisation ce samedi, un dispositif policier «exceptionnel» attendu",
@@ -91,126 +112,14 @@
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbVFUX1huSHBwVllwbEJMZC1ZTV9MS1hzVGE0M2k0RVp0TEJpUUczMW1reTJHOUt1UlFCYnNCaDJjV0wxVEdrYnFadnRUUTJ3ZzBNaXIwU3hia2ZRb1pWQVFER3A4anpRZjVWY2VudERDcnJlMG4tNDVXYVdLZTRsRDJSXzVUd1kwbnM0RnZMa0d3c0tGRjkzNW01ZFJBenphbDV6TGlaczYxcTU3TXl3SVU2UUxtWE9FVHB0bHV6YWxNYlZIc19SZW8wMkFVcXBMQWhzLUpTdVY4bldiN3pYLUptYXA3YXVxRzhhbV9yb1phd9IB9wFBVV95cUxNeEN2UjdhUWJkUlJNNlhiUE5Hd3VxaTZMX0lMODJhNTR4N2lyMHlkSTJkdWZyVkM0X21CcUl6U1JkNEFxZ29hNURLM3BkbmNwV1ItV3pzendCMldkekNOREtsM295RTJHUF9hY1FnOGhDMVRwTWlObmlBQ0diSHFJSkYtcUE1SUo2Sm9BNEJndjBfc0FxS0pMdHZQcmZtZ2pKbE13MFl2bkNJQ2VNYXhDNDJqVW9aUm4yNm00T1BlaFhISXB2cGw0Tk1sTGFWTnRNaWtIOFFGUGE2TnA5NlkwUnh4QkNoYkJwVkRvRl9UQzVKelh6S25Z?oc=5",
       "source": "The Economic Times",
       "published_at_utc": "2026-10-31T02:22:41+00:00",
-      "topic": "Fiscal policy"
+      "topic": "Politics"
     },
     {
-      "title": "Fitch abaisse la perspective de la France et ne croit pas à une réduction du déficit en 2027",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOeFQycjZvTkhwS3liWUVKXzE2dk4tbGFHeVUxdE9nMDV1UWgwZlh6bnVLaTFQOGVnTjdkN0NvRHZMWHF4TDJDaHlTQ3AtbUtGS3c1TVlzVE8tZlhCZ2lCZzhYZGp5WkVjVDFHR1V2VTNXajhreGVRVGxUYUlvRl9KMUMyaXozZ2d1ZmpRamx6WU9JeU9JdUxXVU1wQ1JaT0k0X0FsX3VGYzNUcUs2cmN0cFV0MzlVYXM4TWR4QVB3WjdrMVdnRGhpWjJ1MGRGaVpuMTVMQTE2WHQ4SjhFZlRleHp1YVVEdENiVkhOUFVPalpSNkxfVVBV?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-10-30T23:02:00+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Dette : l'agence Fitch abaisse la perspective de la France",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ1hPZkVOYzJ1Ty0yLTl0c3Q0aHlnc2dZQm94QWNZeVVpQTJLNFhDS1dBeW42OFdMb002cncxVmZXV29PN2J6VlNWemVCbk9tYUVaYzVaUzNFaFpvbTlxQUJTMG5aeVF0MGFqMkN4V2MtSXR2MDhHeVVkU3dWZVdsYU1zUHJjbGhFZnF2ZGZmNU1XRDZDaVpuMXRoV1A1eHJFM2MxME5wQlQ5aHRIU25xdC1jRE5MMS1QQWlWTg?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-10-30T22:38:43+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Fitch revises France’s outlook to ’negative’ on worsening debt dynamics By Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdlc5eWsyaHV2bVlWZTBWY1NkOWtaM1ZkV1lQN29NMFUwRF9BTHhvZEZJWEc0bDllVlpjOGJDdFNUZEh1LUxCWHpuV2hfZFNTd0FUMWlXVWoyNlpZbng0RXc3SHduN3IyTFJnQnZ0VHlyN0EwZmlrX2ZRbzhYaHVHY3pVSWtDMTdUQWZ2NElkczZWZUtVSS1fdTlXWURIYXRQZl91c1NSZy1KeW5zVzNJN18yM0xBR1Q2SXQ2TlBJZmRpaE0?oc=5",
-      "source": "Investing.com",
-      "published_at_utc": "2026-10-30T22:26:50+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Fitch revises France's outlook to 'negative' on worsening debt dynamics",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTVVEcXlWOXB3Y19RLXRjRGdaVEJieWlmdWE3akFJTDN2ZER3MUpmR180c2dqcV9iRUZBdVhlWThRR0E5LU1RUUNVaXFxY0lZM2VUWWhNN2pHNlFPM0RuMzdaMXNMSFc2M0NkaWVqOTR5Qy1ZVkYtMnhKUEdrOV9XcWg0UENLT2NHdEtsR2F1eFdKaTlrYjZIZ2pIWE5BYnVheWR3UUNscTJkM2FOdkFBNQ?oc=5",
+      "title": "Isolated clashes in France after peaceful marches, as police brace for Halloween night violence",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXk1S3NHdWFyaW5FR2xIZTNXczZnczhPU1NJUVRpU2NUeU5iajVUcDN0RVl6cGVjNmJGanQyU0F1UmQ2a2lKQnJZNXRROExfOEZISzdKcExIOHFua19XVUc3RmF5N0pCZEI4RXZ0Z1ZvMkw3T1l3bjB4T2syMllUeFBiYV8yeG53SmJfZWh1NEw3UGVjTm05T2ZOdzF4aHlRdi1sNU0xajFBdw?oc=5",
       "source": "Reuters",
-      "published_at_utc": "2026-10-30T22:19:00+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Fitch cuts France outlook to negative on ballooning debt and deficit risks",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1ZQUVgtTGNVSWtTSXlSTHlGZmdESWJwRVFMSzZVSXJDT1M0eW1zQk1UQTVXS0hWcWlIMFEzcW12RmM5MEg2VVFxWF9ldHY0X3JiYzlMTl9JblJxNzVtbk5qWXpxcGVGVDFJX2tsQkFWS19SQnFSQmVoWGFtaEVHcG9vUTloUk5jQ1FHa0JOQkNMeXQ5Smh2MEhTdzAtRmNa?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-30T22:04:54+00:00",
-      "topic": "Bond markets"
-    },
-    {
-      "title": "\"La préfecture nous balade\" : à Paris, le parcours de la manifestation du 31 octobre au cœur d'un bras de fer judiciaire",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdzh3SVoxUFc5Mm9qcGdqZkJObXUxQkpYRnhFVTZrMnlHajBLcFhmR1ctUEliMGFfZlZ4M2NMbWxWUjczUDVnZmZUc2k3VEhCREJqVUNfaTMxejZfY200Z0ZLcDhMbWZFcnRncXlqRDI2bHcxak8yNURncjh2bWh4UVJmZEpBdTh2TXFySno4UEpaMnRLcTVfYnpvT0sxMnp1MUlYMmUtY1lsckdJMmVzajRuUVhHby1aTnpFeHRRaW05V1NWa0I2TkoteDREMG9Iak1aV2pMSnhaUFdSTy1PZzdxdzBzaGdCVVN5THdjZm1DN2ZhaDUxUnlKVmtrZXVpeHhaTFRHcXQ?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-10-30T18:45:38+00:00",
+      "published_at_utc": "2026-10-31T00:03:00+00:00",
       "topic": "Reforms & protests"
-    },
-    {
-      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOVRNN0JjR0Q2TlJ0Wk9vZEpIRnRXX18tdU5HanpuV2N5RWVaRGlQSk1GU0Z2WlNjeHlfazdVVUhVeHR2ZWRMYWRKQnlWQzIxMWJ4TnpmT19obDFBMk1kaDFuS3lRUElvTUFuWk5pV3pzc28wZnpSZnNEdGlxU2Y2akM2NDFoWXFyRVo4cF94QkhReGR1aURMRGdua0FCS2NTYVVWRTdpSWhRMWR6bEZHV1JVUUJPbV9pWUZFb1RNdGQyc2Fu?oc=5",
-      "source": "The Guardian",
-      "published_at_utc": "2026-10-30T14:42:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Another Toll of the Violent Unrest in France: The Political Center",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV0RFclpWTVd4T3dUUmktbHRnYThhZzNZWnNGTnhjdElzTkg1b3RFNzFxSlJzY1V4WkdMd1pYeUVkTkhmQUM5NmpBSnhTSlpnZjFDVXQyVFgtaE1sak1fOTV5ZXNkcDJtZ0EtdGF6c3VwT1llMS1veFF4cHZnY1hOWGlfcEgwc05QR21V?oc=5",
-      "source": "The New York Times",
-      "published_at_utc": "2026-10-30T14:00:48+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "France : Contraction surprise du PIB au T3, l'économie à l'arrêt selon Lescure",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNUJHZEVnWFN4MWdOUEFJSlNCTTlSVU9TcFpwX2RiRmxaVWU1bTJYX20yaFZNTHVaSXRaLUkxUjZfV1ZnSUxYdHJTMVFseXlxbThaYlRqTl9iby03UUhQeDdnZGt3S25la1BtUDBrOWlaWHVkYXZPMk9lVElTaWRMYTFFVnUwbWJiMlFFckhCSU41VFFrd3d4bEJXRnluR3BjdGoxbGZvWVRfUm9Gbk94dk5sdjV3V2NVSWduRFVCZXVvRzFkWUhUbVBlOU1lX2VYWlBjYVNpNUswQXZTS1E?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-10-30T10:41:00+00:00",
-      "topic": "Bond markets"
-    },
-    {
-      "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xeXhCelpVMWs1b3pzeXZOU0psRExTMlhIa01NTmdJWE1NZEh0ajZ0dmtRbFZPUklSUmdpS3NuSFU5UkV6bUVUODBFamdGU2E1ejJUN21rdlpSRWVkeDhFcFJybU84YkhT0gFuQVVfeXFMT0M4S3kzNEJiN0NFVkZjdVMzSkhqaml4LUpuYW16ck9iT1lzV2k2QUlrLVo3dHRaaS1mck9iNm1JZGRYcEVJSS1VVzhlTi11d2d5dnpJRW9RMjU3VHZXQTIyakdxb0hGNTgzdHR2NGc?oc=5",
-      "source": "CNBC",
-      "published_at_utc": "2026-10-30T10:03:00+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "French dockworkers strike over budget measures and militarisation of ports",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb0NBcHdra1owbF8tdUtvczJyMTFUSkJkUkZZTURTZ1hXUURTVjM3RkdjWnA4LTd6S085b19zQkl4UTBGcndHNGotU1FJcDlXZGkwLUN5dW9CTFFTamNxNklFYS1iRzhGU29tbFFMeTY1Z0laNC1vcEZWOThlZXhqVzhaQkNmNkxia0RYbkVmM1J4RFY3b29SZEtRd3oza0pBQkJaWElxUzFIc1g0eVJERFprM1lWNUxZSEtHdG93?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-10-30T08:19:09+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "French economy 'headed for a wall' as GDP shrinks, finance minister warns",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZWltazNkRmhwOHp1azVMMzlIazRIQ1hvRnFteGpjdEtyZzRBa0l6cVhZMHBJTTBvSDdheFV4di01a3pXZDRQdmk3ZWkxOFFIVEg0dWpVZlJQdlZmREhNbzV1d2xWdzcwejdiVS00Z3JsMHBTenFQX0dPbDdJYUUzdVFSc0xBUkFIWWhBMWg4M2dVVktPaVVEaFVBSzZ2VnVwbUZGdWNybk5UNjBGLUZUcUg5dG9ya0U?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-30T08:01:46+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "French economy 'headed for a wall' as GDP shrinks",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYTlvcE9WaXF1eWc4M1ZsQkZyNDdqR0s5RHo0UmhhVHZ3dUt3NnAyUkRQaUktZlltNkdKLWpOcjZRTnpGbDEwMG1WZUVWVElGUl9oalRwODFCV29RRXR1RVctRXZJT3lRVkI4V0tNYVo4ZEVOc2RRWEhsa3k3cVg3dmtmdmJMTTJmcmpabHhtcU9aMXJTRlB1SFZ3?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-30T08:01:46+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "French centrists' feuding increases odds of Le Pen-Melenchon runoff",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTWphYWlpaktfNXNkUmRqTzg2Ml95cjdWWVBaVFdFZWgxLTI5SUttWjdNM2JPR1VmMHdsbFh0enpOc2lNazdOaVo3cjJfZi1ITXd2UEpKaGxxU2tLXzJ0WjJ1VVV6MDRkdnNQN3hfNkduMzFlSloyemdXcWFKdWtXUXc2UDM0enFfR245SDNZdFo2RHpuVDNVWlVWTFlzckZhTE9ycC01MTY3SEc2anNkbGxR?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-10-30T07:55:49+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "Budget 2027 : \"Il faut savoir prendre des risques\", estime Michel Barnier qui plaide pour un 49.3 du Premier ministre Sébastien Lecornu",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPREZQU1NmQTg1X2xEbWdWUlFKeUp6Q203VVNGQlc4TXVwS3R5RVdDN0JUNV9KR1ZuLVRUQXRrR2NCaDV4cnVPSnVaWDBhNks0eWZuc3MydmpyeE5QTXhtNVZWV2sxd2JnTklYUVdqSkNvY0xKclV6eE01a1dOX0FCRDRDSUs4eFIxZ2V1NDBXcWdTTlgtZkxGcWE5ZnJfQjBES19hUTdMZTZmMHNMbmV2N0lDMGxOMVlEZ2YxTHQwS1BoY0FsaXRDUGplOXVQVXU1V2c0eFBlVVVQRGtYZjZHTWJjTlpUZ3FHd2JEQzNqaWFJZS1rdThwWHlZQlljWnVqR1BuS25Bd2kxbkk?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-10-30T07:43:33+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTGUtdnBSTWUtTUFnbnFtQ3hDTEZnNm9OZENibEJiVEpHbUdEQlFFcjdGdzNscW9YY0ptM1poSkNsNXg1N2FVQVVnZUpFcWExQkRieXprS2NkaEtrNEhfRUdpbzAteDRtOXdwZlhYaEVNWWtWS2hPVndHSXFvNEFUcnhhOXRtRWc5TUZLZW9IZHpQUmk0X1ZoeVFuNmxwWFRSS1J3VHFIajRENTE5MFdSUnl5Sk9OWVpUMEFjZzFpWml6ZjByanpPTnk0NmtUQQ?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-30T06:57:15+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "French economy shrinks 0.1% in third quarter",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnAwVnJKYlVvQjhXdTR1OThNQ0FPX0g0ZHprdjBtVFZzaXBNeFFjem1RYnFPUlFNNDR4aDNpMU9EcDZ5TVZzVUc2OTJ4QkkxWnYwaXBIUGw0dll0bWNHcGotUE54dE8xSkJfS1NhTmhlRTQ1ZFQ0U2VLTHBzUG53Wmt4WVo?oc=5",
-      "source": "Financial Times",
-      "published_at_utc": "2026-10-30T06:54:41+00:00",
-      "topic": "Fiscal policy"
     }
   ]
 }
