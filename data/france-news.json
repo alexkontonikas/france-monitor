@@ -1,10 +1,52 @@
 {
-  "checked_at_utc": "2026-11-02T00:53:41+00:00",
+  "checked_at_utc": "2026-11-02T17:14:45+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
+      "title": "Colère sociale en France: la mobilisation lycéenne se poursuit, le gouvernement sous pression",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOHJDUzVyRUVLd25OajdocDdpeWNXQWpfRzJnQ1VkZlA0SW9zMldJMU5EQzE2aGVIVkhQQ3poN2dPcjRvaFhUSXE5cURVQ1o3WFdKSDFFQ3NRRGloUS1YTEZ1NG5Dbi01VkRaVzFYVndnTE5xakloSTZoajltYjB0ZDhtSUtqQlJHY1J3aWlpSkRieExzeVVoUnViNXZXd21NMjNnY045THhpYjVuWjB2cjdScUdqWHJKUGFlY2VVYVNvRGd6V0M0Q0N1bVRDNExYUTRHN0Vn?oc=5",
+      "source": "RFI",
+      "published_at_utc": "2026-11-02T16:05:24+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "\"Une manifestation, ça doit se voir\", estime Sophie Binet, secrétaire générale de la CGT, qui réclame un parcours en centre-ville à Paris",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNanNYN0U4STNTQTFXQlE3NGhyaUZGSmRCTzlqV3hqZHlvOTIxelpTOFhCc3pmOHFiZlR2VndhbGt3a0YxSk9mYlJ4ZkNxejF5OHU1ckttLVkxeFRMM2V4a3Jxek9EVHNvbnpVZEJuTmxWcEkyRzNjaDd2MGRDaUVyT0Z3LXpOYjhtbXlRT3BmNTkwTEZQRWgyMnpnRmhUYXNfR3gya3h4T2RaUGctZ21rQ0VPRW5ScV9TRkxEcTQ0c0NkV2JsRC1WcFhFNWY2Z280U3k4ZnZ4SWtPVkUyZmNoaDB6SUlTRXh3S3FTdzlNcXpaNTBVbVZ5c3BoX3JGSXUyc3Iwa1NDVTVMX1loLTA2S1lGTQ?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-11-02T15:28:47+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Manifestations en France : les jeunes restent mobilisés malgrés les annonces du gouvernement",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMEl6QTFqbURHT1dtY1JyYlhpYVdEYW1uRTBOQUNNX2VCNUFSaFdsN1pJcmRUY0M4QXdJNVJKbHFrWjRKYTlKRUdJWmVmemxQTnV1RjE0cDV1NVdTY1NjdGM0N1o5elRpcFlTV01aNGxfXzRsQzNFcVRLMzFiQkVJcnBidGdUWHo3S3AwOUU5R1VsX3N6REt3M0RHSHIyUlJURnlVOE1LNVh1SmRCTC1TcXRzVkdwMVJka1JTdG1pYTN4MFFHa0Y2U0tOcHhGMmpWb2VlZF9vNmpjeHgzMDB2Z3Fn?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-02T14:54:31+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Mobilisations en France : une semaine sociale mêlant convergence des luttes et appels à la grève",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYUFfWXU3Z3VpaG0xZXJ1SU1EWkVXSF85Y3lyZ1loX2xsdmZTMnJsdFNRZlNoTjNrOWh4RHVVdThPc0Q2SDBZbFB5MW5DNkkwYzkyTl9uN0Zra0FFME42bk45VE41RW5uWHlWQnRCZXdaZDVJeVBOVm11RTF5Mm83TkZKcDFfUUs4RWE4WFFYYURXaTN1OXJzOEItMm4zN1BaRkhoNFNfajBLSVpsdFlnZmpoaHB5R2F5di1RQ2J4ZmNCUW9yTU1GODl6Qm1XVm1HZ2ZGOEJjcVlaMldNTmpNWHN1Y2F5Z0RxVDg3V0p3?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-02T14:29:36+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Mobilisations lycéennes en France : des blocages évacués sans ménagement par la police",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUnF6Wi1LTW9jUWxjWFlDWEpiT0ZpRGlra1J4RWVLS3BCVlZWMjhpekpJeDFIdTdPTVhOWldXc1hlTy1keEhiS1hJczRZcW9RY1l5dHByX1E0a1JrRVNfVzlNaEtLTEJpNHR3R1hEWnVHS1Q1QURDcjRScXZWTHNxSnZwRnJzYzA1ZFh0QjJjWWQxWlhVMFk2cjdvSHk5c0c4MTNEbkNIMGhTa2RZcWtwdFctQ1VnZ2pDNUhrVUR3QzQwdmNHVk5hRXVWSk5acGVkZ1VEZVBQcXdHMHFlVEg0UmoxU21yZ2c?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-02T12:48:11+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Global Market: French bond yields hold steady despite Fitch downgrade warning",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOY3kwNkN4V0xRdU9rTnJTNlNsWUtpbVNBZ09EemhvTWtFY01jc1g1cXR5UmJDcDF3OHhnQU1zclZBcGxsNmtuVmZWd3g0QVdnb19KM05ibEtvNGdXejZDc0ZEbkJjRUJhSVZLRFBoR0NPU2MzTk50ajNSNGJLSEx5R1c1NWZEUHFpYVlYUkRfY3Y5RFNnTkVoaS14THFhalRmeWxaNW1oMlE1ZVVLT2ozRGVzWk9CTFZDTGNPWWVKNzNIR2ZEVjFGcFFKX2g5Yk5zMWVkQUhTbmJBVDRlMU1nSGZZMmY2WnRwWjdmWEwwM0gydzk1aXZudmVn0gH_AUFVX3lxTE14d3FSdmNjZERpckw0YWZHTm1SUTlnMjdfNXFIS0I0a2xlRHlTWlhEX1NuWlJIc184ZTdqMzhjWlMtb3E5WmhOTl9TcUpkYmZoS012bFVkdXVGNzJ4M2VfT3gzRXZyWmlaWThCenR4ckU5ckgyVkdzY2RGM09OQ1V5bVladGV5Z0NXaWk0a3M1cVo1aWpTOEpVRzhBZjdxX21wRWUteDZ2bUFldTRXc3V6QVlIZ2NZVDFmV2d3NHI0OUpvOHFxZm5yT2NsQm03RFpHdFBLVzhaVDl1M1hjT0VQazE4UDJtaE9qSE5xcGlIc0xiU2F1MEpVVzRTaFhSVQ?oc=5",
+      "source": "The Economic Times",
+      "published_at_utc": "2026-11-02T10:22:02+00:00",
+      "topic": "Bond markets"
+    },
+    {
       "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41V0xneml3Vm91VHN3bTVkbzNhNVFBb09qM1BQR29ZNHlKeGhvZlA2cFFrM1dRQXNRWWYyZ0tKVjZPUV9GM0d0bjZxNW90TXJhdXpFZTFpMlowSWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QZHNwUVk2SV9sMFZNTldRdlNyN0dFbmVUZ0cyRFloSmE4aFdleGU1czl3ZjFZb3M5T0FyWkdGZDQ1T09yeXpUSGRiNDNTSUQ4M2lrY1I2NW9SdzRLdkE?oc=5",
       "source": "BBC",
       "published_at_utc": "2026-11-02T00:15:30+00:00",
       "topic": "Reforms & protests"
@@ -24,10 +66,17 @@
       "topic": "Reforms & protests"
     },
     {
-      "title": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFF5RkVadmlOV3ZnU3IyTmRpLU1NUXFBNkZsZHdSYndMaTE3bFJCdG9NMHY4ZkhQdTJHcFlxR3V0b0p2ZTJfbXd6V3dVUzBMNFZQSWRxZGdiUDNqNXgtcmR2MVFxM1dmMjJJY1NVWFBmSnN5aFZpUUJEZjh2ZmJYMjJB?oc=5",
-      "source": "The New York Times",
-      "published_at_utc": "2026-11-01T14:25:00+00:00",
+      "title": "En Allemagne, des scènes de pillage « comme en France » : la mobilisation des jeunes de la « Gen Z regelt » inquiète le gouvernement",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPamxGUkNmaDB1TGhRWThMQ0lQSnp3TzBvTkJVSWFqVUgwT3ZCa0VYMkNqelFvSkV3SERrZzZYOVRxbzY0UWd0aXUzanEwQUlLMXZ2dnZCUjJTbVpqMGRsbHBlV3prc09XRlp2UG1fVmVQOS1Da0QwM3U2bEw2aWFLYWxOazQxc25pTlhjbEJDTlRjQmdpaXN3NHc3cEpRZUVnVG1HZHdCVndQdGxlSTEwczBPTzZNSlg4WkNqdjJUTDJxdEJ4dWt6NkEyQlR6Rms?oc=5",
+      "source": "Les Echos",
+      "published_at_utc": "2026-11-01T11:02:29+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Au lendemain de la mobilisation du 31 octobre, Emmanuel Macron considère que \"le débat électoral et les urnes doivent prendre le pas sur la démocratie sociale et la rue\"",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQXzhLSVVWNFBTZ0V4RU14SkE3cVRwY3FRbXRGaTRkNU5vNlFobmduQl9PT2tMMG11RktXb01fdW1CX2Y3anFkbjNpd2s4TEEzZkFmaGdFS0RDM0YxRy1oZU0xUk5kQjFzYWpienZEWXFhZXJzVy15ZEI2eG9fRE95dnhsNUtDRmx0bkJiYWFYZ0RJR1FpUVFqUUUwLUpnVF9NZVhMN2V6TlB3d2lWSmRfdWRjS3JGQk5rMlFHUkp2TGFnSWtlOUExZ3Jwc1QzMlZYb21VdG1PU3BTUlBqR1BxMlJyOFZxc1F1aTlYT1pTak9QTjNRY3U4dHlUY05MOExVdkhfSGw5blhNTXVUYVRhMVNaR25URkphWlhUQ1llUTJTUXNTOEJtTm96a09JQWtwcGE1Sm1Tc0Z5eDRNNG9qakR3V3E3MVM3M05MZg?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-11-01T10:42:48+00:00",
       "topic": "Reforms & protests"
     },
     {
