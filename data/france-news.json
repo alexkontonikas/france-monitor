@@ -1,7 +1,28 @@
 {
-  "checked_at_utc": "2026-11-03T15:20:12+00:00",
+  "checked_at_utc": "2026-11-03T21:40:17+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "L'intersyndicale saisit la justice sur le parcours de la manifestation du 5 novembre à Paris",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMHNjWHVvNXEybFlnNTVBTlh2QnZ1ZHNqMloxbVdjeWlOZE5qeUVlWC10TU5ZZzFTY2h0aXlXWjhBQVNuOGh5bEN3VTlqdGZ4Zl94T0V1RXU4VWs4RXpJLS1BcEM5djM5eDllT2NBNUFQNkJYc1pycDkyelZoeXAzbjM2TjJZNVVnMFZHNkhtQm9lVzhoLUc2SHdwVkZZZWtOWEhyMUdfcUttVXEwRmp4N0NfTmllLTQtZWt5aHlJWjFlWFV2azMwSEs2d2VCUVg4VWhYYnZzRmJNdUhxNW5lZw?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-11-03T19:22:30+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "En raison de l'appel national à la grève du 5 novembre, la SNCF prévoit des perturbations, en Ile-de-France la RATP table sur un \"trafic normal\"",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUGNWMTJmOTlKZDhNMGZ3TTB2dnEydkZmNGQ0UE82Wll4ck5XSnp0bkNfUVhqUktSZzVvcGJZZDV1RmxFVFhIa1ZkdUwweTNMN2Fma3FYSHhaVkh3Q3RaRzFha1gtR3p5RE5DRDhCRU51NmNPNWhfWUxEMFFqTjBrWDNXVlJweE0tSzE5cG1YZGkwVjBhdmJDQ2Q2YjRNeUVUZzRqdHhUeWJWeDhFaThNN2JJUEJpTU4xN2VqV0V4RDBBREppZjVtQ1N0ODZ6T1ctYmU2X2pwX256YWlBSE1iYkF0U3h4a2tSTnhlbHJUQWZpckxuOE1xRk8zaW90Vjg?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-11-03T16:44:48+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Manifestation du 31 octobre : l’IGPN saisie à Marseille après les blessures d’un participant",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxORzkzMlk3TEw2XzRhZ01Oc3FiNnpXTzNKd01RYzZiT01ZemtZRkt1M0JtX0lMT1ppTTM0TmpxbG5jVlg2OW5EVDdWMGROTVBTZFQzUTh4YlpNY1hjOXBTZ056SWNsd1JnOGtEVUdFaEJUR0hvLVgwLTRKT2kzRHhuTHZncC1rSjNJVFpONHFvdlFicGx3WWY1ZEtRVGFfUFQxQ1pzTjQzR3VtWkdGZEphSEJaS21GZU82cWJ2LXNTWEIwcVVJY0dfV0dwMEYwTFhsS2JfQVQzQmhqOXFTbkdsQ0VxY1Zna0NkREVIMmtRLVpXS256eVl3OEs2NGNKZUl0V043NA?oc=5",
+      "source": "Ouest-France",
+      "published_at_utc": "2026-11-03T15:28:16+00:00",
+      "topic": "Reforms & protests"
+    },
     {
       "title": "Au Sénégal, un budget crucial rejeté par l'Assemblée nationale",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX1l1VjdpRm01NFF4RUFmb3BIUU1sLUF2NjM0akEzR3FBMDNIeUtMai10bm5ESlJ2WUx2SFlySTNORFJrYXhESnl1ZV9DaDN2UEdVZGVIM2RfQWNCczhXRlUyNHRoWWl1RGhuMy03S3VMT3ZkdXA4UlVLVkJZaTRnWDJvQ3cxdlZFZWMxdS1nQWtpdTdzQUlJUjRRQWp3b2xpbTVKZmJjZXpFVVN1SEFFYTJKM2lmYVd2SWNvVk02bGJ2Q1VKeEh3SHZRUllkcVVUNks4ZGhGTVREN0NJNVlKd2lQTkloM3Jxb1E?oc=5",
@@ -14,7 +35,14 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRmVITGlIdmxoT1BjbWR2MTE0MXFqeFktVEt4WEpMdFNadHdBME90SHZvQ2QzV1FGcTZ2a21wMDduaWNoWGtHMFFaMHUxTGxMMWF5cnJZUnV2RFJnWlR3OUVKbEQzekZNdW0yMk5sNkRUUWpoNUt6YnFIbnU4ZW16c2s4R0Z1Wm5PbEx5OUhTMGZ1bWoyYmVpMHItMTJDRzRHN1V5U3l3elA3RkxNM2NEUjFCSQ?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-11-03T12:20:54+00:00",
-      "topic": "Politics"
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "La préfecture de police interdit la manifestation prévue mardi par une organisation étudiante au cœur de Paris, Interfac IDF dépose un recours",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOWnBJR2U4ZmJWeHE3blQ5TENrN3VNbHU2WDhMWG1kNXFBNFY1TXVIYkF5emxObDQzQ2h1aTdyNXJxbHlRS0JIRG1HOXpkYTNBZ3ZPaXpCZjFYVDFZdVloWVVYT1VvRnhhQTgzUGxmRWdDYWhtdEl6QTBNYTdUNzNuQXIydUQyMWZCaVBNSFhXX05RNjdxTWU0MlBJckJtelRiZk0zZXVNTzNiX3pRY3NHMVEzXzYyaTZ3N1BnWnZuTWMxbkZBclItTktCTVQwN0RoSUhZTmFPX3R3WmZLWFpnbFRGb0lVNUl2M044WWEtMkxpSldLQ2txVjU5U25pT1RhbkVydGZzQm43MzZsMElCcU1WbEtYR2U0eWNoVWtNQWlJaWdrM0xBZkNKUHcteXowQWVFQ0E3a2ZJZ0Z2RF9j?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-11-02T21:03:50+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "La préfecture de police interdit la manifestation prévue par l'Interfac mardi au cœur de Paris",
@@ -43,6 +71,20 @@
       "source": "The Economic Times",
       "published_at_utc": "2026-11-02T10:22:02+00:00",
       "topic": "Bond markets"
+    },
+    {
+      "title": "Isolated clashes in France after peaceful marches, as police brace for Halloween night violence By Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQ1E5dnl5U3JNS05XTGE2QnE0Tm81NFBGX25hRkZ3akxvT0lxQ04tWUY1X2lCbnJsUzQyNm1aWHZsMWpybTJEWUN1OGxVMmtZZjZvbXkyemVTZ0E1c0FhSllYcEtZOFJrNVFVWFRQeGdzVkFidEx2UFFpMUtIWi05RkxNckxERlhERjRHbVZkOC1iVVp0Y1hMWkhyZEJwMHBIZi01Y1JoTHY4b1NHQVhMaFpLS2JnemVaRDhoOEhlcEhjYktBcWpkY2l2TjIwSUdFRVh3eTJJNXdFbC1jNl9Z?oc=5",
+      "source": "Investing.com",
+      "published_at_utc": "2026-11-02T09:27:23+00:00",
+      "topic": "Reforms & protests"
+    },
+    {
+      "title": "Mobilisation étudiante : la préfecture a refusé le parcours d'une manifestation prévue mardi au cœur de Paris, affirme le collectif Interfac Ile-de-France",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOVU0ycUduTHhlcE1GOG1JcHlNbEhlQzZqZkQ2S3p0X2J1aDR1N3lnTTNNa0RsSWhlelpFeUVmc1RsdnpvdUxXRjhhc0tMalE3ZDNiZ2NSN1BkWmExRmZDbl8xQy13QjVxTG9rRjRrcGlfcmZlLUF5cEpnaERCeDV0Yk9JNTcxVlhUMlNkOWliTW5WNGRGM2ZEQ1JQNlZsVWZLVm0tamFVdzVXdVNETVRUQkg3OEx1blJZZzBaOURKU3d5bDRBNzZkb05iTG9xNVhsRVlmTkNja3RXbmNWQ1lFNmh0ai1VME16QTRwU1F1b2dya2hrajd4TUh4Qk5wZ2RJekZHUWQ1OVVjamc2YUE?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-11-02T05:46:16+00:00",
+      "topic": "Reforms & protests"
     },
     {
       "title": "France launches attempted murder investigation after petrol bomb thrown at police",

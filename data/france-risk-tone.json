@@ -1,388 +1,61 @@
 {
-  "method": "Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure.",
+  "method": "Headline-based sovereign-risk tone v5. Transparent bilingual directional phrase rules; 50 neutral, higher more adverse. Descriptive media tone, not a probability of default. Not comparable with former article-body index.",
+  "checked_at_utc": "2026-11-03T21:40:17+00:00",
   "observations": [
     {
-      "date": "2026-10-24",
-      "index": 80.5,
-      "article_count": 9,
-      "headline_count": 21,
-      "coverage_pct": 42.9,
-      "adverse_count": 9,
-      "favourable_count": 0,
-      "neutral_count": 0,
-      "method_version": 4,
-      "articles": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
-          "title": "Hundreds of thousands march across France in protests over schools and policing",
-          "score": 83.5,
-          "relevant_sentences": 20
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-          "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
-          "score": 85.9,
-          "relevant_sentences": 16
-        },
-        {
-          "source": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
-          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-          "score": 91.4,
-          "relevant_sentences": 18
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20261024-france-watching-the-post-riot-protests",
-          "title": "Spotlight - France: Watching the Post-Riot Protests",
-          "score": 73.4,
-          "relevant_sentences": 5
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/sport/2026/oct/24/nfl-paris-protests-saints-steelers-fan-events-closed",
-          "title": "NFL shutters Paris fan experience as protests overshadow first France game",
-          "score": 66.3,
-          "relevant_sentences": 16
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261024-france-protests-latest-developments",
-          "title": "France protests: Latest developments",
-          "score": 90.1,
-          "relevant_sentences": 14
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261024-seen-and-heard-at-france-protests",
-          "title": "Seen and heard at France protests",
-          "score": 83.5,
-          "relevant_sentences": 16
-        },
-        {
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-          "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-          "score": 70.1,
-          "relevant_sentences": 24
-        },
-        {
-          "source": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo",
-          "title": "France prepares for day of protest a week after nationwide riots",
-          "score": 80.4,
-          "relevant_sentences": 21
-        }
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "index": 71.3,
-      "article_count": 19,
-      "headline_count": 47,
-      "coverage_pct": 40.4,
-      "adverse_count": 13,
-      "favourable_count": 1,
-      "neutral_count": 5,
-      "method_version": 4,
-      "articles": [
-        {
-          "source": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20261025-s%C3%A9n%C3%A9gal-un-nouveau-bras-de-fer-annonc%C3%A9-%C3%A0-l-assembl%C3%A9e-nationale-entre-le-gouvernement-et-le-pastef",
-          "title": "Sénégal: un nouveau bras de fer annoncé à l’Assemblée nationale entre le gouvernement et le Pastef",
-          "score": 50.0,
-          "relevant_sentences": 11
-        },
-        {
-          "source": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-du-24-octobre-142-personnes-ont-ete-interpellees-a-paris-dont-120-ont-ete-placees-en-garde-a-vue-selon-la-prefecture-de-police_8252812.html",
-          "title": "Manifestations du 24 octobre : le préfet du Rhône décide de reconduire dimanche le couvre-feu dans l'hypercentre de Lyon",
-          "score": 48.3,
-          "relevant_sentences": 16
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261025-marine-has-to-win-le-pen-supporters-fear-for-france-s-future",
-          "title": "'Marine has to win': Le Pen supporters fear for France's future",
-          "score": 65.8,
-          "relevant_sentences": 9
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
-          "title": "Macron accused of putting France’s right to protest at risk with ‘vandal’s law’",
-          "score": 79.5,
-          "relevant_sentences": 15
-        },
-        {
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/world/france/nfl-fans-visiting-paris-high-spirits-saints-vs-steelers-game-undeterre-rcna605520",
-          "title": "NFL fans visiting Paris in high spirits for Saints vs. Steelers game, undeterred by protests",
-          "score": 67.0,
-          "relevant_sentences": 14
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261025-embattled-albanian-pm-vows-fines-for-violent-protesters",
-          "title": "Embattled Albanian PM vows fines for violent protesters",
-          "score": 83.9,
-          "relevant_sentences": 4
-        },
-        {
-          "source": "Le Figaro",
-          "url": "https://www.lefigaro.fr/conjoncture/manifestations-en-france-les-syndicats-accentuent-la-pression-sur-le-gouvernement-20261025",
-          "title": "Manifestations en France : les syndicats accentuent la pression sur le gouvernement",
-          "score": 42.9,
-          "relevant_sentences": 5
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261025-serbia-on-track-for-high-turnout-as-students-challenge-ruling-party",
-          "title": "Serbia's student movement ousts longtime leader in parliament poll",
-          "score": 47.1,
-          "relevant_sentences": 5
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261025-storms-batter-europe-hitting-power-supplies-flights-and-phones-1",
-          "title": "Storms batter Europe hitting power supplies, flights and phones",
-          "score": 95.8,
-          "relevant_sentences": 6
-        },
-        {
-          "source": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo",
-          "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-          "score": 66.2,
-          "relevant_sentences": 9
-        },
-        {
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
-          "title": "In pictures: Initially peaceful protests across France over inequality again descend into violence",
-          "score": 84.8,
-          "relevant_sentences": 10
-        },
-        {
-          "source": "RFI",
-          "url": "https://www.rfi.fr/en/international-news/20261025-far-right-leader-le-pen-kicks-off-presidency-tilt-in-wake-of-france-protests",
-          "title": "France's Le Pen launches presidential bid vowing to restore 'rule of law'",
-          "score": 71.9,
-          "relevant_sentences": 13
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/france/20261025-at-least-1-300-people-arrested-in-mass-weekend-protests-across-france",
-          "title": "At least 1,300 people arrested in mass weekend protests across France",
-          "score": 88.7,
-          "relevant_sentences": 7
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261025-police-made-1-314-arrests-in-france-s-protests-government",
-          "title": "Police made 1,314 arrests in France's protests: government",
-          "score": 94.6,
-          "relevant_sentences": 5
-        },
-        {
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c95ynd587ynzo",
-          "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-          "score": 91.8,
-          "relevant_sentences": 24
-        },
-        {
-          "source": "RFI",
-          "url": "https://www.rfi.fr/en/france/20261025-france-reports-1-314-arrests-after-protests-as-police-defend-security-operation",
-          "title": "France reports 1,314 arrests after protests as police defend security operation",
-          "score": 87.2,
-          "relevant_sentences": 7
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/fr/france/20261025-mobilisation-du-24-octobre-plus-de-1-300-interpellations-une-cinquantaine-de-policiers-bless%C3%A9s",
-          "title": "Mobilisation du 24 octobre : plus de 1 300 interpellations, une cinquantaine de policiers blessés",
-          "score": 50.0,
-          "relevant_sentences": 15
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
-          "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-          "score": 88.5,
-          "relevant_sentences": 19
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
-          "title": "Ukraine war briefing: Kyiv targets Russian-occupied Crimea as UK and France conduct joint military exercise",
-          "score": 50.0,
-          "relevant_sentences": 4
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "index": 73.2,
-      "article_count": 9,
-      "headline_count": 18,
-      "coverage_pct": 50.0,
-      "adverse_count": 8,
-      "favourable_count": 0,
-      "neutral_count": 1,
-      "method_version": 4,
-      "articles": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/26/protest-leaders-urge-french-students-to-keep-barricading-their-schools",
-          "title": "Protest leaders urge French pupils to keep barricading their schools",
-          "score": 59.9,
-          "relevant_sentences": 15
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/oct/27/the-chaos-in-france-is-a-warning-signal-for-australias-public-spending-and-rising-costs",
-          "title": "The chaos in France is a ‘warning signal’ for Australia’s public spending and rising costs",
-          "score": 65.5,
-          "relevant_sentences": 17
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/emmanuel-macron-marseille-paris-french-city-hall-b3073514.html",
-          "title": "Macron promises measures in response to French students' demands after weeks of unrest",
-          "score": 77.3,
-          "relevant_sentences": 8
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/france/20261026-macron-vows-concrete-measures-to-address-student-demands-after-unrest",
-          "title": "Macron vows ‘concrete’ measures to address student demands after unrest",
-          "score": 73.5,
-          "relevant_sentences": 16
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261026-france-s-macron-to-visit-marseille-after-protest-violence",
-          "title": "France's Macron accuses social media of sowing discord ahead of election",
-          "score": 76.4,
-          "relevant_sentences": 13
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/france-protestors-plan-general-strike-riots-b3073249.html",
-          "title": "French protesters plan more demonstrations this week ahead of general strike as anger grows",
-          "score": 93.7,
-          "relevant_sentences": 9
-        },
-        {
-          "source": "The New York Times",
-          "url": "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
-          "title": "France Protest Updates: Hundreds of Thousands March Amid Heavy Security",
-          "score": 82.7,
-          "relevant_sentences": 40
-        },
-        {
-          "source": "RFI",
-          "url": "https://www.rfi.fr/en/france/20261026-french-unions-and-protest-groups-call-fresh-rallies-and-nationwide-strike",
-          "title": "French unions and protest groups call fresh rallies and nationwide strike",
-          "score": 82.9,
-          "relevant_sentences": 12
-        },
-        {
-          "source": "Sud Ouest",
-          "url": "https://www.sudouest.fr/international/europe/la-dette-de-la-france-maillon-faible-de-la-zone-euro-au-coeur-de-la-reunion-de-la-bce-31245732.php",
-          "title": "La dette de la France, maillon faible de la zone Euro, au cœur de la réunion de la BCE",
-          "score": 46.7,
-          "relevant_sentences": 16
-        }
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "index": 72.3,
-      "article_count": 9,
+      "date": "2026-11-03",
+      "index": 57.0,
+      "article_count": 4,
       "headline_count": 13,
-      "coverage_pct": 69.2,
-      "adverse_count": 6,
+      "coverage_pct": 80.0,
+      "adverse_count": 2,
       "favourable_count": 0,
-      "neutral_count": 3,
-      "method_version": 4,
+      "neutral_count": 2,
+      "method_version": 5,
       "articles": [
         {
+          "title": "En raison de l'appel national à la grève du 5 novembre, la SNCF prévoit des perturbations, en Ile-de-France la RATP table sur un \"trafic normal\"",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUGNWMTJmOTlKZDhNMGZ3TTB2dnEydkZmNGQ0UE82Wll4ck5XSnp0bkNfUVhqUktSZzVvcGJZZDV1RmxFVFhIa1ZkdUwweTNMN2Fma3FYSHhaVkh3Q3RaRzFha1gtR3p5RE5DRDhCRU51NmNPNWhfWUxEMFFqTjBrWDNXVlJweE0tSzE5cG1YZGkwVjBhdmJDQ2Q2YjRNeUVUZzRqdHhUeWJWeDhFaThNN2JJUEJpTU4xN2VqV0V4RDBBREppZjVtQ1N0ODZ6T1ctYmU2X2pwX256YWlBSE1iYkF0U3h4a2tSTnhlbHJUQWZpckxuOE1xRk8zaW90Vjg?oc=5",
           "source": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/manifestations/la-prefecture-nous-balade-a-paris-le-parcours-de-la-manifestation-du-31-octobre-au-c-ur-d-un-bras-de-fer-judiciaire_8260127.html",
-          "title": "\"La préfecture nous balade\" : à Paris, le parcours de la manifestation du 31 octobre au cœur d'un bras de fer judiciaire",
-          "score": 50.0,
-          "relevant_sentences": 11
+          "topic": "Reforms & protests",
+          "score": 64.0,
+          "relevance": 0.7,
+          "published_at_utc": "2026-11-03T16:44:48+00:00"
         },
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
-          "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
-          "score": 76.4,
-          "relevant_sentences": 11
-        },
-        {
-          "source": "franceinfo",
-          "url": "https://www.franceinfo.fr/economie/greve/nos-ports-sont-utilises-comme-des-pions-dans-des-conflits-geopolitiques-pourquoi-les-dockers-francais-et-europeens-sont-en-greve_8259995.html",
-          "title": "\"Nos ports sont utilisés comme des pions dans des conflits géopolitiques\" : pourquoi les dockers français et européens sont en grève",
-          "score": 50.0,
-          "relevant_sentences": 10
-        },
-        {
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html",
-          "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
-          "score": 78.8,
-          "relevant_sentences": 5
-        },
-        {
+          "title": "Students blockade dozens of high schools in France before nationwide strike",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRmVITGlIdmxoT1BjbWR2MTE0MXFqeFktVEt4WEpMdFNadHdBME90SHZvQ2QzV1FGcTZ2a21wMDduaWNoWGtHMFFaMHUxTGxMMWF5cnJZUnV2RFJnWlR3OUVKbEQzekZNdW0yMk5sNkRUUWpoNUt6YnFIbnU4ZW16c2s4R0Z1Wm5PbEx5OUhTMGZ1bWoyYmVpMHItMTJDRzRHN1V5U3l3elA3RkxNM2NEUjFCSQ?oc=5",
           "source": "RFI",
-          "url": "https://www.rfi.fr/en/france/20261030-french-dockworkers-strike-over-budget-measures-and-militarisation-of-ports-arms-war",
-          "title": "French dockworkers strike over budget measures and militarisation of ports",
-          "score": 83.4,
-          "relevant_sentences": 8
+          "topic": "Reforms & protests",
+          "score": 64.0,
+          "relevance": 0.7,
+          "published_at_utc": "2026-11-03T12:20:54+00:00"
         },
         {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/live-news/20261030-french-economy-headed-for-a-wall-as-gdp-shrinks",
-          "title": "French economy 'headed for a wall' as GDP shrinks",
-          "score": 92.0,
-          "relevant_sentences": 11
-        },
-        {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/business/20261030-french-economy-headed-for-a-wall-as-gdp-shrinks-finance-minister-warns",
-          "title": "French economy 'headed for a wall' as GDP shrinks, finance minister warns",
-          "score": 92.0,
-          "relevant_sentences": 11
-        },
-        {
+          "title": "L'intersyndicale saisit la justice sur le parcours de la manifestation du 5 novembre à Paris",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMHNjWHVvNXEybFlnNTVBTlh2QnZ1ZHNqMloxbVdjeWlOZE5qeUVlWC10TU5ZZzFTY2h0aXlXWjhBQVNuOGh5bEN3VTlqdGZ4Zl94T0V1RXU4VWs4RXpJLS1BcEM5djM5eDllT2NBNUFQNkJYc1pycDkyelZoeXAzbjM2TjJZNVVnMFZHNkhtQm9lVzhoLUc2SHdwVkZZZWtOWEhyMUdfcUttVXEwRmp4N0NfTmllLTQtZWt5aHlJWjFlWFV2azMwSEs2d2VCUVg4VWhYYnZzRmJNdUhxNW5lZw?oc=5",
           "source": "franceinfo",
-          "url": "https://www.franceinfo.fr/politique/budget-2027-il-faut-savoir-prendre-des-risques-estime-michel-barnier-qui-plaide-pour-un-49-3-du-premier-ministre-sebastien-lecornu_8260058.html",
-          "title": "Budget 2027 : \"Il faut savoir prendre des risques\", estime Michel Barnier qui plaide pour un 49.3 du Premier ministre Sébastien Lecornu",
-          "score": 48.4,
-          "relevant_sentences": 17
+          "topic": "Reforms & protests",
+          "score": 50,
+          "relevance": 0,
+          "published_at_utc": "2026-11-03T19:22:30+00:00"
         },
         {
-          "source": "France 24",
-          "url": "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
-          "title": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
-          "score": 79.6,
-          "relevant_sentences": 9
+          "title": "Manifestation du 31 octobre : l’IGPN saisie à Marseille après les blessures d’un participant",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxORzkzMlk3TEw2XzRhZ01Oc3FiNnpXTzNKd01RYzZiT01ZemtZRkt1M0JtX0lMT1ppTTM0TmpxbG5jVlg2OW5EVDdWMGROTVBTZFQzUTh4YlpNY1hjOXBTZ056SWNsd1JnOGtEVUdFaEJUR0hvLVgwLTRKT2kzRHhuTHZncC1rSjNJVFpONHFvdlFicGx3WWY1ZEtRVGFfUFQxQ1pzTjQzR3VtWkdGZEphSEJaS21GZU82cWJ2LXNTWEIwcVVJY0dfV0dwMEYwTFhsS2JfQVQzQmhqOXFTbkdsQ0VxY1Zna0NkREVIMmtRLVpXS256eVl3OEs2NGNKZUl0V043NA?oc=5",
+          "source": "Ouest-France",
+          "topic": "Reforms & protests",
+          "score": 50,
+          "relevance": 0,
+          "published_at_utc": "2026-11-03T15:28:16+00:00"
         }
       ]
     }
   ],
-  "checked_at_utc": "2026-11-03T15:21:46+00:00",
   "coverage": {
     "date": "2026-11-03",
-    "approved_headlines": 2,
-    "articles_analysed": 2,
-    "minimum_articles": 5,
-    "publisher_urls_resolved": 2,
-    "google_urls_attempted": 2
+    "approved_headlines": 13,
+    "headlines_analysed": 4,
+    "minimum_headlines": 1
   }
 }
