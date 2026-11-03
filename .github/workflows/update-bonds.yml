@@ -6,7 +6,7 @@ on:
       - '.github/workflows/update-bonds.yml'
   workflow_dispatch:
   schedule:
-    - cron: '15 8,12,16,19 * * 1-5'
+    - cron: '15 8,12,16,19,22 * * 1-5'
 permissions:
   contents: write
 jobs:
