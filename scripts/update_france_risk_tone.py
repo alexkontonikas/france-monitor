@@ -1,114 +1,116 @@
 #!/usr/bin/env python3
-"""Daily article-text financial sentiment, only when publisher article bodies are accessible.
-
-Uses trafilatura for extraction and ProsusAI/finbert on relevant sentences.
-No headlines-only fallback. Reports coverage and source metadata, not copyrighted text.
-"""
+"""Transparent headline-based France sovereign-risk tone index (v5)."""
 import datetime as dt
 import json
 import re
+import unicodedata
 from pathlib import Path
-from urllib.parse import urlparse
-import trafilatura
-from gnews_decoder import decode_many
-from transformers import pipeline
 
-# Independent defence against unapproved sources in older or manually edited feeds.
-APPROVED={"reuters","bloomberg","bloomberg news","financial times","ft.com",
-"associated press","ap news","ap","agence france-presse","afp","afp fact check",
-"les echos","les échos","le monde","le monde english","france 24",
-"the guardian","the new york times","the wall street journal","the economist",
-"bbc","bbc news","cnbc","euronews","politico","politico europe",
-"the washington post","the times","sky news","rfi","radio france internationale",
-"franceinfo","france info","la tribune","le figaro","libération","liberation",
-"deutsche welle","dw","the independent","marketwatch","barron's","barrons",
-"cnn","cnn international","nbc news","nbcnews.com","msnbc","euronews","bfmtv","l'opinion","l'express","le parisien","public sénat","france inter",
-"france culture","ouest-france","sud ouest","challenges","capital","le point","l'obs","20 minutes"}
-FEED=Path("data/france-news.json")
-TARGET=Path("data/france-risk-tone.json")
-NEWS=json.loads(FEED.read_text(encoding="utf-8"))
-DAY=dt.datetime.now(dt.timezone.utc).date().isoformat()
-analyser=pipeline("text-classification",model="ProsusAI/finbert",tokenizer="ProsusAI/finbert",device=-1)
-relevant=re.compile(r"\b(france|french|paris|macron|government|parliament|budget|fiscal|debt|deficit|bond|yield|spread|rating|moody|fitch|s&p|credit|oat|tax|spending|reform|unrest|protest|riot|français|française|gouvernement|assemblée|dette|déficit|obligations|taux|notation|réforme|manifestations|grève|émeutes|marchés|finances|publique|publiques)\b",re.I)
-# Context that explicitly says a feared rating action did NOT occur is not negative.
-affirm=re.compile(r"(?:moody.s|fitch|s&p|rating).{0,95}(?:holds?|keeps?|maintains?|affirms?|unchanged|steady)|(?:avoids?|dodges?|spared|spares|no)\s+(?:a\s+)?downgrade",re.I)
-def sentences(text):
-    return re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-ÖØ-Þ])",re.sub(r"\s+"," ",text))
-def assess(text):
-    chosen=[s for s in sentences(text) if len(s)>35 and relevant.search(s)]
-    if len(chosen)<4:return None
-    # Cap each article to bound workflow time; truncate long sentences to model context.
-    chosen=chosen[:40]
-    results=analyser(chosen,truncation=True,max_length=512,batch_size=8)
-    scores=[]
-    for sentence,result in zip(chosen,results):
-        label=result["label"].lower()
-        # A rating affirmation is not an actual downgrade.
-        if affirm.search(sentence):
-            scores.append(0)
-        else:
-            scores.append({"negative":1,"neutral":0,"positive":-1}.get(label,0)*result["score"])
-    return round(max(0,min(100,50+50*sum(scores)/len(scores))),1),len(chosen)
+FEED = Path("data/france-news.json")
+TARGET = Path("data/france-risk-tone.json")
+TODAY = dt.datetime.now(dt.timezone.utc).date().isoformat()
 
-def get_text(url):
-    try:
-        # Google's RSS links can be blocked or fail to resolve; do not fabricate text.
-        html=trafilatura.fetch_url(url)
-        if not html:return None,None
-        text=trafilatura.extract(html,include_comments=False,include_tables=False,
-                                 favor_precision=True)
-        if not text or len(text)<500:return None,None
-        return text,url
-    except Exception as exc:
-        print("Extraction failed:",type(exc).__name__)
-        return None,None
+def norm(value):
+    value = unicodedata.normalize("NFKD", value.casefold())
+    return "".join(c for c in value if not unicodedata.combining(c))
 
-articles=[]
-today=[x for x in NEWS.get("items",[]) if x.get("published_at_utc","")[:10]==DAY and " ".join(x.get("source","").casefold().split()) in APPROVED]
-# Resolve opaque Google News RSS links to real publisher URLs in one batch.
-google_links=[x.get("url","") for x in today if "news.google.com" in x.get("url","")]
-try:
-    resolved=decode_many(google_links,concurrency=8,timeout=20) if google_links else {}
-except Exception as exc:
-    print("Google News URL resolution failed:",repr(exc))
-    resolved={}
-print("Publisher URLs resolved:",sum(bool(v) for v in resolved.values()),"of",len(google_links))
-for item in today:
-    original=item.get("url","")
-    link=resolved.get(original) if "news.google.com" in original else original
-    if not link or "news.google.com" in link:
+def match(text, phrases):
+    return any(re.search(r"(?<!\w)" + re.escape(p) + r"(?!\w)", text) for p in phrases)
+
+# Explicit French focus; a French publisher or the word 'France' in a URL
+# does not establish that an article is about France.
+FRANCE = ["france", "french", "francais", "francaise", "macron", "lecornu",
+          "assemblee nationale", "elysee", "paris", "lyon", "marseille", "oat"]
+FOREIGN = ["senegal", "albania", "serbia", "ukraine", "russia", "italy",
+           "espagne", "spain", "australia", "australie"]
+RISK = [
+    (["downgrade", "rating cut", "degradation", "abaissement de note", "default", "defaut"], 2.0),
+    (["deficit widens", "deficit rises", "dette augmente", "debt surges",
+      "borrowing costs rise", "yield spike", "bond selloff", "taux grimpent"], 1.7),
+    (["no confidence", "motion de censure", "government collapses", "government falls",
+      "gouvernement renverse", "political crisis", "crise politique"], 1.6),
+    (["riots", "emeutes", "violent protests", "violences", "clashes", "affrontements"], 1.2),
+    (["strike", "greve", "protests", "manifestations", "blockade", "blocage"], 0.7),
+    (["budget deadlock", "budget rejected", "budget rejete", "impasse budgetaire"], 1.5),
+    (["recession", "contraction", "shrinks", "chute du pib"], 1.3),
+]
+POSITIVE = [
+    (["upgrade", "rehaussement de note", "rating raised"], 2.0),
+    (["deficit narrows", "deficit falls", "deficit recule", "debt declines",
+      "dette diminue", "lower borrowing costs", "yields fall"], 1.5),
+    (["budget passed", "budget adopted", "budget adopte", "government survives",
+      "confidence vote won"], 1.3),
+    (["growth accelerates", "croissance accelere", "economic recovery",
+      "reprise economique"], 1.0),
+    (["protests end", "strike ends", "fin de la greve", "accord trouve"], 0.8),
+]
+TOPIC_TERMS = ["budget", "deficit", "dette", "debt", "fiscal", "econom",
+               "croissance", "growth", "inflation", "tax", "impot", "spending",
+               "gouvernement", "government", "parliament", "assemblee",
+               "minister", "ministre", "election", "censure", "protest",
+               "manifestation", "greve", "strike", "riot", "emeute",
+               "bond", "yield", "oat", "rating", "notation", "sovereign",
+               "reform", "reforme", "confidence", "blocage", "blockade",
+               "recession", "contraction", "shrinks", "macron", "lecornu"]
+
+def evaluate(item):
+    title = item.get("title", "")
+    t = norm(title)
+    if not match(t, FRANCE) or not match(t, TOPIC_TERMS):
+        return None
+    # Foreign-country focus must not enter a France-only index.
+    if match(t, FOREIGN):
+        return None
+    neg = sum(weight for terms, weight in RISK if match(t, terms))
+    pos = sum(weight for terms, weight in POSITIVE if match(t, terms))
+    # No directional claim in the headline: neutral, not assumed negative.
+    score = round(max(0, min(100, 50 + 20 * (neg - pos))), 1)
+    return {"title": title, "url": item.get("url", ""), "source": item.get("source", ""),
+            "topic": item.get("topic", ""), "score": score,
+            "relevance": round(max(neg, pos), 2),
+            "published_at_utc": item.get("published_at_utc", "")}
+
+feed = json.loads(FEED.read_text(encoding="utf-8"))
+items = []
+seen = set()
+for item in feed.get("items", []):
+    if item.get("published_at_utc", "")[:10] != TODAY:
         continue
-    body,link=get_text(link)
-    if not body:continue
-    result=assess(body)
-    if result is None:continue
-    score,n=result
-    articles.append({"source":item["source"],"url":link,"title":item["title"],
-                     "score":score,"relevant_sentences":n})
-# Cluster near-duplicate stories by normalized first 12 words of headline.
-unique={}
-for a in articles:
-    key=" ".join(re.findall(r"[a-z0-9]+",a["title"].lower())[:12])
-    unique.setdefault(key,a)
-articles=list(unique.values())
-archive=json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {"observations":[]}
-archive["method"]="Article-body financial sentiment v4: trafilatura extraction and ProsusAI/finbert on sovereign-risk-relevant sentences; higher = more negative tone. Not a news-shock or default-probability measure."
-archive["checked_at_utc"]=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-archive["observations"]=[o for o in archive.get("observations",[]) if o["date"]!=DAY]
-if len(articles)>=5:
-    index=round(sum(a["score"] for a in articles)/len(articles),1)
-    row={"date":DAY,"index":index,"article_count":len(articles),
-         "headline_count":len(today),"coverage_pct":round(100*len(articles)/max(1,len(today)),1),
-         "adverse_count":sum(a["score"]>55 for a in articles),
-         "favourable_count":sum(a["score"]<45 for a in articles),
-         "neutral_count":sum(45<=a["score"]<=55 for a in articles),
-         "method_version":4,"articles":articles}
-    archive["observations"].append(row)
-    archive["observations"].sort(key=lambda x:x["date"])
-    print("Full-text index",index,"from",len(articles),"of",len(today),"headlines")
-else:
-    print("Full-text coverage insufficient:",len(articles),"of",len(today),
-          "— no score published")
-archive["coverage"]={"date":DAY,"approved_headlines":len(today),"articles_analysed":len(articles),
-                     "minimum_articles":5,"publisher_urls_resolved":sum(bool(v) for v in resolved.values()),"google_urls_attempted":len(google_links)}
-TARGET.write_text(json.dumps(archive,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    result = evaluate(item)
+    if result is None:
+        continue
+    key = re.sub(r"[^a-z0-9]+", "", norm(result["title"]))
+    if key in seen:
+        continue
+    seen.add(key)
+    items.append(result)
+
+archive = json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {}
+# Do not plot v4 article-body values as if comparable with v5 headline values.
+observations = [o for o in archive.get("observations", [])
+                if o.get("method_version") == 5 and o.get("date") != TODAY]
+if items:
+    score = round(sum(x["score"] for x in items) / len(items), 1)
+    # Prioritise directional, relevant articles; include accessible original RSS links.
+    featured = sorted(items, key=lambda x: (x["relevance"], abs(x["score"] - 50),
+                                              x["published_at_utc"]), reverse=True)[:8]
+    observations.append({
+        "date": TODAY, "index": score, "article_count": len(items),
+        "headline_count": len(feed.get("items", [])),
+        "coverage_pct": round(100 * len(items) / max(1, sum(
+            x.get("published_at_utc", "")[:10] == TODAY for x in feed.get("items", []))), 1),
+        "adverse_count": sum(x["score"] > 50 for x in items),
+        "favourable_count": sum(x["score"] < 50 for x in items),
+        "neutral_count": sum(x["score"] == 50 for x in items),
+        "method_version": 5, "articles": featured
+    })
+observations.sort(key=lambda x: x["date"])
+archive = {
+    "method": "Headline-based sovereign-risk tone v5. Transparent bilingual directional phrase rules; 50 neutral, higher more adverse. Descriptive media tone, not a probability of default. Not comparable with former article-body index.",
+    "checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+    "observations": observations[-120:],
+    "coverage": {"date": TODAY, "approved_headlines": len(feed.get("items", [])),
+                 "headlines_analysed": len(items), "minimum_headlines": 1}
+}
+TARGET.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print("Headline risk-tone:", len(items), "relevant headlines", "for", TODAY)
