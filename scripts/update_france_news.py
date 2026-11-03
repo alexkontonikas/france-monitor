@@ -73,7 +73,7 @@ OFF_TOPIC = re.compile(r"\\b(?:nfl|football américain|grand prix|formula 1|form
 FOREIGN_FOCUS = re.compile(r"\\b(?:sénégal|senegal|albania|albanie|ukraine|russia|russie)\\b",re.I)
 def headline_relevant(title):
     return bool(FRANCE_TERMS.search(title) and ECONOMIC_TERMS.search(title)
-                and not OFF_TOPIC.search(title) and not FOREIGN_FOCUS.search(title))
+                and not FOREIGN_FOCUS.search(title) and not OFF_TOPIC.search(title))
 
 items = []
 seen = set()
@@ -161,7 +161,8 @@ for category in QUERIES:
     if not any(x["topic"] == category for x in selected):
         print(f"WARNING: Missing category: {category}")
 if not items:
-    raise ValueError("No valid headlines; previous published feed preserved")
+    print("WARNING: No matching headlines found; retaining previous published feed")
+    raise SystemExit(0)
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
           "source": "Google News RSS (English and French editions; approved publishers only)",
           "items": selected[:100]}
