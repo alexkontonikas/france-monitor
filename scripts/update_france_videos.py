@@ -35,14 +35,14 @@ for channel, channel_id in CHANNELS.items():
             if not video_id or not published:
                 continue
             when = dt.datetime.fromisoformat(published.replace("Z", "+00:00"))
-            if not (cutoff <= when <= now) or not FRANCE.search(title) or not TOPIC.search(title) or EXCLUDE.search(title):
+            if not (cutoff <= when <= now) or not FRANCE.search(title) or EXCLUDE.search(title):
                 continue
             items.append({"title": title, "channel": channel, "url": "https://www.youtube.com/watch?v=" + video_id, "published_at_utc": when.isoformat(timespec="seconds")})
             count += 1
         print(channel, "matching videos:", count)
     except Exception as exc:
         print("Feed failed:", channel, exc)
-items.sort(key=lambda x: x["published_at_utc"], reverse=True)
+items.sort(key=lambda x: (bool(TOPIC.search(x["title"])), x["published_at_utc"]), reverse=True)
 path = Path("data/france-videos.json")
 if not items:
     print("WARNING: No matching videos; retaining previous feed if present")
