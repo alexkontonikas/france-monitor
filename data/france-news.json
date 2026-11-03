@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-03T22:20:29+00:00",
+  "checked_at_utc": "2026-11-03T22:23:05+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -31,6 +31,13 @@
       "topic": "Bond markets"
     },
     {
+      "title": "France pushes 'responsible' 2027 budget as Fitch cuts debt outlook to 'negative'",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWtWUGprVGFFT1JZYU11YWZEdnFWaUwzaE5GX0VoS3hRRnNabVpQMDdHTDBMTFJQUkxHSjRQdlJKZUp5dWd4RXRYdGFUbnVUQ2NCUjVBLWp4UjRNaWMxQ244aE9EeXBmTm5zTkZqQm12WDZtbFNfY3hja3hQenpoUEtpcng1dVFyWTVma2xjR05TYnpxS0xHTjBoeXJCZ3Mtby1tQw?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-31T06:27:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
       "title": "Fitch abaisse la perspective de la France et ne croit pas à une réduction du déficit en 2027",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOeFQycjZvTkhwS3liWUVKXzE2dk4tbGFHeVUxdE9nMDV1UWgwZlh6bnVLaTFQOGVnTjdkN0NvRHZMWHF4TDJDaHlTQ3AtbUtGS3c1TVlzVE8tZlhCZ2lCZzhYZGp5WkVjVDFHR1V2VTNXajhreGVRVGxUYUlvRl9KMUMyaXozZ2d1ZmpRamx6WU9JeU9JdUxXVU1wQ1JaT0k0X0FsX3VGYzNUcUs2cmN0cFV0MzlVYXM4TWR4QVB3WjdrMVdnRGhpWjJ1MGRGaVpuMTVMQTE2WHQ4SjhFZlRleHp1YVVEdENiVkhOUFVPalpSNkxfVVBV?oc=5",
       "source": "Les Echos",
@@ -50,6 +57,13 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-30T22:04:54+00:00",
       "topic": "Fiscal policy"
+    },
+    {
+      "title": "France Gets Budget Warning as Fitch Turns Negative on Rating",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR0s4dkF4RVZSYm9lTjJHZGJWb2VabEVzWEpyVXU5dmxZYUxsVVBDNVVEeDJ5cTF0S3hsbVVWSG5SQlcyVTM5X1F6Q01aSS1wNVU5eENXcG9qTEFYeDZiUm9tSGZNNThIaXNYcURld084VW1BaE9rS2RUSG1IbjhITUJTcXpYUGNvWGlQUWZNYUZwbU1sSnY2OW5OcTJlQQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-30T21:40:00+00:00",
+      "topic": "Bond markets"
     },
     {
       "title": "INFOGRAPHIES. Croissance, chômage, moral... Ces chiffres qui montrent que l’économie française « est à l’arrêt »",
