@@ -44,35 +44,35 @@ FRENCH_QUERIES = {
 
 ENGLISH_EXTRA_QUERIES = {
     "Fiscal policy": [
-        "France fiscal deficit budget negotiations public debt when:3d",
-        "French government borrowing spending cuts tax budget crisis when:3d"],
+        "France fiscal deficit budget negotiations public debt when:7d",
+        "French government borrowing spending cuts tax budget crisis when:7d"],
     "Politics": [
-        "France political crisis minority government confidence vote parliament when:3d",
-        "French prime minister coalition government budget vote when:3d"],
+        "France political crisis minority government confidence vote parliament when:7d",
+        "French prime minister coalition government budget vote when:7d"],
     "Reforms & protests": [
-        "France demonstrations strikes unions pension reform unrest when:3d",
-        "French protests riots policing economic impact when:3d"],
+        "France demonstrations strikes unions pension reform unrest when:7d",
+        "French protests riots policing economic impact when:7d"],
     "Bond markets": [
-        "French OAT yields German bund spread bond selloff when:3d",
-        "France sovereign credit rating Moody's Fitch S&P investors when:3d"]
+        "French OAT yields German bund spread bond selloff when:7d",
+        "France sovereign credit rating Moody's Fitch S&P investors when:7d"]
 }
 GENERAL_ENGLISH_QUERIES = {
-    "Politics": ["France news when:2d", "France political crisis when:3d", "Macron France latest news when:2d"],
-    "Reforms & protests": ["France protests when:2d", "France riots arrests demonstrations when:2d"],
-    "Fiscal policy": ["France economy budget debt news when:3d"],
-    "Bond markets": ["France bonds markets yields news when:3d"],
+    "Politics": ["France news when:7d", "France political crisis when:7d", "Macron France latest news when:7d"],
+    "Reforms & protests": ["France protests when:7d", "France riots arrests demonstrations when:7d"],
+    "Fiscal policy": ["France economy budget debt news when:7d"],
+    "Bond markets": ["France bonds markets yields news when:7d"],
 }
 FEEDS = [(topic, query, "en-GB", "GB", "GB:en") for topic, query in QUERIES.items()]
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in GENERAL_ENGLISH_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in ENGLISH_EXTRA_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 # Reject unrelated international, sport and entertainment stories before publication.
-FRANCE_TERMS = re.compile(r"\b(?:france|french|français|française|françaises|paris|macron|le pen|bardella|bayrou|lecornu|assemblée nationale|elysée|élysée|lyon|marseille|oat|bunds?)\b", re.I)
-POLICY_TERMS = re.compile(r"\b(?:budget|fiscal|deficit|déficit|debt|dette|tax|taxes|impôts|spending|dépenses|economy|economic|économie|économique|growth|croissance|inflation|recession|récession|government|gouvernement|parliament|parlement|assemblée|minister|ministre|macron|le pen|bardella|confidence|censure|election|élection|coalition|reform|réforme|pension|retraite|strike|grève|protest|manifestation|riot|émeute|union|syndicat|unrest|bond|obligation|yield|rendement|spread|oat|rating|notation|sovereign|souverain|investor|investisseur|police|policier|curfew|couvre-feu|arrest|interpellation)\b",re.I)
-OFF_TOPIC = re.compile(r"\b(?:nfl|football américain|grand prix|formula 1|formule 1|f1|verstappen|motogp|tennis|champions league|ligue 1|nba|olympic|olympique|rugby|celebrity|célébrité|box office)\b",re.I)
-FOREIGN_FOCUS = re.compile(r"^(?:sénégal|senegal|albania|albanie|spain|espagne|ukraine|russia|russie|italy|italie)\b",re.I)
+FRANCE_TERMS = re.compile(r"\\b(?:france|french|français|française|françaises|macron|le pen|bardella|bayrou|lecornu|oat|paris)\\b", re.I)
+ECONOMIC_TERMS = re.compile(r"\\b(?:budget|fiscal|deficit|déficit|debt|dette|tax|taxes|impôt|impôts|spending|dépenses|economy|economic|économie|économique|growth|croissance|inflation|recession|récession|employment|unemployment|emploi|chômage|chomage|jobs|gdp|pib|bond|bonds|obligation|obligations|yield|yields|rendement|spread|oat|rating|notation|sovereign|souverain|investor|investisseur|borrowing|emprunt|finances publiques)\\b",re.I)
+OFF_TOPIC = re.compile(r"\\b(?:nfl|football américain|grand prix|formula 1|formule 1|f1|verstappen|motogp|tennis|champions league|ligue 1|nba|olympic|olympique|rugby|celebrity|célébrité|box office|police|policier|arrest|interpellation|petrol bomb|manifestation|protest|grève|strike|riot|émeute|student|étudiant)\\b",re.I)
+FOREIGN_FOCUS = re.compile(r"\\b(?:sénégal|senegal|albania|albanie|ukraine|russia|russie)\\b",re.I)
 def headline_relevant(title):
-    return bool(FRANCE_TERMS.search(title) and POLICY_TERMS.search(title)
+    return bool(FRANCE_TERMS.search(title) and ECONOMIC_TERMS.search(title)
                 and not OFF_TOPIC.search(title) and not FOREIGN_FOCUS.search(title))
 
 items = []
