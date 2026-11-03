@@ -10,10 +10,10 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 QUERIES = {
-    "Fiscal policy": 'France (budget OR deficit OR debt OR tax OR spending) when:7d',
-    "Politics": 'France (government OR parliament OR prime minister OR no confidence) when:7d',
-    "Reforms & protests": 'France (reform OR strikes OR protests OR unrest) when:7d',
-    "Bond markets": 'France (bond yields OR OAT OR sovereign spread OR credit rating) when:7d',
+    "Fiscal policy": 'France budget deficit debt public finances when:7d',
+    "Macroeconomy": 'France GDP growth unemployment jobs inflation economy when:7d',
+    "Bond markets": 'France bond yields OAT spread sovereign credit rating when:7d',
+    "Fiscal politics": 'France government parliament budget vote fiscal reform when:7d',
 }
 # Exact publisher names only: never accept a source merely because it contains a trusted name.
 TRUSTED_PUBLISHERS = {
@@ -36,44 +36,36 @@ def approved(source):
     return " ".join(source.casefold().split()) in TRUSTED_PUBLISHERS
 
 FRENCH_QUERIES = {
-    "Fiscal policy": "(budget France OR déficit public France OR dette publique France OR finances publiques France) when:7d",
-    "Politics": "(gouvernement français OR Assemblée nationale OR premier ministre France OR motion de censure France) when:7d",
-    "Reforms & protests": "(manifestations France OR grève France OR réforme France OR mobilisation France) when:7d",
-    "Bond markets": "(OAT France OR obligations françaises OR taux souverains France OR notation France) when:7d"
+    "Fiscal policy": "France budget déficit dette finances publiques when:7d",
+    "Macroeconomy": "France croissance PIB chômage emploi inflation when:7d",
+    "Bond markets": "France OAT rendement obligations notation souveraine when:7d",
+    "Fiscal politics": "France gouvernement vote budget motion censure when:7d",
 }
-
 ENGLISH_EXTRA_QUERIES = {
-    "Fiscal policy": [
-        "France fiscal deficit budget negotiations public debt when:7d",
-        "French government borrowing spending cuts tax budget crisis when:7d"],
-    "Politics": [
-        "France political crisis minority government confidence vote parliament when:7d",
-        "French prime minister coalition government budget vote when:7d"],
-    "Reforms & protests": [
-        "France demonstrations strikes unions pension reform unrest when:7d",
-        "French protests riots policing economic impact when:7d"],
-    "Bond markets": [
-        "French OAT yields German bund spread bond selloff when:7d",
-        "France sovereign credit rating Moody's Fitch S&P investors when:7d"]
-}
-GENERAL_ENGLISH_QUERIES = {
-    "Politics": ["France news when:7d", "France political crisis when:7d", "Macron France latest news when:7d"],
-    "Reforms & protests": ["France protests when:7d", "France riots arrests demonstrations when:7d"],
-    "Fiscal policy": ["France economy budget debt news when:7d"],
-    "Bond markets": ["France bonds markets yields news when:7d"],
+    "Fiscal policy": ["French fiscal deficit budget 2027 when:7d", "France public debt spending taxes when:7d"],
+    "Macroeconomy": ["France GDP economic growth INSEE when:7d", "France unemployment employment inflation when:7d"],
+    "Bond markets": ["French OAT German bund yield spread when:7d", "France Fitch Moody S&P sovereign rating when:7d"],
+    "Fiscal politics": ["France parliament budget confidence vote when:7d"],
 }
 FEEDS = [(topic, query, "en-GB", "GB", "GB:en") for topic, query in QUERIES.items()]
-FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in GENERAL_ENGLISH_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "en-GB", "GB", "GB:en") for topic, queries in ENGLISH_EXTRA_QUERIES.items() for query in queries]
 FEEDS += [(topic, query, "fr-FR", "FR", "FR:fr") for topic, query in FRENCH_QUERIES.items()]
 # Reject unrelated international, sport and entertainment stories before publication.
-FRANCE_TERMS = re.compile(r"\\b(?:france|french|français|française|françaises|macron|le pen|bardella|bayrou|lecornu|oat|paris)\\b", re.I)
-ECONOMIC_TERMS = re.compile(r"\\b(?:budget|fiscal|deficit|déficit|debt|dette|tax|taxes|impôt|impôts|spending|dépenses|economy|economic|économie|économique|growth|croissance|inflation|recession|récession|employment|unemployment|emploi|chômage|chomage|jobs|gdp|pib|bond|bonds|obligation|obligations|yield|yields|rendement|spread|oat|rating|notation|sovereign|souverain|investor|investisseur|borrowing|emprunt|finances publiques)\\b",re.I)
-OFF_TOPIC = re.compile(r"\\b(?:nfl|football américain|grand prix|formula 1|formule 1|f1|verstappen|motogp|tennis|champions league|ligue 1|nba|olympic|olympique|rugby|celebrity|célébrité|box office|police|policier|arrest|interpellation|petrol bomb|manifestation|protest|grève|strike|riot|émeute|student|étudiant)\\b",re.I)
-FOREIGN_FOCUS = re.compile(r"\\b(?:sénégal|senegal|albania|albanie|ukraine|russia|russie)\\b",re.I)
+FRANCE_TERMS = re.compile(r"\b(?:france|french|français|française|macron|lecornu|oat|paris)\b", re.I)
+ECONOMIC_TERMS = re.compile(r"\b(?:budget|fiscal|deficit|déficit|debt|dette|tax|taxes|impôt|impôts|spending|dépenses|economy|economic|économie|économique|growth|croissance|inflation|recession|récession|employment|unemployment|emploi|chômage|chomage|jobs|gdp|pib|bond|bonds|obligation|obligations|yield|yields|rendement|spread|oat|rating|notation|sovereign|souverain|borrowing|emprunt|finances publiques|confidence vote|motion de censure)\b", re.I)
+OFF_TOPIC = re.compile(r"\b(?:nfl|football américain|grand prix|formula 1|tennis|champions league|rugby|celebrity|police|policier|arrest|interpellation|petrol bomb|manifestation|protest|grève|strike|riot|émeute|student|étudiant)\b", re.I)
+FOREIGN_FOCUS = re.compile(r"\b(?:sénégal|senegal|albania|albanie|ukraine|russia|russie)\b", re.I)
 def headline_relevant(title):
     return bool(FRANCE_TERMS.search(title) and ECONOMIC_TERMS.search(title)
                 and not FOREIGN_FOCUS.search(title) and not OFF_TOPIC.search(title))
+def classify(title):
+    if re.search(r"\b(?:oat|bond|bonds|obligation|obligations|yield|yields|spread|rating|notation|sovereign|souverain)\b", title, re.I):
+        return "Bond markets"
+    if re.search(r"\b(?:budget|deficit|déficit|debt|dette|fiscal|tax|impôt|spending|dépenses|finances publiques)\b", title, re.I):
+        return "Fiscal policy"
+    if re.search(r"\b(?:gdp|pib|growth|croissance|employment|unemployment|emploi|chômage|chomage|inflation|economy|économie)\b", title, re.I):
+        return "Macroeconomy"
+    return "Fiscal politics"
 
 items = []
 seen = set()
@@ -106,7 +98,7 @@ for topic, query, language, country, edition in FEEDS:
             seen.add(key)
             items.append({"title": title, "url": link, "source": source,
                           "published_at_utc": published.isoformat(timespec="seconds"),
-                          "topic": topic})
+                          "topic": classify(title)})
     except Exception as exc:
         print("Feed failed:", topic, language, exc)
 # Publish articles from the last seven days (UTC), on every refresh.
@@ -124,6 +116,7 @@ if previous_path.exists():
             key = re.sub(r"[^a-z0-9]+", "", old.get("title", "").lower())
             if (key not in known and headline_relevant(old.get("title", ""))
                     and earliest <= dt.datetime.fromisoformat(old["published_at_utc"]).date() <= today):
+                old["topic"] = classify(old["title"])
                 items.append(old)
                 known.add(key)
     except (ValueError, KeyError, TypeError) as exc:
@@ -165,7 +158,7 @@ if not items:
     raise SystemExit(0)
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
           "source": "Google News RSS (English and French editions; approved publishers only)",
-          "items": selected[:100]}
+          "items": selected[:25]}
 path = Path("data/france-news.json")
 path.parent.mkdir(exist_ok=True)
 path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
