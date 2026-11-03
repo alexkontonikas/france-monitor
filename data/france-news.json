@@ -1,70 +1,7 @@
 {
-  "checked_at_utc": "2026-11-03T21:40:17+00:00",
+  "checked_at_utc": "2026-11-03T21:54:51+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
-    {
-      "title": "L'intersyndicale saisit la justice sur le parcours de la manifestation du 5 novembre à Paris",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMHNjWHVvNXEybFlnNTVBTlh2QnZ1ZHNqMloxbVdjeWlOZE5qeUVlWC10TU5ZZzFTY2h0aXlXWjhBQVNuOGh5bEN3VTlqdGZ4Zl94T0V1RXU4VWs4RXpJLS1BcEM5djM5eDllT2NBNUFQNkJYc1pycDkyelZoeXAzbjM2TjJZNVVnMFZHNkhtQm9lVzhoLUc2SHdwVkZZZWtOWEhyMUdfcUttVXEwRmp4N0NfTmllLTQtZWt5aHlJWjFlWFV2azMwSEs2d2VCUVg4VWhYYnZzRmJNdUhxNW5lZw?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-11-03T19:22:30+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "En raison de l'appel national à la grève du 5 novembre, la SNCF prévoit des perturbations, en Ile-de-France la RATP table sur un \"trafic normal\"",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUGNWMTJmOTlKZDhNMGZ3TTB2dnEydkZmNGQ0UE82Wll4ck5XSnp0bkNfUVhqUktSZzVvcGJZZDV1RmxFVFhIa1ZkdUwweTNMN2Fma3FYSHhaVkh3Q3RaRzFha1gtR3p5RE5DRDhCRU51NmNPNWhfWUxEMFFqTjBrWDNXVlJweE0tSzE5cG1YZGkwVjBhdmJDQ2Q2YjRNeUVUZzRqdHhUeWJWeDhFaThNN2JJUEJpTU4xN2VqV0V4RDBBREppZjVtQ1N0ODZ6T1ctYmU2X2pwX256YWlBSE1iYkF0U3h4a2tSTnhlbHJUQWZpckxuOE1xRk8zaW90Vjg?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-11-03T16:44:48+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Manifestation du 31 octobre : l’IGPN saisie à Marseille après les blessures d’un participant",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxORzkzMlk3TEw2XzRhZ01Oc3FiNnpXTzNKd01RYzZiT01ZemtZRkt1M0JtX0lMT1ppTTM0TmpxbG5jVlg2OW5EVDdWMGROTVBTZFQzUTh4YlpNY1hjOXBTZ056SWNsd1JnOGtEVUdFaEJUR0hvLVgwLTRKT2kzRHhuTHZncC1rSjNJVFpONHFvdlFicGx3WWY1ZEtRVGFfUFQxQ1pzTjQzR3VtWkdGZEphSEJaS21GZU82cWJ2LXNTWEIwcVVJY0dfV0dwMEYwTFhsS2JfQVQzQmhqOXFTbkdsQ0VxY1Zna0NkREVIMmtRLVpXS256eVl3OEs2NGNKZUl0V043NA?oc=5",
-      "source": "Ouest-France",
-      "published_at_utc": "2026-11-03T15:28:16+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Au Sénégal, un budget crucial rejeté par l'Assemblée nationale",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX1l1VjdpRm01NFF4RUFmb3BIUU1sLUF2NjM0akEzR3FBMDNIeUtMai10bm5ESlJ2WUx2SFlySTNORFJrYXhESnl1ZV9DaDN2UEdVZGVIM2RfQWNCczhXRlUyNHRoWWl1RGhuMy03S3VMT3ZkdXA4UlVLVkJZaTRnWDJvQ3cxdlZFZWMxdS1nQWtpdTdzQUlJUjRRQWp3b2xpbTVKZmJjZXpFVVN1SEFFYTJKM2lmYVd2SWNvVk02bGJ2Q1VKeEh3SHZRUllkcVVUNks4ZGhGTVREN0NJNVlKd2lQTkloM3Jxb1E?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-03T12:31:40+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Students blockade dozens of high schools in France before nationwide strike",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRmVITGlIdmxoT1BjbWR2MTE0MXFqeFktVEt4WEpMdFNadHdBME90SHZvQ2QzV1FGcTZ2a21wMDduaWNoWGtHMFFaMHUxTGxMMWF5cnJZUnV2RFJnWlR3OUVKbEQzekZNdW0yMk5sNkRUUWpoNUt6YnFIbnU4ZW16c2s4R0Z1Wm5PbEx5OUhTMGZ1bWoyYmVpMHItMTJDRzRHN1V5U3l3elA3RkxNM2NEUjFCSQ?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-11-03T12:20:54+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "La préfecture de police interdit la manifestation prévue mardi par une organisation étudiante au cœur de Paris, Interfac IDF dépose un recours",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOWnBJR2U4ZmJWeHE3blQ5TENrN3VNbHU2WDhMWG1kNXFBNFY1TXVIYkF5emxObDQzQ2h1aTdyNXJxbHlRS0JIRG1HOXpkYTNBZ3ZPaXpCZjFYVDFZdVloWVVYT1VvRnhhQTgzUGxmRWdDYWhtdEl6QTBNYTdUNzNuQXIydUQyMWZCaVBNSFhXX05RNjdxTWU0MlBJckJtelRiZk0zZXVNTzNiX3pRY3NHMVEzXzYyaTZ3N1BnWnZuTWMxbkZBclItTktCTVQwN0RoSUhZTmFPX3R3WmZLWFpnbFRGb0lVNUl2M044WWEtMkxpSldLQ2txVjU5U25pT1RhbkVydGZzQm43MzZsMElCcU1WbEtYR2U0eWNoVWtNQWlJaWdrM0xBZkNKUHcteXowQWVFQ0E3a2ZJZ0Z2RF9j?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-11-02T21:03:50+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "La préfecture de police interdit la manifestation prévue par l'Interfac mardi au cœur de Paris",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlQ3RDh4T2FYSk1zaDdfaEYyNmtiNnhjS0ZCSGdPcUExczZYMEg1ZHpGQ1djZllVSzdDaEZ6cjhWblZhZXRXLUNjVzFlRW5oVllYYlYxQ0k2dXJnR3lDbWhUNmVsQnpyQlFZOUtoVEFPVlFvUVRYRkhOTWFJWWNORFdCX01qb3hmU3lsbEpxaUhSRjhwSGhPVXMxb1VnMFdpNjRLcEFKaVRuQVU0NHRjT3Y1U1N5ZXJYYUlQR1NR?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-02T18:30:33+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "French student protests: 'Illiberal' Macron govt dismisses social movement as 'urban violence'",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYjM1OC0tYjJlLVczLS0xem5wb2JtU2N1RDBHZWpUSXpob0hMRUFGbGtDcU02RnUzdjlIUVM2UlBVeE9HenZFREpNQi1sbkU5LXROaFpoM003cnlFbVhhQlBXN3FzVkNUQkFzU2xZSnM0MC1lczhJbC1HSWlfUy1YeGNIY2pLUEo5cU9hcW5RNXlvd0d5bElJd0dVYW13V1c2bEpMdms5WGl3Y3hVUlVPY0w5NHRnOVlfLWNxSkVqajc3clVPanNVVElIdDc?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-02T18:07:59+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "Manifestations en France : les jeunes restent mobilisés malgrés les annonces du gouvernement",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMEl6QTFqbURHT1dtY1JyYlhpYVdEYW1uRTBOQUNNX2VCNUFSaFdsN1pJcmRUY0M4QXdJNVJKbHFrWjRKYTlKRUdJWmVmemxQTnV1RjE0cDV1NVdTY1NjdGM0N1o5elRpcFlTV01aNGxfXzRsQzNFcVRLMzFiQkVJcnBidGdUWHo3S3AwOUU5R1VsX3N6REt3M0RHSHIyUlJURnlVOE1LNVh1SmRCTC1TcXRzVkdwMVJka1JTdG1pYTN4MFFHa0Y2U0tOcHhGMmpWb2VlZF9vNmpjeHgzMDB2Z3Fn?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-02T14:54:31+00:00",
-      "topic": "Reforms & protests"
-    },
     {
       "title": "Global Market: French bond yields hold steady despite Fitch downgrade warning",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOY3kwNkN4V0xRdU9rTnJTNlNsWUtpbVNBZ09EemhvTWtFY01jc1g1cXR5UmJDcDF3OHhnQU1zclZBcGxsNmtuVmZWd3g0QVdnb19KM05ibEtvNGdXejZDc0ZEbkJjRUJhSVZLRFBoR0NPU2MzTk50ajNSNGJLSEx5R1c1NWZEUHFpYVlYUkRfY3Y5RFNnTkVoaS14THFhalRmeWxaNW1oMlE1ZVVLT2ozRGVzWk9CTFZDTGNPWWVKNzNIR2ZEVjFGcFFKX2g5Yk5zMWVkQUhTbmJBVDRlMU1nSGZZMmY2WnRwWjdmWEwwM0gydzk1aXZudmVn0gH_AUFVX3lxTE14d3FSdmNjZERpckw0YWZHTm1SUTlnMjdfNXFIS0I0a2xlRHlTWlhEX1NuWlJIc184ZTdqMzhjWlMtb3E5WmhOTl9TcUpkYmZoS012bFVkdXVGNzJ4M2VfT3gzRXZyWmlaWThCenR4ckU5ckgyVkdzY2RGM09OQ1V5bVladGV5Z0NXaWk0a3M1cVo1aWpTOEpVRzhBZjdxX21wRWUteDZ2bUFldTRXc3V6QVlIZ2NZVDFmV2d3NHI0OUpvOHFxZm5yT2NsQm03RFpHdFBLVzhaVDl1M1hjT0VQazE4UDJtaE9qSE5xcGlIc0xiU2F1MEpVVzRTaFhSVQ?oc=5",
@@ -73,25 +10,109 @@
       "topic": "Bond markets"
     },
     {
-      "title": "Isolated clashes in France after peaceful marches, as police brace for Halloween night violence By Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQ1E5dnl5U3JNS05XTGE2QnE0Tm81NFBGX25hRkZ3akxvT0lxQ04tWUY1X2lCbnJsUzQyNm1aWHZsMWpybTJEWUN1OGxVMmtZZjZvbXkyemVTZ0E1c0FhSllYcEtZOFJrNVFVWFRQeGdzVkFidEx2UFFpMUtIWi05RkxNckxERlhERjRHbVZkOC1iVVp0Y1hMWkhyZEJwMHBIZi01Y1JoTHY4b1NHQVhMaFpLS2JnemVaRDhoOEhlcEhjYktBcWpkY2l2TjIwSUdFRVh3eTJJNXdFbC1jNl9Z?oc=5",
-      "source": "Investing.com",
-      "published_at_utc": "2026-11-02T09:27:23+00:00",
-      "topic": "Reforms & protests"
+      "title": "Croissance, dette : la France perd pied",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuQjFLVlVwS2t5REhYdl8ycUJWQ2ttZDVjajJIVHgzQTJnMFRFMzcxWVpNQS1sY2FacWF5S0tsSWdxOUpnZEtyMmlUZDYwUG9UckdFNUhvc1FqYllTTHVvNVJtR1NiS09adHNpZDhsNklHZHV3WkJjaA?oc=5",
+      "source": "l'Opinion",
+      "published_at_utc": "2026-11-01T18:30:00+00:00",
+      "topic": "Fiscal policy"
     },
     {
-      "title": "Mobilisation étudiante : la préfecture a refusé le parcours d'une manifestation prévue mardi au cœur de Paris, affirme le collectif Interfac Ile-de-France",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOVU0ycUduTHhlcE1GOG1JcHlNbEhlQzZqZkQ2S3p0X2J1aDR1N3lnTTNNa0RsSWhlelpFeUVmc1RsdnpvdUxXRjhhc0tMalE3ZDNiZ2NSN1BkWmExRmZDbl8xQy13QjVxTG9rRjRrcGlfcmZlLUF5cEpnaERCeDV0Yk9JNTcxVlhUMlNkOWliTW5WNGRGM2ZEQ1JQNlZsVWZLVm0tamFVdzVXdVNETVRUQkg3OEx1blJZZzBaOURKU3d5bDRBNzZkb05iTG9xNVhsRVlmTkNja3RXbmNWQ1lFNmh0ai1VME16QTRwU1F1b2dya2hrajd4TUh4Qk5wZ2RJekZHUWQ1OVVjamc2YUE?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-11-02T05:46:16+00:00",
-      "topic": "Reforms & protests"
+      "title": "Rating agency Fitch hits France with unscheduled outlook downgrade",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWk10VDliYzJKaWUySk40WHVPSnVoMHJsbUM4ejVUVXJaYjdncXdvQi1VN2pfVXVBa1pRUm1QUzhDTkQ1QTBrMUdUOU1DZ0xiX2h0X05IVHMxWHBlYTFkRGJiTGdTeUZGNTVUeE5JVU1kZU5qM29xWnBwRUlDZ19XS3hTc2w?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-10-31T09:36:34+00:00",
+      "topic": "Bond markets"
     },
     {
-      "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QZHNwUVk2SV9sMFZNTldRdlNyN0dFbmVUZ0cyRFloSmE4aFdleGU1czl3ZjFZb3M5T0FyWkdGZDQ1T09yeXpUSGRiNDNTSUQ4M2lrY1I2NW9SdzRLdkE?oc=5",
-      "source": "BBC",
-      "published_at_utc": "2026-11-02T00:15:30+00:00",
-      "topic": "Politics"
+      "title": "L'agence de notation Fitch Ratings dégrade les perspectives de la dette de la France",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNei0xLWkzeC05bUtoX3MtMTk1R0p5VXNtc0lpU1RLT3JJQ1ppTi1IUkpvTXhOWjRYVW1EbU9mcDZ3M2FZZnR5ZnN4dEw5WDBkME04bkFNeHJpaEEtT2k5YzFYVF9sUmtBeFlObDRqdGNwbjFaeEZUMDh2Yzh0M0dLZFNyTUtucFMzRXM0cGdfU29YekFRUmNleVg5MkNoQjVLSzZFQXdYRXJ6ZE4ycloweHVGX1Z5eWg1ZUhxQzRCaGdyS09ydUR0Qm4xNWJWaWRrZWVyNEdBSDY0TERIa1ZOczFFcGxYRFplTVpNUVJnWW8?oc=5",
+      "source": "La Tribune",
+      "published_at_utc": "2026-10-31T09:08:36+00:00",
+      "topic": "Bond markets"
+    },
+    {
+      "title": "Fitch abaisse la perspective de la France et ne croit pas à une réduction du déficit en 2027",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOeFQycjZvTkhwS3liWUVKXzE2dk4tbGFHeVUxdE9nMDV1UWgwZlh6bnVLaTFQOGVnTjdkN0NvRHZMWHF4TDJDaHlTQ3AtbUtGS3c1TVlzVE8tZlhCZ2lCZzhYZGp5WkVjVDFHR1V2VTNXajhreGVRVGxUYUlvRl9KMUMyaXozZ2d1ZmpRamx6WU9JeU9JdUxXVU1wQ1JaT0k0X0FsX3VGYzNUcUs2cmN0cFV0MzlVYXM4TWR4QVB3WjdrMVdnRGhpWjJ1MGRGaVpuMTVMQTE2WHQ4SjhFZlRleHp1YVVEdENiVkhOUFVPalpSNkxfVVBV?oc=5",
+      "source": "Les Echos",
+      "published_at_utc": "2026-10-30T23:02:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Fitch revises France's outlook to 'negative' on worsening debt dynamics",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOTFpRWgwN2dnQVRiakd0aGcycFJHaFExQVJyaFRFVUJpelJvU1lvUVR0cWExcjZva2RITGZKMFJJZVN3Zm9faWs0VFZiZDV2TWpibkphbXo0d2RwQmpTQk8tSlNocGtjQVNlRThxU3kyLV9SVmlHQ2FwWHlpVFBUTkgwbmllVUVybUZsQ3p0X21DckNMV0pUM2hJRWxyZ0hHN0hPNjRn?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-30T22:18:51+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Fitch cuts France outlook to negative on ballooning debt and deficit risks",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1ZQUVgtTGNVSWtTSXlSTHlGZmdESWJwRVFMSzZVSXJDT1M0eW1zQk1UQTVXS0hWcWlIMFEzcW12RmM5MEg2VVFxWF9ldHY0X3JiYzlMTl9JblJxNzVtbk5qWXpxcGVGVDFJX2tsQkFWS19SQnFSQmVoWGFtaEVHcG9vUTloUk5jQ1FHa0JOQkNMeXQ5Smh2MEhTdzAtRmNa?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-30T22:04:54+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "INFOGRAPHIES. Croissance, chômage, moral... Ces chiffres qui montrent que l’économie française « est à l’arrêt »",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNa1l4cFJRM2FJbmJqdjRDTzdwbXhGWlJkMkc1dzBrVUlTeHBLLUJOaEpzQndMRUo2S3B2YjBsRnN2Q3dhdk1NN1ExeEtYTi1qZHVJNjJwb3hRSXFVWkZPdFNOb1ZEcHpoZDZqWl9pMHAxOGNCdEt1MXRPS0pjcElWcGJYSDVHbzZrTHIzbUttSUo0b2I2SzFzU1VHS0dNMzEzRnd6VEJ5X2pYN0h1R3p1QlZBd1MydHFLODd2S0s4d2FJLTlpZ01oR2xRMTQ0R3ZNRWhKNEJ3eXVkRnJBQV9odXQtaHRsdGJuOS13Nld2cHh1WlBWUWZuX3d0QXlGc0tJNF9NMkJLYzZqeFk2b25UVUFuRVI?oc=5",
+      "source": "Ouest-France",
+      "published_at_utc": "2026-10-30T10:15:02+00:00",
+      "topic": "Macroeconomy"
+    },
+    {
+      "title": "French economy shrinks 0.1% in third quarter",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnAwVnJKYlVvQjhXdTR1OThNQ0FPX0g0ZHprdjBtVFZzaXBNeFFjem1RYnFPUlFNNDR4aDNpMU9EcDZ5TVZzVUc2OTJ4QkkxWnYwaXBIUGw0dll0bWNHcGotUE54dE8xSkJfS1NhTmhlRTQ1ZFQ0U2VLTHBzUG53Wmt4WVo?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-10-30T10:07:11+00:00",
+      "topic": "Macroeconomy"
+    },
+    {
+      "title": "French economy 'headed for a wall' as GDP shrinks, finance minister warns",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZWltazNkRmhwOHp1azVMMzlIazRIQ1hvRnFteGpjdEtyZzRBa0l6cVhZMHBJTTBvSDdheFV4di01a3pXZDRQdmk3ZWkxOFFIVEg0dWpVZlJQdlZmREhNbzV1d2xWdzcwejdiVS00Z3JsMHBTenFQX0dPbDdJYUUzdVFSc0xBUkFIWWhBMWg4M2dVVktPaVVEaFVBSzZ2VnVwbUZGdWNybk5UNjBGLUZUcUg5dG9ya0U?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-30T08:01:46+00:00",
+      "topic": "Macroeconomy"
+    },
+    {
+      "title": "French economy contracts in Q3 as exports, investment fall",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT1UtVTVIaWIxTVk5Z0RGVVg1dnk0LTBEd2hCRjkwNjFfT3RXNWg1UWJvdVlIbkNVLVpDRTlKYU9xTVRWY2ZiLUI0R205RXlfTVJ3UjBKRkV4ZVFvZHhtaXRCWHBSdVlZbjRSdlVLcFlnTWdTQV9IRlNmQXJ4X3F4WDdkWVRHNDJjOUlNOEx0SlBPT0xtT2NVUw?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-10-30T07:48:28+00:00",
+      "topic": "Macroeconomy"
+    },
+    {
+      "title": "ECB says has tools to calm markets as French debt worries rise",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcmNub3owb3phQ2lBMU1jN3piekE4SjUxN05OTl83TTJFeUdrVGFwWVRJQzJFX0dpa2QyWDFFaE9iOGtwNEhYelp1cnFweWlpcG1oRzA0OGRPdGw5QzE2emU3dTducTlyMmwxS1IxdWhSa0l5enRSR0U0X1hVbWZyaDIybkRiUlpLRHZseWVPbkhINHY3Q19YanVlUmxYdHJ2ZFNRbg?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-10-29T13:52:35+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Déficit, dette, fiscalité : confronté aux mêmes problèmes que la France, le Royaume-Uni explore une autre voie",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWF9FRDB6R0tNTlZnellGbHFNTUJXaG03VWdmSm1ZWXRaaXZjbS1ocjBmWUlTMVV2Y05Bem1rNzZCTGh2elRJS2htRXBPQmZSTm1IaVhBc1MxQ2xQSVVKX3MyT0gxVlBnYXlMNXFDTWpENV9YajBvMUg1VnJqVmw1Ym1lVE5FRE5WNlo5RHgtM0UzdEZJY01kTzNWRlVNSnp0dUJmRHNZZEI4cS1QTjZWUG5oY0ptakV3V2N3?oc=5",
+      "source": "Le Point",
+      "published_at_utc": "2026-10-29T12:52:51+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Dette : 84 % des Français veulent la réduire, aucun de la même façon",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRmFqNHRfLVZ5QzlWS3Q0Mklhek80cG1RRzNuV2pidmVBOUFhb2ZQcVJudF90d0RuakhQam80UUhuSTBIUEtncm5YYTdCOUw1eEdIOEtSRGZfVWp5TS1NTXJITFc0czJxZFAxS2NBT1VDdWp4YXdwNUo2QlVQaDNWRUN6cUlOcGJtMDZJVEN6TmVTc2xjS09FeEtKSWJ4UHZLeDZ2cEJvc2tvdkdxdmlCenZtNXJLb3ItOTZJb3lR?oc=5",
+      "source": "Le Point",
+      "published_at_utc": "2026-10-29T07:00:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "« C’est le fond qui prime » : Lecornu ferme la porte à un 49.3 sur le budget dès maintenant",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONUZPSUxVOEZPLXRnaGJJYVhadXBGSGx1dmZqZ1ltRDRIZnpFYWtnbnZQTnh1ejk5MmQ4ZWhfbXFWdWQ4MWNZWno5V2dJM3ZJQlFxOXNfUEVPYnZocDRQdU4zdVV5aDhnemt2X2UwWXBfWnlrRWdHa0d5VUV6bEpJdTd6VlBHZWZ0VTVHdWhSNEloZ0tSNTI5VFVQay1ZSG1Da3VSZjZBUDk3RWh6TEhYVFBrV0JfWW4yVm9JcUV3akhVMkk4NUlCcmNRSnFKNVhBTjM5MzZNRm95Y3BUSTMtMGpid0YxNEJDa3ZBVVVWcTVrNzA?oc=5",
+      "source": "Le Parisien",
+      "published_at_utc": "2026-10-28T15:00:41+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "France’s Lescure Says Prepared to Use Any Tool to Ensure Budget",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUdQdHRkVW40eGJfNlRxeEJCLXF5bkJoX1JVanV1c1ZGdnJ6OVNqMGVPVEFYODlnU0Y5Y3FMUVFNT3pTVThSZy1aZ1gtNUpOazU0NldxSlF0c2JxcEVXZWo3Q0djNXJNa3pfNGpPXzRRVlcwWFcyRl9TcHhnN3VHUkJBOGVGYUk2QW9YOUlWSFVjeW9XbjZDYWhXTm5ENXZUM0RmM2QwU2RuZXk1c0lydzlRa24?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-10-28T14:14:35+00:00",
+      "topic": "Fiscal policy"
     }
   ]
 }
