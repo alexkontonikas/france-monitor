@@ -109,11 +109,25 @@ for topic, query, language, country, edition in FEEDS:
                           "topic": topic})
     except Exception as exc:
         print("Feed failed:", topic, language, exc)
-# Publish only articles dated today or yesterday (UTC), on every refresh.
+# Publish articles from the last seven days (UTC), on every refresh.
 today = dt.datetime.now(dt.timezone.utc).date()
-earliest = today - dt.timedelta(days=1)
+earliest = today - dt.timedelta(days=6)
 items = [x for x in items
          if earliest <= dt.datetime.fromisoformat(x["published_at_utc"]).date() <= today]
+# Preserve previously collected qualifying articles within the rolling week.
+previous_path = Path("data/france-news.json")
+if previous_path.exists():
+    try:
+        previous = json.loads(previous_path.read_text(encoding="utf-8"))
+        known = {re.sub(r"[^a-z0-9]+", "", x["title"].lower()) for x in items}
+        for old in previous.get("items", []):
+            key = re.sub(r"[^a-z0-9]+", "", old.get("title", "").lower())
+            if (key not in known and headline_relevant(old.get("title", ""))
+                    and earliest <= dt.datetime.fromisoformat(old["published_at_utc"]).date() <= today):
+                items.append(old)
+                known.add(key)
+    except (ValueError, KeyError, TypeError) as exc:
+        print("Archive read failed:", exc)
 items.sort(key=lambda x: x["published_at_utc"], reverse=True)
 # Reserve space for each category before filling remaining slots by recency.
 selected = []
@@ -146,8 +160,8 @@ if not any(x["source"].casefold() in french_publishers for x in selected):
 for category in QUERIES:
     if not any(x["topic"] == category for x in selected):
         print(f"WARNING: Missing category: {category}")
-if len(items) < 5:
-    raise ValueError("Insufficient valid headlines; previous published feed preserved")
+if not items:
+    raise ValueError("No valid headlines; previous published feed preserved")
 output = {"checked_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
           "source": "Google News RSS (English and French editions; approved publishers only)",
           "items": selected[:100]}
