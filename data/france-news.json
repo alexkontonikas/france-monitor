@@ -1,19 +1,33 @@
 {
-  "checked_at_utc": "2026-11-02T23:56:09+00:00",
+  "checked_at_utc": "2026-11-03T15:20:12+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "Au Sénégal, un budget crucial rejeté par l'Assemblée nationale",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX1l1VjdpRm01NFF4RUFmb3BIUU1sLUF2NjM0akEzR3FBMDNIeUtMai10bm5ESlJ2WUx2SFlySTNORFJrYXhESnl1ZV9DaDN2UEdVZGVIM2RfQWNCczhXRlUyNHRoWWl1RGhuMy03S3VMT3ZkdXA4UlVLVkJZaTRnWDJvQ3cxdlZFZWMxdS1nQWtpdTdzQUlJUjRRQWp3b2xpbTVKZmJjZXpFVVN1SEFFYTJKM2lmYVd2SWNvVk02bGJ2Q1VKeEh3SHZRUllkcVVUNks4ZGhGTVREN0NJNVlKd2lQTkloM3Jxb1E?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-03T12:31:40+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Students blockade dozens of high schools in France before nationwide strike",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRmVITGlIdmxoT1BjbWR2MTE0MXFqeFktVEt4WEpMdFNadHdBME90SHZvQ2QzV1FGcTZ2a21wMDduaWNoWGtHMFFaMHUxTGxMMWF5cnJZUnV2RFJnWlR3OUVKbEQzekZNdW0yMk5sNkRUUWpoNUt6YnFIbnU4ZW16c2s4R0Z1Wm5PbEx5OUhTMGZ1bWoyYmVpMHItMTJDRzRHN1V5U3l3elA3RkxNM2NEUjFCSQ?oc=5",
+      "source": "RFI",
+      "published_at_utc": "2026-11-03T12:20:54+00:00",
+      "topic": "Politics"
+    },
+    {
+      "title": "La préfecture de police interdit la manifestation prévue par l'Interfac mardi au cœur de Paris",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlQ3RDh4T2FYSk1zaDdfaEYyNmtiNnhjS0ZCSGdPcUExczZYMEg1ZHpGQ1djZllVSzdDaEZ6cjhWblZhZXRXLUNjVzFlRW5oVllYYlYxQ0k2dXJnR3lDbWhUNmVsQnpyQlFZOUtoVEFPVlFvUVRYRkhOTWFJWWNORFdCX01qb3hmU3lsbEpxaUhSRjhwSGhPVXMxb1VnMFdpNjRLcEFKaVRuQVU0NHRjT3Y1U1N5ZXJYYUlQR1NR?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-02T18:30:33+00:00",
+      "topic": "Reforms & protests"
+    },
     {
       "title": "French student protests: 'Illiberal' Macron govt dismisses social movement as 'urban violence'",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYjM1OC0tYjJlLVczLS0xem5wb2JtU2N1RDBHZWpUSXpob0hMRUFGbGtDcU02RnUzdjlIUVM2UlBVeE9HenZFREpNQi1sbkU5LXROaFpoM003cnlFbVhhQlBXN3FzVkNUQkFzU2xZSnM0MC1lczhJbC1HSWlfUy1YeGNIY2pLUEo5cU9hcW5RNXlvd0d5bElJd0dVYW13V1c2bEpMdms5WGl3Y3hVUlVPY0w5NHRnOVlfLWNxSkVqajc3clVPanNVVElIdDc?oc=5",
       "source": "France 24",
       "published_at_utc": "2026-11-02T18:07:59+00:00",
-      "topic": "Politics"
-    },
-    {
-      "title": "« Il n’y a pas ce bouillonnement de ces dernières années » : à l’Assemblée nationale, un débat budgétaire… fantomatique",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQ1dNNENtMFgwT1hhZlphYVFacWhQc0phVEtmeENYcnNrM1l5aVFpMDVtRXpFUVc2Q3BwWTVfeUtqVUYwb3JqY2J1eHJkd09QRkc1Sk9aaC1udk5uMi1jYXllTUc3YWlRZVYxbjZUSFdtNzZvS1FzYWFkUWU0NlhXTUJ5T1hpMkZXcjhmVVhPY0hjdGtBOERvZEJDQlNJV3RuRGsxbHpfLUFDSU12Qjdkay05Mll2QUxERkhnM3NHU3B3VWI2TFM1N015QktCU2cta2RvbUJFS0NTWmEzWWNPY3BkV3JjOGY0U01kLUphTmplbDRUbXM1MFdMcHJVNG5wbmdFT0FDYVI1ODhlS0I3eU5IbUxfR19kVHNSZUVhLVNNeE9ST0R3X2FZUXRlT1JIQ2JF?oc=5",
-      "source": "Ouest-France",
-      "published_at_utc": "2026-11-02T17:27:24+00:00",
       "topic": "Politics"
     },
     {
@@ -32,38 +46,10 @@
     },
     {
       "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41V0xneml3Vm91VHN3bTVkbzNhNVFBb09qM1BQR29ZNHlKeGhvZlA2cFFrM1dRQXNRWWYyZ0tKVjZPUV9GM0d0bjZxNW90TXJhdXpFZTFpMlowSWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QZHNwUVk2SV9sMFZNTldRdlNyN0dFbmVUZ0cyRFloSmE4aFdleGU1czl3ZjFZb3M5T0FyWkdGZDQ1T09yeXpUSGRiNDNTSUQ4M2lrY1I2NW9SdzRLdkE?oc=5",
       "source": "BBC",
       "published_at_utc": "2026-11-02T00:15:30+00:00",
       "topic": "Politics"
-    },
-    {
-      "title": "French protest violence eases while scattered riots hit Germany ahead of school return",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX0QtNjJvRnpjT3Y5eTVBcEI5dkZMaFNuZnJDMkR1cWY5aWRWV2FjX3QxVVVHNUZRMlp1VFBYYnpCdE1NcmRqQlUtbVV0akY5RUF5WXdjaXcxYnBtNk4xZDhJNmtKWGlaTGhkcTltaW9TTHlBTmdlU0I1cFlVbjdmckVaMDBaTllsNmJCYWlZM0NCaFZsdk00b3Z4bV9BYlhiSnhZ?oc=5",
-      "source": "AP News",
-      "published_at_utc": "2026-11-01T20:53:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSVdUZ0d3OWx0RVZfN2pBdnRNSFVESkNyNDFrTDlHNXNTU1ZzVHdTVk82dGdINHVhX01Pa3U0dmZGaWx2WnhXb3oteEJnenFFVjVWd3V3RDdTRzFHNGZRZ3ptUFZtZVBSRnlEeTdRcENiQlVkcnZHcjhVbllqekhUclhiSEdadGl5N1FIdFNuRQ?oc=5",
-      "source": "The Guardian",
-      "published_at_utc": "2026-11-01T17:22:00+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "En Allemagne, des scènes de pillage « comme en France » : la mobilisation des jeunes de la « Gen Z regelt » inquiète le gouvernement",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPamxGUkNmaDB1TGhRWThMQ0lQSnp3TzBvTkJVSWFqVUgwT3ZCa0VYMkNqelFvSkV3SERrZzZYOVRxbzY0UWd0aXUzanEwQUlLMXZ2dnZCUjJTbVpqMGRsbHBlV3prc09XRlp2UG1fVmVQOS1Da0QwM3U2bEw2aWFLYWxOazQxc25pTlhjbEJDTlRjQmdpaXN3NHc3cEpRZUVnVG1HZHdCVndQdGxlSTEwczBPTzZNSlg4WkNqdjJUTDJxdEJ4dWt6NkEyQlR6Rms?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-11-01T11:02:29+00:00",
-      "topic": "Reforms & protests"
-    },
-    {
-      "title": "Hundreds of thousands protest in France for \"Act III\"",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcVI2TG5WRHc3eWYwR1I1MUpiTWZvVDdiek5FTHIxNWtBd3ZQYXA3TzhNX2ZvaERTblVXR19DVkRpYTVwTGxJbkk3ZDBzaDVlLW1LYmFualBUUkZwTlNMck5VNWFmUTVfTXhmLWplR2xob3Uzc1ZSTExheGhfY0ZqTElaVExPZw?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-01T09:09:11+00:00",
-      "topic": "Reforms & protests"
     }
   ]
 }
