@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-04T15:32:50+00:00",
+  "checked_at_utc": "2026-11-04T22:41:36+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -52,18 +52,18 @@
       "topic": "Fiscal policy"
     },
     {
+      "title": "France Gets Budget Warning as Fitch Turns Negative on Rating",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT3VMc1ZjeFUtVG42NjNpU1ltLU5RRUdEZXhudzFyY0ljV2poVXFRUWdIc1pjaEdjTjNBRU05RkVyTzAtbmNCNDNHMzBEN1AxUk1YZDY5YlFSUmtydDN1bFZPUXhJTTRQRU5Udl9pUGd1TEVVY1B6OU9xaTRQUVg5emZzdlZpQmpHXzhrbFZBTVFHY29YVExPdzFhTm9PTnNqb0U4bGhpOVFmcXlBMnhRRg?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-10-30T22:08:03+00:00",
+      "topic": "Bond markets"
+    },
+    {
       "title": "Fitch cuts France outlook to negative on ballooning debt and deficit risks",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1ZQUVgtTGNVSWtTSXlSTHlGZmdESWJwRVFMSzZVSXJDT1M0eW1zQk1UQTVXS0hWcWlIMFEzcW12RmM5MEg2VVFxWF9ldHY0X3JiYzlMTl9JblJxNzVtbk5qWXpxcGVGVDFJX2tsQkFWS19SQnFSQmVoWGFtaEVHcG9vUTloUk5jQ1FHa0JOQkNMeXQ5Smh2MEhTdzAtRmNa?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-30T22:04:54+00:00",
       "topic": "Fiscal policy"
-    },
-    {
-      "title": "France Gets Budget Warning as Fitch Turns Negative on Rating",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR0s4dkF4RVZSYm9lTjJHZGJWb2VabEVzWEpyVXU5dmxZYUxsVVBDNVVEeDJ5cTF0S3hsbVVWSG5SQlcyVTM5X1F6Q01aSS1wNVU5eENXcG9qTEFYeDZiUm9tSGZNNThIaXNYcURld084VW1BaE9rS2RUSG1IbjhITUJTcXpYUGNvWGlQUWZNYUZwbU1sSnY2OW5OcTJlQQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-30T21:40:00+00:00",
-      "topic": "Bond markets"
     },
     {
       "title": "INFOGRAPHIES. Croissance, chômage, moral... Ces chiffres qui montrent que l’économie française « est à l’arrêt »",
@@ -91,6 +91,13 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT1UtVTVIaWIxTVk5Z0RGVVg1dnk0LTBEd2hCRjkwNjFfT3RXNWg1UWJvdVlIbkNVLVpDRTlKYU9xTVRWY2ZiLUI0R205RXlfTVJ3UjBKRkV4ZVFvZHhtaXRCWHBSdVlZbjRSdlVLcFlnTWdTQV9IRlNmQXJ4X3F4WDdkWVRHNDJjOUlNOEx0SlBPT0xtT2NVUw?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-30T07:48:28+00:00",
+      "topic": "Macroeconomy"
+    },
+    {
+      "title": "Visualisez la croissance française en 2026",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOW9oZC05TTlwQ3F6d2w1Zk5fQjFuOFB1d0RrdllXckZ1WURtWGVIOHIwdjQ1ZjBPdE9QZmF2UV8zN1VoNmpibVhGazdjN2N6OG5NNU5xZG5sT0RHQklVSmcyeTNWeFNhNVdmWmw1TGhTbHBjZVFmOGRrMW00eHUtNlhQT2tuSG1QRHRFb0VfRW4?oc=5",
+      "source": "Le Figaro",
+      "published_at_utc": "2026-10-30T06:42:00+00:00",
       "topic": "Macroeconomy"
     },
     {
