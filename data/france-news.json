@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-05T22:43:32+00:00",
+  "checked_at_utc": "2026-11-06T15:11:50+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -57,83 +57,6 @@
       "source": "Yahoo Finance",
       "published_at_utc": "2026-10-31T06:27:00+00:00",
       "topic": "Fiscal policy"
-    },
-    {
-      "title": "Fitch abaisse la perspective de la France et ne croit pas à une réduction du déficit en 2027",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOeFQycjZvTkhwS3liWUVKXzE2dk4tbGFHeVUxdE9nMDV1UWgwZlh6bnVLaTFQOGVnTjdkN0NvRHZMWHF4TDJDaHlTQ3AtbUtGS3c1TVlzVE8tZlhCZ2lCZzhYZGp5WkVjVDFHR1V2VTNXajhreGVRVGxUYUlvRl9KMUMyaXozZ2d1ZmpRamx6WU9JeU9JdUxXVU1wQ1JaT0k0X0FsX3VGYzNUcUs2cmN0cFV0MzlVYXM4TWR4QVB3WjdrMVdnRGhpWjJ1MGRGaVpuMTVMQTE2WHQ4SjhFZlRleHp1YVVEdENiVkhOUFVPalpSNkxfVVBV?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-10-30T23:02:00+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "« La dynamique de la dette empire » : l'agence Fitch abaisse la perspective de la France",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ1hPZkVOYzJ1Ty0yLTl0c3Q0aHlnc2dZQm94QWNZeVVpQTJLNFhDS1dBeW42OFdMb002cncxVmZXV29PN2J6VlNWemVCbk9tYUVaYzVaUzNFaFpvbTlxQUJTMG5aeVF0MGFqMkN4V2MtSXR2MDhHeVVkU3dWZVdsYU1zUHJjbGhFZnF2ZGZmNU1XRDZDaVpuMXRoV1A1eHJFM2MxME5wQlQ5aHRIU25xdC1jRE5MMS1QQWlWTg?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-10-30T22:38:43+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Fitch revises France's outlook to 'negative' on worsening debt dynamics",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOTFpRWgwN2dnQVRiakd0aGcycFJHaFExQVJyaFRFVUJpelJvU1lvUVR0cWExcjZva2RITGZKMFJJZVN3Zm9faWs0VFZiZDV2TWpibkphbXo0d2RwQmpTQk8tSlNocGtjQVNlRThxU3kyLV9SVmlHQ2FwWHlpVFBUTkgwbmllVUVybUZsQ3p0X21DckNMV0pUM2hJRWxyZ0hHN0hPNjRn?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-30T22:18:51+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "France Gets Budget Warning as Fitch Turns Negative on Rating",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT3VMc1ZjeFUtVG42NjNpU1ltLU5RRUdEZXhudzFyY0ljV2poVXFRUWdIc1pjaEdjTjNBRU05RkVyTzAtbmNCNDNHMzBEN1AxUk1YZDY5YlFSUmtydDN1bFZPUXhJTTRQRU5Udl9pUGd1TEVVY1B6OU9xaTRQUVg5emZzdlZpQmpHXzhrbFZBTVFHY29YVExPdzFhTm9PTnNqb0U4bGhpOVFmcXlBMnhRRg?oc=5",
-      "source": "Bloomberg",
-      "published_at_utc": "2026-10-30T22:08:03+00:00",
-      "topic": "Bond markets"
-    },
-    {
-      "title": "Fitch cuts France outlook to negative on ballooning debt and deficit risks",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1ZQUVgtTGNVSWtTSXlSTHlGZmdESWJwRVFMSzZVSXJDT1M0eW1zQk1UQTVXS0hWcWlIMFEzcW12RmM5MEg2VVFxWF9ldHY0X3JiYzlMTl9JblJxNzVtbk5qWXpxcGVGVDFJX2tsQkFWS19SQnFSQmVoWGFtaEVHcG9vUTloUk5jQ1FHa0JOQkNMeXQ5Smh2MEhTdzAtRmNa?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-30T22:04:54+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "INFOGRAPHIES. Croissance, chômage, moral... Ces chiffres qui montrent que l’économie française « est à l’arrêt »",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNa1l4cFJRM2FJbmJqdjRDTzdwbXhGWlJkMkc1dzBrVUlTeHBLLUJOaEpzQndMRUo2S3B2YjBsRnN2Q3dhdk1NN1ExeEtYTi1qZHVJNjJwb3hRSXFVWkZPdFNOb1ZEcHpoZDZqWl9pMHAxOGNCdEt1MXRPS0pjcElWcGJYSDVHbzZrTHIzbUttSUo0b2I2SzFzU1VHS0dNMzEzRnd6VEJ5X2pYN0h1R3p1QlZBd1MydHFLODd2S0s4d2FJLTlpZ01oR2xRMTQ0R3ZNRWhKNEJ3eXVkRnJBQV9odXQtaHRsdGJuOS13Nld2cHh1WlBWUWZuX3d0QXlGc0tJNF9NMkJLYzZqeFk2b25UVUFuRVI?oc=5",
-      "source": "Ouest-France",
-      "published_at_utc": "2026-10-30T10:15:02+00:00",
-      "topic": "Macroeconomy"
-    },
-    {
-      "title": "French economy shrinks 0.1% in third quarter",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnAwVnJKYlVvQjhXdTR1OThNQ0FPX0g0ZHprdjBtVFZzaXBNeFFjem1RYnFPUlFNNDR4aDNpMU9EcDZ5TVZzVUc2OTJ4QkkxWnYwaXBIUGw0dll0bWNHcGotUE54dE8xSkJfS1NhTmhlRTQ1ZFQ0U2VLTHBzUG53Wmt4WVo?oc=5",
-      "source": "Financial Times",
-      "published_at_utc": "2026-10-30T10:07:11+00:00",
-      "topic": "Macroeconomy"
-    },
-    {
-      "title": "French economy 'headed for a wall' as GDP shrinks",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUFJfSTFsbkQ1c1hxVUVjaEdpWjJrZ3dFaE9kbTdjRWc0RDRzYkhoNlZvOUg4U0RGeFJvcjA3SWFpNUhhbHJMNzBDbFZ2ZVRsZjNobS0weU00anYzS1AtRzZmZHUtWFA5WjNVM3RwQ2RVdUk4WURoak1Rd3NyU0dRQ1VwdFdvdlFnay0zOW5ZaXVfN3IxVXY5TnRzRldkUQ?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-10-30T08:01:57+00:00",
-      "topic": "Macroeconomy"
-    },
-    {
-      "title": "French economy 'headed for a wall' as GDP shrinks, finance minister warns",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZWltazNkRmhwOHp1azVMMzlIazRIQ1hvRnFteGpjdEtyZzRBa0l6cVhZMHBJTTBvSDdheFV4di01a3pXZDRQdmk3ZWkxOFFIVEg0dWpVZlJQdlZmREhNbzV1d2xWdzcwejdiVS00Z3JsMHBTenFQX0dPbDdJYUUzdVFSc0xBUkFIWWhBMWg4M2dVVktPaVVEaFVBSzZ2VnVwbUZGdWNybk5UNjBGLUZUcUg5dG9ya0U?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-10-30T08:01:46+00:00",
-      "topic": "Macroeconomy"
-    },
-    {
-      "title": "French economy contracts in Q3 as exports, investment fall",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT1UtVTVIaWIxTVk5Z0RGVVg1dnk0LTBEd2hCRjkwNjFfT3RXNWg1UWJvdVlIbkNVLVpDRTlKYU9xTVRWY2ZiLUI0R205RXlfTVJ3UjBKRkV4ZVFvZHhtaXRCWHBSdVlZbjRSdlVLcFlnTWdTQV9IRlNmQXJ4X3F4WDdkWVRHNDJjOUlNOEx0SlBPT0xtT2NVUw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-30T07:48:28+00:00",
-      "topic": "Macroeconomy"
-    },
-    {
-      "title": "Visualisez la croissance française en 2026",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOW9oZC05TTlwQ3F6d2w1Zk5fQjFuOFB1d0RrdllXckZ1WURtWGVIOHIwdjQ1ZjBPdE9QZmF2UV8zN1VoNmpibVhGazdjN2N6OG5NNU5xZG5sT0RHQklVSmcyeTNWeFNhNVdmWmw1TGhTbHBjZVFmOGRrMW00eHUtNlhQT2tuSG1QRHRFb0VfRW4?oc=5",
-      "source": "Le Figaro",
-      "published_at_utc": "2026-10-30T06:42:00+00:00",
-      "topic": "Macroeconomy"
     }
   ]
 }
