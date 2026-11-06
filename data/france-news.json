@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-06T15:11:50+00:00",
+  "checked_at_utc": "2026-11-06T22:11:06+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -8,6 +8,13 @@
       "source": "CNBC",
       "published_at_utc": "2026-11-05T12:53:23+00:00",
       "topic": "Fiscal policy"
+    },
+    {
+      "title": "French Manufacturing Output Growth Improves",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWDlkb0RDQXdtMllFY0ozVHd0bFdwTHJrNXdOUUJpN0hRRV84ZDU1WVJiMW50Q0dsS29lS0UzSUYySUZGeTJuNzZIVHp4S3Atd0VEMmRlVzNoZHQ0bmxHV1JtYU1iTW1USW1MQjZBdlVLZEQ4UGhkQWxWWE1YSFRSRjRsNnktblQ1aU1tZnN5LW1FVnJIVkhKYzdJQ0tWSzRRTVNF?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-05T12:03:30+00:00",
+      "topic": "Macroeconomy"
     },
     {
       "title": "MPs unanimously reject 2027 French budget as political deadlock continues",
