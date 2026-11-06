@@ -1,6 +1,6 @@
 {
   "source": "https://countryeconomy.com/bonds",
-  "retrieved_at_utc": "2026-11-06T15:55:14+00:00",
+  "retrieved_at_utc": "2026-11-06T21:29:16+00:00",
   "quote_time_verified": false,
   "frequency": "latest available public observations (not verified intraday)",
   "quotes": {
@@ -10,12 +10,12 @@
       "observation_date": "2026-11-06"
     },
     "FR": {
-      "yield_pct": 4.79,
+      "yield_pct": 4.76,
       "country": "France",
       "observation_date": "2026-11-06"
     },
     "IT": {
-      "yield_pct": 4.33,
+      "yield_pct": 4.35,
       "country": "Italy",
       "observation_date": "2026-11-06"
     },
