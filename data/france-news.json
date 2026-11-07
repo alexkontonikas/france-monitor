@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-06T22:11:06+00:00",
+  "checked_at_utc": "2026-11-07T14:10:07+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -35,34 +35,6 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuQjFLVlVwS2t5REhYdl8ycUJWQ2ttZDVjajJIVHgzQTJnMFRFMzcxWVpNQS1sY2FacWF5S0tsSWdxOUpnZEtyMmlUZDYwUG9UckdFNUhvc1FqYllTTHVvNVJtR1NiS09adHNpZDhsNklHZHV3WkJjaA?oc=5",
       "source": "l'Opinion",
       "published_at_utc": "2026-11-01T18:30:00+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Why the sell-off in French bonds is a warning for global governments",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUk9tdjc5Tk1KcGs5UTllbGdTUGd6Z0c2M2U2LVRVTGdIWWFNelBuWVZpZVFSZEw0NHdZOE5TVjNtMmlIVnJ1bFFBWHEzNWNidGpsb09oUUg4YVI5aldkcFcwcUd4OXFpcEJYbGQyYjBKUFdJRGprSFRiZ2dVcU05QW1HVDVDUWlYSFFYWFNJSy1Kb0pQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-31T19:23:38+00:00",
-      "topic": "Bond markets"
-    },
-    {
-      "title": "Rating agency Fitch hits France with unscheduled outlook downgrade",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWk10VDliYzJKaWUySk40WHVPSnVoMHJsbUM4ejVUVXJaYjdncXdvQi1VN2pfVXVBa1pRUm1QUzhDTkQ1QTBrMUdUOU1DZ0xiX2h0X05IVHMxWHBlYTFkRGJiTGdTeUZGNTVUeE5JVU1kZU5qM29xWnBwRUlDZ19XS3hTc2w?oc=5",
-      "source": "Financial Times",
-      "published_at_utc": "2026-10-31T09:36:34+00:00",
-      "topic": "Bond markets"
-    },
-    {
-      "title": "L'agence de notation Fitch Ratings dégrade les perspectives de la dette de la France",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNei0xLWkzeC05bUtoX3MtMTk1R0p5VXNtc0lpU1RLT3JJQ1ppTi1IUkpvTXhOWjRYVW1EbU9mcDZ3M2FZZnR5ZnN4dEw5WDBkME04bkFNeHJpaEEtT2k5YzFYVF9sUmtBeFlObDRqdGNwbjFaeEZUMDh2Yzh0M0dLZFNyTUtucFMzRXM0cGdfU29YekFRUmNleVg5MkNoQjVLSzZFQXdYRXJ6ZE4ycloweHVGX1Z5eWg1ZUhxQzRCaGdyS09ydUR0Qm4xNWJWaWRrZWVyNEdBSDY0TERIa1ZOczFFcGxYRFplTVpNUVJnWW8?oc=5",
-      "source": "La Tribune",
-      "published_at_utc": "2026-10-31T09:08:36+00:00",
-      "topic": "Bond markets"
-    },
-    {
-      "title": "France pushes 'responsible' 2027 budget as Fitch cuts debt outlook to 'negative'",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWtWUGprVGFFT1JZYU11YWZEdnFWaUwzaE5GX0VoS3hRRnNabVpQMDdHTDBMTFJQUkxHSjRQdlJKZUp5dWd4RXRYdGFUbnVUQ2NCUjVBLWp4UjRNaWMxQ244aE9EeXBmTm5zTkZqQm12WDZtbFNfY3hja3hQenpoUEtpcng1dVFyWTVma2xjR05TYnpxS0xHTjBoeXJCZ3Mtby1tQw?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-10-31T06:27:00+00:00",
       "topic": "Fiscal policy"
     }
   ]
