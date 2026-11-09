@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-08T21:14:41+00:00",
+  "checked_at_utc": "2026-11-09T01:00:26+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -36,13 +36,6 @@
       "source": "RFI",
       "published_at_utc": "2026-11-05T08:19:33+00:00",
       "topic": "Fiscal policy"
-    },
-    {
-      "title": "Global Market: French bond yields hold steady despite Fitch downgrade warning",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOY3kwNkN4V0xRdU9rTnJTNlNsWUtpbVNBZ09EemhvTWtFY01jc1g1cXR5UmJDcDF3OHhnQU1zclZBcGxsNmtuVmZWd3g0QVdnb19KM05ibEtvNGdXejZDc0ZEbkJjRUJhSVZLRFBoR0NPU2MzTk50ajNSNGJLSEx5R1c1NWZEUHFpYVlYUkRfY3Y5RFNnTkVoaS14THFhalRmeWxaNW1oMlE1ZVVLT2ozRGVzWk9CTFZDTGNPWWVKNzNIR2ZEVjFGcFFKX2g5Yk5zMWVkQUhTbmJBVDRlMU1nSGZZMmY2WnRwWjdmWEwwM0gydzk1aXZudmVn0gH_AUFVX3lxTE14d3FSdmNjZERpckw0YWZHTm1SUTlnMjdfNXFIS0I0a2xlRHlTWlhEX1NuWlJIc184ZTdqMzhjWlMtb3E5WmhOTl9TcUpkYmZoS012bFVkdXVGNzJ4M2VfT3gzRXZyWmlaWThCenR4ckU5ckgyVkdzY2RGM09OQ1V5bVladGV5Z0NXaWk0a3M1cVo1aWpTOEpVRzhBZjdxX21wRWUteDZ2bUFldTRXc3V6QVlIZ2NZVDFmV2d3NHI0OUpvOHFxZm5yT2NsQm03RFpHdFBLVzhaVDl1M1hjT0VQazE4UDJtaE9qSE5xcGlIc0xiU2F1MEpVVzRTaFhSVQ?oc=5",
-      "source": "The Economic Times",
-      "published_at_utc": "2026-11-02T10:22:02+00:00",
-      "topic": "Bond markets"
     }
   ]
 }
