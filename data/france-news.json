@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-11T23:30:30+00:00",
+  "checked_at_utc": "2026-11-12T16:03:45+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -13,7 +13,7 @@
       "title": "France and Belgium fall foul of Eurozone bond market’s new divide",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcmR3YlNDMVZzUVhwMmg1d1pDQ1ZnN1IwUHBMemZBaHdJekc0ZmVxYTVPeHUwNEY2TGZ4bzc3T202NFlGSVB4VnBHQjIzLXYwVzNxSndCMGplOEs2MjcxWXBZM2dDYi1vSnNjaGpUWjI3bk9lZzN0bGJGMUc2VjNhNzY5YXo?oc=5",
       "source": "Financial Times",
-      "published_at_utc": "2026-11-11T05:00:12+00:00",
+      "published_at_utc": "2026-11-11T10:50:58+00:00",
       "topic": "Bond markets"
     },
     {
@@ -49,41 +49,6 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdDZCNENiTGNZd3NmWGpiYjJ2TVFuZVJHQk9lSVQyUFJST1lWdWh1S0dNUm1CdjdHWVExS0dtNXFnd01CeG1CRUdaQzhHM2ZXZTJfY3IzMWxydmIwSXJaYlU0MHpFOG5EVmc4RFQ3S1hKamlmWVFTQVNQeEplanVpWjlVSUNIWU45WUtYNHBOZWlFYTJpTXfSAZYBQVVfeXFMTWFVd0ZiUmt4WUVzdld0azhYUEMyX2Zvc0hMVFNWNlJiU3VnZUdkTTJ0eDlpUVRBcElQYWN4OTB6TF9CT2h1QkRNTVlMakZMUVJzMVpPLTUyY3RINlJaV2NhWUhWTmVqZTZUeFg5MkhfYXZPa2VWc0c3X3JNM0FBcmotMXZxdHNVa3FWcEYzQ1EyMjhldTJB?oc=5",
       "source": "Deutsche Welle",
       "published_at_utc": "2026-11-07T08:31:45+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "French Protests Draw 575,000 Amid Parliament Budget Impasse",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSWd5b1NTT1g0cHhiNFRwRE9WNGdrSldUMlJVb3VxVzlQWXYtT3owOFZyVDRRdF9KWGJjc1M5cWplNjdaZ204MEF1YnB4eDBhbkVEZUlNVTlQUkZ6bFRmZHloTmJ0QlhhUW1jRW56MlNiY19GX3BLNEc2c3hHVFozYjJWX0gwU3NobW9Qd19uRkZUUUtaUGVPNHpfZUNLaGFfNWhOdlpnc3JWSkJS?oc=5",
-      "source": "Bloomberg",
-      "published_at_utc": "2026-11-05T19:37:38+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Nationwide strikes loom as French budget is unanimously rejected by lawmakers",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wbGR1UHYzdjNBMEtiT01CUnBHM3BiYkhMV1BEYmtVM1pfaVlwcmtnZTI2cEthT2lZSzlZQk9fQ1ZiUDJVSDVSVE9sNU1xcXFnNDBLbFZRek9Hd1l6QlkzWDZKYTFMZWtMbWt1QnppOVQ?oc=5",
-      "source": "CNBC",
-      "published_at_utc": "2026-11-05T12:53:23+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Quelles sont les alternatives de Sébastien Lecornu pour le Budget 2027 ?",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWDdRdVAwdUtmeFZTT0tNV0t1ZXhMa2NyOE9zNkFpY3N1aHdQYTd5UnFsNm5EUHcxZUFxYzFEd2VzaW9RZFV3ZEVLZHl6ZzA5RVY3cUpoTnJHU21FUDRxQmJiNjVLOC1FUmVIdHVaNEpCLThJZEtfVTdVMkhTdUJHM3U5dGxXd1Bfd3JRdnlBUUFwMGVIQm1naF9tOGtWN3hjMXNkQnJZZ1pudVRjaXRvV0FLbVhHc3oxM3JvWTNhdGQ2eW15VEJXWG1qcE9hTlZBVTBCd0poYmw2REdpd1E?oc=5",
-      "source": "20 Minutes",
-      "published_at_utc": "2026-11-05T12:52:00+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "French Manufacturing Output Growth Improves",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWDlkb0RDQXdtMllFY0ozVHd0bFdwTHJrNXdOUUJpN0hRRV84ZDU1WVJiMW50Q0dsS29lS0UzSUYySUZGeTJuNzZIVHp4S3Atd0VEMmRlVzNoZHQ0bmxHV1JtYU1iTW1USW1MQjZBdlVLZEQ4UGhkQWxWWE1YSFRSRjRsNnktblQ1aU1tZnN5LW1FVnJIVkhKYzdJQ0tWSzRRTVNF?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-05T12:03:30+00:00",
-      "topic": "Macroeconomy"
-    },
-    {
-      "title": "MPs unanimously reject 2027 French budget as political deadlock continues",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMlRXYm02eXBLY2pFa0k1Z2hVaGpOeEpDdURWa1hVdnRYQTd6cVBYOU1HbFkyUHpXLTAwaDFreGRkbThxMUhQUldiS1pLOHNsd05nNHVvXzREYS1NOC1SZ1lhVmpjZnVvY1hvZEtLbkpxSlNsT2Z6alRZTkZhWmhWb2hjZkFkZ1dGWS1JdTN3SmlJUXlTdGFDMHc4Vjh0S1JBZmNDSmVHaFpXNWIxeHc?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-11-05T08:19:33+00:00",
       "topic": "Fiscal policy"
     }
   ]
