@@ -2,7 +2,7 @@
   "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/irt_lt_mcby_m",
   "dataset": "irt_lt_mcby_m",
   "frequency": "monthly averages",
-  "retrieved_at_utc": "2026-11-11T22:41:34+00:00",
+  "retrieved_at_utc": "2026-11-12T16:47:56+00:00",
   "observations": [
     {
       "date": "2001-01",
@@ -2774,6 +2774,15 @@
         "DE": 3.473,
         "IT": 4.362,
         "GR": 4.22
+      }
+    },
+    {
+      "date": "2026-10",
+      "yields_pct": {
+        "FR": 4.89,
+        "DE": 3.416,
+        "IT": 4.68,
+        "GR": 4.41
       }
     }
   ]
