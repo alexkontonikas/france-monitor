@@ -1,7 +1,21 @@
 {
-  "checked_at_utc": "2026-11-15T21:53:52+00:00",
+  "checked_at_utc": "2026-11-16T17:10:30+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "OPINION. « Un emprunt national pour notre souveraineté », par Julien Aubert, président d’Oser la France",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTmJIRThuakxGZ0Ezelo0ZWhkTXBLenM2ZGQ1ZGNub01PbUVaX3ZDNWR4ZXMyTTNXWDVEVkxDZmFtUGNYVHRHQWF0UjluNkRxWmM2M2haMnZ4cGpCRVpRSEkzSXExNG0wVzAyZERnZnJKaGRqSUdocUdPVW83UHJYWEZ2YzFqSWJYWXpQNVhHWGpqdVdMR0dWVWlIZWxCbHRLSDU4OE05MUJvV0ttVW5nc2tZYWNENkN1cnRoeWE4ODFzUDVNSkZFMVc2dUE2eVBFYWplcVpGX2hhMzZKb3VjWk5acENuNTdDUld4U1hMYTZraVgxakpiMjJzb19PQmZrdi0w?oc=5",
+      "source": "La Tribune",
+      "published_at_utc": "2026-11-16T10:00:17+00:00",
+      "topic": "Fiscal politics"
+    },
+    {
+      "title": "Budget 2027 : est-il encore possible de stabiliser la dette publique française ?",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUUZoV3ZScEpNd2FmMVkxYUFVUl9aZUtLcXQ4MVQzUDZyeTNJZEpZbnVQM0F0WERLd00zRWx3eGxsa0lDUHNUNTgxVlZRd1d4RWdTWXZnRTFIcXFXeVF1ZG5pWktKZnZTNTZOajFuUDdZX1RNTGc1V291RHZBbFNpWTNTaTJhcmt1bTRlWnp5LW9kVnZUUnVyQm5jNm9vYVNWbUJHZ0ZJbnRBUVltdEdvRWdtbkwzOFdsV1VPa1dIMS0tSkpXems2SGd4OA?oc=5",
+      "source": "Sud Ouest",
+      "published_at_utc": "2026-11-16T07:42:44+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "France 2026 growth forecast cut to 0.2% by Moody's",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHFkTmpIbFhSWmhhNmtiT3hyWmYxNWI5d1VlVDZ6Y3BKRzFyVXI0dlNHemlyTk9ZdDRoZ1lBRGRxdzgwaHgtY2RxWEY0STJDNFp5ZUVCcEFkeHpZSVVfMG54aXI1QlFyNUZ0ODNFYVFabWVBN1dtTDg1blk1ZDZ6c2p3X3UyR05qVmpOWXc5YjlmaHE0UGpfcE5xN3I?oc=5",
@@ -29,20 +43,6 @@
       "source": "Le Figaro",
       "published_at_utc": "2026-11-10T15:44:19+00:00",
       "topic": "Fiscal policy"
-    },
-    {
-      "title": "France to dodge threat of year-end recession, central bank says",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWlpnd01mdWZpR3JQZ3k1eXlNZk9vMXpUa2NkNmU0blpUYVZ1NkVjTWFFSEkxZEtscUdLbjBoWU5OLVBObGJwUHNvaXJERHIwbE8xV1NsTEhfTVVyT0c5WUVVNU9QVWhsR3dVWDFIZWFNUEtSZkVVcWViVE43cmlWUkh2eks0TzA2YmgwZWZvSkZoaEgxSVE?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-09T19:02:53+00:00",
-      "topic": "Fiscal politics"
-    },
-    {
-      "title": "\"Elle fait pâle figure à côté de ses voisins\" : pourquoi l'économie française tourne-t-elle à ce point au ralenti",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSTJsSm9GVlhqSHFpdjNKeHJaNkRreEpzV1NWT2o5R1ozWi1jZUVvV1pwQ0ZJUVRxZ0VGbGJHT0x0SGctc0tJZ1BsQV9pSTAxUTVIVjNETTBwc182YUtra25SekNGQkpOeXFQMjFTdjc2Z3h3dURua1BNUm5SVWJZRzJrTmw4Q244RFdNMjdBclExZlFHQTZnTDN6ZFRjYngtb0E4S01RMDRpMjZHMUVLUDVOODNwdmQxanpFd2xVanZKQmZRcUVYRDltUUE1ckdkLURZbzM0UHg0Z1dxZHJEdmtJejFMMW5Ec2gzODJSRVowSXdFNzlGQS11MnM?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-11-09T08:00:00+00:00",
-      "topic": "Macroeconomy"
     }
   ]
 }
