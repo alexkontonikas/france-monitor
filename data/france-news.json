@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-16T17:10:30+00:00",
+  "checked_at_utc": "2026-11-17T00:52:28+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -18,9 +18,9 @@
     },
     {
       "title": "France 2026 growth forecast cut to 0.2% by Moody's",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHFkTmpIbFhSWmhhNmtiT3hyWmYxNWI5d1VlVDZ6Y3BKRzFyVXI0dlNHemlyTk9ZdDRoZ1lBRGRxdzgwaHgtY2RxWEY0STJDNFp5ZUVCcEFkeHpZSVVfMG54aXI1QlFyNUZ0ODNFYVFabWVBN1dtTDg1blk1ZDZ6c2p3X3UyR05qVmpOWXc5YjlmaHE0UGpfcE5xN3I?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-11T13:45:53+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0RNQVZ1eDBlcjRXV29ELUZCazVacU03ajhpRk1YN0M1VE1YNk12SGVaeE5LUG0xNVpJc0t1QTV6Q1otRnh3ZUFERFpSVDVHbmpWQmkxdDVuUEF1YktvNUZsTkowMkhLcXVfdDlhYzdGTFZoRXZFVzI5dXZ5dVpxY2twTWVxYVVBT3N5NjAwNmRNVTRvOEYzcjVPaTI?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-11T13:43:15+00:00",
       "topic": "Macroeconomy"
     },
     {
@@ -29,20 +29,6 @@
       "source": "Financial Times",
       "published_at_utc": "2026-11-11T10:50:58+00:00",
       "topic": "Bond markets"
-    },
-    {
-      "title": "Budget 2027 : 49.3, ordonnances… En l’absence de majorité à l’Assemblée, quelles sont les options de Sébastien Lecornu ?",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQRXBQSS1MUW1yMTlvRkh1bFZiWmdWenJfS0hma3BpMFQ0ZDE0bEp5ZzFuUTZ5NUM5SnRkcUltS2w2a2xiQWF5VFQyS3h2dDhabXpqYkZ4QUFYTXc3a0J6SDcybWpRYW5lUDNiMHBtbGpJRXZjOHJYell2dDYyT1dOb3Vmc3UycnNYUXJ6Y055dVc5cHBBOVpzQnR4RVNrQkE5NThLUkl4SjJPT05PUVA1MkM3OV9ZdFp5d2FTWnhhWEJhRFJPNnl6Tkg3OXY4Rks5S2dKYXhSczhTXzVrMmtteUMtUGVJbmJnQWdpdU4yNkt6ejlHa3RVWmo2UFFVd0dyY0t5NWxjSDFZUQ?oc=5",
-      "source": "Sud Ouest",
-      "published_at_utc": "2026-11-10T17:31:38+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Plus de 500 milliards d’euros en dix ans : ces fortunes englouties par la France rien que pour payer les intérêts de sa dette",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQV2RNTGRsekJISDRVT1pfMFBhdk52MU42LXFTMmVEem5mcU9JcklRMXJzWm54RjlCbldvdjZaU2RCVlI4Vk9EOGZUcElqRTJOSDFmQ1pNWXFEeU5nX1RWWHc5TzhxUlNmc3ZFQ0hKb3h2djJ3OXcxLVYtU1ZScnNqM09NQmI3X2NyTWtERWZnNW1xU2dNa0tYRVA0WlNLd2dud2JZcmg1V0hkR200VzFrNzdkcmo5OE9nMHB6SnFQdnl0UEt6U2ZCUkpHNmd1YndKTnFRRVB6b2txSG5seDZoakZGYUR0eExGcm1OdHFn?oc=5",
-      "source": "Le Figaro",
-      "published_at_utc": "2026-11-10T15:44:19+00:00",
-      "topic": "Fiscal policy"
     }
   ]
 }
