@@ -1,7 +1,35 @@
 {
-  "checked_at_utc": "2026-11-17T00:52:28+00:00",
+  "checked_at_utc": "2026-11-17T16:57:21+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "Dette : la Commission européenne s'attend à une nouvelle dégradation des finances publiques de la France à cause d'une croissance en berne",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOUN0WlJzd1pXa1lnVzF6TVZzX09GS2phTjNGdEprejhCX1V4Y21HZE9rZkVWVjk3R3RwSWNiSFpKejlQd3ZNOHVUYy1NbkFKeHc0TXNRT3JOZHVVVzVwSDBVT183N0c5UjAxYWlhcFFKbWJpQWRkak8yNkdoWWlsRXZEc1hHWDlfUHM4Qi1heFh6c29CeVIwWFo4TWZzSVZjY09TcnF4aGFuRHphdXdsTzJyRHFWMFhNRUF2V05ZZkNnT3IwLWhUWGFKalN3OWFHYm51MmZ0anVrNjVqSGg0?oc=5",
+      "source": "Les Echos",
+      "published_at_utc": "2026-11-17T16:04:26+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "EU economics chief warns France and Belgium must reduce deficit and public debt",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWtRLV9qY1NxSGRzWW95MWNvX3huU1BEb1ZfRUhnTnNzR3lPR0ZXMTR2ZGhXSk9UbmJFcWlzSm11aTd4QW5GcmdqRzJZVE5zRnlYamp1b1laWTVpb2tjbG5rOWFsOGtLOHlXZmxqRlZQYUktT1NwaUhRWl9SNmQ2R19TQWxmQUhKZGhlVzVLb3JLRlJjT1NzVnAtQTROeWtjR3l1Z3BxVEpuVEtJalRYU0ZDNmpiR1hD?oc=5",
+      "source": "RFI",
+      "published_at_utc": "2026-11-17T15:00:59+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "EU tells France, Belgium to bring debt, deficit down",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSVI5aVJad1ZPaU1oM0R2UDAxU2tCMUV3V2hnTElZbWZSc0s1YkJXQnBtb2hRTF9hN0piM05YVC10ZHVaR1pacVRZelB4VFNpbUdDSkFlR3BLeWpaRWhYX0tVZ2trc1lETGhFZ3ZFR1NFdFZHU3lPTGxHbHQtNTdNSWRPRktPbVI1QWx0Nlg0TV81WTJ4b283My1sQjYtQQ?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-17T11:59:20+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Euro zone economy seen growing moderately, France outlook weakest -Commission",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeTZ4cEdpLURFVEZPLWtSZWIyb1hURDNmbEJmeHI5eHZnVGRFdUM2aXRwOTk5OFRZclN0WXVQQkJiOE14VTZLejFlU2R1MjU5WXZlUnNnY2lJSU40N2d6cTZ1TDZQYmhHLWJzQUlVLTVFNkt5a1lNMklJOV9kM1g2R3pKbXhUSkVfbWhVQ2lNVktJUQ?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-17T10:06:46+00:00",
+      "topic": "Macroeconomy"
+    },
     {
       "title": "OPINION. « Un emprunt national pour notre souveraineté », par Julien Aubert, président d’Oser la France",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTmJIRThuakxGZ0Ezelo0ZWhkTXBLenM2ZGQ1ZGNub01PbUVaX3ZDNWR4ZXMyTTNXWDVEVkxDZmFtUGNYVHRHQWF0UjluNkRxWmM2M2haMnZ4cGpCRVpRSEkzSXExNG0wVzAyZERnZnJKaGRqSUdocUdPVW83UHJYWEZ2YzFqSWJYWXpQNVhHWGpqdVdMR0dWVWlIZWxCbHRLSDU4OE05MUJvV0ttVW5nc2tZYWNENkN1cnRoeWE4ODFzUDVNSkZFMVc2dUE2eVBFYWplcVpGX2hhMzZKb3VjWk5acENuNTdDUld4U1hMYTZraVgxakpiMjJzb19PQmZrdi0w?oc=5",
@@ -18,9 +46,9 @@
     },
     {
       "title": "France 2026 growth forecast cut to 0.2% by Moody's",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0RNQVZ1eDBlcjRXV29ELUZCazVacU03ajhpRk1YN0M1VE1YNk12SGVaeE5LUG0xNVpJc0t1QTV6Q1otRnh3ZUFERFpSVDVHbmpWQmkxdDVuUEF1YktvNUZsTkowMkhLcXVfdDlhYzdGTFZoRXZFVzI5dXZ5dVpxY2twTWVxYVVBT3N5NjAwNmRNVTRvOEYzcjVPaTI?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-11T13:43:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHFkTmpIbFhSWmhhNmtiT3hyWmYxNWI5d1VlVDZ6Y3BKRzFyVXI0dlNHemlyTk9ZdDRoZ1lBRGRxdzgwaHgtY2RxWEY0STJDNFp5ZUVCcEFkeHpZSVVfMG54aXI1QlFyNUZ0ODNFYVFabWVBN1dtTDg1blk1ZDZ6c2p3X3UyR05qVmpOWXc5YjlmaHE0UGpfcE5xN3I?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-11T13:45:53+00:00",
       "topic": "Macroeconomy"
     },
     {
