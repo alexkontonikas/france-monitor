@@ -1,11 +1,11 @@
 {
   "source": "https://countryeconomy.com/bonds",
-  "retrieved_at_utc": "2026-11-16T18:31:49+00:00",
+  "retrieved_at_utc": "2026-11-17T02:28:29+00:00",
   "quote_time_verified": false,
   "frequency": "latest available public observations (not verified intraday)",
   "quotes": {
     "DE": {
-      "yield_pct": 3.39,
+      "yield_pct": 3.38,
       "country": "Germany",
       "observation_date": "2026-11-16"
     },
@@ -15,7 +15,7 @@
       "observation_date": "2026-11-16"
     },
     "IT": {
-      "yield_pct": 4.46,
+      "yield_pct": 4.47,
       "country": "Italy",
       "observation_date": "2026-11-16"
     },
