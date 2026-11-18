@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-17T23:53:21+00:00",
+  "checked_at_utc": "2026-11-18T16:34:01+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -24,10 +24,17 @@
       "topic": "Fiscal policy"
     },
     {
+      "title": "L'Union européenne appelle la France et la Belgique à réduire leur déficit et leur dette",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZ0x1Y2lXY3FhYTlnS3pyLTlKVVpfcHAtZVdCUlR0R2xpWFlEYU04Q1VUUDVrTFJhODJLMFZ6SjVhZVBTVW05MGs4VHhYOHQ5SVZZOVdGZzZIREN6UEQ5MmxTOEttdU5vWVVqa0pkNjZac1VlQVQtS0JLOHhMaUIzNTR5cklkNVY5YmdmS2RtOHNPb1R1cFdadV80TGhJYmZleWNrTXlBdkl4dEcwa1ZuZUhsMTdMVlktenptbjFpZjFJbWhyWTR0dk9tekNzY3h6M1owR3JxZUR1TTZRZ2xwaXV2emQwdkM0TFlfNGlB?oc=5",
+      "source": "franceinfo",
+      "published_at_utc": "2026-11-17T11:45:09+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
       "title": "Euro zone economy seen growing moderately, France outlook weakest -Commission",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeTZ4cEdpLURFVEZPLWtSZWIyb1hURDNmbEJmeHI5eHZnVGRFdUM2aXRwOTk5OFRZclN0WXVQQkJiOE14VTZLejFlU2R1MjU5WXZlUnNnY2lJSU40N2d6cTZ1TDZQYmhHLWJzQUlVLTVFNkt5a1lNMklJOV9kM1g2R3pKbXhUSkVfbWhVQ2lNVktJUQ?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-17T10:06:46+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc2k3bXJscXRZNnlPa3VxNTREb3djN2dXWVhFS1hwQ1ZFUkU0OF9KWnlLdFRPNHF1VEpVRGd2cmhJTGFDTnd4QTN4R0pmWmRtTkV2S1JuUTlBUTNCMzZxVDk0cEJWMzE5TjBVaVJwaFpJdzZ3TmRuWUNxeHpwSTJvbTZ4d0hQY284dmk0QWtLM0ZaQ0x0aHRZV1NxbHdaTzAxSTV3QmdsaExSTlJwb002RmZEYU93Qlk2?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-17T10:08:37+00:00",
       "topic": "Macroeconomy"
     },
     {
@@ -43,20 +50,6 @@
       "source": "Sud Ouest",
       "published_at_utc": "2026-11-16T07:42:44+00:00",
       "topic": "Fiscal policy"
-    },
-    {
-      "title": "France 2026 growth forecast cut to 0.2% by Moody's",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHFkTmpIbFhSWmhhNmtiT3hyWmYxNWI5d1VlVDZ6Y3BKRzFyVXI0dlNHemlyTk9ZdDRoZ1lBRGRxdzgwaHgtY2RxWEY0STJDNFp5ZUVCcEFkeHpZSVVfMG54aXI1QlFyNUZ0ODNFYVFabWVBN1dtTDg1blk1ZDZ6c2p3X3UyR05qVmpOWXc5YjlmaHE0UGpfcE5xN3I?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-11T13:45:53+00:00",
-      "topic": "Macroeconomy"
-    },
-    {
-      "title": "France and Belgium fall foul of Eurozone bond market’s new divide",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcmR3YlNDMVZzUVhwMmg1d1pDQ1ZnN1IwUHBMemZBaHdJekc0ZmVxYTVPeHUwNEY2TGZ4bzc3T202NFlGSVB4VnBHQjIzLXYwVzNxSndCMGplOEs2MjcxWXBZM2dDYi1vSnNjaGpUWjI3bk9lZzN0bGJGMUc2VjNhNzY5YXo?oc=5",
-      "source": "Financial Times",
-      "published_at_utc": "2026-11-11T10:50:58+00:00",
-      "topic": "Bond markets"
     }
   ]
 }
