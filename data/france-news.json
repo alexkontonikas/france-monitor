@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T16:39:20+00:00",
+  "checked_at_utc": "2026-11-19T23:38:25+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -7,6 +7,13 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNc2JBZW1LcnFsRUlsb1hIOHlnTTNvbXpNRi1Ic25uQThVMmVBNjFCbWQwSF9XLUJTekh3YUZ1RDd1NXR0TW5lZ1Q5dDlSZjR0bzRLR0xWOExRMzFvUXF5Q2hZMkxTWGw1dlc4T1FBNFMwakpkYWZWTEl0dXhtWWM5S3NLYmFqZmVfRVRhZF9taDVIdmo5QjBWVUpDYjF6eG4tUlRaVGVFRFFVeDl2OGptRGdkZy1sTU8yMFlrR21MMm5HVllUTVFWaDdzMkx6b0FmUTdhM29ubw?oc=5",
       "source": "Le Point",
       "published_at_utc": "2026-11-18T17:30:01+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "« Nada, aucun signe » : face au risque de censure sur le budget, les socialistes dénoncent l'absence de dialogue avec Sébastien Lecornu",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYmF2eFdSdGJoUmRZT2JNY3VaeUc4dVFoWndUc24yLTE4M2E3Y3owTnNZM3EyUVRRUktocFBjMUZEdGZaSElTWW1Fc1ZWbW1QRHRQaXZIbmVuTmdzM1lOLS1qSzNNVXJUcl8yQ3J2R3hXUG9hQWhfeUtCZEVLWkJfMWZSNGFhcHhhVHdhSzNaLTRuWUdLZFlxWU9mdVhQZHRxZ1V3S2hKeUZyYjdaQkdybEZGV242LVk4X3lhTXVHV0JKQU4wLTNjaXI4TjdMekFpT2VnSVQxS2tYOWI1a09TcUVNNWpCS3VvLW95OE80UERFT0tuWlJsaU5TZ3NkQnJYSTZGRw?oc=5",
+      "source": "Public Sénat",
+      "published_at_utc": "2026-11-18T16:36:52+00:00",
       "topic": "Fiscal policy"
     },
     {
