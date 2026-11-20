@@ -1,22 +1,12 @@
 {
-  "checked_at_utc": "2026-11-19T18:40:53+00:00",
+  "checked_at_utc": "2026-11-20T18:01:39+00:00",
   "source": "Google News RSS",
   "status": "unverified leads; not agency decisions",
   "items": [
     {
-      "title": "Warba Bank rating affirmed at A as Fitch cites sovereign support and capital constraints - Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUW5Ubjl2c3V1aUVWTWR4eVZ4X1FVSFhsNVp5RjJXMlpmRmVTTWh0cHV6WUl2OUxCaEx3UlVKblVPeEE2d1dRd25vY1dqNFppRDE4MGdadEJyajh4VjRtb2diREFYWUhEZkhaYnlyOHNXNXhpUHAwWDRkbmV2SW1SRHhHc1AtcUpBU2xBQ0NSVmliSWJtVnQ3ZlBUUmU4dw?oc=5",
-      "published": "Thu, 19 Nov 2026 14:27:37 GMT"
-    },
-    {
       "title": "The eurozone\u2019s FROGS problem - GIS Reports",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBseFlwOUF2Ymswd1hhQV9iQTd2TUo3S3NXazVVcVRHSDdNd3B4eGd4VGgtR2VTYlBRN2NhMnUzNU9GMDh0bjU1VzdTblBSaGktOUlXLWs5MmxROWZPOE9JSEkyMC1VZ2c?oc=5",
       "published": "Wed, 18 Nov 2026 07:00:00 GMT"
-    },
-    {
-      "title": "World\u2019s Safest Banks 2026 | Country Winners - Global Finance Magazine",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1YjZETFoxZ3liSUVINzN4a2luWFc3MzVvM1dhVnVVdFRBQXluelA1S3RxRktTVFdKWS10U2cxTlQtSTg1S1lmNUtzaTItcVRGTTFwenlXaXFuTkVRMW1BZ2w1bEpkZUF4cW13dFNtVlgxT1Ry?oc=5",
-      "published": "Tue, 17 Nov 2026 10:44:51 GMT"
     },
     {
       "title": "French insurers resilient despite rising government bond yields: Moody\u2019s - Reinsurance News",
@@ -24,9 +14,9 @@
       "published": "Wed, 18 Nov 2026 07:32:23 GMT"
     },
     {
-      "title": "Fitch Warns Nigeria\u2019s Debt Interest Will Consume 29% Of Revenue In 2026 - Arise News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMjNja3VJSERmcmxGLVlxVUJCWEw4SGRCY3RPWGhpSUtzX2dYdjQtblFtQWVERE9RREFCdkJSVThaRWUwODhIbW0yTDE4MlEzdC1HOGd4UUFQRjhfaURldmJGRXQxcmIyQ3pXU0NobkozN2V1U29xVWhOSVhhS01TSzVHdnJRN1gyT1FKcTBJY3RzdUFJMUE?oc=5",
-      "published": "Thu, 19 Nov 2026 14:21:52 GMT"
+      "title": "Warba Bank rating affirmed at A as Fitch cites sovereign support and capital constraints - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUW5Ubjl2c3V1aUVWTWR4eVZ4X1FVSFhsNVp5RjJXMlpmRmVTTWh0cHV6WUl2OUxCaEx3UlVKblVPeEE2d1dRd25vY1dqNFppRDE4MGdadEJyajh4VjRtb2diREFYWUhEZkhaYnlyOHNXNXhpUHAwWDRkbmV2SW1SRHhHc1AtcUpBU2xBQ0NSVmliSWJtVnQ3ZlBUUmU4dw?oc=5",
+      "published": "Thu, 19 Nov 2026 14:27:37 GMT"
     },
     {
       "title": "EU urges France and Belgium to reduce national debts - Le Monde.fr",
@@ -39,14 +29,19 @@
       "published": "Mon, 16 Nov 2026 05:55:00 GMT"
     },
     {
+      "title": "Fitch Warns Nigeria\u2019s Debt Interest Will Consume 29% Of Revenue In 2026 - Arise News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMjNja3VJSERmcmxGLVlxVUJCWEw4SGRCY3RPWGhpSUtzX2dYdjQtblFtQWVERE9RREFCdkJSVThaRWUwODhIbW0yTDE4MlEzdC1HOGd4UUFQRjhfaURldmJGRXQxcmIyQ3pXU0NobkozN2V1U29xVWhOSVhhS01TSzVHdnJRN1gyT1FKcTBJY3RzdUFJMUE?oc=5",
+      "published": "Thu, 19 Nov 2026 14:21:52 GMT"
+    },
+    {
       "title": "Fitch affirms UAE at \u2018AA-\u2019 with stable outlook - Arab News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRmFFbkx1Y1FDcmxzY3Z1bGV0aGNhTFlwUGl6blJudkRXLXg2WWVVWUs5Q01hb0RaWFZIX19rb1AwUHVzdTZHYlFSNGhhcWpjZXkxS19yVnhNZEVXOWlGWjNWXzJQWG5oS2dxNDlDenB2UUROTGxHelZyTFVsdmxFYktRLVRUUnppZjFnN2pB?oc=5",
       "published": "Sun, 15 Nov 2026 08:40:09 GMT"
     },
     {
-      "title": "Azerbaijan's next credit rating upgrade hinges on economic diversification and reforms, ING says - AzerNews",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tU3RZSzFmVHl3d08zVnhMb0RQdzVMQjllR2lLVkJUSVZPeTBVSkZWVTIxNWloX1F5bHN6NlFYbjNtVG04cmR2a28zekg0UGktZ1BEazMxNA?oc=5",
-      "published": "Wed, 18 Nov 2026 09:04:00 GMT"
+      "title": "Gulf Bank rating affirmed at A as Fitch keeps stable outlook - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaTJiRDMwaTRZNkUtVUdkTGIyYUYtaVFCWkVfUDMxcXhHcmlkTEFVcVVHb2tTbHZwSVJ5T2FBMUlRWS1DQm5SQlF4LTNsUFFib1Mwa0luTDV5bFVtaXJkN3hRd09uZUUyX19HUFVHSXNDUC1zck1SZ3dlNEw1b0FCMzBBS3BlR0habV9Oank0eE1VZw?oc=5",
+      "published": "Thu, 19 Nov 2026 14:26:32 GMT"
     },
     {
       "title": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale shares fall 1%, down 20% over three months - Id\u00e9al Investisseur",
@@ -59,9 +54,14 @@
       "published": "Wed, 18 Nov 2026 10:21:01 GMT"
     },
     {
-      "title": "S&P Reaffirms Rwanda\u2019s B+ Credit Rating, Citing Strong Growth and Prudent Debt Management - Taarifa Rwanda",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaTZUeGJGeVlRcTJnYU1tcGFpTmhCeGkyOF9kdmhVdV9weXE5ZkhtYXRBc3Z4bzZZSlRqbmRpOElQbkllOFBnNjFSaGVUNF93TFl6Y3NNSDhWakljYW15MTh1OUlZN2E0UEtONmtGVjQtdlY4aDZmSzlRZ1UxeVJWdkR1VUlQbERwRGduWEthd090YVNvOVNIUHcwRGR3ZEJibzltd29HN3ZjQ29OUXh5U1ZYdEZWaU0?oc=5",
-      "published": "Tue, 17 Nov 2026 13:56:34 GMT"
+      "title": "Fannie Mae ratings affirmed at AA+ as U.S. support underpins outlook - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQTZ1NnJmd3lmSG4zbnFFcUZhZ1BfczI5OElZeFJ3cU10UFhXRnptZ25RLUpVOW1qZTV6bXdGaFlKLXpFX2JpTzBsenVpaEFJRnlNc3k5UWxrWjZCVW9HUUYxYXduNHJPZVFrbjZReklaZEdmWW9NMDlkV0w1UXcybzc0NUlPUS1GRy1naXZHQQ?oc=5",
+      "published": "Thu, 19 Nov 2026 20:21:32 GMT"
+    },
+    {
+      "title": "Nigeria Records Six-Year Low Inflation Of 14.06% As EMT Reviews Economic Progress - TVC News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeVcyeW5JWFJ2UE9ZWmRGS214eFNCT2V0NzlVQXhPYmItRFJVZHpnMEdKdHJmeFRwQmJFQVJWWFctY2E5QmEweUFyWl9PS0JSWk04d1NkV0N1ZmNMYkxSOUdBX0N2bDZ4SV80bFJyY2xuc0lMRkFlX1RGZWhsVUdIRHpkUDQ5NjlhQUJOdHBGbkFaTjBDYzBxSFExay11MFREeVh4amo0OA?oc=5",
+      "published": "Thu, 19 Nov 2026 18:45:00 GMT"
     },
     {
       "title": "Fitch Affirms UAE\u2019s Sovereign Credit Rating at \u2018AA-\u2019 with Stable Outlook - Sada Elbalad English",
