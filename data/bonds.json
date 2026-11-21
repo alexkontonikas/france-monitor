@@ -1,6 +1,6 @@
 {
   "source": "https://countryeconomy.com/bonds",
-  "retrieved_at_utc": "2026-11-20T16:57:33+00:00",
+  "retrieved_at_utc": "2026-11-21T00:47:40+00:00",
   "quote_time_verified": false,
   "frequency": "latest available public observations (not verified intraday)",
   "quotes": {
@@ -15,12 +15,12 @@
       "observation_date": "2026-11-20"
     },
     "IT": {
-      "yield_pct": 4.4,
+      "yield_pct": 4.41,
       "country": "Italy",
       "observation_date": "2026-11-20"
     },
     "GR": {
-      "yield_pct": 4.25,
+      "yield_pct": 4.26,
       "country": "Greece",
       "observation_date": "2026-11-20"
     }
