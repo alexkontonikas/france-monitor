@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T23:11:29+00:00",
+  "checked_at_utc": "2026-11-21T15:27:02+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -21,6 +21,13 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRElzYTFiWWlJOExoeTRZU0lzWUdFWFVQVFgtV29PclpRRHRBR3o1UVpmWF8wYTBNQkM5VGIzc1VNNUgtd0RqN1M0WHdVUjM1dGxRZW5RR3BPTzl0UlBhZGZPNEZjaEhBMGR2aDI0UlJzbXRtZnl1al9ETUpydmpNak1RbHJWbnY3Wk9JSkdvZWx0OWUtRDZGUWFUZENFZC11VzhvMTJxZ0ZoMnhqVExoZENxaWNBNUNC?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-11-18T10:14:53+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "EU economy chief Dombrovskis warns France to rein in debt as growth outlook improves",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQVN0U2J1YW5UNUdNdzVGcGVmVU5fb3I1ZjN2R3NHYUszb05Nd2paZTV0RUZvTUNQWGdUbmNwU1lqOG44d21GZXJfZ1ZPM0R3bzRaUUpLeEs3NVlVRUxlMjBsTWc5R0t6Y2tyY2dWVENSQ3NvTVJFejV1Z29ISnpJVzd0enFHNEdnUTU1bllPR1c4bzAwUnE0dDRDendRRDUt?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-17T19:34:51+00:00",
       "topic": "Fiscal policy"
     },
     {
