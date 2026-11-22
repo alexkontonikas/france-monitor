@@ -1,7 +1,28 @@
 {
-  "checked_at_utc": "2026-11-22T15:28:02+00:00",
+  "checked_at_utc": "2026-11-22T22:33:57+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "France is EU's biggest debtor as bloc's public debt hits €15.4 trillion",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFlfaGZZdWh5VF9kdlViVjNzbTZna1RlZ09WZFZFOG9BWjhWR0U1QmpLNTgzX05TSWxxYjVLMXFybFBuRmluYUw2eVRkcXN2VGRnc3lMUHpoTVI2aDhCYkpDU2FWRjVPdllvWVN0OFRUbmJRYjhSajFSYkFaSDltVkV0OEsyeUlNSGVsT1huaGkxcjFRbFdNNjhKX0w?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-22T19:36:23+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "La règle d’or peut-elle vraiment contraindre la France à sortir de la spirale infernale de la dette ?",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGtWenBER3NqemRmTEZLWUhDVEJ3a0N6RU5EdloyVk92d2VaUS13aWdSV2lQLTNKbFNWa0plR01feExqcDJHajczUEZncWlJYVF6amR5YWFFM0piTU9Yb2xiOG1KeThBYW42Y2ZuLXRXT2M3SDFPVHk1TTRNZ2ZRTllCV3RZWDRwQUQ4SDE0SDFpb3pKczdQZ3o1bkZXNllQUFdCYjlmQWhvZ3BFTDZFTW1VWmRWVVRFckp4MGNvMEVNRVZIWVItVk1scjV3SXE0ZEdnelQ1TE4tTmtL?oc=5",
+      "source": "Le Figaro",
+      "published_at_utc": "2026-11-22T18:40:24+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "French right backs Macron's plan to put public spending limits in Constitution",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQanRmOFhnWmdoM0dtVGpqNnc2RVZ4YnRrOTFhQlFBZU4tUVJkUjNobHRkSXNRMmg3LVh1bkZpQUQwYWtpUlRTQVhSczFiZllVdjZwdGI4enpQUFF1aEFPTHZwdldtWng0WGpYdFhGWjF4OGtfNDFzTWlVRnk5ZEVGalZQZjZCMXZueWhSaVBGRHFwRmpJdXBuMVpCS0NaSlFwYTJuTXY3X0JhRXBJd3JqX0F3NzNaSlU?oc=5",
+      "source": "RFI",
+      "published_at_utc": "2026-11-22T18:09:18+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "EU proposes digital tax to fund budget as France and Germany clash over cuts",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONml3cktacHRKOU42R0Ezc0R6bGZ1Y0d1RGFFdU5WMDVYV2JqZnpFa1hiNDBlWm9YR21MOWJTQUZjaWF5M1JMc0lsek51TE1uU09EdjJmaDBYYjB5ekEwYnhhQkFaaUtJUkRmTG9uN0ZMMElkQUlvMmd2V2twMDlfZ3ladDY5YVI3MG1XX0ZxYUlVZFgySnJMdlcxdTNJMGZaa0pnTDVMdWc3alhwMjV6YWhVaW1oTVVxUUNSYy1R?oc=5",
@@ -52,6 +73,13 @@
       "topic": "Fiscal policy"
     },
     {
+      "title": "L’Union européenne appelle la France et la Belgique à réduire leur déficit et leur dette",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQeUVrYmxTeGxIRzNQVTM0dzByd0pMNW1ROE9WNlIybHVndzVMdmRDSzAzTUtiZHFVaUE1eEtNZUY4bHRtREw5aFBFRnpETnhSZHZKa2Z6S3l4WjNYYnRWTktFejdOWk9kRWEwaHVfZkxXVGJsamhDS1Qzcjl2MWNaRmkzdW9wdzJzeWk2SXo1aWFZQ0ROdWpJUXRKR2kyUVhIWk9ncmU1TXVRVVRKNE5rdkxZdW0waUVXS1BEaGV4LWVwNHBoVmdOZ0Q3STFnWjZ2UzRLZk9PQ2pMTEVUaExmeFZrNGdCTEpOTXN1WmJvbWtib25GcWppaDNSWkpwaXRm?oc=5",
+      "source": "Libération",
+      "published_at_utc": "2026-11-17T14:15:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
       "title": "French presidential candidates clash over tax, housing and the minimum wage",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQazViVnNNaC1MVUg4YTd2MVFsNE5saGh0YlVXeWZOdDZua0RnQURGR0RSbnlCSVY3NGp1bHlIZVo4dVNLLTZVdTYzcENicmZCdTctdjFtczJJVl94eGFzM1BfOVVwVHhGY0FoN0d6TXJjdWhxSGhLZVp2X3VhOHVmcVdKWVdENGx6T0U1azJYZEhuSFJMTkVwQUFaUzV6X1hyeXVDUTlZUDI4MXlJdXU4UTlR?oc=5",
       "source": "RFI",
@@ -70,13 +98,6 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYktGZVhSbnNSb25YQUFTRnRBVDlvOHZ4aUdhQlhQcjh1RnBNa2dZRm9VYk1WZUtHQUhEbE12Q1BGUWpralI2VG13WWlDUUxrX01zMjB0WjQ2ZklFMzlpRXhCa0hLVWpPZU44R0NYbzZoMWZLMXhnTDVUcXQ4RVZVSTR3TzdjR0sxa1ZXeFZZVFoyMFRJb2xUanY2cm9jR1pzVGduTVRjeTJGT3MtRWc0UQ?oc=5",
       "source": "Le Figaro",
       "published_at_utc": "2026-11-17T11:51:26+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "L'Union européenne appelle la France et la Belgique à réduire leur déficit et leur dette",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZ0x1Y2lXY3FhYTlnS3pyLTlKVVpfcHAtZVdCUlR0R2xpWFlEYU04Q1VUUDVrTFJhODJLMFZ6SjVhZVBTVW05MGs4VHhYOHQ5SVZZOVdGZzZIREN6UEQ5MmxTOEttdU5vWVVqa0pkNjZac1VlQVQtS0JLOHhMaUIzNTR5cklkNVY5YmdmS2RtOHNPb1R1cFdadV80TGhJYmZleWNrTXlBdkl4dEcwa1ZuZUhsMTdMVlktenptbjFpZjFJbWhyWTR0dk9tekNzY3h6M1owR3JxZUR1TTZRZ2xwaXV2emQwdkM0TFlfNGlB?oc=5",
-      "source": "franceinfo",
-      "published_at_utc": "2026-11-17T11:45:09+00:00",
       "topic": "Fiscal policy"
     },
     {
