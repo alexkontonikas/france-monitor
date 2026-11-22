@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-21T22:14:03+00:00",
+  "checked_at_utc": "2026-11-22T15:28:02+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -63,6 +63,13 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSVI5aVJad1ZPaU1oM0R2UDAxU2tCMUV3V2hnTElZbWZSc0s1YkJXQnBtb2hRTF9hN0piM05YVC10ZHVaR1pacVRZelB4VFNpbUdDSkFlR3BLeWpaRWhYX0tVZ2trc1lETGhFZ3ZFR1NFdFZHU3lPTGxHbHQtNTdNSWRPRktPbVI1QWx0Nlg0TV81WTJ4b283My1sQjYtQQ?oc=5",
       "source": "France 24",
       "published_at_utc": "2026-11-17T11:59:20+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "L'UE appelle à nouveau la France à réduire son déficit et sa dette",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYktGZVhSbnNSb25YQUFTRnRBVDlvOHZ4aUdhQlhQcjh1RnBNa2dZRm9VYk1WZUtHQUhEbE12Q1BGUWpralI2VG13WWlDUUxrX01zMjB0WjQ2ZklFMzlpRXhCa0hLVWpPZU44R0NYbzZoMWZLMXhnTDVUcXQ4RVZVSTR3TzdjR0sxa1ZXeFZZVFoyMFRJb2xUanY2cm9jR1pzVGduTVRjeTJGT3MtRWc0UQ?oc=5",
+      "source": "Le Figaro",
+      "published_at_utc": "2026-11-17T11:51:26+00:00",
       "topic": "Fiscal policy"
     },
     {
