@@ -1,7 +1,21 @@
 {
-  "checked_at_utc": "2026-11-24T05:22:18+00:00",
+  "checked_at_utc": "2026-11-24T18:57:52+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "EU Commission says French draft 2027 budget is in line with EU rules",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaFNfOVdRWDJjRERXMUV5ZVRNc1lQU2RhN3pndUQxdVJoeEhsRjJBZnpJa25iUzNGNkJobkdaajZCUUNpeEpNWWlIdW1JS1Exd2VvUjVzWXJlbXpmVE9QNFVHS2wxYmQ3a29FZC0tVjFPMHA3SnR2dTVvRWNNMWZkSHVxclVGdDV2RGpZU1FNSS1Ibm5pc1l1dFJjRHIyZGRkdm1DT2tHb0JGZjhKQjJibDBLS2NHT28?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-24T16:31:43+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Accused of ‘emptying the coffers’, Macron mulls spending caps for future French governments",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSkhobFpnUGF0X2Y2N3ItVHVGaGNGVU85WkJiMFl0a0V5a2d2TlZBNGQ0TkZDNWFueTgtY1lXczV5c0N5T1I5UjNsaU9SMXUtN3lGT1RuYkltYkhzWW1pVVJ4ZlNUX1NfZUEyR0h6VDRQWWtLeVR0WHgzaVhrdkpKaHRkelJ6RExCZ2F4Mk1XWVJVQ09wY29vT1NJeXJzdlY4RFhVb2xfc2NjbEJnZEVEQm4xOVIwY2ZQSW5sNUdzWURNVnp4RDlyMzNnWTF6UQ?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-24T10:25:23+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "Dette publique : quelle différence entre la France de 2026 et la Grèce de 2009 ?",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa3labjU4aHYwZzNOM19QWm83ZnE5a1Z4SWR5eERLRVZkYmVSZ3ZSalFFNTIwdmNqNXdKNHcxWk02ODh3cTZPb21jTjF1ekFPWDVkbUZvak5EYmR0VEJMb3E2QVZvV29IeXJUVWlqV1drMFR0TkNHeVZzcHhTcEs1c1RIZmRzSVhCVlBlYXQtbzNMYkdkVzR5UXZMeU1tSDhyejJ0b04zdHo2RlpuejM5NQ?oc=5",
@@ -29,6 +43,13 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-23T11:42:25+00:00",
       "topic": "Fiscal policy"
+    },
+    {
+      "title": "Macron Suggests Golden Rule for French Budget, Boosting Bonds",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMENyMmNGa0tKb2pIU1ZQZG9PS2RTeUd0TlpPelZqb2VId2lBVkVsUTBMbmNtdEVNN2ZyWDREa2R2bzlNUmtsSWNRc3NzMFVQc3hkdmJ5dDQ4c1dZX2tNS2dfeTRIZExKal9JN2VHMC1FUkVPeXYxUTV0RGl2VFNBcGNOXzFpVlktM212RVVxeHc4OVpTSk1PTTZtZnJtMzJxZVlzcnFxdUdFbDJybnZmcg?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-11-23T10:19:28+00:00",
+      "topic": "Bond markets"
     },
     {
       "title": "Limites du déficit, budget à l’équilibre, exonérations… Qu’est-ce que la règle d’or qu’Emmanuel Macron souhaite inscrire dans la Constitution ?",
@@ -66,7 +87,7 @@
       "topic": "Fiscal policy"
     },
     {
-      "title": "EU proposes digital tax to fund budget as France and Germany clash over cuts",
+      "title": "EU proposes digital companies tax as France and Germany clash over cuts",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONml3cktacHRKOU42R0Ezc0R6bGZ1Y0d1RGFFdU5WMDVYV2JqZnpFa1hiNDBlWm9YR21MOWJTQUZjaWF5M1JMc0lsek51TE1uU09EdjJmaDBYYjB5ekEwYnhhQkFaaUtJUkRmTG9uN0ZMMElkQUlvMmd2V2twMDlfZ3ladDY5YVI3MG1XX0ZxYUlVZFgySnJMdlcxdTNJMGZaa0pnTDVMdWc3alhwMjV6YWhVaW1oTVVxUUNSYy1R?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-11-21T20:02:25+00:00",
