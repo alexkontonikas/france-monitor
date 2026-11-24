@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T19:20:33+00:00",
+  "checked_at_utc": "2026-11-24T05:22:18+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -92,69 +92,6 @@
       "source": "Reuters",
       "published_at_utc": "2026-11-18T10:14:53+00:00",
       "topic": "Fiscal policy"
-    },
-    {
-      "title": "Dombrovskis downplays French debt crisis but urges fiscal restraint",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTnVqM1g4c1RjaDAtYXRkNTQwR0hXNVdtUnBXWWMyWW14b1p0VzIwbVdrb0Jqc3NrcHFTVW1mMWZSQkVsbndZelZqUExzcmRDNll4Rmc4ZVZ2dHlvLVY1YVFWVDlmUXhVLTlvcHlxRjVuVlNCZUxxeHZ4Y1FJV2VJN2lYblRMcnZPM3Fxby1obVR5X2wtSmtPb0RMR3c0MTVBdWZxV1B2cl90b0tGeThEanlRYmdXMXJ4TXpDVA?oc=5",
-      "source": "Euronews",
-      "published_at_utc": "2026-11-17T19:34:51+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "EU economy chief Dombrovskis warns France to rein in debt as growth outlook improves",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQVN0U2J1YW5UNUdNdzVGcGVmVU5fb3I1ZjN2R3NHYUszb05Nd2paZTV0RUZvTUNQWGdUbmNwU1lqOG44d21GZXJfZ1ZPM0R3bzRaUUpLeEs3NVlVRUxlMjBsTWc5R0t6Y2tyY2dWVENSQ3NvTVJFejV1Z29ISnpJVzd0enFHNEdnUTU1bllPR1c4bzAwUnE0dDRDendRRDUt?oc=5",
-      "source": "Yahoo Finance",
-      "published_at_utc": "2026-11-17T19:34:51+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Dette : la Commission européenne s'attend à une nouvelle dégradation des finances publiques de la France à cause d'une croissance en berne",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOUN0WlJzd1pXa1lnVzF6TVZzX09GS2phTjNGdEprejhCX1V4Y21HZE9rZkVWVjk3R3RwSWNiSFpKejlQd3ZNOHVUYy1NbkFKeHc0TXNRT3JOZHVVVzVwSDBVT183N0c5UjAxYWlhcFFKbWJpQWRkak8yNkdoWWlsRXZEc1hHWDlfUHM4Qi1heFh6c29CeVIwWFo4TWZzSVZjY09TcnF4aGFuRHphdXdsTzJyRHFWMFhNRUF2V05ZZkNnT3IwLWhUWGFKalN3OWFHYm51MmZ0anVrNjVqSGg0?oc=5",
-      "source": "Les Echos",
-      "published_at_utc": "2026-11-17T16:04:26+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "EU economics chief warns France and Belgium must reduce deficit and public debt",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWtRLV9qY1NxSGRzWW95MWNvX3huU1BEb1ZfRUhnTnNzR3lPR0ZXMTR2ZGhXSk9UbmJFcWlzSm11aTd4QW5GcmdqRzJZVE5zRnlYamp1b1laWTVpb2tjbG5rOWFsOGtLOHlXZmxqRlZQYUktT1NwaUhRWl9SNmQ2R19TQWxmQUhKZGhlVzVLb3JLRlJjT1NzVnAtQTROeWtjR3l1Z3BxVEpuVEtJalRYU0ZDNmpiR1hD?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-11-17T15:00:59+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "L’Union européenne appelle la France et la Belgique à réduire leur déficit et leur dette",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQeUVrYmxTeGxIRzNQVTM0dzByd0pMNW1ROE9WNlIybHVndzVMdmRDSzAzTUtiZHFVaUE1eEtNZUY4bHRtREw5aFBFRnpETnhSZHZKa2Z6S3l4WjNYYnRWTktFejdOWk9kRWEwaHVfZkxXVGJsamhDS1Qzcjl2MWNaRmkzdW9wdzJzeWk2SXo1aWFZQ0ROdWpJUXRKR2kyUVhIWk9ncmU1TXVRVVRKNE5rdkxZdW0waUVXS1BEaGV4LWVwNHBoVmdOZ0Q3STFnWjZ2UzRLZk9PQ2pMTEVUaExmeFZrNGdCTEpOTXN1WmJvbWtib25GcWppaDNSWkpwaXRm?oc=5",
-      "source": "Libération",
-      "published_at_utc": "2026-11-17T14:15:00+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "French presidential candidates clash over tax, housing and the minimum wage",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQazViVnNNaC1MVUg4YTd2MVFsNE5saGh0YlVXeWZOdDZua0RnQURGR0RSbnlCSVY3NGp1bHlIZVo4dVNLLTZVdTYzcENicmZCdTctdjFtczJJVl94eGFzM1BfOVVwVHhGY0FoN0d6TXJjdWhxSGhLZVp2X3VhOHVmcVdKWVdENGx6T0U1azJYZEhuSFJMTkVwQUFaUzV6X1hyeXVDUTlZUDI4MXlJdXU4UTlR?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-11-17T13:50:54+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "EU tells France, Belgium to bring debt, deficit down",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSVI5aVJad1ZPaU1oM0R2UDAxU2tCMUV3V2hnTElZbWZSc0s1YkJXQnBtb2hRTF9hN0piM05YVC10ZHVaR1pacVRZelB4VFNpbUdDSkFlR3BLeWpaRWhYX0tVZ2trc1lETGhFZ3ZFR1NFdFZHU3lPTGxHbHQtNTdNSWRPRktPbVI1QWx0Nlg0TV81WTJ4b283My1sQjYtQQ?oc=5",
-      "source": "France 24",
-      "published_at_utc": "2026-11-17T11:59:20+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "L'UE appelle à nouveau la France à réduire son déficit et sa dette",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYktGZVhSbnNSb25YQUFTRnRBVDlvOHZ4aUdhQlhQcjh1RnBNa2dZRm9VYk1WZUtHQUhEbE12Q1BGUWpralI2VG13WWlDUUxrX01zMjB0WjQ2ZklFMzlpRXhCa0hLVWpPZU44R0NYbzZoMWZLMXhnTDVUcXQ4RVZVSTR3TzdjR0sxa1ZXeFZZVFoyMFRJb2xUanY2cm9jR1pzVGduTVRjeTJGT3MtRWc0UQ?oc=5",
-      "source": "Le Figaro",
-      "published_at_utc": "2026-11-17T11:51:26+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Euro zone economy seen growing moderately, France outlook weakest -Commission",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc2k3bXJscXRZNnlPa3VxNTREb3djN2dXWVhFS1hwQ1ZFUkU0OF9KWnlLdFRPNHF1VEpVRGd2cmhJTGFDTnd4QTN4R0pmWmRtTkV2S1JuUTlBUTNCMzZxVDk0cEJWMzE5TjBVaVJwaFpJdzZ3TmRuWUNxeHpwSTJvbTZ4d0hQY284dmk0QWtLM0ZaQ0x0aHRZV1NxbHdaTzAxSTV3QmdsaExSTlJwb002RmZEYU93Qlk2?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-17T10:08:37+00:00",
-      "topic": "Macroeconomy"
     }
   ]
 }
