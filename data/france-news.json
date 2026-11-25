@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-24T18:57:52+00:00",
+  "checked_at_utc": "2026-11-25T04:20:37+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
@@ -15,6 +15,13 @@
       "source": "France 24",
       "published_at_utc": "2026-11-24T10:25:23+00:00",
       "topic": "Fiscal policy"
+    },
+    {
+      "title": "Why France is at risk of recession — and what could keep it out of one",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdWpqa0FCay14QnlwSWlWZjZCUUxQMHZRZE9kRVV0WXA5eHBOZHNONXA5T3FfRWlYNmlmWllrLVlwUF9LNVJUczFRbUczcFYtU2FYVER6UG9KVVpGU2pCdWtsYTBWSDNsQkZBVVU2NNIBdEFVX3lxTE1uMkdXemJyUlZDMkFEWlhNTTB3QVBPeVNWb3gzNVVrOU5VWXpWTkUwS203M1hpTS1UNWg3dGNFUW15N2xmOVdHdVU1eFI2M3d0azVibTlKRUdUdmc4eE41enp2Y2J6S0ozUGF3dTFOd1Q3OUg5?oc=5",
+      "source": "CNBC",
+      "published_at_utc": "2026-11-24T06:55:36+00:00",
+      "topic": "Fiscal politics"
     },
     {
       "title": "Dette publique : quelle différence entre la France de 2026 et la Grèce de 2009 ?",
@@ -80,7 +87,7 @@
       "topic": "Fiscal policy"
     },
     {
-      "title": "French right backs Macron's plan to put public spending limits in Constitution",
+      "title": "French right backs Macron's plan to put public spending limits in constitution",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQanRmOFhnWmdoM0dtVGpqNnc2RVZ4YnRrOTFhQlFBZU4tUVJkUjNobHRkSXNRMmg3LVh1bkZpQUQwYWtpUlRTQVhSczFiZllVdjZwdGI4enpQUFF1aEFPTHZwdldtWng0WGpYdFhGWjF4OGtfNDFzTWlVRnk5ZEVGalZQZjZCMXZueWhSaVBGRHFwRmpJdXBuMVpCS0NaSlFwYTJuTXY3X0JhRXBJd3JqX0F3NzNaSlU?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-11-22T18:09:18+00:00",
@@ -91,27 +98,6 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONml3cktacHRKOU42R0Ezc0R6bGZ1Y0d1RGFFdU5WMDVYV2JqZnpFa1hiNDBlWm9YR21MOWJTQUZjaWF5M1JMc0lsek51TE1uU09EdjJmaDBYYjB5ekEwYnhhQkFaaUtJUkRmTG9uN0ZMMElkQUlvMmd2V2twMDlfZ3ladDY5YVI3MG1XX0ZxYUlVZFgySnJMdlcxdTNJMGZaa0pnTDVMdWc3alhwMjV6YWhVaW1oTVVxUUNSYy1R?oc=5",
       "source": "RFI",
       "published_at_utc": "2026-11-21T20:02:25+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Budget 2027 : 49.3, 47.3 ou loi spéciale, le triple casse-tête du gouvernement Lecornu",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNc2JBZW1LcnFsRUlsb1hIOHlnTTNvbXpNRi1Ic25uQThVMmVBNjFCbWQwSF9XLUJTekh3YUZ1RDd1NXR0TW5lZ1Q5dDlSZjR0bzRLR0xWOExRMzFvUXF5Q2hZMkxTWGw1dlc4T1FBNFMwakpkYWZWTEl0dXhtWWM5S3NLYmFqZmVfRVRhZF9taDVIdmo5QjBWVUpDYjF6eG4tUlRaVGVFRFFVeDl2OGptRGdkZy1sTU8yMFlrR21MMm5HVllUTVFWaDdzMkx6b0FmUTdhM29ubw?oc=5",
-      "source": "Le Point",
-      "published_at_utc": "2026-11-18T17:30:01+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "« Nada, aucun signe » : face au risque de censure sur le budget, les socialistes dénoncent l'absence de dialogue avec Sébastien Lecornu",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYmF2eFdSdGJoUmRZT2JNY3VaeUc4dVFoWndUc24yLTE4M2E3Y3owTnNZM3EyUVRRUktocFBjMUZEdGZaSElTWW1Fc1ZWbW1QRHRQaXZIbmVuTmdzM1lOLS1qSzNNVXJUcl8yQ3J2R3hXUG9hQWhfeUtCZEVLWkJfMWZSNGFhcHhhVHdhSzNaLTRuWUdLZFlxWU9mdVhQZHRxZ1V3S2hKeUZyYjdaQkdybEZGV242LVk4X3lhTXVHV0JKQU4wLTNjaXI4TjdMekFpT2VnSVQxS2tYOWI1a09TcUVNNWpCS3VvLW95OE80UERFT0tuWlJsaU5TZ3NkQnJYSTZGRw?oc=5",
-      "source": "Public Sénat",
-      "published_at_utc": "2026-11-18T16:36:52+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "Markets should help discipline France over high debt, ECB says",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRElzYTFiWWlJOExoeTRZU0lzWUdFWFVQVFgtV29PclpRRHRBR3o1UVpmWF8wYTBNQkM5VGIzc1VNNUgtd0RqN1M0WHdVUjM1dGxRZW5RR3BPTzl0UlBhZGZPNEZjaEhBMGR2aDI0UlJzbXRtZnl1al9ETUpydmpNak1RbHJWbnY3Wk9JSkdvZWx0OWUtRDZGUWFUZENFZC11VzhvMTJxZ0ZoMnhqVExoZENxaWNBNUNC?oc=5",
-      "source": "Reuters",
-      "published_at_utc": "2026-11-18T10:14:53+00:00",
       "topic": "Fiscal policy"
     }
   ]
