@@ -1,9 +1,16 @@
 {
-  "checked_at_utc": "2026-11-26T03:39:40+00:00",
+  "checked_at_utc": "2026-11-26T17:47:43+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
     {
-      "title": "France’s National Assembly Approves 2026 Year-End Budget Bill",
+      "title": "Paris and Berlin seek to shield EU budget from Marine Le Pen",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHB0ekRwaUVhRlpQTDk1WEVZSDU2Z19yLXktVF9KSEFBbDVXWUFKYkwxSUhpMmQ3aFJlWUVZMmhqX2JYZjF6WnNJaEVqSWFOOGVSY1dVUmVzVW1mbmV4ZkhUd2cxclBod2RZZDZYc2lyZVBGRWtjdVhncF9WanRBekM2X0I?oc=5",
+      "source": "Financial Times",
+      "published_at_utc": "2026-11-26T05:02:01+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "French National Assembly Approves 2026 Year-End Budget Bill",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalhiSEdaR2N4TUw2SlpidXNRSU0wVmNBcVctNmVvYTJFZWZkQ3hiUWNSMmtOLVZfZGJUVEhSSFFyYU1VbkNJWnBiS1NHMUFTcURpemJTWXluSWVuOTQzQ1Z1YmphLWdSZm9kZXZKQTZSeHkzYkVTVHVHeGI0cmNzSGFuSktCR2hFOHFZdE9PcE1HS1U5WmdNa3I3OU02WGczcy1JN1JhTS1VaVNzZ0R5WU5n?oc=5",
       "source": "Bloomberg",
       "published_at_utc": "2026-11-25T07:45:00+00:00",
