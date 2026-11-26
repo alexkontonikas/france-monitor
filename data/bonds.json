@@ -1,28 +1,28 @@
 {
   "source": "https://countryeconomy.com/bonds",
-  "retrieved_at_utc": "2026-11-26T02:12:20+00:00",
+  "retrieved_at_utc": "2026-11-26T18:25:25+00:00",
   "quote_time_verified": false,
   "frequency": "latest available public observations (not verified intraday)",
   "quotes": {
     "DE": {
-      "yield_pct": 3.25,
+      "yield_pct": 3.26,
       "country": "Germany",
-      "observation_date": "2026-11-25"
+      "observation_date": "2026-11-26"
     },
     "FR": {
-      "yield_pct": 4.74,
+      "yield_pct": 4.75,
       "country": "France",
-      "observation_date": "2026-11-25"
+      "observation_date": "2026-11-26"
     },
     "IT": {
-      "yield_pct": 4.37,
+      "yield_pct": 4.35,
       "country": "Italy",
-      "observation_date": "2026-11-25"
+      "observation_date": "2026-11-26"
     },
     "GR": {
-      "yield_pct": 4.15,
+      "yield_pct": 4.16,
       "country": "Greece",
-      "observation_date": "2026-11-25"
+      "observation_date": "2026-11-26"
     }
   }
 }
