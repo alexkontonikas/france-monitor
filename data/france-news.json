@@ -1,12 +1,26 @@
 {
-  "checked_at_utc": "2026-11-25T18:02:09+00:00",
+  "checked_at_utc": "2026-11-26T03:39:40+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "France’s National Assembly Approves 2026 Year-End Budget Bill",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalhiSEdaR2N4TUw2SlpidXNRSU0wVmNBcVctNmVvYTJFZWZkQ3hiUWNSMmtOLVZfZGJUVEhSSFFyYU1VbkNJWnBiS1NHMUFTcURpemJTWXluSWVuOTQzQ1Z1YmphLWdSZm9kZXZKQTZSeHkzYkVTVHVHeGI0cmNzSGFuSktCR2hFOHFZdE9PcE1HS1U5WmdNa3I3OU02WGczcy1JN1JhTS1VaVNzZ0R5WU5n?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-11-25T07:45:00+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "EU Commission says French draft 2027 budget is in line with EU rules",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaFNfOVdRWDJjRERXMUV5ZVRNc1lQU2RhN3pndUQxdVJoeEhsRjJBZnpJa25iUzNGNkJobkdaajZCUUNpeEpNWWlIdW1JS1Exd2VvUjVzWXJlbXpmVE9QNFVHS2wxYmQ3a29FZC0tVjFPMHA3SnR2dTVvRWNNMWZkSHVxclVGdDV2RGpZU1FNSS1Ibm5pc1l1dFJjRHIyZGRkdm1DT2tHb0JGZjhKQjJibDBLS2NHT28?oc=5",
       "source": "Reuters",
       "published_at_utc": "2026-11-24T16:31:43+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "What France Can Do to Break Its Budget Deadlock",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM1FpY0VXX3FDLWtQa1VPaWJXMWdFRkY0WTJzeVF0N3l4dXF0RDFWWFNYVDRTMDJHYmp2QW1Qd1pURjJDb2pNLVR1VzN4Z0hrSnVmRF9keGVyV01ZMEVsTzhlYnYwM2tSZUhJYW9CWHAzYVp4ZXQ5U1VWN2hWUW5PNF9mQlNEZGJ5dG5aX2RiY3AtZzJtZ24wcnlYS21CODIyWFhtU0JWbE9lNjRvcDlFcHdoeEQ?oc=5",
+      "source": "Bloomberg",
+      "published_at_utc": "2026-11-24T12:47:33+00:00",
       "topic": "Fiscal policy"
     },
     {
@@ -22,6 +36,13 @@
       "source": "CNBC",
       "published_at_utc": "2026-11-24T06:55:36+00:00",
       "topic": "Fiscal politics"
+    },
+    {
+      "title": "Macron veut une règle d’or sur le déficit… Il se moque de qui ?",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUo4M1RJZGZaOU5VbGJNbDU5VGQ2c1ozLXZYazFZV0l6TEMtd01pN0lvWjZnTjE1cTh4TFhTaDQxeVpESTNoQVBhVjM3RWhYWjYta1p1cXVlU2NiSEU5OWhjZWYyZlJwUms5VURfRlktdXZqZWFobThlcVpvT2JZTDI2ZC1SOVRyZ0NEalVJUXI1WkJ2QS1NTElpOWFWcGdYa3VfcHV0dXF5SkdRQ0E?oc=5",
+      "source": "20 Minutes",
+      "published_at_utc": "2026-11-23T17:24:00+00:00",
+      "topic": "Fiscal policy"
     },
     {
       "title": "Dette publique : quelle différence entre la France de 2026 et la Grèce de 2009 ?",
