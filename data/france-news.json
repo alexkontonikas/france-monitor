@@ -1,12 +1,19 @@
 {
-  "checked_at_utc": "2026-11-26T17:47:43+00:00",
+  "checked_at_utc": "2026-11-27T03:40:58+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "French producer price inflation accelerates",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM2x0ekZuLWVYbzFNaXJiSE5yOHpOX2FqaGhwbzBwdExrRnJOYzM4MHNFckNzUWljVWxXc1J1Nm05c2pMcVEyX1ZpTTBGb1ZGR1dfRU1nTHpHSXI5X2VOaENjRXJtRFdKSFdoR3Q4TVlxdmkxUE5SQk1ldlZyUGdtSmd6endxejlKOE4ybUp4aGQ2bFppWHdyWi1aWmhQWm5obTRF?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-26T11:33:26+00:00",
+      "topic": "Macroeconomy"
+    },
     {
       "title": "Paris and Berlin seek to shield EU budget from Marine Le Pen",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHB0ekRwaUVhRlpQTDk1WEVZSDU2Z19yLXktVF9KSEFBbDVXWUFKYkwxSUhpMmQ3aFJlWUVZMmhqX2JYZjF6WnNJaEVqSWFOOGVSY1dVUmVzVW1mbmV4ZkhUd2cxclBod2RZZDZYc2lyZVBGRWtjdVhncF9WanRBekM2X0I?oc=5",
       "source": "Financial Times",
-      "published_at_utc": "2026-11-26T05:02:01+00:00",
+      "published_at_utc": "2026-11-26T05:00:19+00:00",
       "topic": "Fiscal policy"
     },
     {
