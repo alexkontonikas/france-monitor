@@ -1,7 +1,35 @@
 {
-  "checked_at_utc": "2026-11-27T03:40:58+00:00",
+  "checked_at_utc": "2026-11-27T17:32:06+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "France in technical recession after quarterly revisions",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTER0b3otWTRCSmNQXzlVUXVMamtxeGxHV3BMQkVoRnBLTkhsYnFIdXdySXRYNUR4RWxBVU82Mk5oVDl1U2lNaTJ3U3FaVnpLUFM2UDZvSU92VERNcVBaOUtpVVpkek9vTFhZWG52TUQxUDNFVWs1UVZJQVpuM05SOGFQN29nblhlb19NeW9KYVM5OWlDV3NycXJkTG9Zc3d1Zm92VGNLaWlCN2It?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-27T11:50:26+00:00",
+      "topic": "Fiscal politics"
+    },
+    {
+      "title": "Macron champion de la dette ? Ce que disent les économistes",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFhmakpkeDZScjA2OHhLbm1DSnZQRElNOC1yWmc1cjZ5TDI1em9uc19EX2d3WXRMdmhaOVBfbWZicnVxak1nSTJHcGR3Y2ZFVFlKcVRaZjFlSE9ZZ0lWWFNUVlpLQlZuWlIzXzFHeTVvYm5HNldDZ3RnZkgtV1NsbWNOYWptV2hMRENtYlR4dkFfZk96Q204NDcxQVNIQS05NXRCeXMyLTBSb1BDZHY2SmlXU0Iwdw?oc=5",
+      "source": "France 24",
+      "published_at_utc": "2026-11-27T10:29:30+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "French economy contracts more than expected in third quarter",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRy1OVGhvRmRiUWRsTm5nNEZJT25HcFpoc1VZV0tOSTJ1LUJCMTZkYnVZWVM4X3REaGsteVd2dERXZ3FKdnBpZ1FkU2JvaFBWXzJsN3VReHYwSU1vTVMtQ2pCZUhjN0swY2Nnbkl5VjlWNjg4Y3hyeFgtVHA2aXYta2tTV0diaWV2bllBaVZ0QWMxQ29WLXAxZzBqMGw?oc=5",
+      "source": "Yahoo Finance",
+      "published_at_utc": "2026-11-27T08:21:40+00:00",
+      "topic": "Macroeconomy"
+    },
+    {
+      "title": "French citizens tasked with finding solutions to country's debt crisis",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0VGSm1JV2trc2g3d1lFRUxUOWpHYXRqWHdrZEExb2NjWmdSampwRHQzb2YxSTFxMl9ZYVBuRlJOZmQ1a3lpY2dWcGV6OHBBOGhlblJWejdtcUlnN1ByV1ZrVDhxZWFTVnBtTkpfYksxT3dkQ2I1LVFhYl94bm5ZeW9WOHotSkdHRHdKYVhQb0NUdG93ekdrTjAtSUZibFV6ek5sSy1UeVhTQThh?oc=5",
+      "source": "RFI",
+      "published_at_utc": "2026-11-27T06:36:10+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "French producer price inflation accelerates",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM2x0ekZuLWVYbzFNaXJiSE5yOHpOX2FqaGhwbzBwdExrRnJOYzM4MHNFckNzUWljVWxXc1J1Nm05c2pMcVEyX1ZpTTBGb1ZGR1dfRU1nTHpHSXI5X2VOaENjRXJtRFdKSFdoR3Q4TVlxdmkxUE5SQk1ldlZyUGdtSmd6endxejlKOE4ybUp4aGQ2bFppWHdyWi1aWmhQWm5obTRF?oc=5",
@@ -13,7 +41,7 @@
       "title": "Paris and Berlin seek to shield EU budget from Marine Le Pen",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHB0ekRwaUVhRlpQTDk1WEVZSDU2Z19yLXktVF9KSEFBbDVXWUFKYkwxSUhpMmQ3aFJlWUVZMmhqX2JYZjF6WnNJaEVqSWFOOGVSY1dVUmVzVW1mbmV4ZkhUd2cxclBod2RZZDZYc2lyZVBGRWtjdVhncF9WanRBekM2X0I?oc=5",
       "source": "Financial Times",
-      "published_at_utc": "2026-11-26T05:00:19+00:00",
+      "published_at_utc": "2026-11-26T05:02:01+00:00",
       "topic": "Fiscal policy"
     },
     {
