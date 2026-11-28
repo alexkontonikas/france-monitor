@@ -1,7 +1,14 @@
 {
-  "checked_at_utc": "2026-11-28T03:22:06+00:00",
+  "checked_at_utc": "2026-11-28T16:16:34+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "Sur les marchés, la dette française reprend son souffle",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYS1ZR3ZxZDgwbFBsNzRqRjBOWDI2RmpKbHBaTzV0Sm5WT2FpbWpHajRjX3p5YXgxRjd0MFNaLXAzS1Q0SHZoRWdfS0FyR2xITDJ1TEtSYW1malR4SndkYUZHdG9PQnJJUzlMNURfc08wOXZPc3JNSnZkekZGOWk5Z1h4MUtzZ0VZc0pZWGh0NklVNVdlaldzdzgzcktQNndENjEya0xhVGt4UEJfRkZhaXdLbU9ELXN2?oc=5",
+      "source": "Les Echos",
+      "published_at_utc": "2026-11-28T14:00:09+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "France falls into recession as it struggles to contain deficit",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSXN5cVB0NUQ2S25ScnJ0dkxqUlVVQ3hEUGJHeU53cHdtOXl3ckRLX3hYUHRVaEZCclpsZHhrdzQtRnI4X0RJRTYyd3FjajN2NWhZX3lWbktabG9mVUJIa3NQc1F2azY1Y1ZxaFBFNzBCT1p3cHZwVjdObWcyS2pwS0pFaHBFdXR6cjR3X2tqb20xZmRzNlluamJhVTlJUkVWb0c5Sg?oc=5",
@@ -168,13 +175,6 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFlfaGZZdWh5VF9kdlViVjNzbTZna1RlZ09WZFZFOG9BWjhWR0U1QmpLNTgzX05TSWxxYjVLMXFybFBuRmluYUw2eVRkcXN2VGRnc3lMUHpoTVI2aDhCYkpDU2FWRjVPdllvWVN0OFRUbmJRYjhSajFSYkFaSDltVkV0OEsyeUlNSGVsT1huaGkxcjFRbFdNNjhKX0w?oc=5",
       "source": "Yahoo Finance",
       "published_at_utc": "2026-11-22T19:36:23+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "La règle d’or peut-elle vraiment contraindre la France à sortir de la spirale infernale de la dette ?",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGtWenBER3NqemRmTEZLWUhDVEJ3a0N6RU5EdloyVk92d2VaUS13aWdSV2lQLTNKbFNWa0plR01feExqcDJHajczUEZncWlJYVF6amR5YWFFM0piTU9Yb2xiOG1KeThBYW42Y2ZuLXRXT2M3SDFPVHk1TTRNZ2ZRTllCV3RZWDRwQUQ4SDE0SDFpb3pKczdQZ3o1bkZXNllQUFdCYjlmQWhvZ3BFTDZFTW1VWmRWVVRFckp4MGNvMEVNRVZIWVItVk1scjV3SXE0ZEdnelQ1TE4tTmtL?oc=5",
-      "source": "Le Figaro",
-      "published_at_utc": "2026-11-22T18:40:24+00:00",
       "topic": "Fiscal policy"
     }
   ]
