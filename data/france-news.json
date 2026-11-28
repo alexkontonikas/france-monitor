@@ -1,7 +1,35 @@
 {
-  "checked_at_utc": "2026-11-27T17:32:06+00:00",
+  "checked_at_utc": "2026-11-28T03:22:06+00:00",
   "source": "Google News RSS (English and French editions; approved publishers only)",
   "items": [
+    {
+      "title": "France falls into recession as it struggles to contain deficit",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSXN5cVB0NUQ2S25ScnJ0dkxqUlVVQ3hEUGJHeU53cHdtOXl3ckRLX3hYUHRVaEZCclpsZHhrdzQtRnI4X0RJRTYyd3FjajN2NWhZX3lWbktabG9mVUJIa3NQc1F2azY1Y1ZxaFBFNzBCT1p3cHZwVjdObWcyS2pwS0pFaHBFdXR6cjR3X2tqb20xZmRzNlluamJhVTlJUkVWb0c5Sg?oc=5",
+      "source": "The Independent",
+      "published_at_utc": "2026-11-27T23:11:00+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "S&P cuts France outlook to negative on budget, politics",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHlHVU5tTTJaQ21PUzY4S1VubHVSYk5rMy1rRFJYbWpKTUNLR0ljaGNMTklRLTVGSC1YN3FLeV9BNFRVbmMzM25jckV0MHJ0ME5GMGxheEwtS2lNWWVTc1lGdkloLURKc2FxWEkwZ3plS0ZFV2hqR09DNEpmeGp0QV85alE0c0xINHV1bTZSUko1UklHZk5DYUtsWmptekpxN3JjakVWeFItNjhMYllSMF96QWVzOU1LeW5JcnNNNkhiYXhpSUE?oc=5",
+      "source": "Reuters",
+      "published_at_utc": "2026-11-27T22:46:09+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Dette publique : S&P maintient la note de la France à A+, mais l'assortit d'une perspective négative",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcmVQUXU4Mnl4QkhLSmJfZFhXQkVZZHY1WlFsMy1CeVNSM0ZSeGMzTzA0bnlWMTQ5clo4ZHhESG9IVkluZEFna1NiWDVRUzhVTkF2d2tfTUhNMjlEMVZjN0NKbnBUYmNMNkQ4T0VNVHZWOEVDUDlTQkRuaFcxT2VpeHZiamVsdzVrQjZwNHc2WjVWYzFnVkM3SUhrcUNUeFdaS1Z2bU01VnpkQ2dqWDVBN0E2OXZfdWhCNTJZci1Kam9LMWtaNEF2eWxZdXF0VmxIU3oyUjdPVWdQSGNfMTdJenNseWNPVzdNUEE?oc=5",
+      "source": "Les Echos",
+      "published_at_utc": "2026-11-27T22:03:47+00:00",
+      "topic": "Fiscal policy"
+    },
+    {
+      "title": "Dette : l’agence S & P ouvre la porte à une prochaine dégradation de la note de la France",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeEJLRHpJTmRFYUNGUF90WUpPOWpFRVRhbHQwWWpfcDNIdndDX3VNYTdaOG1KMmlVTHdjbzhvRWRhRURndnl3YmRyaW1YMlJnOTNyc3UzYWVTV01peUttQkkyS3E5WXpPTkE5OUVMRWxwM2l4dWM2NDlUMjN3N0YwcGJDcVBzRnpSZnY2NUV4a2JRN01iUGRhOFMxMmtuYUNQYjFEUGdfTXVXTTZveHRaWTlrbnI1LXdseGhOWEFhbU1tbWw5QW0zRHVOb1FTS215UGJaZlB6VQ?oc=5",
+      "source": "Sud Ouest",
+      "published_at_utc": "2026-11-27T21:45:24+00:00",
+      "topic": "Fiscal policy"
+    },
     {
       "title": "France in technical recession after quarterly revisions",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTER0b3otWTRCSmNQXzlVUXVMamtxeGxHV3BMQkVoRnBLTkhsYnFIdXdySXRYNUR4RWxBVU82Mk5oVDl1U2lNaTJ3U3FaVnpLUFM2UDZvSU92VERNcVBaOUtpVVpkek9vTFhZWG52TUQxUDNFVWs1UVZJQVpuM05SOGFQN29nblhlb19NeW9KYVM5OWlDV3NycXJkTG9Zc3d1Zm92VGNLaWlCN2It?oc=5",
@@ -147,20 +175,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbGtWenBER3NqemRmTEZLWUhDVEJ3a0N6RU5EdloyVk92d2VaUS13aWdSV2lQLTNKbFNWa0plR01feExqcDJHajczUEZncWlJYVF6amR5YWFFM0piTU9Yb2xiOG1KeThBYW42Y2ZuLXRXT2M3SDFPVHk1TTRNZ2ZRTllCV3RZWDRwQUQ4SDE0SDFpb3pKczdQZ3o1bkZXNllQUFdCYjlmQWhvZ3BFTDZFTW1VWmRWVVRFckp4MGNvMEVNRVZIWVItVk1scjV3SXE0ZEdnelQ1TE4tTmtL?oc=5",
       "source": "Le Figaro",
       "published_at_utc": "2026-11-22T18:40:24+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "French right backs Macron's plan to put public spending limits in constitution",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQanRmOFhnWmdoM0dtVGpqNnc2RVZ4YnRrOTFhQlFBZU4tUVJkUjNobHRkSXNRMmg3LVh1bkZpQUQwYWtpUlRTQVhSczFiZllVdjZwdGI4enpQUFF1aEFPTHZwdldtWng0WGpYdFhGWjF4OGtfNDFzTWlVRnk5ZEVGalZQZjZCMXZueWhSaVBGRHFwRmpJdXBuMVpCS0NaSlFwYTJuTXY3X0JhRXBJd3JqX0F3NzNaSlU?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-11-22T18:09:18+00:00",
-      "topic": "Fiscal policy"
-    },
-    {
-      "title": "EU proposes digital companies tax as France and Germany clash over cuts",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONml3cktacHRKOU42R0Ezc0R6bGZ1Y0d1RGFFdU5WMDVYV2JqZnpFa1hiNDBlWm9YR21MOWJTQUZjaWF5M1JMc0lsek51TE1uU09EdjJmaDBYYjB5ekEwYnhhQkFaaUtJUkRmTG9uN0ZMMElkQUlvMmd2V2twMDlfZ3ladDY5YVI3MG1XX0ZxYUlVZFgySnJMdlcxdTNJMGZaa0pnTDVMdWc3alhwMjV6YWhVaW1oTVVxUUNSYy1R?oc=5",
-      "source": "RFI",
-      "published_at_utc": "2026-11-21T20:02:25+00:00",
       "topic": "Fiscal policy"
     }
   ]
